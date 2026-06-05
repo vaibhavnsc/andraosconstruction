@@ -7,3 +7,52 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+/* Navbar */
+.dropdown-menu {
+    min-width: 220px;
+    border: none;
+    border-radius: 2px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-item {
+    padding: 14px 20px;
+    font-weight: 500;
+}
+
+.service-area-dropdown {
+    min-width: 260px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.navbar-nav .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        background: var(--navy-900);
+        padding: 20px;
+        margin-top: 15px;
+        border: 1px solid rgba(255,255,255,.08);
+    }
+
+    .navbar-nav {
+        align-items: flex-start !important;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 12px 0 !important;
+    }
+
+    .dropdown-menu {
+        background: rgba(255,255,255,.04);
+        border: none;
+        box-shadow: none;
+    }
+}
