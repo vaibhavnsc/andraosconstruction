@@ -1,4 +1,4 @@
-<!-- ════ REVIEWS ════ -->
+<!-- ════ REVIEWS ════ --> 
 <section class="section bg-navy text-white" id="reviews">
   <div class="container">
     <div class="row g-5 reveal">

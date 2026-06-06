@@ -1,3 +1,5 @@
+
+<!-- ════ ABOUT ════ -->
 <section class="section" id="about">
   <div class="container">
     <div class="row g-5 align-items-center reveal">
