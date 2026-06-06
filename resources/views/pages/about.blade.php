@@ -2,10 +2,11 @@
 
 @section('content')
 
-    <section class="py-5 mt-5">
-        <div class="container">
-            <h1>About Page</h1>
-        </div>
-    </section>
+@include('sections.about.about')
+@include('sections.about.review')
 
 @endsection
+
+
+
+
