@@ -1,7 +1,4 @@
-﻿
-
-
-/* ── RENDER ── */
+﻿/* ── RENDER ── */
 const el = id => document.getElementById(id);
 function svg(){return typeof SERVICES !== 'undefined' ? SERVICES.map(s=>`<div class="col-lg-4 col-md-6"><div class="svc-card"><img src="${s.img}" alt="${s.t}"><div class="num-eyebrow mt-3">${s.n} / 06</div><h3 class="text-white">${s.t}</h3><p style="color:var(--slate-300);font-size:14px;line-height:1.6">${s.b}</p><div class="d-flex flex-wrap gap-1">${s.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div></div></div>`).join('') : ''}
 if(typeof SERVICES !== 'undefined' && el('svcGrid')) el('svcGrid').innerHTML = svg();
