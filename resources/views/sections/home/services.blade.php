@@ -45,7 +45,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="svc-card"><img
-            src="{{ asset('assets/images/property-management.jpg') }}" alt="Snow Melt Systems">
+            src="{{ asset('assets/images/snow.jpg') }}" alt="Snow Melt Systems">
           <div class="num-eyebrow mt-3">04 / 06</div>
           <h3 class="text-white">Snow Melt Systems</h3>
           <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Hydronic snow-melt for entries, ADA ramps,
@@ -56,7 +56,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="svc-card"><img
-            src="{{ asset('assets/images/property-management.jpg') }}" alt="HOA &amp; Property Management">
+            src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management">
           <div class="num-eyebrow mt-3">05 / 06</div>
           <h3 class="text-white">HOA &amp; Property Management</h3>
           <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Community-wide capital renewal: sidewalks,
@@ -67,7 +67,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="svc-card"><img
-            src="{{ asset('assets/images/property-management.jpg') }}" alt="Concrete Finishes">
+            src="{{ asset('assets/images/finish.jpg') }}" alt="Concrete Finishes">
           <div class="num-eyebrow mt-3">06 / 06</div>
           <h3 class="text-white">Concrete Finishes</h3>
           <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Broom, exposed aggregate, stamped, and

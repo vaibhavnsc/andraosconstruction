@@ -8,5 +8,7 @@
     @include('sections.home.case-study')
     @include('sections.home.why-andros')
     @include('sections.home.areas')
+    @include('sections.home.location-pages')
     @include('sections.home.reviews')
+    
 @endsection
