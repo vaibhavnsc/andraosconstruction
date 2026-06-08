@@ -86,21 +86,11 @@
                 </li>
             
                 {{-- About --}}
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"
-                       href="{{ route('about') }}"
-                       data-bs-toggle="dropdown">
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="/about">
                         About
                     </a>
-            
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item"
-                               href="{{ route('about') }}">
-                                Our Company
-                            </a>
-                        </li>
-                    </ul>
                 </li>
             
                 {{-- Service Areas --}}
