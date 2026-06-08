@@ -146,3 +146,10 @@
 
   .reveal { opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
   .reveal.in { opacity:1; transform:translateY(0); }
+
+
+
+  /* ========= about page====== */
+  section#about {
+    margin-top: 3rem;
+}
