@@ -15,4 +15,5 @@
     <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <script src="{{ asset('assets/js/script.js') }}"></script>
+  
 </head>
