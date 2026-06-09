@@ -82,6 +82,12 @@ Route::view('/service-areas/arvada', 'pages.service-areas')
 Route::view('/service-areas/longmont', 'pages.service-areas')
     ->name('areas.longmont');
 
+/*
+|--------------------------------------------------------------------------
+| Fallback function
+|--------------------------------------------------------------------------
+*/
+
 Route::fallback(function () {
     return response()->view('pages.404', [], 404);
 });
