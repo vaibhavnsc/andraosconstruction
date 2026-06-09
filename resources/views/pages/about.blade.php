@@ -3,7 +3,8 @@
 @section('content')
 
 @include('sections.about.about')
-@include('sections.about.review')
+@include('sections.home.gallery')
+@include('sections.home.reviews')
 
 @endsection
 

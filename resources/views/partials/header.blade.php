@@ -94,9 +94,16 @@
                         <li><a class="dropdown-item" href="{{ route('areas.littleton') }}">Littleton</a></li>
                         <li><a class="dropdown-item" href="{{ route('areas.highlands-ranch') }}">Highlands Ranch</a></li>
                         <li><a class="dropdown-item" href="{{ route('areas.castle-rock') }}">Castle Rock</a></li>
-            
+                        <li><a class="dropdown-item" href="{{ route('areas.parker') }}">Parker</a></li>
+                        <li><a class="dropdown-item" href="{{ route('areas.englewood') }}">Englewood</a></li>
+                        <li><a class="dropdown-item" href="{{ route('areas.broomfield') }}">Broomfield</a></li>
+                        <li><a class="dropdown-item" href="{{ route('areas.boulder') }}">Boulder</a></li>
+                        <li><a class="dropdown-item" href="{{ route('areas.westminster') }}">Westminster</a></li>
+                        <li><a class="dropdown-item" href="{{ route('areas.thornton') }}">Thornton</a></li>
+                        <li><a class="dropdown-item" href="{{ route('areas.arvada') }}">Arvada</a></li>
+                        <li><a class="dropdown-item" href="{{ route('areas.longmont') }}">Longmont</a></li>
                     </ul>
-                </li>
+                </li> 
             
                 {{-- Contact --}}
                 <li class="nav-item">

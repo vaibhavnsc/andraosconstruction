@@ -2,6 +2,6 @@
 
 @section('content')
 
- @include('sections.home.location-pages')
+@include('sections.other.404')
 
 @endsection
