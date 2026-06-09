@@ -26,7 +26,7 @@
                     <a class="nav-link dropdown-toggle"
                        href="#"
                        data-bs-toggle="dropdown">
-                        Concrete
+                        Services
                     </a>
             
                     <ul class="dropdown-menu">
@@ -50,41 +50,27 @@
                                 Concrete Finishes
                             </a>
                         </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="{{ route('masonry') }}">
+                                Masonry Concrete
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="{{ route('asphalt') }}">
+                                Asphalt Concrete 
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="{{ route('snow-melt') }}">
+                                Snow Melt Concrete 
+                            </a>
+                        </li>
                     </ul>
                 </li>
-            
-                {{-- Masonry --}}
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ route('masonry') }}">
-                        Masonry
-                    </a>
-                </li>
-            
-                {{-- Asphalt --}}
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ route('asphalt') }}">
-                        Asphalt
-                    </a>
-                </li>
-            
-                {{-- Snow Melt --}}
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ route('snow-melt') }}">
-                        Snow Melt
-                    </a>
-                </li>
-            
-                {{-- Gallery --}}
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ route('gallery') }}">
-                        Gallery
-                    </a>
-                </li>
-            
+                       
                 {{-- About --}}
                 <li class="nav-item">
                     <a class="nav-link"
