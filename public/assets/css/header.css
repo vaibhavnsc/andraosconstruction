@@ -87,8 +87,8 @@ body{
 
 .main-nav.scrolled{
     position:fixed;
-    background:rgba(0,0,0,.85);
-    backdrop-filter:blur(10px);
+    background:rgba(11,27,46,.95);
+    backdrop-filter:blur(20px);
 }
 
 /* Service Area Large Menu */

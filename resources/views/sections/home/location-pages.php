@@ -4,7 +4,7 @@
     <article id="area-denver" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/concrete.jpg" alt="Denver">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/concrete.jpg" alt="Denver">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Denver ·
                         Colorado</div>
@@ -36,7 +36,7 @@
     <article id="area-aurora" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/asphalts.jpg" alt="Aurora">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/asphalts.jpg" alt="Aurora">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Aurora ·
                         Colorado</div>
@@ -68,7 +68,7 @@
     <article id="area-littleton" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/servinglitt.jpg" alt="Littleton">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/servinglitt.jpg" alt="Littleton">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Littleton ·
                         Colorado</div>
@@ -100,7 +100,7 @@
     <article id="area-highlands-ranch" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/ranch.jpg"  alt="Highlands Ranch">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/ranch.jpg"  alt="Highlands Ranch">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Highlands
                         Ranch · Colorado</div>
@@ -132,7 +132,7 @@
     <article id="area-castle-rock" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/castle.jpg" alt="Castle Rock">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/castle.jpg" alt="Castle Rock">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Castle Rock ·
                         Colorado</div>
@@ -163,7 +163,7 @@
     <article id="area-parker" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/parker.jpg" alt="Parker">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/parker.jpg" alt="Parker">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Parker ·
                         Colorado</div>
@@ -194,7 +194,7 @@
     <article id="area-englewood" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative">  <img src="assets/images/englewood.jpg" alt="Denver"
+                <div class="col-lg-6 position-relative">  <img src="/assets/images/englewood.jpg" alt="Denver"
         class="img-fluid" alt="Englewood">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Englewood ·
@@ -227,7 +227,7 @@
     <article id="area-broomfield" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/zolo.jpg" alt="Broomfield">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/zolo.jpg" alt="Broomfield">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Broomfield ·
                         Colorado</div>
@@ -258,7 +258,7 @@
     <article id="area-boulder" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/colorado.jpg" alt="Boulder">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/colorado.jpg" alt="Boulder">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Boulder ·
                         Colorado</div>
@@ -290,7 +290,7 @@
     <article id="area-westminster" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/westminster.jpg" alt="Westminster">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/westminster.jpg" alt="Westminster">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Westminster ·
                         Colorado</div>
@@ -322,7 +322,7 @@
     <article id="area-thornton" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/thorn.jpg" alt="Thornton">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/thorn.jpg" alt="Thornton">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Thornton ·
                         Colorado</div>
@@ -354,7 +354,7 @@
     <article id="area-arvada" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/avada.jpg"  alt="Arvada">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/avada.jpg"  alt="Arvada">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Arvada ·
                         Colorado</div>
@@ -386,7 +386,7 @@
     <article id="area-longmont" class="location">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 position-relative"><img src="assets/images/longmont.jpg" alt="Longmont">
+                <div class="col-lg-6 position-relative"><img src="/assets/images/longmont.jpg" alt="Longmont">
                     <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                         style="background:var(--navy-900);color:#fff;font-size:10px;letter-spacing:.16em">Longmont ·
                         Colorado</div>

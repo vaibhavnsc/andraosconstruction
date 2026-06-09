@@ -35,7 +35,7 @@
                         <div class="am">Douglas County</div>
                     </div><span class="text-slate">→</span>
                 </a></div>
-            <div class="col-md-6"><a href="#area-castle-rock" class="area-row">
+            <div class="col-md-6"><a href="#area-castle-rock" class="area-row"> 
                     <div>
                         <div class="an">Castle Rock</div>
                         <div class="am">Douglas County</div>
