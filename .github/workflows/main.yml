@@ -1,0 +1,35 @@
+name: Deploy PHP Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+
+        with:
+          php-version: '8.4'
+
+      - name: Install Composer Dependencies
+        run: composer install --no-interaction --prefer-dist --optimize-autoloader
+
+      - name: Upload Project Files to cPanel
+        uses: appleboy/scp-action@v0.1.7
+
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY_MAIN_REPO }}
+
+          source: "./*"
+
+          target: "~/public_html/andraosconstruction.myconcept.website"
