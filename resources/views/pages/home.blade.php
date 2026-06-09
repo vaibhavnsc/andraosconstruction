@@ -2,6 +2,7 @@
 
 @section('content')
     @include('sections.home.hero')
+    @include('sections.about.about')
     @include('sections.home.services')
     @include('sections.home.industries')
     @include('sections.home.gallery')
