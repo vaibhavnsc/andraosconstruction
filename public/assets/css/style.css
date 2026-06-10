@@ -147,15 +147,41 @@
   .mobile-cta a.primary { background:var(--accent); color:var(--navy-900); }
   @media (max-width:767px){ .mobile-cta { display:flex; } body { padding-bottom:52px; } }
 
-  .reveal { opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
+body.page-about.page-scrolled .main-nav .utility-bar {
+    background-color: rgba(1,13,31,0.95) !important;
+}
+body.page-about.page-scrolled { background-color: var(--paper) !important; }
+body.page-service-areas .main-nav { background-color: #010d1f !important; backdrop-filter: blur(20px); }
+body.page-service-areas .main-nav .navbar { background-color: transparent; }
+body.page-service-areas .main-nav.scrolled { background-color: rgba(1,13,31,0.95) !important; }
+body.page-service-areas .main-nav .utility-bar { background-color: transparent; }
+body.page-service-areas .main-nav .utility-cta { color: var(--accent) !important; }
+body.page-service-areas .main-nav .brand-logo { filter: brightness(0) invert(1); }
+body.page-service-areas .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
+body.page-service-areas .navbar-nav .nav-link:hover { color: #fff !important; }
+body.page-service-areas .main-nav.scrolled .utility-bar { display: block !important; }
+   .reveal { opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
   .reveal.in { opacity:1; transform:translateY(0); }
 
 
 
   /* ========= about page====== */
-  section#about {
-    margin-top: 3rem;
-  }
+body.page-about .main-nav { background-color: #010d1f !important; backdrop-filter: blur(20px); }
+body.page-about .main-nav .navbar { background-color: transparent; }
+body.page-about .main-nav.scrolled { background-color: rgba(1,13,31,0.95) !important; }
+
+body.page-about .main-nav .utility-bar { background-color: transparent; }
+body.page-about .main-nav .utility-cta { color: var(--accent) !important; }
+
+body.page-about .main-nav .brand-logo { filter: brightness(0) invert(1); }
+body.page-about .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
+body.page-about .navbar-nav .nav-link:hover { color: #fff !important; }
+
+body.page-about .main-nav.scrolled .utility-bar { display: block !important; }
+
+section#about {
+  margin-top: 3rem;
+}
   
   /* Privacy Page */
    #privacy {
@@ -189,4 +215,7 @@
 }
 .footer-copyright a {
     color: #6c757d;
+}
+div#locationPages {
+    margin-top: 80px;
 }

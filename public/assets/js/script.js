@@ -147,7 +147,16 @@ whenReady(function(){
 });
 
 /* Nav scroll */
-window.addEventListener('scroll',()=>{document.getElementById('mainNav').classList.toggle('scrolled',window.scrollY>40)});
+window.addEventListener('scroll',()=>{
+    const nav = document.getElementById('mainNav');
+    const isScrolled = window.scrollY > 40;
+    const isSpecialPage = document.body.classList.contains('page-about') || document.body.classList.contains('page-service-areas');
+    if (isSpecialPage) {
+        document.body.classList.toggle('page-scrolled', isScrolled);
+    } else {
+        nav.classList.toggle('scrolled', isScrolled);
+    }
+});
 
 /* Form */
 if(el('quoteForm')){
