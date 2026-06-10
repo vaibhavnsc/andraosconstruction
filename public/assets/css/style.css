@@ -187,3 +187,6 @@
     letter-spacing: -0.025em;
     max-width: 15ch;
 }
+.footer-copyright a {
+    color: #6c757d;
+}
