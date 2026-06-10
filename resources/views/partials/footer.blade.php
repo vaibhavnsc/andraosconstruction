@@ -6,12 +6,7 @@
             <!-- Logo -->
             <div class="col-lg-4 col-md-12 footer-brand">
 
-                <img
-                    src="{{ asset('assets/images/logo.png') }}"
-                    alt="Andraos Construction"
-                    class="footer-logo"
-                >
-
+                <a href="/"><img src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction" class="footer-logo"></a>
                 <p class="footer-tagline">
                     Commercial concrete, asphalt & masonry
                     for the Colorado Front Range since 1993.
@@ -82,7 +77,7 @@
         <div class="footer-bottom">
 
             <div class="footer-copyright">
-                © 2026 ANDRAOS CONSTRUCTION · DENVER, CO ·
+                © 2026 <a href="/">ANDRAOS CONSTRUCTION</a> · DENVER, CO ·
                 LICENSED & INSURED · EST. 1993
             </div>
 
