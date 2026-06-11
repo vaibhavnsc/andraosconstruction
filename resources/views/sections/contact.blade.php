@@ -7,7 +7,7 @@
     </div>
     <div class="row g-5">
       <div class="col-lg-5">
-        <div class="d-flex gap-3 pb-4 mb-4 border-bottom" style="border-color:rgba(255,255,255,.1)"><div class="contact-icon">☏</div><div><div class="field-label" style="color:rgba(255,255,255,.55)">Direct Line</div><div class="ff-display fs-4 text-white">(303) 479-3181</div><div class="text-slate" style="font-size:13px;color:rgba(255,255,255,.6)!important">Mon–Fri · 6a–6p · Speak with estimating.</div></div></div>
+        <div class="d-flex gap-3 pb-4 mb-4 border-bottom" style="border-color:rgba(255,255,255,.1)"><div class="contact-icon">☏</div><div><div class="field-label" style="color:rgba(255,255,255,.55)">Direct Line</div><div class="ff-display fs-4 text-white"><a href="tel:(303) 479-3181" class="text-white">(303) 479-3181</a></div><div class="text-slate" style="font-size:13px;color:rgba(255,255,255,.6)!important">Mon–Fri · 6am–6pm · Speak with estimating.</div></div></div>
         <div class="d-flex gap-3 pb-4 mb-4 border-bottom" style="border-color:rgba(255,255,255,.1)"><div class="contact-icon">⌂</div><div><div class="field-label" style="color:rgba(255,255,255,.55)">Service Territory</div><div class="ff-display fs-4 text-white">Denver Metro &amp; Front Range</div><div style="font-size:13px;color:rgba(255,255,255,.6)">Boulder, Douglas County &amp; mountain communities.</div></div></div>
         <div class="d-flex gap-3"><div class="contact-icon">◷</div><div><div class="field-label" style="color:rgba(255,255,255,.55)">Established</div><div class="ff-display fs-4 text-white">1993 · Licensed &amp; Insured</div><div style="font-size:13px;color:rgba(255,255,255,.6)">Bonded for commercial. Certificates on request.</div></div></div>
       </div>
