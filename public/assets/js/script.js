@@ -150,7 +150,7 @@ whenReady(function(){
 window.addEventListener('scroll',()=>{
     const nav = document.getElementById('mainNav');
     const isScrolled = window.scrollY > 40;
-    const isSpecialPage = document.body.classList.contains('page-about') || document.body.classList.contains('page-service-areas');
+    const isSpecialPage = document.body.classList.contains('page-about') || document.body.classList.contains('page-service-areas') || document.body.classList.contains('page-privacy') || document.body.classList.contains('page-terms') || document.body.classList.contains('page-404');
     if (isSpecialPage) {
         document.body.classList.toggle('page-scrolled', isScrolled);
     } else {

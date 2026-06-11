@@ -67,8 +67,8 @@
                 </a>
 
                 <a href="/about" class="footer-link">About</a>
-                <a href="#" class="footer-link">Reviews</a>
-                <a href="#" class="footer-link">Request a Quote</a>
+                <a href="/about/#reviews" class="footer-link">Reviews</a>
+                <a href="/contact" class="footer-link">Request a Quote</a>
 
             </div>
 

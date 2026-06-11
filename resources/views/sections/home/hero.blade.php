@@ -3,10 +3,10 @@
   <div id="heroSlides"></div>
   <div class="hero-scrim"></div>
   <div class="container hero-inner">
-    <div class="hero-rating">
+    <a href="#reviews"><div class="hero-rating">
       <div class="stars">★★★★★</div>
-      <div><div class="ff-display fw-semibold fs-5 lh-1">5.0</div><div class="ff-mono text-uppercase" style="font-size:9px;letter-spacing:.16em;color:rgba(255,255,255,.65)">Industry-rated reviews</div></div>
-    </div>
+      <div><div class="ff-display fw-semibold fs-5 lh-1" style="color: #fff;">5.0</div><div class="ff-mono text-uppercase" style="font-size:9px;letter-spacing:.16em;color:rgba(255,255,255,.65)">Industry-rated reviews</div></div>
+    </div></a>
     <h1>Trusted commercial &amp; residential contractor.</h1>
     <div class="d-flex gap-2 mt-4 flex-wrap">
       <a href="#contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
