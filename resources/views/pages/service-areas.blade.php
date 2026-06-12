@@ -11,7 +11,9 @@
 
 @section('content')
 
- @include('sections.home.location-pages')
+ @include('sections.service-areas.hero')
+@include('sections.service-areas.areas')
+@include('sections.service-areas.dont')
 
 @endsection
 

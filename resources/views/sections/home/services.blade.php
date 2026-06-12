@@ -11,7 +11,7 @@
     </div>
     <div class="row g-4" id="svcGrid">
       <div class="col-lg-4 col-md-6">
-        <div class="svc-card"><img
+        <div class="svc-card" id="commercial-concrete"><img
             src="{{ asset('assets/images/commercial.jpg') }}" alt="Commercial Concrete">
           <div class="num-eyebrow mt-3">01 / 06</div>
           <h3 class="text-white">Commercial Concrete</h3>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="svc-card"><img
+        <div class="svc-card" id="asphalt"><img
             src="{{ asset('assets/images/paving.jpg') }}" alt="Asphalt Paving &amp; Repair">
           <div class="num-eyebrow mt-3">02 / 06</div>
           <h3 class="text-white">Asphalt Paving &amp; Repair</h3>
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="svc-card"><img
+        <div class="svc-card" id="masonry"><img
             src="{{ asset('assets/images/masonry.jpg') }}" alt="Commercial Masonry">
           <div class="num-eyebrow mt-3">03 / 06</div>
           <h3 class="text-white">Commercial Masonry</h3>
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="svc-card"><img
+        <div class="svc-card" id="snow-melt"><img
             src="{{ asset('assets/images/snow.jpg') }}" alt="Snow Melt Systems">
           <div class="num-eyebrow mt-3">04 / 06</div>
           <h3 class="text-white">Snow Melt Systems</h3>
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="svc-card"><img
+        <div class="svc-card" id="hoa-property-management"><img
             src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management">
           <div class="num-eyebrow mt-3">05 / 06</div>
           <h3 class="text-white">HOA &amp; Property Management</h3>
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="svc-card"><img
+        <div class="svc-card" id="concrete-finishes"><img
             src="{{ asset('assets/images/finish.jpg') }}" alt="Concrete Finishes">
           <div class="num-eyebrow mt-3">06 / 06</div>
           <h3 class="text-white">Concrete Finishes</h3>
@@ -77,5 +77,8 @@
         </div>
       </div>
     </div>
+     <div class="text-center mt-5">
+          <a href="{{ route('services') }}" class="btn btn-light-navy btn-arrow">View All Services</a>
+      </div>
   </div>
 </section>

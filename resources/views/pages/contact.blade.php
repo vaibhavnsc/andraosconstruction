@@ -10,9 +10,17 @@
 @section('meta_description', $description)
 
 @section('content')
-
-@include('sections.contact')
+@include('sections.contact.banner')
+@include('sections.contact.contact')
 @endsection
+
+@push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.body.classList.add('page-contact');
+});
+</script>
+@endpush
 
 
 

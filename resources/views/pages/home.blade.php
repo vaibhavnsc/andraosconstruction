@@ -11,14 +11,13 @@
 
 @section('content')
     @include('sections.home.hero')
-    @include('sections.about.about')
+    @include('sections.home.trust')
+    @include('sections.home.about')
     @include('sections.home.services')
-    @include('sections.home.industries')
+ 
     @include('sections.home.gallery')
-    @include('sections.home.case-study')
-    @include('sections.home.why-andros')
-    @include('sections.home.areas')
-    @include('sections.home.location-pages')
+    @include('sections.home.service')
     @include('sections.home.reviews')
+    @include('sections.home.get-touch')
     
 @endsection
