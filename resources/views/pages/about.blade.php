@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('about');
 
-    $title = $seo->meta_title ?? 'About Andraos Construction | Colorado Construction Company';
+    $title = $seo->meta_title ?? 'About | Andraos Construction | Denver, CO Area';
 
     $description = $seo->meta_description
-        ?? 'Learn about Andraos Construction, a Colorado construction company specializing in concrete, masonry, asphalt paving, and custom building services.';
+        ?? 'Andraos Construction has been serving Denver since 1993. Learn more about our services! Serving the Denver, CO Metro Area.';
 @endphp
 
 @section('meta_title', $title)
