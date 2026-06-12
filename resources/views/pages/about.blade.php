@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('meta_title', 'About Andraos Construction | Colorado Construction Company')
+@section('meta_description', 'Learn about Andraos Construction, a Colorado construction company specializing in concrete, masonry, asphalt paving, and custom building services.')
+
 @section('content')
 
 @include('sections.about.about')
