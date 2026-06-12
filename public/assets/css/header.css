@@ -56,6 +56,13 @@ body{
     box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
+@media (min-width:992px){
+    .navbar-nav .dropdown:hover > .dropdown-menu{
+        display:block;
+        margin-top:0;
+    }
+}
+
 .dropdown-item{
     padding:14px 22px;
     font-size:15px;

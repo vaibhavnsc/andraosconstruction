@@ -13,10 +13,11 @@
 @section('meta_description', $description)
 
 @section('content')
-
+@include('sections.about.hero')
 @include('sections.about.about')
-@include('sections.home.gallery')
-@include('sections.home.reviews')
+<!-- @include('sections.home.reviews') -->
+@include('sections.about.why-andros')
+@include('sections.about.talk')
 
 @endsection
 

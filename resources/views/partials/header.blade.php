@@ -20,60 +20,71 @@
                 {{-- Concrete --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"
-                       href="#"
-                       data-bs-toggle="dropdown">
+                       href="{{ route('services') }}"
+                       data-bs-toggle="dropdown"
+                       data-navigate-on-click
+                       role="button"
+                       aria-expanded="false">
                         Services
                     </a>
             
                     <ul class="dropdown-menu">
                         <li>
                             <a class="dropdown-item"
-                               href="{{ route('commercial-concrete') }}">
+                               href="{{ route('services') }}#commercial-concrete">
                                 Commercial Concrete
                             </a>
                         </li>
             
                         <li>
                             <a class="dropdown-item"
-                               href="{{ route('residential-concrete') }}">
-                                Residential Concrete
+                               href="{{ route('services') }}#asphalt">
+                                Asphalt Paving &amp; Repair
                             </a>
                         </li>
             
                         <li>
                             <a class="dropdown-item"
-                               href="{{ route('concrete-finishes') }}">
+                               href="{{ route('services') }}#masonry">
+                                Commercial Masonry
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="{{ route('services') }}#snow-melt">
+                                Snow Melt Systems
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="{{ route('services') }}#hoa-property-management">
+                                HOA &amp; Property Management
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="{{ route('services') }}#concrete-finishes">
                                 Concrete Finishes
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item"
-                               href="{{ route('masonry') }}">
-                                Masonry Concrete
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item"
-                               href="{{ route('asphalt') }}">
-                                Asphalt Concrete 
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item"
-                               href="{{ route('snow-melt') }}">
-                                Snow Melt Concrete 
                             </a>
                         </li>
                     </ul>
                 </li>
                        
+                {{-- Gallery --}}
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="/gallery">
+                        Gallery
+                    </a>
+                </li>
+
                 {{-- About --}}
                 <li class="nav-item">
                     <a class="nav-link"
                        href="/about">
                         About
                     </a>
-                </li>
+                </li> 
             
                 {{-- Service Areas --}}
                 <li class="nav-item dropdown">

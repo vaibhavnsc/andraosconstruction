@@ -16,6 +16,9 @@ Route::view('/contact', 'pages.contact')->name('contact');
 |--------------------------------------------------------------------------
 */
 
+Route::view('/services', 'pages.services')
+    ->name('services');
+
 Route::view('/commercial-concrete', 'pages.services')
     ->name('commercial-concrete');
 

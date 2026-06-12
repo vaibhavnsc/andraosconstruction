@@ -10,30 +10,32 @@
 @section('meta_description', $description)
 
 @section('content')
-    @include('sections.home.services')
+    @include('sections.services.hero')
+    @include('sections.services.sercom')
+    @include('sections.services.scope')
 @endsection
 
 @push('scripts')
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const path = window.location.pathname;
-    const map = {
-        '/commercial-concrete': 'Commercial Concrete',
-        '/residential-concrete': 'Residential Concrete',
-        '/concrete-finishes': 'Concrete Finishes',
-        '/masonry': 'Masonry',
-        '/asphalt': 'Asphalt Paving & Repair',
-        '/snow-melt': 'Snow Melt Systems'
+    const pathMap = {
+        '/commercial-concrete': '#commercial-concrete',
+        '/residential-concrete': '#commercial-concrete',
+        '/asphalt': '#asphalt',
+        '/masonry': '#masonry',
+        '/snow-melt': '#snow-melt',
+        '/concrete-finishes': '#concrete-finishes'
     };
-    const title = map[path];
-    if (title) {
-        const cards = Array.from(document.querySelectorAll('#svcGrid h3'));
-        const card = cards.find(function(h) { return h.textContent.trim() === title; });
-        if (card) {
-            setTimeout(function() {
-                card.closest('.svc-card').scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 100);
-        }
+
+    const targetHash = window.location.hash || pathMap[window.location.pathname];
+
+    if (targetHash) {
+        setTimeout(function() {
+            const target = document.querySelector(targetHash);
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }, 150);
     }
 });
 </script>

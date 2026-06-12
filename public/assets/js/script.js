@@ -84,7 +84,7 @@ function attachFilterEvents(){
     e.preventDefault();
     document.querySelectorAll('.filter-btn').forEach(x=>x.classList.remove('active'));
     btn.classList.add('active');
-    renderProj(btn.dataset.f);
+    renderProj(btn.dataset.filter);
   });
   filtersContainer._filterEventsAttached = true;
   return true;
@@ -150,7 +150,7 @@ whenReady(function(){
 window.addEventListener('scroll',()=>{
     const nav = document.getElementById('mainNav');
     const isScrolled = window.scrollY > 40;
-    const isSpecialPage = document.body.classList.contains('page-about') || document.body.classList.contains('page-service-areas') || document.body.classList.contains('page-privacy') || document.body.classList.contains('page-terms') || document.body.classList.contains('page-404');
+    const isSpecialPage = document.body.classList.contains('page-about') || document.body.classList.contains('page-service-areas') || document.body.classList.contains('page-privacy') || document.body.classList.contains('page-terms') || document.body.classList.contains('page-404') || document.body.classList.contains('page-contact') || document.body.classList.contains('page-gallery');
     if (isSpecialPage) {
         document.body.classList.toggle('page-scrolled', isScrolled);
     } else {
@@ -168,7 +168,23 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(r=>io.observe(r));
 
 /* Close mobile nav on link click */
-document.querySelectorAll('#navMenu .nav-link:not(.dropdown-toggle), #navMenu .dropdown-item').forEach(a=>a.addEventListener('click',()=>{const c=document.getElementById('navMenu');if(c.classList.contains('show'))new bootstrap.Collapse(c).hide()}));
+document.querySelectorAll('#navMenu .nav-link:not(.dropdown-toggle), #navMenu .dropdown-item').forEach(a=>a.addEventListener('click',()=>{const c=document.getElementById('navMenu');if(c.classList.contains('show'))new bootstrap.Collapse(c).hide();}));
+
+/* Desktop services dropdown: hover opens menu, click goes to Services page */
+document.querySelectorAll('[data-navigate-on-click]').forEach(link=>{
+    link.addEventListener('click', event=>{
+        const isDesktop = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+        const isModifiedClick = event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0;
+
+        if (isModifiedClick || isDesktop) {
+            event.stopImmediatePropagation();
+        }
+
+        if (isDesktop && !isModifiedClick) {
+            window.location.assign(link.href);
+        }
+    }, true);
+});
 
 // Service Areas
 

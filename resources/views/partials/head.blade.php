@@ -16,4 +16,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/site.css') }}">
     <script src="{{ asset('assets/js/script.js') }}" defer></script>
+    <script src="{{ asset('assets/js/site-data.js') }}" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="{{ asset('assets/js/site.js') }}" defer></script>
