@@ -1,10 +1,9 @@
-<head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Andraos Construction</title>
+    <title>@yield('meta_title', 'Andraos Construction')</title>
+    <meta name="description" content="@yield('meta_description', '')">
 
-     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/logon.ico') }}">
     <link rel="shortcut icon" href="{{ asset('assets/images/logon.ico') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,5 +17,3 @@
     <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <script src="{{ asset('assets/js/script.js') }}" defer></script>
-  
-</head>
