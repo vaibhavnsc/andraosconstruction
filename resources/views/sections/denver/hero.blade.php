@@ -5,8 +5,8 @@
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
-          <a href="../index.html">Home</a> &nbsp;/&nbsp;
-          <a href="../service-areas.html">Service Areas</a> &nbsp;/&nbsp; Denver
+          <a href="/index">Home</a> &nbsp;/&nbsp;
+          <a href="/service-areas">Service Areas</a> &nbsp;/&nbsp; Denver
         </nav>
         <h1>Commercial Concrete Contractors in Denver, Colorado</h1>
       </div>

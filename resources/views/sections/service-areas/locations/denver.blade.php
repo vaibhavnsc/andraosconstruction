@@ -129,7 +129,7 @@
         <h2 id="nearby-heading" class="ff-display display-md text-white mb-4">We Also Serve</h2>
         <div class="row g-3">
           <div class="col-md-4">
-            <a href="aurora.html" class="area-card">
+            <a href="aurora" class="area-card">
               <span>
                 <span class="area-card__name d-block">Aurora</span>
                 <span class="area-card__meta">Arapahoe County</span>
@@ -138,7 +138,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="littleton.html" class="area-card">
+            <a href="littleton" class="area-card">
               <span>
                 <span class="area-card__name d-block">Littleton</span>
                 <span class="area-card__meta">Jefferson &amp; Arapahoe Counties</span>
@@ -147,7 +147,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="highlands-ranch.html" class="area-card">
+            <a href="highlands-ranch" class="area-card">
               <span>
                 <span class="area-card__name d-block">Highlands Ranch</span>
                 <span class="area-card__meta">Douglas County</span>

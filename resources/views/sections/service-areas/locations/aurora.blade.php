@@ -127,7 +127,7 @@
         <h2 id="nearby-heading" class="ff-display display-md text-white mb-4">We Also Serve</h2>
         <div class="row g-3">
           <div class="col-md-4">
-            <a href="littleton.html" class="area-card">
+            <a href="littleton  " class="area-card">
               <span>
                 <span class="area-card__name d-block">Littleton</span>
                 <span class="area-card__meta">Jefferson &amp; Arapahoe Counties</span>
@@ -136,7 +136,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="highlands-ranch.html" class="area-card">
+            <a href="highlands-ranch  " class="area-card">
               <span>
                 <span class="area-card__name d-block">Highlands Ranch</span>
                 <span class="area-card__meta">Douglas County</span>
@@ -145,7 +145,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="castle-rock.html" class="area-card">
+            <a href="castle-rock  " class="area-card">
               <span>
                 <span class="area-card__name d-block">Castle Rock</span>
                 <span class="area-card__meta">Douglas County</span>
@@ -155,7 +155,7 @@
           </div>
         </div>
         <div class="mt-4">
-          <a href="../service-areas.html" class="btn btn-outline-light btn-arrow">All Service Areas</a>
+          <a href="../service-areas  " class="btn btn-outline-light btn-arrow">All Service Areas</a>
         </div>
       </div>
     </section>
@@ -165,7 +165,7 @@
       <div class="container reveal">
         <h2 id="city-cta-heading" class="ff-display display-xl text-white mx-auto maxw-20">Get a quote for your Aurora project.</h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-          <a href="../contact.html" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+          <a href="../contact  " class="btn btn-light-navy btn-arrow">Request a Quote</a>
           <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
         </div>
       </div>
