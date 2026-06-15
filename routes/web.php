@@ -85,6 +85,21 @@ Route::view('/service-areas/arvada', 'pages.service-areas')
 Route::view('/service-areas/longmont', 'pages.service-areas')
     ->name('areas.longmont');
 
+Route::view('/service-areas/locations/denver', 'sections.service-areas.locations.denver')
+    ->name('locations.denver');
+
+Route::view('/service-areas/locations/aurora', 'sections.service-areas.locations.aurora')
+    ->name('locations.aurora');
+
+Route::view('/service-areas/locations/littleton', 'sections.service-areas.locations.littleton')
+    ->name('locations.littleton');
+
+Route::view('/service-areas/locations/highlands-ranch', 'sections.service-areas.locations.highlands-ranch')
+    ->name('locations.highlands-ranch');
+
+Route::view('/service-areas/locations/castle-rock', 'sections.service-areas.locations.castle-rock')
+    ->name('locations.castle-rock');
+
 /*
 |--------------------------------------------------------------------------
 | Fallback function

@@ -9,7 +9,7 @@
     </div></a>
     <h1>Trusted commercial &amp; residential contractor.</h1>
     <div class="d-flex gap-2 mt-4 flex-wrap">
-      <a href="#contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+      <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
       <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303) 479-3181</a>
     </div>
   </div>
