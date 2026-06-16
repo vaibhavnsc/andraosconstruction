@@ -48,7 +48,7 @@
       // Build the Service-Areas dropdown items from the locations data.
       var areaItems = $.map(data.LOCATIONS, function (loc) {
         return '<li><a class="dropdown-item" href="' +
-          buildLink("locations/" + loc.slug + ".html") + '">' + loc.name + "</a></li>";
+          buildLink("locations/" + loc.slug + "") + '">' + loc.name + "</a></li>";
       }).join("");
 
       var html =
