@@ -100,6 +100,9 @@ Route::view('/service-areas/locations/highlands-ranch', 'sections.service-areas.
 Route::view('/service-areas/locations/castle-rock', 'sections.service-areas.locations.castle-rock')
     ->name('locations.castle-rock');
 
+Route::view('/service-areas/locations/parker', 'sections.service-areas.locations.parker')
+    ->name('locations.parker');
+
 /*
 |--------------------------------------------------------------------------
 | Fallback function
