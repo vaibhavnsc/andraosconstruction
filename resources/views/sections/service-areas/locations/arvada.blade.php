@@ -2,19 +2,20 @@
 
 @section('content')
 
-  <main>
+
+<main>
 
     <!-- ====================== PAGE HERO ====================== -->
     <header class="page-hero">
-      <div class="page-hero__bg" data-bg="../assets/images/paving.jpg" aria-hidden="true"></div>
+      <div class="page-hero__bg" data-bg="../assets/images/andraos-construction-gallery-042-665h.jpg" aria-hidden="true"></div>
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
           <a href="/">Home</a> &nbsp;/&nbsp;
-          <a href="/service-areas">Service Areas</a> &nbsp;/&nbsp; Parker
+          <a href="/service-areas">Service Areas</a> &nbsp;/&nbsp; Arvada
         </nav>
-        <h1>Commercial Concrete Contractors in Parker, Colorado</h1>
-      </div> 
+        <h1>Arvada Commercial Concrete & Asphalt Services</h1>
+      </div>
     </header>
 
     <!-- ====================== INTRO ====================== -->
@@ -22,18 +23,18 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="{{ asset('assets/images/paving.jpg') }}"
-                 alt="Commercial concrete and asphalt work in Parker, Colorado"
+            <img src="/assets/images/andraos-construction-gallery-042-665h.jpg"
+                 alt="Commercial concrete and asphalt work in Arvada, Colorado"
                  class="ratio-4-3 img-treat">
           </div>
           <div class="col-lg-6">
-            <p class="eyebrow">Service Area &middot; Douglas County</p>
+            <p class="eyebrow">Service Area &middot; Jefferson County</p>
             <h2 id="intro-heading" class="ff-display display-md mt-2">
-              Commercial Concrete, Asphalt &amp; Masonry in Parker
+              Commercial Concrete, Asphalt &amp; Masonry in Arvada
             </h2>
-            <p class="lede mt-3">Andraos Construction serves Parker commercial property managers, HOA boards, and general contractors with self-performed concrete, asphalt, and masonry &mdash; multifamily renewal, retail center rehab, and municipal sidewalk work throughout Parker and Douglas County.</p>
+            <p class="lede mt-3">Arvada commercial properties, the Olde Town retail district, and HOA communities engage Andraos Construction for self-performed concrete flatwork, asphalt repair, and masonry site work throughout Jefferson County.</p>
             <div class="d-flex gap-2 mt-4 flex-wrap">
-              <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Parker</a>
+              <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Arvada</a>
               <a href="tel:+13034793181" class="btn btn-outline-navy">Call (303) 479-3181</a>
             </div>
           </div>
@@ -44,8 +45,8 @@
     <!-- ====================== SERVICES IN CITY ====================== -->
     <section class="section bg-warm section--tight" aria-labelledby="city-services-heading">
       <div class="container">
-        <p class="eyebrow mb-2">Commercial Services in Parker</p>
-        <h2 id="city-services-heading" class="ff-display display-md mb-4">What We Build in Parker, Colorado</h2>
+        <p class="eyebrow mb-2">Commercial Services in Arvada</p>
+        <h2 id="city-services-heading" class="ff-display display-md mb-4">What We Build in Arvada, Colorado</h2>
         <div class="row g-3">
             <div class="col-md-6 col-lg-4">
               <a href="/services#commercial-concrete" class="svc-link-card">
@@ -98,22 +99,22 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-4">
-            <p class="eyebrow mb-2">Why Parker Chooses Andraos</p>
+            <p class="eyebrow mb-2">Why Arvada Chooses Andraos</p>
             <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
             <p class="text-slate mt-3">
               Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
-              across Douglas County. One project manager owns your job from estimate to warranty &mdash; backed
+              across Jefferson County. One project manager owns your job from estimate to warranty &mdash; backed
               by a written one-year workmanship warranty.
             </p>
           </div>
           <div class="col-lg-8">
             <ul class="location-services">
-          <li>Commercial Concrete in Parker</li>
-          <li>Asphalt Paving & Repair in Parker</li>
-          <li>Commercial Masonry in Parker</li>
-          <li>Snow Melt Systems in Parker</li>
-          <li>HOA & Property Management in Parker</li>
-          <li>Concrete Finishes in Parker</li>
+          <li>Commercial Concrete in Arvada</li>
+          <li>Asphalt Paving & Repair in Arvada</li>
+          <li>Commercial Masonry in Arvada</li>
+          <li>Snow Melt Systems in Arvada</li>
+          <li>HOA & Property Management in Arvada</li>
+          <li>Concrete Finishes in Arvada</li>
             </ul>
           </div>
         </div>
@@ -127,28 +128,28 @@
         <h2 id="nearby-heading" class="ff-display display-md text-white mb-4">We Also Serve</h2>
         <div class="row g-3">
           <div class="col-md-4">
-            <a href="englewood.html" class="area-card">
+            <a href="longmont" class="area-card">
               <span>
-                <span class="area-card__name d-block">Englewood</span>
+                <span class="area-card__name d-block">Longmont</span>
+                <span class="area-card__meta">Boulder &amp; Weld Counties</span>
+              </span>
+              <span class="area-card__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="denver.html" class="area-card">
+              <span>
+                <span class="area-card__name d-block">Denver</span>
+                <span class="area-card__meta">City &amp; County of Denver</span>
+              </span>
+              <span class="area-card__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="aurora.html" class="area-card">
+              <span>
+                <span class="area-card__name d-block">Aurora</span>
                 <span class="area-card__meta">Arapahoe County</span>
-              </span>
-              <span class="area-card__arrow" aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="broomfield.html" class="area-card">
-              <span>
-                <span class="area-card__name d-block">Broomfield</span>
-                <span class="area-card__meta">Broomfield County</span>
-              </span>
-              <span class="area-card__arrow" aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="boulder.html" class="area-card">
-              <span>
-                <span class="area-card__name d-block">Boulder</span>
-                <span class="area-card__meta">Boulder County</span>
               </span>
               <span class="area-card__arrow" aria-hidden="true">&rarr;</span>
             </a>
@@ -163,9 +164,9 @@
     <!-- ====================== CTA ====================== -->
     <section class="section bg-navy-deep text-white text-center" aria-labelledby="city-cta-heading">
       <div class="container reveal">
-        <h2 id="city-cta-heading" class="ff-display display-xl text-white mx-auto maxw-20">Get a quote for your Parker project.</h2>
+        <h2 id="city-cta-heading" class="ff-display display-xl text-white mx-auto maxw-20">Get a quote for your Arvada project.</h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-          <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+          <a href="../contact.html" class="btn btn-light-navy btn-arrow">Request a Quote</a>
           <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
         </div>
       </div>
@@ -174,4 +175,5 @@
   </main>
 
 
-@endsection 
+
+@endsection

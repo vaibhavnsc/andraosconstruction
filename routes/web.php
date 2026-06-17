@@ -103,6 +103,19 @@ Route::view('/service-areas/locations/castle-rock', 'sections.service-areas.loca
 Route::view('/service-areas/locations/parker', 'sections.service-areas.locations.parker')
     ->name('locations.parker');
 
+Route::view('/service-areas/locations/broomfield', 'sections.service-areas.locations.broomfield')
+    ->name('locations.broomfield');
+
+Route::view('/service-areas/locations/boulder', 'sections.service-areas.locations.boulder')
+    ->name('locations.boulder');
+
+Route::view('service-areas/locations/westminster', 'sections.service-areas.locations.westminster')
+    ->name('locations.westminster');
+
+Route::view('service-areas/locations/thornton', 'sections.service-areas.locations.thornton')
+    ->name('locations.thornton');
+
+
 /*
 |--------------------------------------------------------------------------
 | Fallback function
