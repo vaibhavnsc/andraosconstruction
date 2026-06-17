@@ -1,6 +1,6 @@
   <!-- ====================== PAGE HERO ====================== -->
     <header class="page-hero">
-      <div class="page-hero__bg" data-bg="assets/images/andraos-construction-gallery-043-665h.jpg" aria-hidden="true"></div>
+      <div class="page-hero__bg" data-bg="/assets/images/andraos-construction43.jpg" aria-hidden="true"></div>
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">

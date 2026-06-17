@@ -771,6 +771,9 @@ body:not(.is-dark-page) .filter-btn.active { background: var(--color-navy-900); 
   opacity: 1;
   transform: translateY(0);
 }
+ul.dropdown-menu.service-area-dropdown.show hr {
+    margin: 8px 0px;
+}
 /* Respect users who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; transition: none; }

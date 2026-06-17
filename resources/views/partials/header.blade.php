@@ -95,7 +95,8 @@
                     </a>
             
                     <ul class="dropdown-menu service-area-dropdown">
-            
+                        <li><a class="dropdown-item" href="{{ route('service-areas') }}">All Service Areas</a></li>
+                        <hr>
                         <li><a class="dropdown-item" href="{{ route('locations.denver') }}">Denver</a></li>
                         <li><a class="dropdown-item" href="{{ route('locations.aurora') }}">Aurora</a></li>
                         <li><a class="dropdown-item" href="{{ route('locations.littleton') }}">Littleton</a></li>
