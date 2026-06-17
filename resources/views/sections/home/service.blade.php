@@ -13,7 +13,26 @@
           </div>
         </div>
         <!-- Area cards injected by site.js (limited to 6) -->
-        <div class="row g-3" id="js-area-grid" data-limit="6"></div>
+         <div class="row g-3" id="js-area-grid" data-limit="6">
+          <div class="col-lg-4 col-md-6"><a href="/service-areas/denver" class="area-card"><span><span
+                  class="area-card__name d-block">Denver</span><span class="area-card__meta">HQ · Metro
+                  Core</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
+          <div class="col-lg-4 col-md-6"><a href="/service-areas/aurora" class="area-card"><span><span
+                  class="area-card__name d-block">Aurora</span><span class="area-card__meta">East
+                  Metro</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
+          <div class="col-lg-4 col-md-6"><a href="/service-areas/littleton" class="area-card"><span><span
+                  class="area-card__name d-block">Littleton</span><span class="area-card__meta">South
+                  Metro</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
+          <div class="col-lg-4 col-md-6"><a href="/service-areas/highlands-ranch" class="area-card"><span><span
+                  class="area-card__name d-block">Highlands Ranch</span><span class="area-card__meta">Douglas
+                  County</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
+          <div class="col-lg-4 col-md-6"><a href="/service-areas/castle-rock" class="area-card"><span><span
+                  class="area-card__name d-block">Castle Rock</span><span class="area-card__meta">Douglas
+                  County</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
+          <div class="col-lg-4 col-md-6"><a href="/service-areas/parker" class="area-card"><span><span
+                  class="area-card__name d-block">Parker</span><span class="area-card__meta">Douglas
+                  County</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
+        </div>
         <div class="text-center mt-5">
           <a href="service-areas" class="btn btn-outline-navy btn-arrow">All Service Areas</a>
         </div>
