@@ -7,7 +7,7 @@
 
     <!-- ====================== PAGE HERO ====================== -->
     <header class="page-hero">
-      <div class="page-hero__bg" data-bg="../assets/images/andraos-construction-gallery-006-665h.jpg" aria-hidden="true"></div>
+      <div class="page-hero__bg" data-bg="/assets/images/andraos-construction6.jpg" aria-hidden="true"></div>
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
@@ -23,7 +23,7 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="../assets/images/andraos-construction-gallery-006-665h.jpg"
+            <img src="/assets/images/andraos-construction6.jpg"
                  alt="Commercial concrete and asphalt work in Englewood, Colorado"
                  class="ratio-4-3 img-treat">
           </div>

@@ -46,44 +46,26 @@ Route::view('/snow-melt', 'pages.services')
 Route::view('/service-areas', 'pages.service-areas')
     ->name('service-areas');
 
-Route::view('/service-areas/denver', 'pages.service-areas')
-    ->name('areas.denver');
+$serviceAreaLocations = [
+    'denver',
+    'aurora',
+    'littleton',
+    'highlands-ranch',
+    'castle-rock',
+    'parker',
+    'englewood',
+    'broomfield',
+    'boulder',
+    'westminster',
+    'thornton',
+    'arvada',
+    'longmont',
+];
 
-Route::view('/service-areas/aurora', 'pages.service-areas')
-    ->name('areas.aurora');
-
-Route::view('/service-areas/littleton', 'pages.service-areas')
-    ->name('areas.littleton');
-
-Route::view('/service-areas/highlands-ranch', 'pages.service-areas')
-    ->name('areas.highlands-ranch');
-
-Route::view('/service-areas/castle-rock', 'pages.service-areas')
-    ->name('areas.castle-rock');
-
-Route::view('/service-areas/parker', 'pages.service-areas')
-    ->name('areas.parker');
-
-Route::view('/service-areas/englewood', 'pages.service-areas')
-    ->name('areas.englewood');
-
-Route::view('/service-areas/broomfield', 'pages.service-areas')
-    ->name('areas.broomfield');
-
-Route::view('/service-areas/boulder', 'pages.service-areas')
-    ->name('areas.boulder');
-
-Route::view('/service-areas/westminster', 'pages.service-areas')
-    ->name('areas.westminster');
-
-Route::view('/service-areas/thornton', 'pages.service-areas')
-    ->name('areas.thornton');
-
-Route::view('/service-areas/arvada', 'pages.service-areas')
-    ->name('areas.arvada');
-
-Route::view('/service-areas/longmont', 'pages.service-areas')
-    ->name('areas.longmont');
+foreach ($serviceAreaLocations as $serviceAreaLocation) {
+    Route::view('/service-areas/'.$serviceAreaLocation, 'sections.service-areas.locations.'.$serviceAreaLocation)
+        ->name('areas.'.$serviceAreaLocation);
+}
 
 Route::view('/service-areas/locations/denver', 'sections.service-areas.locations.denver')
     ->name('locations.denver');
@@ -115,6 +97,15 @@ Route::view('service-areas/locations/westminster', 'sections.service-areas.locat
 Route::view('service-areas/locations/thornton', 'sections.service-areas.locations.thornton')
     ->name('locations.thornton');
 
+Route::view('service-areas/locations/arvada', 'sections.service-areas.locations.arvada')
+    ->name('locations.arvada');
+
+
+Route::view('service-areas/locations/longmont', 'sections.service-areas.locations.longmont')
+    ->name('locations.longmont');
+
+Route::view('service-areas/locations/englewood', 'sections.service-areas.locations.englewood')
+    ->name('locations.englewood');
 
 /*
 |--------------------------------------------------------------------------
