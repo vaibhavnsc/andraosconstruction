@@ -18,6 +18,7 @@
 @push('scripts')
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('page-services');
     const pathMap = {
         '/commercial-concrete': '#commercial-concrete',
         '/residential-concrete': '#commercial-concrete',

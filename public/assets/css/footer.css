@@ -19,7 +19,7 @@
 
 
 .footer-tagline {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Newsreader", Georgia, "Times New Roman", serif;
     font-size: 20px;
     line-height: 1.25;
     color: rgba(255,255,255,.95);
@@ -71,6 +71,7 @@
     letter-spacing: .18em;
     text-transform: uppercase;
     color: rgba(255,255,255,.45);
+    font-family: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
 }
 
 .footer-legal {

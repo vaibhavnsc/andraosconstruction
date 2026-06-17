@@ -56,11 +56,14 @@
 
   .main-nav.scrolled .utility-bar { display:none; }
   .brand-logo { height:42px; width:auto; filter:brightness(0) invert(1); transition:transform .2s ease; }
-  .navbar-nav .nav-link { color:rgba(255,255,255,.92)!important; font-size:13.5px; font-weight:500; padding:8px 14px!important; text-shadow:0 1px 12px rgba(6,15,28,.5); }
-  .navbar-nav .nav-link:hover { color:#fff!important; }
+.navbar-nav .nav-link { color:rgba(255,255,255,.92)!important; font-size:13.5px; font-weight:500; padding:8px 14px!important; text-shadow:0 1px 12px rgba(6,15,28,.5); }
+   .navbar-nav .nav-link:hover { color:#fff!important; }
+   .navbar-nav .nav-link.active,
+   .navbar-nav .active .nav-link { color:var(--accent)!important; }
   .dropdown-menu { border:0; border-radius:2px; box-shadow:0 24px 80px -20px rgba(11,27,46,.35); padding:8px; }
-  .dropdown-item { font-size:13px; font-weight:500; padding:9px 14px; border-radius:2px; color:var(--slate-700); }
-  .dropdown-item:hover { background:var(--paper-warm); color:var(--navy-900); }
+.dropdown-item { font-size:13px; font-weight:500; padding:9px 14px; border-radius:2px; color:var(--slate-700); }
+   .dropdown-item:hover { background:var(--paper-warm); color:var(--navy-900); }
+   .dropdown-item.active { color:var(--accent)!important; }
   .navbar-toggler { border:0; }
   .navbar-toggler:focus { box-shadow:none; }
   .navbar-toggler span { display:block; width:24px; height:2px; background:#fff; margin:5px 0; }
@@ -166,7 +169,9 @@ body.page-service-areas .main-nav .utility-bar { background-color: transparent; 
 body.page-service-areas .main-nav .utility-cta { color: var(--accent) !important; }
 body.page-service-areas .main-nav .brand-logo { filter: brightness(0) invert(1); }
 body.page-service-areas .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
-body.page-service-areas .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-service-areas .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-service-areas .navbar-nav .nav-link.active,
+ body.page-service-areas .navbar-nav .active .nav-link { color: var(--accent) !important; }
 body.page-service-areas .main-nav.scrolled .utility-bar { display: block !important; }
 body.page-privacy .main-nav,
 body.page-terms .main-nav { background-color: #010d1f !important; backdrop-filter: blur(20px); }
@@ -180,10 +185,14 @@ body.page-privacy .main-nav .utility-cta,
 body.page-terms .main-nav .utility-cta { color: var(--accent) !important; }
 body.page-privacy .main-nav .brand-logo,
 body.page-terms .main-nav .brand-logo { filter: brightness(0) invert(1); }
-body.page-privacy .navbar-nav .nav-link,
-body.page-terms .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
-body.page-privacy .navbar-nav .nav-link:hover,
-body.page-terms .navbar-nav .nav-link:hover { color: #fff !important; }
+body.page-privacy .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
+ body.page-privacy .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-privacy .navbar-nav .nav-link.active,
+ body.page-privacy .navbar-nav .active .nav-link { color: var(--accent) !important; }
+ body.page-terms .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
+ body.page-terms .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-terms .navbar-nav .nav-link.active,
+ body.page-terms .navbar-nav .active .nav-link { color: var(--accent) !important; }
 body.page-privacy .main-nav.scrolled .utility-bar,
 body.page-terms .main-nav.scrolled .utility-bar,
 body.page-404 .main-nav.scrolled .utility-bar { display: block !important; }
@@ -194,7 +203,9 @@ body.page-404 .main-nav .utility-bar { background-color: transparent; }
 body.page-404 .main-nav .utility-cta { color: var(--accent) !important; }
 body.page-404 .main-nav .brand-logo { filter: brightness(0) invert(1); }
 body.page-404 .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
-body.page-404 .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-404 .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-404 .navbar-nav .nav-link.active,
+ body.page-404 .navbar-nav .active .nav-link { color: var(--accent) !important; }
 body.page-contact .main-nav,
 body.page-contact .main-nav .navbar { background-color: #010d1f !important; }
 body.page-contact .main-nav.scrolled { background-color: rgba(1,13,31,0.95) !important; }
@@ -202,16 +213,13 @@ body.page-contact .main-nav .utility-bar { background-color: transparent; }
 body.page-contact .main-nav .utility-cta { color: var(--accent) !important; }
 body.page-contact .main-nav .brand-logo { filter: brightness(0) invert(1); }
 body.page-contact .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
-body.page-contact .navbar-nav .nav-link:hover { color: #fff !important; }
-body.page-contact .main-nav.scrolled .utility-bar { display: block !important; }
-body.page-gallery .main-nav,
-body.page-gallery .main-nav .navbar { background-color: #010d1f !important; }
-body.page-gallery .main-nav.scrolled { background-color: rgba(1,13,31,0.95) !important; }
-body.page-gallery .main-nav .utility-bar { background-color: transparent; }
-body.page-gallery .main-nav .utility-cta { color: var(--accent) !important; }
-body.page-gallery .main-nav .brand-logo { filter: brightness(0) invert(1); }
-body.page-gallery .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
-body.page-gallery .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-contact .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-contact .navbar-nav .nav-link.active,
+ body.page-contact .navbar-nav .active .nav-link { color: var(--accent) !important; }
+ body.page-gallery .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
+ body.page-gallery .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-gallery .navbar-nav .nav-link.active,
+ body.page-gallery .navbar-nav .active .nav-link { color: var(--accent) !important; }
 body.page-gallery .main-nav.scrolled .utility-bar { display: block !important; }
    /* reveal */
    .reveal { opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
@@ -229,7 +237,9 @@ body.page-about .main-nav .utility-cta { color: var(--accent) !important; }
 
 body.page-about .main-nav .brand-logo { filter: brightness(0) invert(1); }
 body.page-about .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
-body.page-about .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-about .navbar-nav .nav-link:hover { color: #fff !important; }
+ body.page-about .navbar-nav .nav-link.active,
+ body.page-about .navbar-nav .active .nav-link { color: var(--accent) !important; }
 
 body.page-about .main-nav.scrolled .utility-bar { display: block !important; }
 
@@ -300,4 +310,7 @@ div#locationPages {
     color: rgba(255, 255, 255, 0.7) !important;
     background: transparent;
     transition: all 0.2s ease;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: unset;
 }

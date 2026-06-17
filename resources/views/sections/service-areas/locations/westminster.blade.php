@@ -187,4 +187,11 @@
 
 
 
+@push('scripts')
+<script>
+document.body.classList.add('page-service-areas');
+</script>
+@endpush
+
+
 @endsection
