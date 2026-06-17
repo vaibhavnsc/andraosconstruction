@@ -7,7 +7,7 @@
 
     <!-- ====================== PAGE HERO ====================== -->
     <header class="page-hero">
-        <div class="page-hero__bg" data-bg="../assets/images/andraos-construction-gallery-027-665h.jpg"
+        <div class="page-hero__bg" data-bg="/assets/images/zolo.jpg"
             aria-hidden="true"></div>
         <div class="page-hero__scrim" aria-hidden="true"></div>
         <div class="container">

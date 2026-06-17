@@ -96,19 +96,19 @@
             
                     <ul class="dropdown-menu service-area-dropdown">
             
-                        <li><a class="dropdown-item" href="{{ route('areas.denver') }}">Denver</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.aurora') }}">Aurora</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.littleton') }}">Littleton</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.highlands-ranch') }}">Highlands Ranch</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.castle-rock') }}">Castle Rock</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.parker') }}">Parker</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.englewood') }}">Englewood</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.broomfield') }}">Broomfield</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.boulder') }}">Boulder</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.westminster') }}">Westminster</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.thornton') }}">Thornton</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.arvada') }}">Arvada</a></li>
-                        <li><a class="dropdown-item" href="{{ route('areas.longmont') }}">Longmont</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.denver') }}">Denver</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.aurora') }}">Aurora</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.littleton') }}">Littleton</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.highlands-ranch') }}">Highlands Ranch</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.castle-rock') }}">Castle Rock</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.parker') }}">Parker</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.englewood') }}">Englewood</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.broomfield') }}">Broomfield</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.boulder') }}">Boulder</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.westminster') }}">Westminster</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.thornton') }}">Thornton</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.arvada') }}">Arvada</a></li>
+                        <li><a class="dropdown-item" href="{{ route('locations.longmont') }}">Longmont</a></li>
                     </ul>
                 </li> 
             

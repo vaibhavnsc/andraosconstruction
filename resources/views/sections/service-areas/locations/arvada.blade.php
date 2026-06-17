@@ -7,7 +7,7 @@
 
     <!-- ====================== PAGE HERO ====================== -->
     <header class="page-hero">
-      <div class="page-hero__bg" data-bg="../assets/images/andraos-construction-gallery-042-665h.jpg" aria-hidden="true"></div>
+      <div class="page-hero__bg" data-bg="/assets/images/avada.jpg" aria-hidden="true"></div>
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
@@ -23,7 +23,7 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="/assets/images/andraos-construction-gallery-042-665h.jpg"
+            <img src="/assets/images/avada.jpg"
                  alt="Commercial concrete and asphalt work in Arvada, Colorado"
                  class="ratio-4-3 img-treat">
           </div>
@@ -137,7 +137,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="denver.html" class="area-card">
+            <a href="denver" class="area-card">
               <span>
                 <span class="area-card__name d-block">Denver</span>
                 <span class="area-card__meta">City &amp; County of Denver</span>
@@ -146,7 +146,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="aurora.html" class="area-card">
+            <a href="aurora" class="area-card">
               <span>
                 <span class="area-card__name d-block">Aurora</span>
                 <span class="area-card__meta">Arapahoe County</span>
@@ -156,7 +156,7 @@
           </div>
         </div>
         <div class="mt-4">
-          <a href="../service-areas.html" class="btn btn-outline-light btn-arrow">All Service Areas</a>
+          <a href="/service-areas" class="btn btn-outline-light btn-arrow">All Service Areas</a>
         </div>
       </div>
     </section>
@@ -166,7 +166,7 @@
       <div class="container reveal">
         <h2 id="city-cta-heading" class="ff-display display-xl text-white mx-auto maxw-20">Get a quote for your Arvada project.</h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-          <a href="../contact.html" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+          <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
           <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
         </div>
       </div>
