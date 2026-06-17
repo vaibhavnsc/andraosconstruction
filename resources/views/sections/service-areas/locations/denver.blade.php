@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <header class="page-hero">
     <div class="page-hero__bg" data-bg="{{ asset('assets/images/commercial.jpg') }}" aria-hidden="true">
     </div>
@@ -16,7 +15,8 @@
     </div>
 </header>
 
- 
+  
+
 <!-- ====================== INTRO ====================== -->
     <section class="section" aria-labelledby="intro-heading">
       <div class="container">
@@ -173,6 +173,13 @@
         </div>
       </div>
     </section>
+
+
+@push('scripts')
+<script>
+document.body.classList.add('page-service-areas');
+</script>
+@endpush
 
 
 @endsection

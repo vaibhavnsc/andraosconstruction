@@ -29,14 +29,14 @@ function renderProj(f){
 }
 
 // LIGHTBOX
-function _ensureLightbox(){ if(document.getElementById('projLightbox')) return;
-  const style = document.createElement('style'); style.id='projLightboxStyle'; style.textContent = `#projLightbox{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.85);z-index:9999;opacity:0;pointer-events:none;transition:opacity .2s}#projLightbox.open{opacity:1;pointer-events:auto}#projLightbox img{max-width:92%;max-height:80%;box-shadow:0 8px 30px rgba(0,0,0,.6)}#projLightbox .lb-caption{color:#fff;margin-top:12px;text-align:center;font-size:14px}#projLightbox .lb-close,#projLightbox .lb-prev,#projLightbox .lb-next{position:fixed;background:transparent;border:0;color:#fff;font-size:28px;padding:12px;cursor:pointer}#projLightbox .lb-close{top:18px;right:22px}#projLightbox .lb-prev{left:18px;top:50%;transform:translateY(-50%)}#projLightbox .lb-next{right:18px;top:50%;transform:translateY(-50%)}`; document.head.appendChild(style);
-  const lb = document.createElement('div'); lb.id='projLightbox'; lb.innerHTML = `<button class="lb-close" aria-label="Close">×</button><button class="lb-prev" aria-label="Previous">‹</button><div class="lb-inner"><img id="lb-img" src="" alt=""><div class="lb-caption" id="lb-caption"></div></div><button class="lb-next" aria-label="Next">›</button>`; document.body.appendChild(lb);
-  lb.addEventListener('click',e=>{ if(e.target.id==='projLightbox' || e.target.classList.contains('lb-close')) closeLightbox(); });
-  lb.querySelector('.lb-prev').addEventListener('click',e=>{ e.stopPropagation(); const count = getVisibleProjectItems().length; showLightbox((lb._idx-1+count)%count); });
-  lb.querySelector('.lb-next').addEventListener('click',e=>{ e.stopPropagation(); const count = getVisibleProjectItems().length; showLightbox((lb._idx+1)%count); });
-  document.addEventListener('keydown',e=>{ const elb=document.getElementById('projLightbox'); if(!elb || !elb.classList.contains('open')) return; if(e.key==='Escape') closeLightbox(); if(e.key==='ArrowLeft') elb.querySelector('.lb-prev').click(); if(e.key==='ArrowRight') elb.querySelector('.lb-next').click(); });
-}
+// function _ensureLightbox(){ if(document.getElementById('projLightbox')) return;
+//   const style = document.createElement('style'); style.id='projLightboxStyle'; style.textContent = `#projLightbox{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.85);z-index:9999;opacity:0;pointer-events:none;transition:opacity .2s}#projLightbox.open{opacity:1;pointer-events:auto}#projLightbox img{max-width:92%;max-height:80%;box-shadow:0 8px 30px rgba(0,0,0,.6)}#projLightbox .lb-caption{color:#fff;margin-top:12px;text-align:center;font-size:14px}#projLightbox .lb-close,#projLightbox .lb-prev,#projLightbox .lb-next{position:fixed;background:transparent;border:0;color:#fff;font-size:28px;padding:12px;cursor:pointer}#projLightbox .lb-close{top:18px;right:22px}#projLightbox .lb-prev{left:18px;top:50%;transform:translateY(-50%)}#projLightbox .lb-next{right:18px;top:50%;transform:translateY(-50%)}`; document.head.appendChild(style);
+//   const lb = document.createElement('div'); lb.id='projLightbox'; lb.innerHTML = `<button class="lb-close" aria-label="Close">×</button><button class="lb-prev" aria-label="Previous">‹</button><div class="lb-inner"><img id="lb-img" src="" alt=""><div class="lb-caption" id="lb-caption"></div></div><button class="lb-next" aria-label="Next">›</button>`; document.body.appendChild(lb);
+//   lb.addEventListener('click',e=>{ if(e.target.id==='projLightbox' || e.target.classList.contains('lb-close')) closeLightbox(); });
+//   lb.querySelector('.lb-prev').addEventListener('click',e=>{ e.stopPropagation(); const count = getVisibleProjectItems().length; showLightbox((lb._idx-1+count)%count); });
+//   lb.querySelector('.lb-next').addEventListener('click',e=>{ e.stopPropagation(); const count = getVisibleProjectItems().length; showLightbox((lb._idx+1)%count); });
+//   document.addEventListener('keydown',e=>{ const elb=document.getElementById('projLightbox'); if(!elb || !elb.classList.contains('open')) return; if(e.key==='Escape') closeLightbox(); if(e.key==='ArrowLeft') elb.querySelector('.lb-prev').click(); if(e.key==='ArrowRight') elb.querySelector('.lb-next').click(); });
+// }
 function showLightbox(idx){
   _ensureLightbox();
   const lb=document.getElementById('projLightbox');
