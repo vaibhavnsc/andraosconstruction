@@ -6,7 +6,7 @@
 
     <!-- ====================== PAGE HERO ====================== -->
     <header class="page-hero">
-      <div class="page-hero__bg" data-bg="/assets/images/paving.jpg" aria-hidden="true"></div>
+      <div class="page-hero__bg" data-bg="/assets/images/finish.jpg" aria-hidden="true"></div>
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="{{ asset('assets/images/paving.jpg') }}"
+            <img src="{{ asset('assets/images/finish.jpg') }}"
                  alt="Commercial concrete and asphalt work in Parker, Colorado"
                  class="ratio-4-3 img-treat">
           </div>

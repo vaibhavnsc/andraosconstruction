@@ -7,7 +7,7 @@
 
     <!-- ====================== PAGE HERO ====================== -->
     <header class="page-hero">
-        <div class="page-hero__bg" data-bg="/assets/images/finish.jpg"
+        <div class="page-hero__bg" data-bg="/assets/images/hoa-multifamily.jpg"
             aria-hidden="true"></div>
         <div class="page-hero__scrim" aria-hidden="true"></div>
         <div class="container">
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row g-5 align-items-center reveal">
                 <div class="col-lg-6">
-                    <img src="{{ asset('assets/images/finish.jpg') }}"
+                    <img src="{{ asset('assets/images/hoa-multifamily.jpg') }}"
                         alt="Commercial concrete and asphalt work in Highlands Ranch, Colorado"
                         class="ratio-4-3 img-treat">
                 </div>
