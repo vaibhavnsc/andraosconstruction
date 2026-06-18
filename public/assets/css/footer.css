@@ -88,24 +88,30 @@
 .footer-legal a:hover {
     color: #fff;
 }
-
 @media (max-width: 991px) {
 
     .footer-brand {
         margin-bottom: 30px;
     }
-
     .footer-top {
         row-gap: 40px;
     }
-
     .footer-tagline {
         font-size: 1.75rem;
     }
-
     .footer-bottom {
         flex-direction: column;
         align-items: flex-start;
+    }
+    .hero-tag-line {
+      height: 2px;
+      position:relative;
+    }
+    .ff-display {
+      position: relative;
+    }
+    .ff-mono {
+      position: relative;
     }
 }
 

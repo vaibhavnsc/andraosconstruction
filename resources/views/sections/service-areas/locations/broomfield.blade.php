@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('broomfield');
+
+    $title = $seo->meta_title ?? 'Broomfield Commercial Concrete Contractor | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete, asphalt & masonry in Broomfield, CO. Mixed-use developments, office parks, HOA communities. Capital renewal & tenant improvement.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
 

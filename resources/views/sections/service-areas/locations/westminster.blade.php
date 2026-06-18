@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('westminster');
+
+    $title = $seo->meta_title ?? 'Westminster Commercial Concrete & Asphalt Services | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete & asphalt in Westminster, CO. Retail centers, multifamily, full-site parking lot rehabilitation. Jefferson & Adams Counties since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
 @section('content')
 
 

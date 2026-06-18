@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('thornton');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete Contractor in Thornton, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete & asphalt in Thornton, Colorado. Tenant-occupied programs, ADA sidewalks, parking lot maintenance. Capital renewal since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
 

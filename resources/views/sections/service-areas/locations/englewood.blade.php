@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('englewood');
+
+    $title = $seo->meta_title ?? 'Englewood Commercial Concrete & Asphalt Services | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete & asphalt in Englewood, CO. Healthcare campuses, retail, full-site capital renewal sequenced around active tenants. Since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
 

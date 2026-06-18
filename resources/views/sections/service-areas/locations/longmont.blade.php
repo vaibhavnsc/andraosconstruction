@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('longmont');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete & Asphalt Contractor in Longmont, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete & asphalt in Longmont, Colorado. Manufacturing campuses, HOA communities, property management. Boulder & Weld Counties since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
 @section('content')
 
 <main>

@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('boulder');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete & Masonry Contractors in Boulder, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete & sandstone masonry in Boulder, Colorado. Hospitality, retail districts & historic properties. Marriott drive court, The Village. Since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
 

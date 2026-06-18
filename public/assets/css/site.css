@@ -802,10 +802,10 @@ ul.dropdown-menu.service-area-dropdown.show hr {
 @media (max-width: 767.98px) {
   .section { padding: 64px 0; }
   .mobile-cta { display: flex; }
-  body { padding-bottom: 52px; }
+  body { padding-bottom: unset; }
   .location-services { columns: 1; }
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:575px){
   .g-5, .gx-5 {
     --bs-gutter-x: 1rem;
   }

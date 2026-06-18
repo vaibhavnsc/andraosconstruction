@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('castle-rock');
+
+    $title = $seo->meta_title ?? 'Castle Rock Commercial Concrete & Asphalt Contractor | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete, asphalt & masonry contractor in Castle Rock, CO. Retail, hospitality & HOA capital renewal across Douglas County since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
   <main>
