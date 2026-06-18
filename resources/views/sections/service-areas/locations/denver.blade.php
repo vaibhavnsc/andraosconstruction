@@ -1,5 +1,19 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('denver');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete Contractors in Denver, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete, asphalt & masonry contractor serving Denver, Colorado since 1993. Flatwork, ADA sidewalks, parking lots. Licensed & insured. Call (303) 479-3181.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
+
 @section('content')
 
 <header class="page-hero">

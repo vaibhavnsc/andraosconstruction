@@ -2,8 +2,8 @@
 
 @php
     $seo = getPageSeoByKey('services');
-    $title = $seo->meta_title ?? 'Construction Services | Concrete, Masonry, Asphalt Paving';
-    $description = $seo->meta_description ?? 'Professional concrete, masonry, asphalt paving, and snow melt system services. Quality workmanship for residential and commercial projects.';
+    $title = $seo->meta_title ?? 'Commercial Services — Concrete, Asphalt, Masonry & Snow Melt | Andraos Construction';
+    $description = $seo->meta_description ?? 'Commercial concrete, asphalt paving, masonry, snow-melt systems, HOA & property management, and concrete finishes across the Colorado Front Range. Self-performed since 1993.';
 @endphp
 
 @section('meta_title', $title)

@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+
+@php
+    $seo = getPageSeoByKey('aurora');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete & Asphalt in Aurora, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete & asphalt contractor in Aurora, Colorado. Multifamily drive lanes, retail parking lots, ADA sidewalks. Serving Arapahoe County since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
 <main>

@@ -98,6 +98,9 @@
    .not-found img {
         margin-top: 110px;
     }
+    .service-area {
+      width: 100%;
+    }
 }
 
   /* ── Cards / sections ── */

@@ -15,7 +15,7 @@
             </div>
 
             <!-- Services -->
-            <div class="col-lg-2 col-6">
+            <div class="col-lg-2 col-6 service-area">
  
                 <h6>Services</h6>
 
@@ -28,7 +28,7 @@
             </div>
 
             <!-- Service Areas -->
-            <div class="col-lg-4 col-6">
+            <div class="col-lg-4 col-6 service-area">
 
                 <h6>Service Areas</h6>
 

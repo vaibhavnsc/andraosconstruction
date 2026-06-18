@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+
+@php
+    $seo = getPageSeoByKey('highlands-ranch');
+
+    $title = $seo->meta_title ?? 'Concrete & Asphalt Services in Highlands Ranch, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Concrete & asphalt for Highlands Ranch HOAs and commercial properties. Sidewalk replacement, drive-lane rebuilds, mill & overlay. Douglas County since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
 
@@ -12,7 +25,7 @@
         <div class="page-hero__scrim" aria-hidden="true"></div>
         <div class="container">
             <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
-                <a href="/index">Home</a> &nbsp;/&nbsp;
+                <a href="/">Home</a> &nbsp;/&nbsp;
                 <a href="/service-areas">Service Areas</a> &nbsp;/&nbsp; Highlands Ranch
             </nav>
             <h1>Concrete & Asphalt Services in Highlands Ranch, Colorado</h1>

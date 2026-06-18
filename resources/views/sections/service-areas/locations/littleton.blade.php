@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('littleton');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete Contractor in Littleton, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Commercial concrete services in Littleton, Colorado. Capital renewal, ADA flatwork, parking lot resurfacing, snow-melt. Serving Jefferson & Arapahoe Counties.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
 @section('content')
 
 <main>

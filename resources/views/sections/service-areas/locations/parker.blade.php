@@ -1,5 +1,19 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('parker');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete Contractors in Parker, CO | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Self-performed commercial concrete, asphalt & masonry in Parker, Colorado. Multifamily renewal, retail rehab, municipal sidewalks. Douglas County since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
+
 @section('content')
 
   <main>

@@ -1,7 +1,20 @@
 @extends('layouts.app')
 
-@section('content')
+@php
+    $seo = getPageSeoByKey('arvada');
 
+    $title = $seo->meta_title ?? 'Arvada Commercial Concrete & Asphalt Services | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Self-performed concrete, asphalt & masonry in Arvada, CO. Olde Town retail district, HOA communities, commercial properties. Jefferson County since 1993.';
+@endphp
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
+
+@section('content')
 
 <main>
 
@@ -173,8 +186,6 @@
     </section>
 
   </main>
-
-
 
 @push('scripts')
 <script>
