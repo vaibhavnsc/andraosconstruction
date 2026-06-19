@@ -5,7 +5,10 @@
         <h2 class="eyebrow mb-4" id="js-area-count"> service areas</h2>
         <!-- Area cards injected by site.js (county labels) -->
         <div class="row g-3" id="js-area-grid" data-label="county">
-           
+
+            <div class="col-lg-4 col-md-6"><a href="./service-areas/denver" class="area-card"><span><span
+                            class="area-card__name d-block">Denver</span><span class="area-card__meta">City &amp; County
+                            of Denver</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
             <div class="col-lg-4 col-md-6"><a href="./service-areas/aurora " class="area-card"><span><span
                             class="area-card__name d-block">Aurora</span><span class="area-card__meta">Arapahoe
                             County</span></span><span class="area-card__arrow" aria-hidden="true">→</span></a></div>
