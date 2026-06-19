@@ -23,7 +23,7 @@
                 <a href="{{ route('asphalt') }}" class="footer-link">Asphalt Paving</a>
                 <a href="{{ route('masonry') }}" class="footer-link">Masonry</a>
                 <a href="{{ route('snow-melt') }}" class="footer-link">Snow Melt Systems</a>
-                <a href="{{ route('service-areas') }}" class="footer-link">HOA / Property Mgmt</a>
+                <a href="{{ route('services') }}#hoa-property-management" class="footer-link">HOA / Property Mgmt</a>
 
             </div>
 

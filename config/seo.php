@@ -1,14 +1,14 @@
 <?php
 
 return [ 
-    'pages' => [
+    'pages' => [ 
         'about' => [
-            'meta_title' => 'About Andraos Construction — Commercial Contractor Since 1993 · Denver, CO',
-            'meta_description' => 'Andraos Construction is a Denver-based commercial concrete, asphalt and masonry contractor, family-owned and self-performing across the Colorado Front Range since 1993.',
+            'meta_title' => 'About | Andraos Construction | Denver, CO Area',
+            'meta_description' => 'Andraos Construction has been serving Denver since 1993. Learn more about our services! Serving the Denver, CO Metro Area.',
         ],
         'home' => [
-            'meta_title' => "Andraos Construction — Commercial Concrete, Asphalt & Masonry · Denver, CO",
-            'meta_description' => "Commercial concrete, asphalt and masonry for the Colorado Front Range. Self-performed since 1993. Denver, CO. Licensed, bonded & insured. Call (303) 479-3181.",
+            'meta_title' => "Concrete Flatwork Contractors Denver | Andraos Construction",
+            'meta_description' => "Looking for concrete flatwork contractors in Denver, CO? Andraos Construction offers expert concrete and asphalt services. Call or text us to learn more!",
         ],
         'services' => [
             'meta_title' => 'Commercial Services — Concrete, Asphalt, Masonry &amp; Snow Melt | Andraos Construction',
@@ -31,8 +31,8 @@ return [
             'meta_description' => 'Andraos Construction privacy policy. Learn how we protect and handle your personal information.',
         ],
         'gallery' => [
-            'meta_title' => 'Project Gallery — Commercial Concrete & Asphalt in Colorado | Andraos Construction',
-            'meta_description' => 'Recent commercial concrete, asphalt and masonry projects across the Colorado Front Range — HOA, hospitality, retail and civic work by Andraos Construction.',
+            'meta_title' => 'Gallery | Andraos Construction | Denver, CO Area',
+            'meta_description' => 'View our recent projects like driveways & patios. Learn more! Serving the Denver, CO Metro Area.',
         ],
          'arvada' => [
             'meta_title' => 'Arvada Commercial Concrete & Asphalt Services | Andraos Construction',
