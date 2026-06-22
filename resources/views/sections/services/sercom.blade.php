@@ -61,7 +61,7 @@
                     class="btn btn-outline-navy btn-arrow mt-4">Request a Quote</a>
             </div>
         </div>
-        <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
+        <!-- <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
             id="concrete-finishes">
             <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/finish.jpg') }}"
                     alt="Concrete Finishes" class="ratio-4-3 img-treat"></div>
@@ -73,6 +73,6 @@
                         class="tag">Stamped</span><span class="tag">Exposed</span></div><a href="{{ route('contact') }}"
                     class="btn btn-outline-navy btn-arrow mt-4">Request a Quote</a>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>

@@ -35,38 +35,41 @@
                                  Commercial Concrete
                             </a>
                         </li>
-             
-                        <li>
-                            <a class="dropdown-item{{ request()->is('asphalt*') ? ' active' : '' }}"
-                               href="{{ route('services') }}#asphalt">
-                                 Asphalt Paving &amp; Repair
-                            </a>
-                        </li>
-             
-                        <li>
-                            <a class="dropdown-item{{ request()->is('masonry*') ? ' active' : '' }}"
-                               href="{{ route('services') }}#masonry">
-                                 Commercial Masonry
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item{{ request()->is('snow-melt*') ? ' active' : '' }}"
-                               href="{{ route('services') }}#snow-melt">
-                                 Snow Melt Systems
-                            </a>
-                        </li>
+
                         <li>
                             <a class="dropdown-item{{ request()->is('hoa-property-management*') ? ' active' : '' }}"
                                href="{{ route('services') }}#hoa-property-management">
                                  HOA &amp; Property Management
                             </a>
                         </li>
+
                         <li>
+                            <a class="dropdown-item{{ request()->is('asphalt*') ? ' active' : '' }}"
+                               href="{{ route('services') }}#asphalt">
+                                 Asphalt Paving &amp; Repair
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item{{ request()->is('masonry*') ? ' active' : '' }}"
+                               href="{{ route('services') }}#masonry">
+                                 Commercial Masonry
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item{{ request()->is('snow-melt*') ? ' active' : '' }}"
+                               href="{{ route('services') }}#snow-melt">
+                                 Snow Melt Systems
+                            </a>
+                        </li>
+                        
+                        <!-- <li>
                             <a class="dropdown-item{{ request()->is('concrete-finishes*') ? ' active' : '' }}"
                                href="{{ route('services') }}#concrete-finishes">
                                  Concrete Finishes
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
                        
