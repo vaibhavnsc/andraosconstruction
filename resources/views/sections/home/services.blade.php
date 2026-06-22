@@ -82,7 +82,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <!-- <div class="col-lg-4 col-md-6">
                 <a href="./services#concrete-finishes" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="concrete-finishes"><img src="{{ asset('assets/images/finish.jpg') }}"
                             alt="Concrete Finishes">
@@ -95,7 +95,7 @@
                                 class="tag">Stamped</span><span class="tag">Exposed</span></div>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
         <div class="text-center mt-5">
             <a href="{{ route('services') }}" class="btn btn-light-navy btn-arrow">View All Services</a>
