@@ -4,11 +4,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.home')->name('home');
 
-Route::view('/about', 'pages.about')->name('about');
+
 Route::view('/privacy', 'pages.privacy')->name('privacy');
 Route::view('/terms', 'pages.terms')->name('terms');
 Route::view('/gallery', 'pages.gallery')->name('gallery');
 Route::view('/contact', 'pages.contact')->name('contact');
+Route::view('/about', 'pages.about')->name('about');
+Route::view('/faq', 'pages.faq')->name('faq');
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -61,6 +65,24 @@ $serviceAreaLocations = [
     'arvada',
     'longmont',
 ];
+
+Route::view('/services/commercial-concrete', 'sections.services.commercial-concrete')
+  ->name('commercial-concrete');
+
+Route::view('/services/asphalt', 'sections.services.asphalt')
+  ->name('asphalt');
+
+Route::view('/services/masonry', 'sections.services.masonry')
+    ->name('masonry');
+
+Route::view('/services/snow-melt', 'sections.services.snow-melt')
+    ->name('snow-melt');
+
+Route::view('/services/hoa-property-management', 'sections.services.hoa-property-management')
+    ->name('hoa-property-management');
+
+
+
 
 foreach ($serviceAreaLocations as $serviceAreaLocation) {
     Route::view('/service-areas/'.$serviceAreaLocation, 'sections.service-areas.locations.'.$serviceAreaLocation)

@@ -81,13 +81,31 @@
                      </a>
                  </li>
 
-                {{-- About --}}
-                <li class="nav-item">
-                    <a class="nav-link{{ request()->is('about*') ? ' active' : '' }}"
-                       href="/about">
-                         About
+{{-- About --}}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle{{ request()->is('about*') || request()->is('faq*') ? ' active' : '' }}"
+                       href="{{ route('about') }}"
+                       data-bs-toggle="dropdown"
+                       role="button"
+                       aria-expanded="false">
+                          About
                      </a>
-                </li>
+
+                     <ul class="dropdown-menu">
+                         <li>
+                             <a class="dropdown-item{{ request()->is('about*') ? ' active' : '' }}"
+                                href="{{ route('about') }}">
+                                  About Us
+                             </a>
+                         </li>
+                         <li>
+                             <a class="dropdown-item{{ request()->is('faq*') ? ' active' : '' }}"
+                                href="{{ route('faq') }}">
+                                  FAQs
+                             </a>
+                         </li>
+                     </ul>
+                 </li>
 
 {{-- Service Areas --}}
                 <li class="nav-item dropdown">
