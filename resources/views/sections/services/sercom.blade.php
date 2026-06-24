@@ -15,6 +15,21 @@
                         class="btn btn-outline-navy">Request a Quote</a></div>
             </div>
         </div>
+        <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
+            id="hoa-property-management">
+            <div class="col-lg-6"><img src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management"
+                    class="ratio-4-3 img-treat"></div>
+            <div class="col-lg-6"><span class="num-eyebrow">05 / 06</span>
+                <h2 class="ff-display display-md mt-2">HOA &amp; Property Management</h2>
+                <p class="lede mt-3">Community-wide capital renewal: sidewalks, drive lanes, curb &amp; gutter, parking
+                    lots, and asphalt maintenance.</p>
+                <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Capital renewal</span><span
+                        class="tag">Sidewalks</span><span class="tag">Repair</span></div>
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/hoa-property-management"
+                        class="btn btn-navy btn-arrow">View Service Details</a><a href="/contact"
+                        class="btn btn-outline-navy">Request a Quote</a></div>
+            </div>
+        </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="asphalt">
             <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/paving.jpg') }}"
                     alt="Asphalt Paving &amp; Repair" class="ratio-4-3 img-treat"></div>
@@ -24,9 +39,8 @@
                     sealcoating, and striping for parking lots.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Mill &amp; overlay</span><span
                         class="tag">Sealcoat</span><span class="tag">Striping</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/asphalt"
-                        class="btn btn-navy btn-arrow">View Service Details</a><a href="/contact"
-                        class="btn btn-outline-navy">Request a Quote</a></div>
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/asphalt" class="btn btn-navy btn-arrow">View
+                        Service Details</a><a href="/contact" class="btn btn-outline-navy">Request a Quote</a></div>
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="masonry">
@@ -38,9 +52,9 @@
                     structural CMU site work.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Sandstone</span><span
                         class="tag">Brick</span><span class="tag">Retaining walls</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/masonry"
-                        class="btn btn-navy btn-arrow">View Service Details</a><a href="./contact.html"
-                        class="btn btn-outline-navy">Request a Quote</a></div>
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/masonry" class="btn btn-navy btn-arrow">View
+                        Service Details</a><a href="./contact.html" class="btn btn-outline-navy">Request a Quote</a>
+                </div>
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="snow-melt">
@@ -57,21 +71,7 @@
                         class="btn btn-outline-navy">Request a Quote</a></div>
             </div>
         </div>
-        <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
-            id="hoa-property-management">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management"
-                    class="ratio-4-3 img-treat"></div>
-            <div class="col-lg-6"><span class="num-eyebrow">05 / 06</span>
-                <h2 class="ff-display display-md mt-2">HOA &amp; Property Management</h2>
-                <p class="lede mt-3">Community-wide capital renewal: sidewalks, drive lanes, curb &amp; gutter, parking
-                    lots, and asphalt maintenance.</p>
-                <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Capital renewal</span><span
-                        class="tag">Sidewalks</span><span class="tag">Repair</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/hoa-property-management"
-                        class="btn btn-navy btn-arrow">View Service Details</a><a href="/contact"
-                        class="btn btn-outline-navy">Request a Quote</a></div>
-            </div>
-        </div>
+        
         <!-- <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
             id="concrete-finishes">
             <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/finish.jpg') }}"

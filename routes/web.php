@@ -10,6 +10,7 @@ Route::view('/terms', 'pages.terms')->name('terms');
 Route::view('/gallery', 'pages.gallery')->name('gallery');
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::view('/about', 'pages.about')->name('about');
+Route::view('/blog', 'pages.blog')->name('blog');
 Route::view('/faq', 'pages.faq')->name('faq');
 
 
@@ -81,7 +82,14 @@ Route::view('/services/snow-melt', 'sections.services.snow-melt')
 Route::view('/services/hoa-property-management', 'sections.services.hoa-property-management')
     ->name('hoa-property-management');
 
+Route::view('/why-proper-concrete-flatwork-matters-for-longevity-and-safety', 'sections.blog.blog-details.why-proper-concrete-flatwork-matters-for-longevity-and-safety')
+  ->name('snow-melt-systems-what-property-managers-need-to-know');
 
+Route::view('/how-concrete-companies-ensure-long-lasting-structures', 'sections.blog.blog-details.how-concrete-companies-ensure-long-lasting-structures')
+  ->name('how-concrete-companies-ensure-long-lasting-structures');
+
+Route::view('/what-to-look-for-when-hiring-a-concrete-company', 'sections.blog.blog-details.what-to-look-for-when-hiring-a-concrete-company')
+  ->name('what-to-look-for-when-hiring-a-concrete-company');
 
 
 foreach ($serviceAreaLocations as $serviceAreaLocation) {

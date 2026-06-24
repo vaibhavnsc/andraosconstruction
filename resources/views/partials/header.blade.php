@@ -99,6 +99,12 @@
                              </a>
                          </li>
                          <li>
+                             <a class="dropdown-item{{ request()->is('blog*') ? ' active' : '' }}"
+                                href="{{ route('blog') }}">
+                                  Blog
+                             </a>
+                         </li>
+                         <li>
                              <a class="dropdown-item{{ request()->is('faq*') ? ' active' : '' }}"
                                 href="{{ route('faq') }}">
                                   FAQs
