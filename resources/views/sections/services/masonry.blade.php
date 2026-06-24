@@ -3,8 +3,7 @@
 @section('content')
 
 <header class="page-hero">
-    <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true"
-        data-bg="/assets/images/masonry.jpg"
+    <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true" data-bg="/assets/images/masonry.jpg"
         style="background-image: url(/assets/images/masonry.jpg;);"></div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
     <div class="container">
@@ -66,18 +65,16 @@
                 <div class="sidebar-card">
                     <h2 class="sidebar-card__title">All Services</h2>
                     <nav id="js-service-nav"><a class="service-nav-link"
-                            href="service-detail?service=commercial-concrete">Commercial Concrete<span
+                            href="/services/commercial-concrete">Commercial Concrete<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="service-detail?service=asphalt">Asphalt Paving &amp; Repair<span
+                            href="/services/asphalt">Asphalt Paving &amp; Repair<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
-                            href="service-detail?service=masonry">Commercial Masonry<span
+                            href="/services/masonry">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="service-detail?service=snow-melt">Snow Melt Systems<span
+                            href="/services/snow-melt">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="service-detail?service=hoa-property-management">HOA &amp; Property
-                            Management<span aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="service-detail?service=concrete-finishes">Concrete Finishes<span
-                                aria-hidden="true">→</span></a></nav>
+                            href="/services/hoa-property-management">HOA &amp; Property
+                            Management<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

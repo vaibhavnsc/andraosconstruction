@@ -2,7 +2,8 @@
 
 @section('content')
 
-@include('sections.faq.banner')
+@include('sections.blog.banner')
+@include('sections.blog.article')
 
 @endsection
 
