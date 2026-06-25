@@ -80,25 +80,25 @@ window.AndraosData = (function () {
   ];
 
   /* ---- Featured projects (gallery) -------------------------------------- */
-  var PROJECTS = [
-    { name: "Shadow Canyon HOA",      category: "hoa",         meta: "Community renewal &middot; Front Range", image: "andraos-construction-gallery-037-665h.jpg" },
-    { name: "Marriott Boulder",       category: "hospitality", meta: "Drive court &middot; Boulder",           image: "andraos-construction-gallery-001-665h.jpg" },
-    { name: "Boulder Village Plaza",  category: "retail",      meta: "Streetscape masonry",                    image: "andraos-construction-gallery-022-665h.jpg" },
-    { name: "Rocky Mountain Kids",    category: "retail",      meta: "Boulder &middot; Sandstone",             image: "andraos-construction-gallery-018-665h.jpg" },
-    { name: "Cherry Creek Pedway",    category: "civic",       meta: "Sidewalk replacement &middot; Denver",   image: "andraos-construction-gallery-006-665h.jpg" },
-    { name: "Logan Reserve Drives",   category: "hoa",         meta: "Aurora &middot; 14 drive lanes",         image: "andraos-construction-gallery-043-665h.jpg" },
-    { name: "Sloan Crossing Lot",     category: "retail",      meta: "Westminster &middot; Mill &amp; overlay", image: "andraos-construction-gallery-040-665h.jpg" },
-    { name: "The Village Sandstone",  category: "retail",      meta: "Boulder &middot; Architectural masonry", image: "andraos-construction-gallery-028-665h.jpg" }
-  ];
+  // var PROJECTS = [
+  //   { name: "Shadow Canyon HOA",      category: "hoa",         meta: "Community renewal &middot; Front Range", image: "andraos-construction-gallery-037-665h.jpg" },
+  //   { name: "Marriott Boulder",       category: "hospitality", meta: "Drive court &middot; Boulder",           image: "andraos-construction-gallery-001-665h.jpg" },
+  //   { name: "Boulder Village Plaza",  category: "retail",      meta: "Streetscape masonry",                    image: "andraos-construction-gallery-022-665h.jpg" },
+  //   { name: "Rocky Mountain Kids",    category: "retail",      meta: "Boulder &middot; Sandstone",             image: "andraos-construction-gallery-018-665h.jpg" },
+  //   { name: "Cherry Creek Pedway",    category: "civic",       meta: "Sidewalk replacement &middot; Denver",   image: "andraos-construction-gallery-006-665h.jpg" },
+  //   { name: "Logan Reserve Drives",   category: "hoa",         meta: "Aurora &middot; 14 drive lanes",         image: "andraos-construction-gallery-043-665h.jpg" },
+  //   { name: "Sloan Crossing Lot",     category: "retail",      meta: "Westminster &middot; Mill &amp; overlay", image: "andraos-construction-gallery-040-665h.jpg" },
+  //   { name: "The Village Sandstone",  category: "retail",      meta: "Boulder &middot; Architectural masonry", image: "andraos-construction-gallery-028-665h.jpg" }
+  // ];
 
   /* ---- Gallery filters -------------------------------------------------- */
-  var FILTERS = [
-    { id: "all",         label: "All Work" },
-    { id: "hoa",         label: "Property &amp; HOA" },
-    { id: "hospitality", label: "Hospitality" },
-    { id: "retail",      label: "Retail" },
-    { id: "civic",       label: "Civic" }
-  ];
+  // var FILTERS = [
+  //   { id: "all",         label: "All Work" },
+  //   { id: "hoa",         label: "Property &amp; HOA" },
+  //   { id: "hospitality", label: "Hospitality" },
+  //   { id: "retail",      label: "Retail" },
+  //   { id: "civic",       label: "Civic" }
+  // ];
 
   /* ---- "Why Andraos" points --------------------------------------------- */
   var WHY = [
