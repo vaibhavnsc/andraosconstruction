@@ -1,5 +1,5 @@
 <header class="page-hero">
-  <div class="page-hero__bg" data-bg="{{ asset('assets/images/andraos-about-hero.jpg') }}" aria-hidden="true"></div>
+  <div class="page-hero__bg" data-bg="{{ asset('/assets/images/andraos-about-hero.jpg') }}" aria-hidden="true"></div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">

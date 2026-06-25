@@ -1049,6 +1049,111 @@ ul.dropdown-menu.service-area-dropdown.show hr {
 }
 .faq-jump:hover { border-color: var(--color-navy-900); color: var(--color-navy-900); }
 
+/* ==========================================================================
+   19. TEAM BIOS (About page)
+   ========================================================================== */
+.team-card {
+  background: #fff;
+  border: 1px solid var(--color-slate-200);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.team-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+
+/* Real headshot */
+.team-card__photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  filter: contrast(1.04) saturate(0.92);
+}
+/* Initials monogram fallback (used until a real headshot is supplied) */
+.team-card__monogram {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-items: center;
+  background: var(--color-navy-900);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(48px, 7vw, 72px);
+  letter-spacing: -0.02em;
+}
+/* Subtle striped texture so the monogram reads as an intentional placeholder */
+.team-card__monogram {
+  background-image:
+    repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 14px);
+  background-color: var(--color-navy-900);
+}
+
+.team-card__body { padding: 24px; }
+.team-card__name {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.018em;
+  color: var(--color-ink);
+  margin: 0;
+}
+.team-card__role {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 6px 0 14px;
+}
+.team-card__bio {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--color-slate-600);
+  margin: 0;
+}
+
+
+/* ==========================================================================
+   20. BRAND / CLIENT STRIP ("Companies We've Worked With" — home)
+   ========================================================================== */
+.brand-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid var(--color-slate-200);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.brand-tile:hover { border-color: var(--color-navy-900); transform: translateY(-2px); }
+
+/* Real client logo */
+.brand-logo-img {
+  max-height: 56px;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.75;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+.brand-tile:hover .brand-logo-img { filter: grayscale(0); opacity: 1; }
+
+/* Wordmark fallback (used until a real logo file is supplied) */
+.brand-wordmark {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+  color: var(--color-slate-500);
+  text-align: center;
+  line-height: 1.15;
+  transition: color 0.2s ease;
+}
+.brand-tile:hover .brand-wordmark { color: var(--color-navy-900); }
+
+
 
 /* ==========================================================================
    18. RESPONSIVE OVERRIDES

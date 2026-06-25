@@ -11,7 +11,8 @@
 
 @section('content')
     @include('sections.home.hero')
-    @include('sections.home.trust')
+    @include('sections.home.trusted-by')
+    <!-- @include('sections.home.trust') -->
     @include('sections.home.about')
     @include('sections.home.services')
  
