@@ -87,35 +87,35 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0015.jpg') }}"
+                <figure class="proj m-0"><img src="{{ asset('/assets/images/commercial/IMG_0015.jpg') }}"
                         alt="Commercial Concrete">
                     <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Commercial
                             Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0026.jpg') }}"
+                <figure class="proj m-0"><img src="{{ asset('/assets/images/commercial/IMG_0026.jpg') }}"
                         alt="Commercial Concrete">
                     <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Commercial
                             Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0051.jpg') }}"
+                <figure class="proj m-0"><img src="{{ asset('/assets/images/commercial/IMG_0051.jpg') }}"
                         alt="Commercial Concrete">
                     <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Commercial
                             Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0069.jpg') }}"
+                <figure class="proj m-0"><img src="{{ asset('/assets/images/commercial/IMG_0069.jpg') }}"
                         alt="Commercial Concrete">
                     <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Commercial
                             Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_3620.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('/assets/images/commercial/IMG_3620.jpeg') }}"
                         alt="Commercial Concrete">
                     <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Commercial
                             Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
