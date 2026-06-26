@@ -137,6 +137,7 @@ Route::view('service-areas/locations/longmont', 'sections.service-areas.location
 Route::view('service-areas/locations/englewood', 'sections.service-areas.locations.englewood')
     ->name('locations.englewood');
 
+    
 /*
 |--------------------------------------------------------------------------
 | Fallback function
@@ -146,3 +147,5 @@ Route::view('service-areas/locations/englewood', 'sections.service-areas.locatio
 Route::fallback(function () {
     return response()->view('pages.404', [], 404);
 });
+
+
