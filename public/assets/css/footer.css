@@ -2,7 +2,7 @@
     background: #010d1f;
     color: #fff;
     padding: 80px 0 40px;
-    border-top: 1px solid rgba(197, 155, 95, 0.25);
+    /* border-top: 1px solid rgba(197, 155, 95, 0.25); */
 }
 
 .footer-top {
@@ -57,7 +57,7 @@
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(255,255,255,.08);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.5);
     padding-top: 35px;
 
     display: flex;

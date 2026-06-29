@@ -27,6 +27,20 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
+                <a href="./services#hoa-property-management" class="svc-card d-block text-decoration-none">
+                    <div class="svc-card" id="hoa-property-management"><img src="{{ asset('assets/images/hoa.jpg') }}"
+                            alt="HOA &amp; Property Management">
+                        <div class="num-eyebrow mt-3">05 / 06</div>
+                        <h3 class="text-white">HOA &amp; Residential Concrete</h3>
+                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Community-wide capital renewal:
+                            sidewalks,
+                            drive lanes, curb &amp; gutter, parking lots, and asphalt maintenance.</p>
+                        <div class="d-flex flex-wrap gap-1"><span class="tag">Capital renewal</span><span
+                                class="tag">Sidewalks</span><span class="tag">Repair</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
                 <a href="./services#asphalt" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="asphalt"><img src="{{ asset('assets/images/paving.jpg') }}"
                             alt="Asphalt Paving &amp; Repair">
@@ -68,20 +82,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <a href="./services#hoa-property-management" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="hoa-property-management"><img src="{{ asset('assets/images/hoa.jpg') }}"
-                            alt="HOA &amp; Property Management">
-                        <div class="num-eyebrow mt-3">05 / 06</div>
-                        <h3 class="text-white">HOA &amp; Property Management</h3>
-                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Community-wide capital renewal:
-                            sidewalks,
-                            drive lanes, curb &amp; gutter, parking lots, and asphalt maintenance.</p>
-                        <div class="d-flex flex-wrap gap-1"><span class="tag">Capital renewal</span><span
-                                class="tag">Sidewalks</span><span class="tag">Repair</span></div>
-                    </div>
-                </a>
-            </div>
+            
             <!-- <div class="col-lg-4 col-md-6">
                 <a href="./services#concrete-finishes" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="concrete-finishes"><img src="{{ asset('assets/images/finish.jpg') }}"

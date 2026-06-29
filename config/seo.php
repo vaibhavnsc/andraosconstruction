@@ -14,6 +14,10 @@ return [
             'meta_title' => 'Commercial Services — Concrete, Asphalt, Masonry &amp; Snow Melt | Andraos Construction',
             'meta_description' => 'Commercial concrete, asphalt paving, masonry, snow-melt systems, HOA & property management, and concrete finishes across the Colorado Front Range. Self-performed since 1993.',
         ],
+         'blog' => [
+            'meta_title' => 'Blog | Andraos Construction',
+            'meta_description' => 'Visit our blog to see the latest news and updates from Andraos Construction.',
+        ],
         'service-areas' => [
             'meta_title' => 'Service Areas — Commercial Concrete &amp; Asphalt on the Colorado Front Range | Andraos Construction',
             'meta_description' => 'Andraos Construction serves Denver, Aurora, Boulder, Littleton, Highlands Ranch, Castle Rock, Parker and more across the Colorado Front Range. Find your city.',
@@ -81,6 +85,30 @@ return [
             'westminster' => [
             'meta_title' => 'Westminster Commercial Concrete & Asphalt Services | Andraos Construction',
             'meta_description' => 'Commercial concrete & asphalt in Westminster, CO. Retail centers, multifamily, full-site parking lot rehabilitation. Jefferson & Adams Counties since 1993.',
+        ],
+           'why-proper-concrete-flatwork-matters-for-longevity-and-safety' => [
+            'meta_title' => 'Why Proper Concrete Flatwork Matters for Longevity and Safety',
+            'meta_description' => 'Are you wondering how concrete flatwork contractors ensure the longevity and safety of your project? Here are some of the top things you should know.',
+        ],
+            'how-concrete-companies-ensure-long-lasting-structures' => [
+            'meta_title' => 'How Concrete Companies Ensure Long-Lasting Structures',
+            'meta_description' => 'Concrete companies employ a combination of high-quality materials, precise manufacturing, and cutting-edge design techniques to build structures meant to last.',
+        ],
+             'what-to-look-for-when-hiring-a-concrete-company' => [
+            'meta_title' => 'What to Look for When Hiring a Concrete Company',
+            'meta_description' => 'Choosing the right concrete company involves examining their experience, adoption of modern practices, and communication style. Read on to learn more!',
+        ],
+              'commercial-concrete' => [
+            'meta_title' => 'Commercial Concrete Companies Denver | Andraos Construction',
+            'meta_description' => 'Are you looking for commercial concrete companies in Denver, CO? Call or text Andraos Construction today for expert services with detailed estimates.',
+        ],
+              'masonry' => [
+            'meta_title' => 'Masonry Services | Andraos Construction | Denver, CO Area',
+            'meta_description' => 'Get expert masonry services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.',
+        ],
+              'asphalt' => [
+            'meta_title' => 'Asphalt Services | Andraos Construction | Denver, CO Area',
+            'meta_description' => 'Get expert asphalt services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.',
         ],
     ],
 ];  

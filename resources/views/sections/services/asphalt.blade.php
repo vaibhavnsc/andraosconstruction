@@ -1,5 +1,19 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('asphalt');
+
+    $title = $seo->meta_title ?? 'Asphalt Services | Andraos Construction | Denver, CO Area';
+
+    $description = $seo->meta_description
+        ?? 'Get expert asphalt services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.';
+@endphp 
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
+
 @section('content')
 
 <header class="page-hero">

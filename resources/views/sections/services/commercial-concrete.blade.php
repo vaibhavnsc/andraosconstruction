@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('commercial-concrete');
+
+    $title = $seo->meta_title ?? 'Commercial Concrete Companies Denver | Andraos Construction';
+
+    $description = $seo->meta_description
+        ?? 'Are you looking for commercial concrete companies in Denver, CO? Call or text Andraos Construction today for expert services with detailed estimates.';
+@endphp 
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
 @section('content')
 
 <header class="page-hero">
@@ -10,7 +23,7 @@
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
-            <a href="">Services</a> &nbsp;/&nbsp;
+            <a href="/services">Services</a> &nbsp;/&nbsp;
             <span class="js-service-name">Commercial Concrete</span>
         </nav>
         <h1 class="js-service-name">Commercial Concrete</h1>
@@ -95,14 +108,14 @@
 
 
 <section class="section bg-navy-deep text-white text-center" aria-labelledby="svc-single-cta">
-    <div class="container reveal is-visible">
+      <div class="container reveal is-visible">
         <h2 id="svc-single-cta" class="ff-display display-xl text-white mx-auto maxw-20">
-            Let’s talk about your <span class="js-service-name">Commercial Concrete</span>.
+          Let’s talk about your <span class="js-service-name">Commercial Concrete</span>.
         </h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-            <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
-            <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
+          <a href="contact.html" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+          <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 @endsection
