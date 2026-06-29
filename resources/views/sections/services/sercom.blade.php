@@ -17,9 +17,9 @@
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
             id="hoa-property-management">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management"
+            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management"
                     class="ratio-4-3 img-treat"></div>
-            <div class="col-lg-6"><span class="num-eyebrow">05 / 06</span>
+            <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">02 / 06</span>
                 <h2 class="ff-display display-md mt-2">HOA &amp; Property Management</h2>
                 <p class="lede mt-3">Community-wide capital renewal: sidewalks, drive lanes, curb &amp; gutter, parking
                     lots, and asphalt maintenance.</p>
@@ -31,9 +31,9 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="asphalt">
-            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/paving.jpg') }}"
+            <div class="col-lg-6 "><img src="{{ asset('assets/images/paving.jpg') }}"
                     alt="Asphalt Paving &amp; Repair" class="ratio-4-3 img-treat"></div>
-            <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">02 / 06</span>
+            <div class="col-lg-6 "><span class="num-eyebrow">03 / 06</span>
                 <h2 class="ff-display display-md mt-2">Asphalt Paving &amp; Repair</h2>
                 <p class="lede mt-3">Mill &amp; overlay, full-depth removal &amp; replacement, crackfilling,
                     sealcoating, and striping for parking lots.</p>
@@ -44,9 +44,9 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="masonry">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/masonry.jpg') }}" alt="Commercial Masonry"
+            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/masonry.jpg') }}" alt="Commercial Masonry"
                     class="ratio-4-3 img-treat"></div>
-            <div class="col-lg-6"><span class="num-eyebrow">03 / 06</span>
+            <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">04 / 06</span>
                 <h2 class="ff-display display-md mt-2">Commercial Masonry</h2>
                 <p class="lede mt-3">Architectural stone walls, sandstone seat-walls, brick veneer, retaining walls, and
                     structural CMU site work.</p>
@@ -58,9 +58,9 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="snow-melt">
-            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/snow.jpg') }}" alt="Snow Melt Systems"
+            <div class="col-lg-6"><img src="{{ asset('assets/images/snow.jpg') }}" alt="Snow Melt Systems"
                     class="ratio-4-3 img-treat"></div>
-            <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">04 / 06</span>
+            <div class="col-lg-6"><span class="num-eyebrow">05 / 06</span>
                 <h2 class="ff-display display-md mt-2">Snow Melt Systems</h2>
                 <p class="lede mt-3">Hydronic snow-melt for entries, ADA ramps, drive courts, and walkways — embedded
                     during the original pour.</p>

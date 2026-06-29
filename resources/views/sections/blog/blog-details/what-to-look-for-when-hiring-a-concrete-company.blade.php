@@ -1,5 +1,16 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('what-to-look-for-when-hiring-a-concrete-company');
+
+    $title = $seo->meta_title ?? 'What to Look for When Hiring a Concrete Company';
+
+    $description = $seo->meta_description
+        ?? 'Choosing the right concrete company involves examining their experience, adoption of modern practices, and communication style. Read on to learn more!';
+@endphp  
+
+@section('meta_title', $title)
+@section('meta_description', $description)
 
 @section('content')
 

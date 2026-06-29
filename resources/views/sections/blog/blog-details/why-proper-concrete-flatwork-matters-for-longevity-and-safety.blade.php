@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('why-proper-concrete-flatwork-matters-for-longevity-and-safety');
+
+    $title = $seo->meta_title ?? 'Why Proper Concrete Flatwork Matters for Longevity and Safety';
+
+    $description = $seo->meta_description
+        ?? 'Are you wondering how concrete flatwork contractors ensure the longevity and safety of your project? Here are some of the top things you should know.';
+@endphp  
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 
 @section('content')
 

@@ -6,7 +6,8 @@
             <!-- Logo -->
             <div class="col-lg-4 col-md-12 footer-brand">
 
-                <a href="/"><img src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction" class="footer-logo"></a>
+                <a href="/"><img src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction"
+                        class="footer-logo"></a>
                 <p class="footer-tagline">
                     Commercial concrete, asphalt & masonry
                     for the Colorado Front Range since 1993.
@@ -16,7 +17,7 @@
 
             <!-- Services -->
             <div class="col-lg-2 col-6 service-area">
- 
+
                 <h6>Services</h6>
 
                 <a href="{{ route('commercial-concrete') }}" class="footer-link">Commercial Concrete</a>
@@ -91,3 +92,6 @@
 
     </div>
 </footer>
+
+<nav id="mobile-cta" aria-label="Quick contact" class="mobile-cta"><a href="tel:+13034793181">☏ Call</a><a
+        href="sms:+13034793181">✉ Text</a><a href="../contact.html" class="is-primary">→ Quote</a></nav>

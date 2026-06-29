@@ -91,57 +91,61 @@
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_3620.jpeg') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Commercial
-                            Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Retail Center / Wildcat</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0067.jpg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Whole Foods</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0068.jpg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Whole Foods</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0041.jpg') }}"
                         alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential
-                            Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Patio</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0054.jpg') }}"
                         alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential
-                            Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Porch</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0061.jpg') }}"
                         alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential
-                            Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Pool Deck / Residential Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0079.jpg') }}"
                         alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential
-                            Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Highlands Ranch Residential</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_5912.jpg') }}"
                         alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential
-                            Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Before Stair Project</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_7038.jpg') }}"
                         alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential
-                            Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">After Stair Project</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0161.jpg') }}"
                         alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential
-                            Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Castle Pines Decorative Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -260,9 +264,27 @@
                             class="small text-white-50">Concrete Finishes</span></figcaption>
                 </figure>
             </div>
+             <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/IMG_3610.jpg') }}" alt="Concrete Finishes">
+                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Acid Stain Finish</span><span
+                            class="small text-white-50">Concrete Finishes</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/IMG_0110.jpg') }}" alt="Concrete Finishes">
+                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Stamped Concrete</span><span
+                            class="small text-white-50">Concrete Finishes</span></figcaption>
+                </figure>
+            </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/IMG_1450.jpg') }}" alt="Commercial Masonry Before/After">
                     <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Commercial Masonry Before/After</span><span
+                            class="small text-white-50">Masonry</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/IMG_0038.jpg') }}" alt="Commercial Masonry Before/After">
+                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">DTC Masonry Project </span><span
                             class="small text-white-50">Masonry</span></figcaption>
                 </figure>
             </div>

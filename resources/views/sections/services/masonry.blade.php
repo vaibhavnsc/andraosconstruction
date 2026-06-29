@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('masonry');
+
+    $title = $seo->meta_title ?? 'Masonry Services | Andraos Construction | Denver, CO Area';
+
+    $description = $seo->meta_description
+        ?? 'Get expert masonry services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.';
+@endphp 
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
 @section('content')
 
 <header class="page-hero">

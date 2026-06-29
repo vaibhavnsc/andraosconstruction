@@ -7,7 +7,7 @@
 
     $description = $seo->meta_description
         ?? 'Andraos Construction has been serving Denver since 1993. Learn more about our services! Serving the Denver, CO Metro Area.';
-@endphp
+@endphp 
 
 @section('meta_title', $title)
 @section('meta_description', $description)
