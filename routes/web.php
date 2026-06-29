@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QuoteController;
+
 
 Route::view('/', 'pages.home')->name('home');
 
@@ -149,3 +151,7 @@ Route::fallback(function () {
 });
 
 
+// contact form submit 
+
+Route::post('/quote-submit', [QuoteController::class, 'submit'])
+    ->name('quote.submit');
