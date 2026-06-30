@@ -3,7 +3,7 @@
       <div class="container d-flex justify-content-between align-items-center py-2">
         <div class="d-none d-lg-block">◷ Mon–Fri · 6:00am – 6:00pm &nbsp;·&nbsp; Serving the Front Range &amp; Mountain Communities Since 1993</div>
         <div class="d-flex align-items-center gap-3">
-          <a href="tel:+13034793181" class="d-flex align-items-center gap-2 fw-semibold"><span class="dot"></span>(303) 479-3181</a>
+          <a href="tel:+3039153703" class="d-flex align-items-center gap-2 fw-semibold"><span class="dot"></span>(303) 915-3703</a>
           <a href="/contact" class="utility-cta ps-3 border-start border-secondary">Request Call Back</a>
         </div>
       </div>

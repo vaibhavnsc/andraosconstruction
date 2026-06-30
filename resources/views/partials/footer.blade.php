@@ -63,8 +63,8 @@
 
                 <h6>Company</h6>
 
-                <a href="tel:+13034793181" class="footer-link">
-                    (303) 479-3181
+                <a href="tel:+3039153703" class="footer-link">
+                    (303) 915-3703
                 </a>
 
                 <a href="/about" class="footer-link">About</a>

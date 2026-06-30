@@ -34,4 +34,4 @@ Homestead.yaml
 
 Thumbs.db
 
-/storage/framework/*.views
+/storage/framework/*.views 
