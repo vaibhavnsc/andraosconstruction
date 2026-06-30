@@ -43,4 +43,4 @@
           </div>
         </div>
       </div>
-    </section>
+    </section><?php /**PATH D:\andraosconstruction\resources\views/sections/about/about.blade.php ENDPATH**/ ?>

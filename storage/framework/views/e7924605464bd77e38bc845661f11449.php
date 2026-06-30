@@ -1,7 +1,7 @@
 <section class="section" aria-label="Service details">
     <div class="container" id="js-service-detail">
         <div class="row g-5 align-items-center reveal anchor-offset is-visible" id="commercial-concrete">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/commercial-concrete.jpeg') }}" alt="Commercial Concrete"
+            <div class="col-lg-6"><img src="<?php echo e(asset('assets/images/commercial-concrete.jpeg')); ?>" alt="Commercial Concrete"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6"><span class="num-eyebrow">01 / 05</span>
                 <h2 class="ff-display display-md mt-2">Commercial Concrete</h2>
@@ -17,7 +17,7 @@
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
             id="hoa-property-management">
-            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management"
+            <div class="col-lg-6 order-lg-2"><img src="<?php echo e(asset('assets/images/hoa.jpg')); ?>" alt="HOA &amp; Property Management"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">02 / 05</span>
                 <h2 class="ff-display display-md mt-2">HOA &amp; Property Management</h2>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="asphalt">
-            <div class="col-lg-6 "><img src="{{ asset('assets/images/paving.jpg') }}"
+            <div class="col-lg-6 "><img src="<?php echo e(asset('assets/images/paving.jpg')); ?>"
                     alt="Asphalt Paving &amp; Repair" class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 "><span class="num-eyebrow">03 / 05</span>
                 <h2 class="ff-display display-md mt-2">Asphalt Paving &amp; Repair</h2>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="masonry">
-            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/masonry.jpg') }}" alt="Commercial Masonry"
+            <div class="col-lg-6 order-lg-2"><img src="<?php echo e(asset('assets/images/masonry.jpg')); ?>" alt="Commercial Masonry"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">04 / 05</span>
                 <h2 class="ff-display display-md mt-2">Commercial Masonry</h2>
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="snow-melt">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/snow.jpg') }}" alt="Snow Melt Systems"
+            <div class="col-lg-6"><img src="<?php echo e(asset('assets/images/snow.jpg')); ?>" alt="Snow Melt Systems"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6"><span class="num-eyebrow">05 / 05</span>
                 <h2 class="ff-display display-md mt-2">Snow Melt Systems</h2>
@@ -74,16 +74,16 @@
         
         <!-- <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
             id="concrete-finishes">
-            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/finish.jpg') }}"
+            <div class="col-lg-6 order-lg-2"><img src="<?php echo e(asset('assets/images/finish.jpg')); ?>"
                     alt="Concrete Finishes" class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">06 / 05</span>
                 <h2 class="ff-display display-md mt-2">Concrete Finishes</h2>
                 <p class="lede mt-3">Broom, exposed aggregate, stamped, and integral color finishes for entrances,
                     plazas, and feature flatwork.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Broom</span><span
-                        class="tag">Stamped</span><span class="tag">Exposed</span></div><a href="{{ route('contact') }}"
+                        class="tag">Stamped</span><span class="tag">Exposed</span></div><a href="<?php echo e(route('contact')); ?>"
                     class="btn btn-outline-navy btn-arrow mt-4">Request a Quote</a>
             </div>
         </div> -->
     </div>
-</section>
+</section><?php /**PATH D:\andraosconstruction\resources\views/sections/services/sercom.blade.php ENDPATH**/ ?>
