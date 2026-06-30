@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="assets/images/andraos-about-hero.jpg"
+            <img src="assets/images/andraos-about.jpg"
                  alt="The Andraos Construction team on a Denver job site"
                  class="ratio-4-5 img-treat obj-pos-top">
           </div>
