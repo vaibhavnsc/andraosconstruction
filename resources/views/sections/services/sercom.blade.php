@@ -1,7 +1,7 @@
 <section class="section" aria-label="Service details">
     <div class="container" id="js-service-detail">
         <div class="row g-5 align-items-center reveal anchor-offset is-visible" id="commercial-concrete">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/commercial.jpg') }}" alt="Commercial Concrete"
+            <div class="col-lg-6"><img src="{{ asset('assets/images/commercial-concrete.jpeg') }}" alt="Commercial Concrete"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6"><span class="num-eyebrow">01 / 06</span>
                 <h2 class="ff-display display-md mt-2">Commercial Concrete</h2>

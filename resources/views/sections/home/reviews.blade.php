@@ -1,4 +1,4 @@
-<section class="section bg-navy text-white" id="reviews">
+<!-- <section class="section bg-navy text-white" id="reviews">
     <div class="container">
         <div class="row g-5 reveal in">
             <div class="col-lg-5">
@@ -60,4 +60,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

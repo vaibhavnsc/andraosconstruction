@@ -30,7 +30,7 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction43.jpg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction43.jpeg') }}"
                         alt="Logan Reserve Drives — Aurora · 14 drive lanes">
                     <figcaption class="ov"><span class="cat">hoa</span><span class="nm">Logan
                             Reserve Drives</span><span class="small text-white-50">Aurora · 14 drive lanes</span>
@@ -95,7 +95,7 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0067.jpg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0067.jpeg') }}"
                         alt="Commercial Concrete">
                     <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Whole Foods</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
@@ -223,55 +223,19 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/gallery-28.jpg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Concrete Finishes</span><span
+                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/Colored-concrete.jpeg') }}" alt="Concrete Finishes">
+                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Colored Concrete</span><span
                             class="small text-white-50">Concrete Finishes</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/gallery-29.jpg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Concrete Finishes</span><span
+                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/Exposed-aggregate.jpg') }}" alt="Exposed Aggregate">
+                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Exposed Aggregate</span><span
                             class="small text-white-50">Concrete Finishes</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/gallery-30.jpg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Concrete Finishes</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/gallery-31.jpg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Concrete Finishes</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/gallery-32.jpg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Concrete Finishes</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/gallery-33.jpg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Concrete Finishes</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/gallery-34.jpg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Concrete Finishes</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/IMG_3610.jpeg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Acid Stain Finish</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/IMG_0110.jpeg') }}" alt="Concrete Finishes">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/Stamped-concrete.JPG') }}" alt="Concrete Finishes">
                     <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Stamped Concrete</span><span
                             class="small text-white-50">Concrete Finishes</span></figcaption>
                 </figure>

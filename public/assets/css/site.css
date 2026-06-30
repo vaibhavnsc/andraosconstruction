@@ -179,7 +179,7 @@ a { text-decoration: none; }
 
 /* Fixed aspect-ratio image wrappers */
 .ratio-4-3 { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
-.ratio-4-5 { aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+.ratio-4-5 { aspect-ratio: 4 / 5; object-fit: fill; width: 100%; }
 .ratio-16-9 { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; }
 
 /* Focus the subject slightly above center (used on team photo) */

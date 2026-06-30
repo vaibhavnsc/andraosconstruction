@@ -93,5 +93,8 @@
     </div>
 </footer>
 
-<nav id="mobile-cta" aria-label="Quick contact" class="mobile-cta"><a href="tel:+13034793181">☏ Call</a><a
-        href="sms:+13034793181">✉ Text</a><a href="../contact.html" class="is-primary">→ Quote</a></nav>
+<nav id="mobile-cta" aria-label="Quick contact" class="mobile-cta">
+    <a href="tel:+13034793181">☏ Call</a>
+    <a href="sms:+13034793181">✉ Text</a>
+    <a href="/contact" class="is-primary">→ Quote</a>
+</nav>

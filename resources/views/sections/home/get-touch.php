@@ -19,9 +19,9 @@
 <!-- 
 Google Reviews -->
         
-    <!-- <div class="Google reviews">
+    <div class="Google reviews">
         <div class="eyebrow on-dark text-center mt-5">Reviews</div>
         <h2 class="ff-display display-lg mt-3 text-black text-center">In Their Words</h2>
         <script src="https://elfsightcdn.com/platform.js" async></script>
         <div class="elfsight-app-e281f7ed-8969-49db-a3c7-26e061fe3a69" data-elfsight-app-lazy></div>
-    </div> -->
+    </div>
