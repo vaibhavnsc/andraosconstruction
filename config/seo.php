@@ -24,7 +24,7 @@ return [
         ],
         'contact' => [
             'meta_title' => 'Contact Andraos Construction — Request a Commercial Estimate | Denver, CO',
-            'meta_description' => 'Request a commercial concrete, asphalt or masonry estimate from Andraos Construction. Serving the Colorado Front Range since 1993. Call (303) 479-3181.',
+            'meta_description' => 'Request a commercial concrete, asphalt or masonry estimate from Andraos Construction. Serving the Colorado Front Range since 1993. Call (303) 915-3703.',
         ],
         'terms' => [
             'meta_title' => 'Terms & Conditions | Andraos Construction',
@@ -44,7 +44,7 @@ return [
         ],
           'denver' => [
             'meta_title' => 'Commercial Concrete Contractors in Denver, CO | Andraos Construction',
-            'meta_description' => 'Commercial concrete, asphalt & masonry contractor serving Denver, Colorado since 1993. Flatwork, ADA sidewalks, parking lots. Licensed & insured. Call (303) 479-3181.',
+            'meta_description' => 'Commercial concrete, asphalt & masonry contractor serving Denver, Colorado since 1993. Flatwork, ADA sidewalks, parking lots. Licensed & insured. Call (303) 915-3703.',
         ],
           'aurora' => [
             'meta_title' => 'Commercial Concrete & Asphalt in Aurora, CO | Andraos Construction',

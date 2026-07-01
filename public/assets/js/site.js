@@ -34,7 +34,7 @@
     function buildLink(path)  { return BASE + "/" + path; }
     function buildImage(file) { return BASE + "/assets/images/" + file; }
 
-    var PHONE_DISPLAY = "(303) 479-3181";
+    var PHONE_DISPLAY = "(303) 915-3703";
     var PHONE_HREF    = "tel:+3039153703";
 
 

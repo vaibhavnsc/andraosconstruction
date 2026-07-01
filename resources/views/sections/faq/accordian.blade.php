@@ -111,7 +111,7 @@
                                     data-bs-toggle="collapse" data-bs-target="#faqGroup2-item0" aria-expanded="false"
                                     aria-controls="faqGroup2-item0">How do I request an estimate?</button></h3>
                             <div id="faqGroup2-item0" class="accordion-collapse collapse" data-bs-parent="#faqGroup2">
-                                <div class="accordion-body">Call us at (303) 479-3181 or submit the form on our Contact
+                                <div class="accordion-body">Call us at (303) 915-3703 or submit the form on our Contact
                                     page. For standard commercial scopes we return a detailed, line-item estimate within
                                     3–5 business days. Emergency property-management repairs get a same-day response.
                                 </div>
@@ -160,7 +160,7 @@
                         Talk to a project manager directly — not a call center. We’ll walk you through
                         scope, schedule, and next steps.
                     </p>
-                    <a href="tel:+3039153703" class="btn btn-light-navy btn-arrow w-100 mb-2">Call (303) 479-3181</a>
+                    <a href="tel:+3039153703" class="btn btn-light-navy btn-arrow w-100 mb-2">Call (303) 915-3703</a>
                     <a href="contact" class="btn btn-outline-light btn-arrow w-100">Request a Quote</a>
                 </div>
             </aside>

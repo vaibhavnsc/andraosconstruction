@@ -10,7 +10,7 @@
 @section('meta_description', $description)
 
 @section('content')
-    @include('sections.home.hero')
+    @include('sections.home.hero-video')
     @include('sections.home.trusted-by')
     <!-- @include('sections.home.trust') -->
     @include('sections.home.about')
