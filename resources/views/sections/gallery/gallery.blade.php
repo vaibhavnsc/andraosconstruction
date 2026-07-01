@@ -147,18 +147,18 @@
                     <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Patio</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <!-- <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0054.jpeg') }}"
                         alt="Residential Concrete">
                     <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Porch</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
+            </div> -->
+            <!-- <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0061.jpeg') }}"
                         alt="Residential Concrete">
                     <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Pool Deck / Residential Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
-            </div>
+            </div> -->
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                         alt="Residential Concrete">

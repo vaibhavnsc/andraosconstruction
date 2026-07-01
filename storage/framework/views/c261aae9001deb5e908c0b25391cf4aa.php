@@ -12,9 +12,9 @@
         </div>
         <div class="row g-4" id="svcGrid">
             <div class="col-lg-4 col-md-6">
-                <a href="./services#commercial-concrete" class="svc-card d-block text-decoration-none">
+                <a href="./services/commercial-concrete" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="commercial-concrete"><img
-                            src="<?php echo e(asset('assets/images/commercial-concrete.jpeg')); ?>" alt="Commercial Concrete">
+                            src="<?php echo e(asset('assets/images/commercial.jpeg')); ?>" alt="Commercial Concrete">
                         <div class="num-eyebrow mt-3">01 / 05</div>
                         <h3 class="text-white">Commercial Concrete</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Flatwork, curb &amp; gutter,
@@ -27,8 +27,8 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services#hoa-property-management" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="hoa-property-management"><img src="<?php echo e(asset('assets/images/hoa.jpg')); ?>"
+                <a href="./services/hoa-property-management" class="svc-card d-block text-decoration-none">
+                    <div class="svc-card" id="hoa-property-management"><img src="<?php echo e(asset('assets/images/residential/IMG_0079.jpeg')); ?>"
                             alt="HOA &amp; Property Management">
                         <div class="num-eyebrow mt-3">02 / 05</div>
                         <h3 class="text-white">HOA &amp; Residential Concrete</h3>
@@ -41,7 +41,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services#asphalt" class="svc-card d-block text-decoration-none">
+                <a href="./services/asphalt" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="asphalt"><img src="<?php echo e(asset('assets/images/paving.jpg')); ?>"
                             alt="Asphalt Paving &amp; Repair">
                         <div class="num-eyebrow mt-3">03 / 05</div>
@@ -55,7 +55,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services#masonry" class="svc-card d-block text-decoration-none">
+                <a href="./services/masonry" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="masonry"><img src="<?php echo e(asset('assets/images/masonry.jpg')); ?>"
                             alt="Commercial Masonry">
                         <div class="num-eyebrow mt-3">04 / 05</div>
@@ -69,8 +69,8 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services#snow-melt" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="snow-melt"><img src="<?php echo e(asset('assets/images/snow.jpg')); ?>"
+                <a href="./services/snow-melt" class="svc-card d-block text-decoration-none">
+                    <div class="svc-card" id="snow-melt"><img src="<?php echo e(asset('assets/images/snowmelt/064-25f.jpeg')); ?>"
                             alt="Snow Melt Systems">
                         <div class="num-eyebrow mt-3">05 / 05</div>
                         <h3 class="text-white">Snow Melt Systems</h3>

@@ -56,7 +56,8 @@ Google Reviews -->
         
     <div class="Google reviews">
         <div class="eyebrow on-dark text-center mt-5">Reviews</div>
-        <h2 class="ff-display display-lg mt-3 text-black text-center">In Their Words</h2>
+        <h2 class="ff-display display-lg mt-3 mb-4 text-black text-center">In Their Words</h2>
+        <!-- Elfsight Google Reviews | Untitled Google Reviews -->
         <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div class="elfsight-app-e281f7ed-8969-49db-a3c7-26e061fe3a69" data-elfsight-app-lazy></div>
+        <div class="elfsight-app-db0f5b6a-6e3e-47d4-a4f6-009ef91c06ea" data-elfsight-app-lazy></div>
     </div><?php /**PATH D:\andraosconstruction\resources\views/sections/home/trusted-by.blade.php ENDPATH**/ ?>

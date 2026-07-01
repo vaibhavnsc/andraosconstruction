@@ -94,7 +94,7 @@
 </footer>
 
 <nav id="mobile-cta" aria-label="Quick contact" class="mobile-cta">
-    <a href="tel:+13034793181">☏ Call</a>
-    <a href="sms:+13034793181">✉ Text</a>
+    <a href="tel:+3039153703">☏ Call</a>
+    <a href="sms:+3039153703">✉ Text</a>
     <a href="/contact" class="is-primary">→ Quote</a>
 </nav>

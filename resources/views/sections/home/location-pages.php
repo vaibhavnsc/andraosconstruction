@@ -27,7 +27,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Denver</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Denver</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Aurora</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Aurora</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Littleton</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Littleton</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Highlands Ranch</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call
+                            Quote in Highlands Ranch</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call
                             (303) 479-3181</a></div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Castle Rock</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Castle Rock</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Parker</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Parker</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Englewood</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Englewood</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -249,7 +249,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Broomfield</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Broomfield</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -281,7 +281,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Boulder</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Boulder</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -313,7 +313,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Westminster</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Westminster</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -345,7 +345,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Thornton</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Thornton</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -377,7 +377,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Arvada</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Arvada</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>
@@ -409,7 +409,7 @@
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
-                            Quote in Longmont</a><a href="tel:+13034793181" class="btn btn-outline-navy">Call (303)
+                            Quote in Longmont</a><a href="tel:+3039153703" class="btn btn-outline-navy">Call (303)
                             479-3181</a></div>
                 </div>
             </div>

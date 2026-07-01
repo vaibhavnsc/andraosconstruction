@@ -102,6 +102,11 @@
       width: 100%;
     }
 }
+@media screen and (max-width: 1300px) {
+.elfsight-app-db0f5b6a-6e3e-47d4-a4f6-009ef91c06ea {
+    padding: 0px 30px;
+}
+}
 
   /* ── Cards / sections ── */
   .num-eyebrow { font-family:var(--font-mono); font-size:11px; letter-spacing:.16em; color:var(--accent); }
