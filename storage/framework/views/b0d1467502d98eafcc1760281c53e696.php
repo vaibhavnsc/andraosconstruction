@@ -6,6 +6,8 @@
                 Work</button><button type="button" class="filter-btn"
                 data-filter="commercial-concrete">Commercial Concrete</button>
                  <button type="button" class="filter-btn" data-filter="residential-concrete">Residential Concrete</button>
+                 <button type="button" class="filter-btn" data-filter="residential-patio">Residential Patio</button>
+                 <button type="button" class="filter-btn" data-filter="jones-residence">Jones Residence</button>
                 <button type="button" class="filter-btn" data-filter="hoa">Property &amp;
                HOA</button> <!-- <button type="button" class="filter-btn"
                 data-filter="hospitality">Hospitality</button><button type="button" class="filter-btn"
@@ -147,18 +149,18 @@
                     <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Patio</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <!-- <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential/IMG_0054.jpeg')); ?>"
                         alt="Residential Concrete">
                     <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Porch</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
+            </div> -->
+            <!-- <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential/IMG_0061.jpeg')); ?>"
                         alt="Residential Concrete">
                     <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Pool Deck / Residential Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
                 </figure>
-            </div>
+            </div> -->
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential/IMG_0079.jpeg')); ?>"
                         alt="Residential Concrete">
@@ -285,6 +287,60 @@
                 <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/masonry/IMG_0038.jpeg')); ?>" alt="Commercial Masonry Before/After">
                     <figcaption class="ov"><span class="cat">masonry</span><span class="nm">DTC Masonry Project </span><span
                             class="small text-white-50">Masonry</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential-patio/Acid_stained_patio.jpeg')); ?>" alt="Acid Stained Patio">
+                    <figcaption class="ov"><span class="cat">residential-patio</span><span class="nm">Acid Stained Patio </span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential-patio/Classical_gray_colored_patio_with_steps.jpeg')); ?>" alt="Classical Gray Colored Patio with Steps">
+                    <figcaption class="ov"><span class="cat">residential-patio</span><span class="nm">Classical Gray Colored Patio with Steps </span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential-patio/Colored_concrete_patio.jpeg')); ?>" alt="Colored Concrete Patio">
+                    <figcaption class="ov"><span class="cat">residential-patio</span><span class="nm">Colored Concrete Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential-patio/Colored_stamped_patio.jpeg')); ?>" alt="Colored Stamped Patio">
+                    <figcaption class="ov"><span class="cat">residential-patio</span><span class="nm">Colored Stamped Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential-patio/Concrete_and_masonry_patio.jpeg')); ?>" alt="Concrete and Masonry Patio">
+                    <figcaption class="ov"><span class="cat">residential-patio</span><span class="nm">Concrete and Masonry Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential-patio/Exposed_aggregate_patio.jpeg')); ?>" alt="Exposed Aggregate Patio">
+                    <figcaption class="ov"><span class="cat">residential-patio</span><span class="nm">Exposed Aggregate Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/residential-patio/Gray_patio_with_steps.jpeg')); ?>" alt="Gray Patio with Steps">
+                    <figcaption class="ov"><span class="cat">residential-patio</span><span class="nm">Gray Patio with Steps</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+             <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/jones-residence/before-Jones-residence.jpeg')); ?>" alt="Before Jones Residence">
+                    <figcaption class="ov"><span class="cat">jones-residence</span><span class="nm">Before Jones Residence</span><span
+                            class="small text-white-50">Jones Residence</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="<?php echo e(asset('assets/images/jones-residence/after-Jones-residence.jpeg')); ?>" alt="After Jones Residence">
+                    <figcaption class="ov"><span class="cat">jones-residence</span><span class="nm">After Jones Residence</span><span
+                            class="small text-white-50">Jones Residence</span></figcaption>
                 </figure>
             </div>
         </div>
