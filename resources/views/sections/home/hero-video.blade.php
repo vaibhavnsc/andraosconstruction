@@ -17,7 +17,7 @@
       <div class="stars">★★★★★</div>
       <div><div class="ff-display fw-semibold fs-5 lh-1" style="color: #fff;">5.0</div><div class="ff-mono text-uppercase" style="font-size:9px;letter-spacing:.16em;color:rgba(255,255,255,.65)">Industry-rated reviews</div></div>
     </div></a>
-    <h1>Trusted commercial &amp; residential concrete contractor.</h1>
+    <h1>Trusted commercial &amp; residential concrete contractor</h1>
     <div class="d-flex gap-2 mt-4 flex-wrap">
       <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
       <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303) 915-3703</a>
