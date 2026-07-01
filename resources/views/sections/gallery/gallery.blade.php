@@ -64,46 +64,81 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0015.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/schomp-ford-aurora.png') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Beaver Creek / Pine Lodge</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Schomp Ford – Aurora</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0026.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/cherry-creek.jpg') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Boulder Interior Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Cherry Creek</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0051.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/1075-Park-Ave-Denver.jpg') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Downtown Denver Project</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">1075 Park Avenue West</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0069.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/advanced-energy-fort-collins.jpg') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Commercial
-                            Concrete</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Advanced Energy – Fort Collins</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_3620.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/blackhawk.jpg') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Retail Center / Wildcat</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Black Hawk</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0067.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/blake-street.jpg') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Whole Foods</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Blake Street</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/IMG_0068.jpeg') }}"
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/central-park-highlands.jpeg') }}"
                         alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Whole Foods</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Central Park Highlands</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/chick-fil-a.jpg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Chick-fil-A</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/denver-sidewalks.jpeg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Denver Pavilion + Denver Sidewalks</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/tommys.jpeg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Tommy’s </span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/whole-foods-lakewood.jpg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Whole Foods – Lakewood</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/town-center.jpeg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Town Center</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/wildcat-reserve-highlands.jpeg') }}"
+                        alt="Commercial Concrete">
+                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Wildcat Reserve Highlands</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
