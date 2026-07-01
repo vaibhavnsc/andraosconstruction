@@ -35,7 +35,7 @@
     function buildImage(file) { return BASE + "/assets/images/" + file; }
 
     var PHONE_DISPLAY = "(303) 479-3181";
-    var PHONE_HREF    = "tel:+13034793181";
+    var PHONE_HREF    = "tel:+3039153703";
 
 
     /* ----------------------------------------------------------------------
@@ -215,7 +215,7 @@
       if (!$cta.length) { return; }
       $cta.addClass("mobile-cta")(
         '<a href="' + PHONE_HREF + '">&#9743; Call</a>' +
-        '<a href="sms:+13034793181">&#9993; Text</a>' +
+        '<a href="sms:+3039153703">&#9993; Text</a>' +
         '<a href="' + buildLink("contact") + '" class="is-primary">&rarr; Quote</a>'
       );
     }

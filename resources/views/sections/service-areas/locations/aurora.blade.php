@@ -47,7 +47,7 @@
             <p class="lede mt-3">Aurora property managers, retail developers, and apartment communities rely on Andraos Construction for full-scope concrete and asphalt work &mdash; multifamily drive-lane replacement, retail parking lot maintenance, and ADA-compliant sidewalk installation across Aurora and Arapahoe County.</p>
             <div class="d-flex gap-2 mt-4 flex-wrap">
               <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Aurora</a>
-              <a href="tel:+13034793181" class="btn btn-outline-navy">Call (303) 479-3181</a>
+              <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 479-3181</a>
             </div>
           </div>
         </div>
@@ -179,7 +179,7 @@
         <h2 id="city-cta-heading" class="ff-display display-xl text-white mx-auto maxw-20">Get a quote for your Aurora project.</h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
           <a href="../contact  " class="btn btn-light-navy btn-arrow">Request a Quote</a>
-          <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
+          <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
         </div>
       </div>
     </section>

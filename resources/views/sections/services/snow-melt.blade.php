@@ -3,8 +3,8 @@
 @section('content')
 
 <header class="page-hero">
-    <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true" data-bg="/assets/images/snow.jpg"
-        style="background-image: url(/assets/images/snow.jpg);"></div>
+    <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true" data-bg="/assets/images/snowmelt/064-25f.jpeg"
+        style="background-image: url(/assets/images/snowmelt/064-25f.jpeg);"></div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
@@ -26,7 +26,7 @@
             <div class="col-lg-8">
                 <article class="reveal is-visible">
                     <img id="js-service-image" alt="Snow Melt Systems" class="ratio-16-9 mb-4"
-                        src="/assets/images/snow.jpg">
+                        src="/assets/images/snowmelt/064-25f.jpeg">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
@@ -54,7 +54,7 @@
                     <!-- CTA inline -->
                     <div class="d-flex gap-2 mt-5 flex-wrap">
                         <a href="contact" class="btn btn-navy btn-arrow">Request a Quote</a>
-                        <a href="tel:+13034793181" class="btn btn-outline-navy">Call (303) 479-3181</a>
+                        <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 479-3181</a>
                     </div>
                 </article>
             </div>
@@ -98,7 +98,7 @@
         </h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
             <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
-            <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
+            <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
         </div>
     </div>
 </section>

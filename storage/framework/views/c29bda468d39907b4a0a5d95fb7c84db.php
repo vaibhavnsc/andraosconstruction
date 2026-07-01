@@ -10,7 +10,7 @@
     <h1>Trusted commercial &amp; residential concrete contractor.</h1>
     <div class="d-flex gap-2 mt-4 flex-wrap">
       <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
-      <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303) 479-3181</a>
+      <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303) 479-3181</a>
     </div>
   </div>
   <div class="hero-foot">
@@ -27,7 +27,7 @@
         </div>
         <div class="col-lg-8">
           <div class="row g-2">
-            <div class="col-md-4"><a href="/services#commercial-concrete" class="hero-quick"><img src="<?php echo e(asset('assets/images/concrete.jpg')); ?>" alt="Services"><div><div class="ql">Concrete</div><div class="qm">Flatwork · ADA · Curb &amp; gutter</div></div></a></div>
+            <div class="col-md-4"><a href="/services#commercial-concrete" class="hero-quick"><img src="<?php echo e(asset('/assets/images/commercial.jpeg')); ?>" alt="Services"><div><div class="ql">Concrete</div><div class="qm">Flatwork · ADA · Curb &amp; gutter</div></div></a></div>
             <div class="col-md-4"><a href="/services#asphalt" class="hero-quick"><img src="<?php echo e(asset('assets/images/asphalt.jpg')); ?>" alt="Services"><div><div class="ql">Asphalt</div><div class="qm">Mill &amp; overlay · Sealcoat</div></div></a></div>
             <div class="col-md-4"><a href="/services#masonry" class="hero-quick"><img src="<?php echo e(asset('assets/images/masonary.jpg')); ?>" alt="Services"><div><div class="ql">Masonry</div><div class="qm">Stone · Brick · Walls</div></div></a></div>
           </div>

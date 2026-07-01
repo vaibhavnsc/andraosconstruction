@@ -39,17 +39,37 @@
             <div class="col-lg-8">
                 <article class="reveal is-visible">
                     <img id="js-service-image" alt="Commercial Concrete" class="ratio-16-9 mb-4"
-                        src="/assets/images/commercial-concrete.jpeg">
+                        src="<?php echo e(asset('assets/images/commercial.jpeg')); ?>">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
-                        Commercial-Grade Work, Self-Performed
+                        Expert Concrete Services for Your Business
                     </h2>
-                    <p class="lede" id="js-service-overview">Andraos Construction self-performs the full range of
-                        commercial concrete flatwork and structural work across the Colorado Front Range. From new
-                        sidewalks, curb &amp; gutter, and ADA-compliant ramps to dock aprons, drain pans, and structural
-                        slabs, we deliver concrete that meets spec, passes inspection, and holds up to Colorado
-                        freeze-thaw.</p>
+                    <p class="lede" id="js-service-overview">Andraos Construction has been providing concrete, asphalt, and masonry services throughout the Denver Metro area since 1993. With decades of experience and knowledge in working with property management companies, business owners, and general contractors. Our customers include retail centers, shopping centers, warehouses, multifamily housing, car washes, city works, and more. Our services include:</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Driveway</li>
+                            <li>Sidewalks</li>
+                            <li>Patios</li>
+                            <li>Curb and gutter</li>
+                            <li>Drain pans</li>
+                            <li>Concrete lots</li>
+                            <li>Pool decks</li>
+                            <li>Stairs and steps</li>
+                            <li>Caissons</li>
+                            <li>Concrete decks</li>
+                            <li>Concrete entrances</li>
+                            <li>Ramps</li>
+                            <li>Grinding tripping hazards</li>
+                            <li>Concrete repair and patch</li>
+                            <li>Crack chase and sealing</li>
+                            <li>Bollards</li>
+                            <li>Excavation and grading</li>
+                            <li>Snow melting systems</li>
+                        </ul>
+
+                        <a href="/contact">Call us today</a> to discuss your commercial concrete needs.
+                    </p>
 
                     <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span class="tag">Flatwork</span><span
                             class="tag">Curb &amp; gutter</span><span class="tag">ADA</span></div>
@@ -68,7 +88,7 @@
                     <!-- CTA inline -->
                     <div class="d-flex gap-2 mt-5 flex-wrap">
                         <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote</a>
-                        <a href="tel:+13034793181" class="btn btn-outline-navy">Call (303) 479-3181</a>
+                        <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 479-3181</a>
                     </div>
                 </article>
             </div>
@@ -112,7 +132,7 @@
         </h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
           <a href="contact.html" class="btn btn-light-navy btn-arrow">Request a Quote</a>
-          <a href="tel:+13034793181" class="btn btn-outline-light btn-arrow">(303)&nbsp;479-3181</a>
+          <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
         </div>
       </div>
     </section>
