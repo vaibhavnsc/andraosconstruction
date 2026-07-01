@@ -46,7 +46,7 @@
             <p class="lede mt-3">Serving Castle Rock retail developers, hospitality properties, and HOA communities since 1993, Andraos delivers commercial flatwork, asphalt repair, masonry site work, and full-site capital renewal across Douglas County.</p>
             <div class="d-flex gap-2 mt-4 flex-wrap">
               <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Castle Rock</a>
-              <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 479-3181</a>
+              <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
             </div>
           </div>
         </div>

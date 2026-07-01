@@ -47,7 +47,7 @@
             <p class="lede mt-3">Andraos Construction provides commercial concrete services to Littleton property managers, retail centers, and HOA communities throughout Jefferson and Arapahoe Counties &mdash; capital renewal programs, ADA flatwork, parking lot resurfacing, and snow-melt integration.</p>
             <div class="d-flex gap-2 mt-4 flex-wrap">
               <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Littleton</a>
-              <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 479-3181</a>
+              <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
             </div>
           </div>
         </div>

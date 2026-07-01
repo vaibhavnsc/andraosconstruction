@@ -6,7 +6,7 @@
     $title = $seo->meta_title ?? 'Commercial Concrete Contractors in Denver, CO | Andraos Construction';
 
     $description = $seo->meta_description
-        ?? 'Commercial concrete, asphalt & masonry contractor serving Denver, Colorado since 1993. Flatwork, ADA sidewalks, parking lots. Licensed & insured. Call (303) 479-3181.';
+        ?? 'Commercial concrete, asphalt & masonry contractor serving Denver, Colorado since 1993. Flatwork, ADA sidewalks, parking lots. Licensed & insured. Call (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -48,7 +48,7 @@
             <p class="lede mt-3">Andraos Construction has delivered commercial concrete, asphalt, and masonry across Denver since 1993. From downtown sidewalk replacement to industrial flatwork and parking lot rehabilitation, we serve commercial property owners, HOA boards, general contractors, and municipal clients throughout the City and County of Denver.</p>
             <div class="d-flex gap-2 mt-4 flex-wrap">
               <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Denver</a>
-              <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 479-3181</a>
+              <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
             </div>
           </div>
         </div>

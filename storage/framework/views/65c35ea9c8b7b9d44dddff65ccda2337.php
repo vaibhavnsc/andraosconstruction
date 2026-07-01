@@ -16,7 +16,7 @@
         <div class="row g-4 reveal is-visible" id="js-team-grid">
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/1.jpg')); ?>"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/1.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Ray Andraos</h3>-->
@@ -26,44 +26,9 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="col-md-6 col-lg-4">
+             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/2.jpg')); ?>"></div>
-                    <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
-                        <!--<h3 class="team-card__name">Rob Andraos</h3>-->
-                        <!--<p class="team-card__role">Vice President of Operations</p>-->
-                        <p class="team-card__bio">Oversees field operations and crew scheduling, keeping multi-phase
-                            commercial programs on time and on spec.</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/3.jpg')); ?>"></div>
-                    <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
-                        <!--<p class="team-card__role">Senior Project Manager</p>-->
-                        <p class="team-card__bio">Owns commercial engagements end to end — from the first site walk
-                            through final punch and warranty.</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/4.jpg')); ?>"></div>
-                    <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
-                        <!--<h3 class="team-card__name">Estimating Lead</h3>-->
-                        <!--<p class="team-card__role">Chief Estimator</p>-->
-                        <p class="team-card__bio">Produces the detailed, line-item estimates that property managers and
-                            GCs rely on for accurate budgeting.</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/5.jpg')); ?>"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/5.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Concrete Foreman</h3>-->
@@ -75,7 +40,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/6.jpg')); ?>"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/6.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Asphalt Foreman</h3>-->
@@ -85,6 +50,43 @@
                     </figcaption>
                 </figure>
             </div>
+            <div class="col-md-6 col-lg-4">
+                <figure class="team-card h-100 m-0">
+                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/2.jpg')); ?>" style="width: inherit;"></div>
+                    <figcaption class="team-card__body">
+                        <h3 class="team-card__name">Project Manager</h3>
+                        <!--<h3 class="team-card__name">Rob Andraos</h3>-->
+                        <!--<p class="team-card__role">Vice President of Operations</p>-->
+                        <p class="team-card__bio">Oversees field operations and crew scheduling, keeping multi-phase
+                            commercial programs on time and on spec.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <figure class="team-card h-100 m-0">
+                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/3.jpg')); ?>" style="width: inherit;"></div>
+                    <figcaption class="team-card__body">
+                        <h3 class="team-card__name">Project Manager</h3>
+                        <!--<p class="team-card__role">Senior Project Manager</p>-->
+                        <p class="team-card__bio">Owns commercial engagements end to end — from the first site walk
+                            through final punch and warranty.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <figure class="team-card h-100 m-0">
+                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/4.jpg')); ?>" style="width: inherit;"></div>
+                    <figcaption class="team-card__body">
+                        <h3 class="team-card__name">Project Manager</h3>
+                        <!--<h3 class="team-card__name">Estimating Lead</h3>-->
+                        <!--<p class="team-card__role">Chief Estimator</p>-->
+                        <p class="team-card__bio">Produces the detailed, line-item estimates that property managers and
+                            GCs rely on for accurate budgeting.</p>
+                    </figcaption>
+                </figure>
+            </div>
+           
+            
         </div>
     </div>
 </section><?php /**PATH D:\andraosconstruction\resources\views/sections/about/team-bios.blade.php ENDPATH**/ ?>
