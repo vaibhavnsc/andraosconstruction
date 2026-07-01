@@ -14,7 +14,7 @@
             <div class="col-lg-4 col-md-6">
                 <a href="./services#commercial-concrete" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="commercial-concrete"><img
-                            src="{{ asset('assets/images/commercial-concrete.jpeg') }}" alt="Commercial Concrete">
+                            src="{{ asset('assets/images/commercial.jpeg') }}" alt="Commercial Concrete">
                         <div class="num-eyebrow mt-3">01 / 05</div>
                         <h3 class="text-white">Commercial Concrete</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Flatwork, curb &amp; gutter,
@@ -28,7 +28,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services#hoa-property-management" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="hoa-property-management"><img src="{{ asset('assets/images/hoa.jpg') }}"
+                    <div class="svc-card" id="hoa-property-management"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                             alt="HOA &amp; Property Management">
                         <div class="num-eyebrow mt-3">02 / 05</div>
                         <h3 class="text-white">HOA &amp; Residential Concrete</h3>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services#snow-melt" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="snow-melt"><img src="{{ asset('assets/images/snow.jpg') }}"
+                    <div class="svc-card" id="snow-melt"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}"
                             alt="Snow Melt Systems">
                         <div class="num-eyebrow mt-3">05 / 05</div>
                         <h3 class="text-white">Snow Melt Systems</h3>

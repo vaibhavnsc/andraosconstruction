@@ -1,7 +1,7 @@
 <section class="section" aria-label="Service details">
     <div class="container" id="js-service-detail">
         <div class="row g-5 align-items-center reveal anchor-offset is-visible" id="commercial-concrete">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/commercial-concrete.jpeg') }}" alt="Commercial Concrete"
+            <div class="col-lg-6"><img src="{{ asset('assets/images/commercial.jpeg') }}" alt="Commercial Concrete"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6"><span class="num-eyebrow">01 / 05</span>
                 <h2 class="ff-display display-md mt-2">Commercial Concrete</h2>
@@ -17,7 +17,7 @@
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
             id="hoa-property-management">
-            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/hoa.jpg') }}" alt="HOA &amp; Property Management"
+            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}" alt="HOA &amp; Property Management"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">02 / 05</span>
                 <h2 class="ff-display display-md mt-2">HOA &amp; Property Management</h2>
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="snow-melt">
-            <div class="col-lg-6"><img src="{{ asset('assets/images/snow.jpg') }}" alt="Snow Melt Systems"
+            <div class="col-lg-6"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}" alt="Snow Melt Systems"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6"><span class="num-eyebrow">05 / 05</span>
                 <h2 class="ff-display display-md mt-2">Snow Melt Systems</h2>
