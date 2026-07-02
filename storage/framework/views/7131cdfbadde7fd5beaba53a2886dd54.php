@@ -86,11 +86,10 @@
                 <figure class="team-card h-100 m-0">
                     <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/1.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
+                        <h3 class="team-card__name">Robert</h3>
                         <!--<h3 class="team-card__name">Ray Andraos</h3>-->
                         <!--<p class="team-card__role">Founder &amp; President</p>-->
-                        <p class="team-card__bio">Founded Andraos Construction in 1993 and still walks job sites. Three
-                            decades of Front Range concrete, asphalt, and masonry experience.</p>
+                        <p class="team-card__bio">I bring more than 35 years of experience in commercial and residential construction and take pride in delivering quality workmanship and dependable service on every project. My focus has always been on building lasting relationships and providing results that stand the test of time. </p>
                     </figcaption>
                 </figure>
             </div>
@@ -98,7 +97,7 @@
                 <figure class="team-card h-100 m-0">
                     <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/5.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
+                        <h3 class="team-card__name">Ray</h3>
                         <!--<h3 class="team-card__name">Concrete Foreman</h3>-->
                         <!--<p class="team-card__role">Concrete Superintendent</p>-->
                         <p class="team-card__bio">Leads the self-performed concrete crews — flatwork, structural slabs,
@@ -110,11 +109,22 @@
                 <figure class="team-card h-100 m-0">
                     <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/6.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
+                        <h3 class="team-card__name">Beth</h3>
                         <!--<h3 class="team-card__name">Asphalt Foreman</h3>-->
                         <!--<p class="team-card__role">Asphalt Superintendent</p>-->
-                        <p class="team-card__bio">Runs the paving division, from mill &amp; overlay to full-depth
-                            reconstruction and maintenance programs.</p>
+                        <p class="team-card__bio">With 33 years of experience in the construction industry, I am proud to serve as Office Manager, supporting both our team and our clients. I oversee daily office operations, manage invoicing and accounts payable, and help ensure projects stay organized and on track behind the scenes. I take pride in providing dependable support, maintaining strong attention to detail, and contributing to the quality, professionalism, and service our company is known for. </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <figure class="team-card h-100 m-0">
+                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/4.jpg')); ?>" style="width: inherit;"></div>
+                    <figcaption class="team-card__body">
+                        <h3 class="team-card__name">Lucas</h3>
+                        <!--<h3 class="team-card__name">Estimating Lead</h3>-->
+                        <!--<p class="team-card__role">Chief Estimator</p>-->
+                        <p class="team-card__bio">Produces the detailed, line-item estimates that property managers and
+                            GCs rely on for accurate budgeting.</p>
                     </figcaption>
                 </figure>
             </div>
@@ -122,7 +132,7 @@
                 <figure class="team-card h-100 m-0">
                     <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/2.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
+                        <h3 class="team-card__name">Shawn</h3>
                         <!--<h3 class="team-card__name">Rob Andraos</h3>-->
                         <!--<p class="team-card__role">Vice President of Operations</p>-->
                         <p class="team-card__bio">Oversees field operations and crew scheduling, keeping multi-phase
@@ -134,25 +144,13 @@
                 <figure class="team-card h-100 m-0">
                     <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/3.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
+                        <h3 class="team-card__name">Scott</h3>
                         <!--<p class="team-card__role">Senior Project Manager</p>-->
-                        <p class="team-card__bio">Owns commercial engagements end to end — from the first site walk
-                            through final punch and warranty.</p>
+                        <p class="team-card__bio">I am a Construction Superintendent with more than 35 years of experience overseeing commercial and residential projects from planning through completion. I take pride in delivering quality workmanship, keeping projects on schedule, and building strong relationships with clients, subcontractors, and project teams. </p>
                     </figcaption>
                 </figure>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/4.jpg')); ?>" style="width: inherit;"></div>
-                    <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Project Manager</h3>
-                        <!--<h3 class="team-card__name">Estimating Lead</h3>-->
-                        <!--<p class="team-card__role">Chief Estimator</p>-->
-                        <p class="team-card__bio">Produces the detailed, line-item estimates that property managers and
-                            GCs rely on for accurate budgeting.</p>
-                    </figcaption>
-                </figure>
-            </div>
+            
            
             
         </div>
