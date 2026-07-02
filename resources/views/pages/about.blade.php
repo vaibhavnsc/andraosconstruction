@@ -30,8 +30,8 @@
     <section class="section" aria-labelledby="story-heading">
       <div class="container">
         <div class="row g-5 align-items-center reveal">
-          <div class="col-lg-6">
-            <img src="assets/images/andraos-about.jpg" alt="The Andraos Construction team on a Denver job site" class="ratio-4-5 img-treat obj-pos-top" style="height: 60vh;">
+          <div class="col-lg-6 abt-img">
+            <img src="assets/images/andraos-about.jpg" alt="The Andraos Construction team on a Denver job site" class="ratio-4-5 img-treat obj-pos-top" style="height: 55vh;">
           </div>
           <div class="col-lg-6">
             <p class="eyebrow">Our Company</p>

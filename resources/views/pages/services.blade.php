@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="asphalt">
-            <div class="col-lg-6 "><img src="{{ asset('assets/images/paving.jpg') }}"
+            <div class="col-lg-6 "><img src="{{ asset('assets/images/asphalt/168-25.jpg') }}"
                     alt="Asphalt Paving &amp; Repair" class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 "><span class="num-eyebrow">03 / 05</span>
                 <h2 class="ff-display display-md mt-2">Asphalt Paving &amp; Repair</h2>
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="masonry">
-            <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/masonry.jpg') }}" alt="Commercial Masonry"
+            <div class="col-lg-6 order-lg-2"><img src="{{ asset('/assets/images/masonry/IMG_1450.jpg') }}" alt="Commercial Masonry"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">04 / 05</span>
                 <h2 class="ff-display display-md mt-2">Commercial Masonry</h2>

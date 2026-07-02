@@ -20,11 +20,11 @@
 
                 <h6>Services</h6>
 
-                <a href="<?php echo e(route('commercial-concrete')); ?>" class="footer-link">Commercial Concrete</a>
-                <a href="<?php echo e(route('asphalt')); ?>" class="footer-link">Asphalt Paving</a>
-                <a href="<?php echo e(route('masonry')); ?>" class="footer-link">Masonry</a>
-                <a href="<?php echo e(route('snow-melt')); ?>" class="footer-link">Snow Melt Systems</a>
-                <a href="<?php echo e(route('services')); ?>#hoa-property-management" class="footer-link">HOA / Property Mgmt</a>
+                <a href="<?php echo e(route('services.commercial-concrete')); ?>" class="footer-link">Commercial Concrete</a>
+                <a href="<?php echo e(route('services.asphalt')); ?>" class="footer-link">Asphalt Paving</a>
+                <a href="<?php echo e(route('services.masonry')); ?>" class="footer-link">Masonry</a>
+                <a href="<?php echo e(route('services.snow-melt')); ?>" class="footer-link">Snow Melt Systems</a>
+                <a href="<?php echo e(route('services.hoa-property-management')); ?>" class="footer-link">HOA / Property Mgmt</a>
 
             </div>
 

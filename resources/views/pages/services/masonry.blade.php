@@ -39,20 +39,63 @@
             <div class="col-lg-8">
                 <article class="reveal is-visible">
                     <img id="js-service-image" alt="Commercial Masonry" class="ratio-16-9 mb-4"
-                        src="/assets/images/masonry.jpg">
+                        src="/assets/images/masonry/IMG_1450.jpg">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
-                        Commercial-Grade Work, Self-Performed
+                       Comprehensive Masonry Services by Andraos Construction
                     </h2>
-                    <p class="lede" id="js-service-overview">Andraos provides commercial and architectural masonry that
-                        complements the flatwork it sits on. We build sandstone seat-walls, brick veneer, structural
-                        CMU, and retaining walls for retail districts, hospitality properties, and HOA common areas
-                        throughout the Front Range.</p>
+                    <p class="lede" id="js-service-overview">Andraos Construction offers expert masonry services that cater to a wide range of needs in the Denver Metro area. Our team brings extensive experience and a commitment to quality, ensuring that your project is completed to the highest standards. Whether you're looking to enhance your home's exterior or add functional elements to your landscape, we provide a variety of masonry solutions to meet your specific requirements.</p>
+                    <p class="lede" id="js-service-overview">Our masonry services include:
+                        <ul>
+                            <li>Stone</li>
+                            <li>Brick</li>
+                            <li>Blocks</li>
+                            <li>Pavers</li>
+                            <li>Sign</li>
+                            <li>Frenchings</li>
+                            <li>Planters</li>
+                            <li>Retaining walls</li>
+                            <li>Trash enclosures</li>
+                            <li>Stucco</li>
+                            <li>Columns</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Call us today</a> to discuss your masonry project and discover how we can help you achieve your vision.</p>
+
 
                     <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span
                             class="tag">Sandstone</span><span class="tag">Brick</span><span class="tag">Retaining
                             walls</span></div>
+
+                    <h2 class="ff-display display-md mt-5 mb-3">Why You Need Our Masonry Services</h2>
+                    <p class="lede" id="js-service-overview">Investing in professional masonry services can significantly enhance the aesthetic and functional aspects of your property. At Andraos Construction, we understand the importance of using high-quality materials and skilled craftsmanship to deliver results that stand the test of time.</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Enhance curb appeal with elegant stone and brick work</li>
+                            <li>Increase property value through durable and attractive masonry features</li>
+                            <li>Create functional outdoor spaces with retaining walls and planters</li>
+                            <li>Ensure structural integrity with expertly constructed columns and enclosures</li>
+                            <li>Personalize your property with custom signs and Frenchings</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Reach out to us</a> to learn more about how our masonry services can benefit your property.</p>
+                    <h2 class="ff-display display-md mt-5 mb-3">Benefits of Choosing Andraos Construction</h2>
+                    <p class="lede" id="js-service-overview">Our commitment to excellence and customer satisfaction sets us apart in the industry. When you choose Andraos Construction, you can expect a seamless experience from start to finish.</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Clear and consistent communication throughout your project</li>
+                            <li>Timely estimates to help you plan your budget effectively</li>
+                            <li>Fully licensed and insured for your peace of mind</li>
+                            <li>Over 40 years of industry experience ensuring top-tier craftsmanship</li>
+                            <li>Locally owned and operated, providing personalized service</li>
+                            <li>100% customer satisfaction guarantee for all projects</li>
+                            <li>1-year warranty on all masonry work</li>
+                            <li>Competitive pricing without compromising quality</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Contact us today</a> to experience the benefits of working with a trusted masonry contractor.</p>
+
 
                     <!-- What's included -->
                     <h2 class="ff-display display-md mt-5 mb-4">What’s Included</h2>
