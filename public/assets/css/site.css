@@ -110,7 +110,7 @@ a { text-decoration: none; }
 .eyebrow.on-dark { color: var(--color-slate-400); }
 
 /* Lede — intro paragraph */
-.lede        { font-size: 17px; line-height: 1.55; color: var(--color-slate-600); }
+.lede , ul li       { font-size: 17px; line-height: 1.55; color: var(--color-slate-600); }
 .lede.on-dark { color: var(--color-slate-300); }
 
 /* Display heading sizes (fluid) */
@@ -1215,4 +1215,4 @@ ul.dropdown-menu.service-area-dropdown.show hr {
     height: 44vh;
     object-fit: cover;
     object-position: top center; 
-}
+} 

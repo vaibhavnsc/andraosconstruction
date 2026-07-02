@@ -31,22 +31,16 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6 abt-img">
-            <img src="assets/images/andraos-about.jpg" alt="The Andraos Construction team on a Denver job site" class="ratio-4-5 img-treat obj-pos-top" style="height: 50vh;">
+            <img src="assets/images/andraos-about.jpg" alt="The Andraos Construction team on a Denver job site" class="ratio-4-5 img-treat obj-pos-top" style="height: 65vh;">
           </div>
           <div class="col-lg-6">
             <p class="eyebrow">Our Company</p>
             <h2 id="story-heading" class="ff-display display-lg mt-3">A Denver Commercial Contractor Since 1993</h2>
             <p class="lede mt-4">
-              Andraos Construction is a family-owned commercial concrete, asphalt, and masonry contractor based
-              in Denver, Colorado. For over three decades we have served property management companies, homeowner
-              associations, general contractors, developers, and asset managers across the Colorado Front Range.
+              For more than 30 years, Andraos Construction has proudly served the Colorado Front Range as a family-owned commercial concrete, asphalt, and masonry contractor based in Denver. We’ve built lasting relationships with property management companies, homeowner associations, general contractors, developers, and asset managers by delivering quality work, responsive service, and projects our clients can count on. As a family business, we take pride in treating every project as if it were our own and every client as a long-term partner.
             </p>
             <p class="text-slate">
-              We self-perform every scope of work &mdash; concrete flatwork, curb and gutter, ADA sidewalks,
-              asphalt mill &amp; overlay, full-depth pavement replacement, masonry site work, and hydronic
-              snow-melt installation. By holding our own crews, equipment, and project management in-house, we
-              keep the schedule, the quality, and the warranty under one roof. Andraos Construction is fully
-              licensed, bonded, and insured, and every engagement carries a one-year workmanship warranty.
+              We self-perform concrete flatwork, curb and gutter, and ADA sidewalks with our own crews and equipment. For asphalt paving, masonry site work, and hydronic snow-melt installation, we partner with a trusted network of specialty subcontractors who meet our standards for quality and reliability. By managing every aspect of the project in-house, from planning through completion, we maintain control of the schedule, quality, and warranty under one roof. Fully licensed, bonded, and insured, we stand behind every project with a one-year workmanship warranty.
             </p>
           </div>
         </div>
