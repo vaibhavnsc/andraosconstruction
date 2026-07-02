@@ -1189,9 +1189,30 @@ ul.dropdown-menu.service-area-dropdown.show hr {
         display: flex !important;
     }
 }
+@media screen and (max-width: 991px) {
+.and-abt img ,.abt-img img {
+    height: 50vh !important;
+    object-fit: cover;
+}
+}
+@media screen and (max-width: 600px) {
+    .and-abt img , .abt-img img {
+        height: 39vh !important;
+    }
+}
+@media screen and (max-width: 481px) {
+    .and-abt img , .abt-img img {
+        height: 30vh !important;
+    }
+}
 .mobile-cta {
     position: fixed;
     inset: auto 0 0 0;
     z-index: 1040;
     display: none;
+}
+.team-card__monogram img {
+    height: 44vh;
+    object-fit: cover;
+    object-position: top center; 
 }

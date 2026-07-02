@@ -30,7 +30,7 @@
       <div class="stars">★★★★★</div>
       <div><div class="ff-display fw-semibold fs-5 lh-1" style="color: #fff;">5.0</div><div class="ff-mono text-uppercase" style="font-size:9px;letter-spacing:.16em;color:rgba(255,255,255,.65)">Industry-rated reviews</div></div>
     </div></a>
-    <h1>Trusted commercial &amp; residential concrete contractor</h1>
+    <h1>Trusted Commercial &amp; Residential Concrete Contractor</h1>
     <div class="d-flex gap-2 mt-4 flex-wrap">
       <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
       <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303) 915-3703</a>
@@ -146,7 +146,7 @@ Google Reviews -->
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <figure class="position-relative m-0">
+            <figure class="position-relative m-0 and-abt">
               <img src="{{ asset('assets/images/home-about.jpg') }}" class="ratio-4-5 img-treat obj-pos-top" style="object-fit:fill; aspect-ratio: 5 / 4.7;"/>
               <figcaption class="position-absolute bottom-0 start-0 end-0 p-4 text-white about-caption">
                 <span class="ff-display fw-medium fs-5 d-block">The Andraos Construction Team</span>
@@ -229,7 +229,7 @@ Google Reviews -->
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services/asphalt" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="asphalt"><img src="{{ asset('assets/images/paving.jpg') }}"
+                    <div class="svc-card" id="asphalt"><img src="{{ asset('assets/images/asphalt/168-25.jpg') }}"
                             alt="Asphalt Paving &amp; Repair">
                         <div class="num-eyebrow mt-3">03 / 05</div>
                         <h3 class="text-white">Asphalt Paving &amp; Repair</h3>
@@ -243,7 +243,7 @@ Google Reviews -->
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services/masonry" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="masonry"><img src="{{ asset('assets/images/masonry.jpg') }}"
+                    <div class="svc-card" id="masonry"><img src="{{ asset('assets/images/masonry/IMG_1450.jpg') }}"
                             alt="Commercial Masonry">
                         <div class="num-eyebrow mt-3">04 / 05</div>
                         <h3 class="text-white">Commercial Masonry</h3>

@@ -30,15 +30,47 @@
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
-                        Commercial-Grade Work, Self-Performed
+                        Eliminate the Hassle of Shoveling and Salting
                     </h2>
-                    <p class="lede" id="js-service-overview">Hydronic snow-melt systems eliminate manual snow removal at
-                        entries, ramps, and high-traffic walkways — and reduce slip-and-fall liability. We design and
-                        embed the tubing during the original concrete pour, so the system is invisible and protected for
-                        the life of the slab.</p>
+                    <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With over 30 years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
 
                     <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span class="tag">Hydronic</span><span
                             class="tag">Entries</span><span class="tag">ADA ramps</span></div>
+
+                    <h2 class="ff-display display-md mt-5 mb-3">Why Choose Our Hydronic Snow Melting Systems?</h2>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li><b>Fully Automated:</b> Our systems use advanced snow sensors—either aerial or pavement-mounted—to detect precipitation and temperature changes. This ensures the system activates only when needed, conserving energy and reducing wear.</li>
+                            <li><b>Energy Efficient:</b> The heated liquid circulating through the system retains warmth long after the boiler shuts off, delivering extended performance with minimal energy use.</li>
+                            <li><b>Cost-Effective Operation:</b> Hydronic systems are ideal for large-scale snowmelt applications due to their lower operating costs compared to electric systems. Choose from natural gas, propane, electricity, or oil—whichever is most affordable in your area. (Natural gas is highly recommended.)</li>
+                            <li><b>Safe and Reliable:</b> Our systems are fully grounded and certified by Intertek SEMKO, meeting IEC / EN 60335, UL, and GOST standards for safety and reliability.</li>
+                            <li><b>Smart Zone Synchronization:</b> Each tekmarNet Thermostat communicates with others to synchronize start times, improving boiler efficiency and reducing cycling.</li>
+                            <li><b>Zone Post Purge:</b> After each heating cycle, zones remain active while the boiler shuts off, pushing residual heat into the pavement where it’s needed most.</li>
+                            <li><b>Automatic Boiler Differential:</b> The system automatically adjusts to changing conditions, ensuring longer run times and reduced boiler short cycling.</li>
+                        </ul>
+                    </p>
+
+                    <h2 class="ff-display display-md mt-5 mb-3">Our Commitment to You</h2>
+                    <p class="lede" id="js-service-overview">In areas where natural gas isn’t available, our electric hydronic snowmelt systems offer a powerful, sustainable alternative. These systems use electric boilers to deliver consistent, maintenance-free heating—ideal for both residential and commercial applications.</p>
+                    <h2 class="ff-display display-md mt-5 mb-3">Built for Colorado Winters</h2>
+                    <p class="lede" id="js-service-overview">Whether you're upgrading a commercial property or enhancing your home, our snowmelt systems are engineered to improve safety, boost property value, and perform reliably through Colorado’s toughest winters.</p>
+                    <h2 class="ff-display display-md mt-5 mb-3">Our Commitment to You</h2>
+                    <p class="lede" id="js-service-overview">Choosing Andraos Construction means choosing excellence. We are dedicated to providing services that not only meet but exceed your expectations. Here’s what sets us apart:</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Great communication throughout the project</li>
+                            <li>Timely estimates to keep your project on track</li>
+                            <li>Fully licensed and insured for your peace of mind</li>
+                            <li>Over 40 years of industry experience</li>
+                            <li>Locally owned, serving the Denver Metro area</li>
+                            <li>100% customer satisfaction guarantee</li>
+                            <li>1-year warranty on all services</li>
+                            <li>Competitive pricing to fit your budget</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Contact us now</a> to experience the difference our expertise can make for your asphalt needs.</p>
+
+
 
                     <!-- What's included -->
                     <h2 class="ff-display display-md mt-5 mb-4">What’s Included</h2>

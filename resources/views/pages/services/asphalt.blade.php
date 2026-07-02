@@ -41,19 +41,60 @@
             <div class="col-lg-8">
                 <article class="reveal is-visible">
                     <img id="js-service-image" alt="Asphalt Paving &amp; Repair" class="ratio-16-9 mb-4"
-                        src="/assets/images/sloan.jpg">
+                        src="/assets/images/asphalt/168-25.jpg">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
-                        Commercial-Grade Work, Self-Performed
+                        Exceptional Asphalt Services by Andraos Construction
                     </h2>
-                    <p class="lede" id="js-service-overview">Our asphalt division handles everything from routine
-                        maintenance to full-depth reconstruction. We help property managers and HOAs extend pavement
-                        life with the right treatment at the right time — crackfilling and sealcoating early, mill &amp;
-                        overlay at mid-life, and full-depth replacement when the base has failed.</p>
-
+                    <p class="lede" id="js-service-overview">Looking for reliable asphalt services in the Denver Metro area? Andraos Construction, your trusted asphalt contractor, offers a comprehensive range of asphalt solutions tailored to meet your specific needs. Our expertise spans over four decades, ensuring your project is handled with precision and care. We pride ourselves on delivering high-quality results that stand the test of time.</p>
+                    <p class="lede" id="js-service-overview">Whether it's a residential driveway or a commercial parking lot, our team is equipped to handle it all. Our asphalt services include:</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Removal and replacement</li>
+                            <li>Mill and overlay</li>
+                            <li>Sealcoating</li>
+                            <li>Crack sealing</li>
+                            <li>Infrared solutions</li>
+                            <li>Striping and signage</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Call us today</a> to discuss your asphalt project and get started on a solution that fits your needs.</p>
                     <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span class="tag">Mill &amp;
                             overlay</span><span class="tag">Sealcoat</span><span class="tag">Striping</span></div>
+
+                    <h2 class="ff-display display-md mt-5 mb-3">Professional Asphalt Surfaces Done Right</h2>
+                    <p class="lede" id="js-service-overview">Asphalt services are essential for maintaining the integrity and appearance of your surfaces. Andraos Construction provides expert services that ensure your asphalt remains durable and functional. Here's why you might need our services:</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Improve safety with crack sealing</li>
+                            <li>Enhance appearance with seal coating</li>
+                            <li>Extend the life of your asphalt with mill and overlay</li>
+                            <li>Ensure proper drainage with removal and replacement</li>
+                            <li>Maintain clear markings with striping and signage</li>
+                            <li>Quick repairs with infrared technology</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Reach out to us </a>to find the right asphalt service for your needs.</p>
+                    <h2 class="ff-display display-md mt-5 mb-3">Our Commitment to You</h2>
+                    <p class="lede" id="js-service-overview">Choosing Andraos Construction means choosing excellence. We are dedicated to providing services that not only meet but exceed your expectations. Here’s what sets us apart:</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Great communication throughout the project</li>
+                            <li>Timely estimates to keep your project on track</li>
+                            <li>Fully licensed and insured for your peace of mind</li>
+                            <li>Over 40 years of industry experience</li>
+                            <li>Locally owned, serving the Denver Metro area</li>
+                            <li>100% customer satisfaction guarantee</li>
+                            <li>1-year warranty on all services</li>
+                            <li>Competitive pricing to fit your budget</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Contact us now</a>  to experience the difference our expertise can make for your asphalt needs.</p>
+
+
+
+
 
                     <!-- What's included -->
                     <h2 class="ff-display display-md mt-5 mb-4">What’s Included</h2>
