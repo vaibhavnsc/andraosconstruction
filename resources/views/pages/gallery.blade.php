@@ -218,40 +218,94 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/168-25.jpg') }}" alt="Asphalt">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Asphalt</span><span
-                            class="small text-white-50">Asphalt</span></figcaption>
+                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Acid_stained_patio.jpeg') }}" alt="Acid Stained Patio">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Acid Stained Patio </span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Classical_gray_colored_patio_with_steps.jpeg') }}" alt="Classical Gray Colored Patio with Steps">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Classical Gray Colored Patio with Steps </span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Colored_concrete_patio.jpeg') }}" alt="Colored Concrete Patio">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Colored Concrete Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Colored_stamped_patio.jpeg') }}" alt="Colored Stamped Patio">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Colored Stamped Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Concrete_and_masonry_patio.jpeg') }}" alt="Concrete and Masonry Patio">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Concrete and Masonry Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Exposed_aggregate_patio.jpeg') }}" alt="Exposed Aggregate Patio">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Exposed Aggregate Patio</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Gray_patio_with_steps.jpeg') }}" alt="Gray Patio with Steps">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Gray Patio with Steps</span><span
+                            class="small text-white-50">Residential Patio</span></figcaption>
+                </figure>
+            </div>
+             <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/jones-residence/before-Jones-residence.jpeg') }}" alt="Before Jones Residence">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Before Jones Residence</span><span
+                            class="small text-white-50">Jones Residence</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/jones-residence/after-Jones-residence.jpeg') }}" alt="After Jones Residence">
+                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">After Jones Residence</span><span
+                            class="small text-white-50">Jones Residence</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/168-25-Meadow.jpg') }}"
-                        alt="Asphalt">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Asphalt</span><span
+                        alt="Meadow Wood">
+                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Meadow Wood</span><span
+                            class="small text-white-50">Asphalt</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/168-25.jpg') }}" alt="Meadow Wood 2">
+                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Meadow Wood 2</span><span
                             class="small text-white-50">Asphalt</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/HOA_Littleton_IMG_3636.jpeg') }}"
-                        alt="Asphalt">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Asphalt</span><span
+                        alt="Songbird HOA Littleton">
+                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
                             class="small text-white-50">Asphalt</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/IMG_3635.jpeg') }}" alt="Asphalt">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Asphalt</span><span
+                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/IMG_3635.jpeg') }}" alt="Songbird HOA Littleton">
+                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
                             class="small text-white-50">Asphalt</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/Songbird_HOA_IMG_3637.jpeg') }}" alt="Asphalt">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Asphalt</span><span
+                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/Songbird_HOA_IMG_3637.jpeg') }}" alt="Songbird HOA Littleton">
+                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
                             class="small text-white-50">Asphalt</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/Songbird_HOA_Littleton_IMG_3638.jpeg') }}" alt="Asphalt">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Asphalt</span><span
+                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/Songbird_HOA_Littleton_IMG_3638.jpeg') }}" alt="Songbird HOA Littleton">
+                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
                             class="small text-white-50">Asphalt</span></figcaption>
                 </figure>
             </div>
@@ -312,6 +366,12 @@
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/IMG_1450.jpg') }}" alt="Commercial Masonry Before/After">
                     <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Commercial Masonry Before/After</span><span
+                            class="small text-white-50">Blackhawk</span></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Blackhawk.jpeg') }}" alt="Blackhawk">
+                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Blackhawk </span><span
                             class="small text-white-50">Masonry</span></figcaption>
                 </figure>
             </div>
@@ -321,60 +381,24 @@
                             class="small text-white-50">Masonry</span></figcaption>
                 </figure>
             </div>
-            <!-- <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/Acid_stained_patio.jpeg') }}" alt="Acid Stained Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Acid Stained Patio </span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Cherry-Creek-Country.jpeg') }}" alt="Cherry Creek Country">
+                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Cherry Creek Country </span><span
+                            class="small text-white-50">Masonry</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/Classical_gray_colored_patio_with_steps.jpeg') }}" alt="Classical Gray Colored Patio with Steps">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Classical Gray Colored Patio with Steps </span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
+                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG') }}" alt="Cherry Creek Country Club">
+                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Cherry Creek Country Club</span><span
+                            class="small text-white-50">Masonry</span></figcaption>
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/Colored_concrete_patio.jpeg') }}" alt="Colored Concrete Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Colored Concrete Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
+                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Masonry-Vasa.jpeg') }}" alt="Masonry Vasa">
+                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Masonry Vasa</span><span
+                            class="small text-white-50">Masonry</span></figcaption>
                 </figure>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/Colored_stamped_patio.jpeg') }}" alt="Colored Stamped Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Colored Stamped Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/Concrete_and_masonry_patio.jpeg') }}" alt="Concrete and Masonry Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Concrete and Masonry Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/Exposed_aggregate_patio.jpeg') }}" alt="Exposed Aggregate Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Exposed Aggregate Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/Gray_patio_with_steps.jpeg') }}" alt="Gray Patio with Steps">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Gray Patio with Steps</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/before-Jones-residence.jpeg') }}" alt="Before Jones Residence">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Before Jones Residence</span><span
-                            class="small text-white-50">Jones Residence</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-concrete/after-Jones-residence.jpeg') }}" alt="After Jones Residence">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">After Jones Residence</span><span
-                            class="small text-white-50">Jones Residence</span></figcaption>
-                </figure>
-            </div> -->
         </div>
     </div>
 </section>
