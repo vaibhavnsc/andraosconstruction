@@ -47,7 +47,7 @@
                     <h2 class="ff-display display-md mt-2 mb-3">
                         Expert Concrete Services for Your Business
                     </h2>
-                    <p class="lede" id="js-service-overview">Andraos Construction has been providing concrete, asphalt, and masonry services throughout the Denver Metro area since 1993. With decades of experience and knowledge in working with property management companies, business owners, and general contractors. Our customers include retail centers, shopping centers, warehouses, multifamily housing, car washes, city works, and more. Our services include:</p>
+                    <p class="lede" id="js-service-overview">Since 1993, Andraos Construction has proudly provided commercial interior and exterior concrete services throughout the Denver Metro area. For more than three decades, we've partnered with property management companies, business owners, general contractors, and municipalities to deliver durable, high-quality concrete solutions for projects of every size and complexity. Our work spans retail centers, shopping centers, warehouses, multifamily communities, car washes, public facilities, and commercial properties throughout the Front Range.</p>
                     <p class="lede" id="js-service-overview">
                         <ul>
                             <li>Driveway</li>
@@ -61,13 +61,13 @@
                             <li>Caissons</li>
                             <li>Concrete decks</li>
                             <li>Concrete entrances</li>
-                            <li>Ramps</li>
+                            <li>Dock ramps/ Loading docks</li>
+                            <li>Structural slabs/ Foundations</li>
+                            <li>Excavation / Grading</li>
                             <li>Grinding tripping hazards</li>
                             <li>Concrete repair and patch</li>
                             <li>Crack chase and sealing</li>
                             <li>Bollards</li>
-                            <li>Excavation and grading</li>
-                            <li>Snow melting systems</li>
                         </ul>
                         <a href="/contact">Call us today</a> to discuss your commercial concrete needs.
                     </p>
