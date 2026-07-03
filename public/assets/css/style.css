@@ -224,10 +224,16 @@ body.page-contact .navbar-nav .nav-link { color: rgba(255,255,255,.92) !importan
  body.page-contact .navbar-nav .nav-link:hover { color: #fff !important; }
  body.page-contact .navbar-nav .nav-link.active,
  body.page-contact .navbar-nav .active .nav-link { color: var(--accent) !important; }
- body.page-gallery .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
- body.page-gallery .navbar-nav .nav-link:hover { color: #fff !important; }
- body.page-gallery .navbar-nav .nav-link.active,
- body.page-gallery .navbar-nav .active .nav-link { color: var(--accent) !important; }
+ body.page-gallery .main-nav { background-color: #010d1f !important; backdrop-filter: blur(20px); }
+body.page-gallery .main-nav .navbar { background-color: transparent; }
+body.page-gallery .main-nav.scrolled { background-color: rgba(1,13,31,0.95) !important; }
+body.page-gallery .main-nav .utility-bar { background-color: transparent; }
+body.page-gallery .main-nav .utility-cta { color: var(--accent) !important; }
+body.page-gallery .main-nav .brand-logo { filter: brightness(0) invert(1); }
+body.page-gallery .navbar-nav .nav-link { color: rgba(255,255,255,.92) !important; text-shadow: none; }
+body.page-gallery .navbar-nav .nav-link:hover { color: #fff !important; }
+body.page-gallery .navbar-nav .nav-link.active,
+body.page-gallery .navbar-nav .active .nav-link { color: var(--accent) !important; }
 body.page-gallery .main-nav.scrolled .utility-bar { display: block !important; }
    /* reveal */
    .reveal { opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
