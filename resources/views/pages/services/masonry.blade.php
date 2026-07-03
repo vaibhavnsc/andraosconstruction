@@ -39,7 +39,7 @@
             <div class="col-lg-8">
                 <article class="reveal is-visible">
                     <img id="js-service-image" alt="Commercial Masonry" class="ratio-16-9 mb-4"
-                        src="/assets/images/masonry/IMG_1450.jpg">
+                        src="/assets/images/masonry/Cherry-Creek-Country-Club.JPEG">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
