@@ -1190,9 +1190,12 @@ ul.dropdown-menu.service-area-dropdown.show hr {
     }
 }
 @media screen and (max-width: 991px) {
-.and-abt img ,.abt-img img {
+.abt-img img {
     height: 50vh !important;
     object-fit: cover;
+}
+.and-abt img {
+    min-height: 400px !important;
 }
 }
 @media screen and (max-width: 600px) {
@@ -1204,6 +1207,27 @@ ul.dropdown-menu.service-area-dropdown.show hr {
     .and-abt img , .abt-img img {
         height: 30vh !important;
     }
+    .and-abt img {
+      min-height: 300px !important;
+    }
+    .team-card__monogram img {
+      height: 460px !important;
+    }
+}
+@media screen and (max-width: 1440px) {
+.and-abt img {
+   min-height:645px;
+}
+}
+@media screen and (max-width: 1200px) {
+  .team-card__monogram img {
+    height: 40vh !important;
+}
+}
+@media screen and (max-width: 768px) {
+  .team-card__monogram img {
+    height: 62vh !important;
+  }
 }
 .mobile-cta {
     position: fixed;
@@ -1212,7 +1236,10 @@ ul.dropdown-menu.service-area-dropdown.show hr {
     display: none;
 }
 .team-card__monogram img {
-    height: 44vh;
+    height: 50vh;
     object-fit: cover;
     object-position: top center; 
 } 
+.and-abt img {
+    aspect-ratio: unset;
+}
