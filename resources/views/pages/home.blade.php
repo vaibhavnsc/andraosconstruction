@@ -145,16 +145,16 @@ Google Reviews -->
     <section class="section" aria-labelledby="about-heading">
       <div class="container">
         <div class="row g-5 align-items-center reveal" style="justify-content: flex-start;align-item:start;">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <figure class="position-relative m-0 and-abt">
-              <img src="{{ asset('assets/images/home-about.jpg') }}" class="ratio-4-5 img-treat obj-pos-top" style="object-fit:unset;height=100%;min-height :580px;width=100%; "/>
+              <img src="{{ asset('assets/images/home-about.jpg') }}" class="ratio-4-5 img-treat obj-pos-top" style="object-fit:unset;height=100%;min-height :637px;width=100%; "/>
               <figcaption class="position-absolute bottom-0 start-0 end-0 p-4 text-white about-caption">
                 <span class="ff-display fw-medium fs-5 d-block">The Andraos Construction Team</span>
                 <span class="ff-mono text-uppercase text-white-50">Denver, Colorado &middot; Family-owned since 1993</span>
               </figcaption>
             </figure>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <p class="eyebrow">About Andraos Construction</p>
             <h2 id="about-heading" class="ff-display display-lg mt-3">
               Trusted Commercial Concrete Contractor in Denver and the Colorado Front Range
@@ -243,7 +243,7 @@ Google Reviews -->
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services/masonry" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="masonry"><img src="{{ asset('assets/images/masonry/IMG_1450.jpg') }}"
+                    <div class="svc-card" id="masonry"><img src="{{ asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG') }}"
                             alt="Commercial Masonry">
                         <div class="num-eyebrow mt-3">04 / 05</div>
                         <h3 class="text-white">Commercial Masonry</h3>
