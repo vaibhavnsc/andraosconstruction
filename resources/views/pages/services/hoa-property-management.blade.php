@@ -186,8 +186,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="process-step h-100"><span class="num-eyebrow d-block mb-2">04</span>
                     <h3 class="ff-display fs-5 mb-2">Self-Performed Execution</h3>
-                    <p class="text-slate small mb-0">Andraos crews perform the work — concrete, asphalt, and masonry —
-                        under one accountable project manager.</p>
+                    <p class="text-slate small mb-0">Work in partnership with our trusted sub-contractor.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
