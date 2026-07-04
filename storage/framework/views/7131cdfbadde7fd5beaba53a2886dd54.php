@@ -28,10 +28,10 @@
     <section class="section" aria-labelledby="story-heading">
       <div class="container">
         <div class="row g-5 built-abt align-items-center reveal ">
-          <div class="col-lg-6 abt-img">
+          <div class="col-lg-6 abt-img company">
             <img src="assets/images/andraos-about.jpg" alt="The Andraos Construction team on a Denver job site" class="ratio-4-5 img-treat obj-pos-top" style="height: 65vh;">
           </div>
-          <div class="col-lg-6 abt-content">
+          <div class="col-lg-6 abt-content ">
             <p class="eyebrow">Our Company</p>
             <h2 id="story-heading" class="ff-display display-lg mt-3">A Denver Commercial Contractor Since 1993</h2>
             <p class="lede mt-4">

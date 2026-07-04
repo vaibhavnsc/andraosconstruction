@@ -1244,10 +1244,22 @@ ul.dropdown-menu.service-area-dropdown.show hr {
     display: none;
 }
 .team-card__monogram img {
-    height: 50vh;
+    height: 53vh;
     object-fit: cover;
     object-position: top center; 
 } 
 .and-abt img {
     aspect-ratio: unset;
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .company {
+      margin: unset;
+      height: 629px;
+    }
+    .company img {
+      height: 100% !important;
+    }
+    .abt-content {
+      margin-top: 27px;
+    }
 }
