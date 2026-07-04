@@ -125,8 +125,7 @@
                         <h3 class="team-card__name">Lucas</h3>
                         <!--<h3 class="team-card__name">Estimating Lead</h3>-->
                         <!--<p class="team-card__role">Chief Estimator</p>-->
-                        <p class="team-card__bio">Produces the detailed, line-item estimates that property managers and
-                            GCs rely on for accurate budgeting.</p>
+                        <p class="team-card__bio">I am the Lead Estimator and Project Manager at Andraos Construction. My expertise includes completing comprehensive take-offs and estimates derived from plans and blueprints, and conducting on-site meetings to design creative solutions for concrete, masonry, and asphalt issues. I take great pride in my ability to manage the "big picture" of a project, overseeing every detail from the initial estimating stage to final completion.</p>
                     </figcaption>
                 </figure>
             </div>
@@ -152,9 +151,16 @@
                     </figcaption>
                 </figure>
             </div>
-            
-           
-            
+            <div class="col-md-6 col-lg-4">
+                <figure class="team-card h-100 m-0">
+                    <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/masonry/Max.jpeg') }}" style="width: inherit;"></div>
+                    <figcaption class="team-card__body">
+                        <h3 class="team-card__name">Max</h3>
+                        <!--<p class="team-card__role">Senior Project Manager</p>-->
+                        <p class="team-card__bio">I have two years of experience providing office support to the Andraos Construction staff, and I am highly motivated by treats. My professional background focuses on maintaining a stress free atmosphere within the office. I excel at greeting team members and am always eagerly waiting for my next reward.</p>
+                    </figcaption>
+                </figure>
+            </div> 
         </div>
     </div>
 </section>
