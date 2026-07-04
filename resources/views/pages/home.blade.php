@@ -144,8 +144,8 @@ Google Reviews -->
     
     <section class="section" aria-labelledby="about-heading">
       <div class="container">
-        <div class="row g-5 align-items-center reveal" style="justify-content: flex-start;align-item:start;">
-          <div class="col-lg-7">
+        <div class="row g-5 align-items-center reveal abt-main" style="justify-content: flex-start;align-item:start;">
+          <div class="col-lg-7 abt-img">
             <figure class="position-relative m-0 and-abt">
               <img src="{{ asset('assets/images/home-about.jpg') }}" class="ratio-4-5 img-treat obj-pos-top" style="object-fit:unset;height=100%;min-height :637px;width=100%; "/>
               <figcaption class="position-absolute bottom-0 start-0 end-0 p-4 text-white about-caption">
@@ -154,7 +154,7 @@ Google Reviews -->
               </figcaption>
             </figure>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 abt-content">
             <p class="eyebrow">About Andraos Construction</p>
             <h2 id="about-heading" class="ff-display display-lg mt-3">
               Trusted Commercial Concrete Contractor in Denver and the Colorado Front Range
