@@ -1251,7 +1251,7 @@ ul.dropdown-menu.service-area-dropdown.show hr {
 .and-abt img {
     aspect-ratio: unset;
 }
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 15px) {
     .company {
       margin: unset;
       height: 660px;
