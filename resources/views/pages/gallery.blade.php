@@ -71,13 +71,10 @@
                 'category' => 'hoa',
                 'title' => 'HOA',
                 'subtitle' => 'HOA',
-                'cover' => asset('assets/images/hoa-andros.webp')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'hoa',
-                'title' => 'HOA',
-                'subtitle' => 'HOA',
-                'cover' => asset('assets/images/andraos-construction.webp')
+                'cover' => asset('assets/images/hoa-andros.webp'),
+                'images' => [
+                   asset('assets/images/andraos-construction.webp'),
+                ]
             ])
             @include('partials.gallery-project', [
                 'category' => 'stucco',
@@ -262,74 +259,36 @@
                 'category' => 'asphalt',
                 'title' => 'Meadow Wood',
                 'subtitle' => 'Asphalt',
-                'cover' => asset('assets/images/asphalt/168-25-Meadow.jpg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'asphalt',
-                'title' => 'Meadow Wood 2',
-                'subtitle' => 'Asphalt',
-                'cover' => asset('assets/images/asphalt/168-25.jpg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'asphalt',
-                'title' => 'Songbird HOA Littleton',
-                'subtitle' => 'Asphalt',
-                'cover' => asset('assets/images/asphalt/HOA_Littleton_IMG_3636.jpeg')
+                'cover' => asset('assets/images/asphalt/168-25-Meadow.jpg'),
+                'images' => [
+                    asset('assets/images/asphalt/168-25.jpg'),
+                ]
             ])
             @include('partials.gallery-project', [
                 'category' => 'asphalt',
                 'title' => 'Songbird HOA Littleton',
                 'subtitle' => 'Asphalt',
-                'cover' => asset('assets/images/asphalt/IMG_3635.jpeg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'asphalt',
-                'title' => 'Songbird HOA Littleton',
-                'subtitle' => 'Asphalt',
-                'cover' => asset('assets/images/asphalt/Songbird_HOA_IMG_3637.jpeg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'asphalt',
-                'title' => 'Songbird HOA Littleton',
-                'subtitle' => 'Asphalt',
-                'cover' => asset('assets/images/asphalt/Songbird_HOA_Littleton_IMG_3638.jpeg')
+                'cover' => asset('assets/images/asphalt/HOA_Littleton_IMG_3636.jpeg'),
+                'images' => [
+                    asset('assets/images/asphalt/IMG_3635.jpeg'),
+                    asset('assets/images/asphalt/Songbird_HOA_IMG_3637.jpeg'),
+                    asset('assets/images/asphalt/Songbird_HOA_Littleton_IMG_3638.jpeg'),
+                ]
             ])
             @include('partials.gallery-project', [
                 'category' => 'snow-melt-system',
                 'title' => 'Snow Melt Systems',
                 'subtitle' => 'Snow Melt Systems',
-                'cover' => asset('assets/images/snowmelt/064-25f.jpeg')
+                'cover' => asset('assets/images/snowmelt/064-25f.jpeg'),
+                'images' => [
+                    asset('assets/images/snowmelt/064-25s.jpeg'),
+                    asset('assets/images/snowmelt/064-25si.jpeg'),
+                    asset('assets/images/snowmelt/064-25t.jpeg'),
+                    asset('assets/images/snowmelt/064-25th.jpeg'),
+                    asset('assets/images/snowmelt/064-25fi.jpg')
+                ]
             ])
-            @include('partials.gallery-project', [
-                'category' => 'snow-melt-system',
-                'title' => 'Snow Melt Systems',
-                'subtitle' => 'Snow Melt Systems',
-                'cover' => asset('assets/images/snowmelt/064-25s.jpeg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'snow-melt-system',
-                'title' => 'Snow Melt Systems',
-                'subtitle' => 'Snow Melt Systems',
-                'cover' => asset('assets/images/snowmelt/064-25si.jpeg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'snow-melt-system',
-                'title' => 'Snow Melt Systems',
-                'subtitle' => 'Snow Melt Systems',
-                'cover' => asset('assets/images/snowmelt/064-25t.jpeg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'snow-melt-system',
-                'title' => 'Snow Melt Systems',
-                'subtitle' => 'Snow Melt Systems',
-                'cover' => asset('assets/images/snowmelt/064-25th.jpeg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'snow-melt-system',
-                'title' => 'Snow Melt Systems',
-                'subtitle' => 'Snow Melt Systems',
-                'cover' => asset('assets/images/snowmelt/064-25fi.jpg')
-            ])
+
             @include('partials.gallery-project', [
                 'category' => 'concrete-finishes',
                 'title' => 'Colored Concrete',
@@ -370,13 +329,10 @@
                 'category' => 'masonry',
                 'title' => 'Cherry Creek Country',
                 'subtitle' => 'Masonry',
-                'cover' => asset('assets/images/masonry/Cherry-Creek-Country.jpeg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'masonry',
-                'title' => 'Cherry Creek Country Club',
-                'subtitle' => 'Masonry',
-                'cover' => asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG')
+                'cover' => asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG'),
+                'images' => [
+                   asset('assets/images/masonry/Cherry-Creek-Country.jpeg'),
+                ]
             ])
             @include('partials.gallery-project', [
                 'category' => 'masonry',
