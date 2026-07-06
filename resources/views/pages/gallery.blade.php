@@ -55,350 +55,335 @@
         </div>
         <!-- Project cards injected by site.js -->
         <div class="row g-3" id="projGrid">
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction37.jpg') }}"
-                        alt="Shadow Canyon HOA — Community renewal · Front Range">
-                    <figcaption class="ov"><span class="cat">hoa</span><span class="nm">Shadow
-                            Canyon HOA</span><span class="small text-white-50">Community renewal · Front Range</span>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction43.jpeg') }}"
-                        alt="Logan Reserve Drives — Aurora · 14 drive lanes">
-                    <figcaption class="ov"><span class="cat">hoa</span><span class="nm">Logan
-                            Reserve Drives</span><span class="small text-white-50">Aurora · 14 drive lanes</span>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/hoa-andros.webp') }}"
-                        alt="Logan Reserve Drives — Aurora · 14 drive lanes">
-                    <figcaption class="ov"><span class="cat">hoa</span><span class="nm">HOA</span><span class="small text-white-50">HOA</span>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction.webp') }}"
-                        alt="Logan Reserve Drives — Aurora · 14 drive lanes">
-                    <figcaption class="ov"><span class="cat">hoa</span><span class="nm">HOA</span><span class="small text-white-50">HOA</span>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/stucco/IMG_0669.jpg') }}" alt="Stucco">
-                    <figcaption class="ov"><span class="cat">stucco</span><span class="nm">Stucco</span><span
-                            class="small text-white-50">Stucco</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/stucco/IMG_3656.jpeg') }}" alt="Stucco">
-                    <figcaption class="ov"><span class="cat">stucco</span><span class="nm">Stucco</span><span
-                            class="small text-white-50">Stucco</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/schomp-ford-aurora.png') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Schomp Ford – Aurora</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/cherry-creek.jpg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Cherry Creek</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/1075-Park-Ave-Denver.jpg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">1075 Park Avenue West</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/advanced-energy-fort-collins.jpg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Advanced Energy – Fort Collins</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/blackhawk.jpg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Black Hawk</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/blake-street.jpg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Blake Street</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/central-park-highlands.jpeg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Central Park Highlands</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/chick-fil-a.jpg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Chick-fil-A</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/denver-sidewalks.jpeg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Denver Pavilion + Denver Sidewalks</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/tommys.jpeg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Tommy’s </span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/whole-foods-lakewood.jpg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Whole Foods – Lakewood</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/town-center.jpeg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Town Center</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/commercial/wildcat-reserve-highlands.jpeg') }}"
-                        alt="Commercial Concrete">
-                    <figcaption class="ov"><span class="cat">commercial-concrete</span><span class="nm">Wildcat Reserve Highlands</span><span class="small text-white-50">Commercial Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0041.jpeg') }}"
-                        alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Patio</span><span class="small text-white-50">Residential Concrete</span></figcaption>
-                </figure>
-            </div>
-            <!-- <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0054.jpeg') }}"
-                        alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Residential Porch</span><span class="small text-white-50">Residential Concrete</span></figcaption>
-                </figure>
-            </div> -->
-            <!-- <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0061.jpeg') }}"
-                        alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Pool Deck / Residential Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
-                </figure>
-            </div> -->
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
-                        alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Highlands Ranch Residential</span><span class="small text-white-50">Residential Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_5912.jpeg') }}"
-                        alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Before Stair Project</span><span class="small text-white-50">Residential Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_7038.jpeg') }}"
-                        alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">After Stair Project</span><span class="small text-white-50">Residential Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential/IMG_0161.jpg') }}"
-                        alt="Residential Concrete">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Castle Pines Decorative Concrete</span><span class="small text-white-50">Residential Concrete</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Acid_stained_patio.jpeg') }}" alt="Acid Stained Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Acid Stained Patio </span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Classical_gray_colored_patio_with_steps.jpeg') }}" alt="Classical Gray Colored Patio with Steps">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Classical Gray Colored Patio with Steps </span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Colored_concrete_patio.jpeg') }}" alt="Colored Concrete Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Colored Concrete Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Colored_stamped_patio.jpeg') }}" alt="Colored Stamped Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Colored Stamped Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Concrete_and_masonry_patio.jpeg') }}" alt="Concrete and Masonry Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Concrete and Masonry Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Exposed_aggregate_patio.jpeg') }}" alt="Exposed Aggregate Patio">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Exposed Aggregate Patio</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/residential-patio/Gray_patio_with_steps.jpeg') }}" alt="Gray Patio with Steps">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Gray Patio with Steps</span><span
-                            class="small text-white-50">Residential Patio</span></figcaption>
-                </figure>
-            </div>
-             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/jones-residence/before-Jones-residence.jpeg') }}" alt="Before Jones Residence">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">Before Jones Residence</span><span
-                            class="small text-white-50">Jones Residence</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/jones-residence/after-Jones-residence.jpeg') }}" alt="After Jones Residence">
-                    <figcaption class="ov"><span class="cat">residential-concrete</span><span class="nm">After Jones Residence</span><span
-                            class="small text-white-50">Jones Residence</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/168-25-Meadow.jpg') }}"
-                        alt="Meadow Wood">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Meadow Wood</span><span
-                            class="small text-white-50">Asphalt</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/168-25.jpg') }}" alt="Meadow Wood 2">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Meadow Wood 2</span><span
-                            class="small text-white-50">Asphalt</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/HOA_Littleton_IMG_3636.jpeg') }}"
-                        alt="Songbird HOA Littleton">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
-                            class="small text-white-50">Asphalt</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/IMG_3635.jpeg') }}" alt="Songbird HOA Littleton">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
-                            class="small text-white-50">Asphalt</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/Songbird_HOA_IMG_3637.jpeg') }}" alt="Songbird HOA Littleton">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
-                            class="small text-white-50">Asphalt</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/asphalt/Songbird_HOA_Littleton_IMG_3638.jpeg') }}" alt="Songbird HOA Littleton">
-                    <figcaption class="ov"><span class="cat">asphalt</span><span class="nm">Songbird HOA Littleton</span><span
-                            class="small text-white-50">Asphalt</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}" alt="Snow Melt Systems">
-                    <figcaption class="ov"><span class="cat">snow-melt-system</span><span class="nm">Snow Melt Systems</span><span
-                            class="small text-white-50">Snow Melt Systems</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/snowmelt/064-25s.jpeg') }}" alt="Snow Melt Systems">
-                    <figcaption class="ov"><span class="cat">snow-melt-system</span><span class="nm">Snow Melt Systems</span><span
-                            class="small text-white-50">Snow Melt Systems</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/snowmelt/064-25si.jpeg') }}" alt="Snow Melt Systems">
-                    <figcaption class="ov"><span class="cat">snow-melt-system</span><span class="nm">Snow Melt Systems</span><span
-                            class="small text-white-50">Snow Melt Systems</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/snowmelt/064-25t.jpeg') }}" alt="Snow Melt Systems">
-                    <figcaption class="ov"><span class="cat">snow-melt-system</span><span class="nm">Snow Melt Systems</span><span
-                            class="small text-white-50">Snow Melt Systems</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/snowmelt/064-25th.jpeg') }}" alt="Snow Melt Systems">
-                    <figcaption class="ov"><span class="cat">snow-melt-system</span><span class="nm">Snow Melt Systems</span><span
-                            class="small text-white-50">Snow Melt Systems</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/snowmelt/064-25fi.jpg') }}" alt="Snow Melt Systems">
-                    <figcaption class="ov"><span class="cat">snow-melt-system</span><span class="nm">Snow Melt Systems</span><span
-                            class="small text-white-50">Snow Melt Systems</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/Colored-concrete.jpeg') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Colored Concrete</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/Exposed-aggregate.jpg') }}" alt="Exposed Aggregate">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Exposed Aggregate</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/concrete-finishes/Stamped-concrete.JPG') }}" alt="Concrete Finishes">
-                    <figcaption class="ov"><span class="cat">concrete-finishes</span><span class="nm">Stamped Concrete</span><span
-                            class="small text-white-50">Concrete Finishes</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/IMG_1450.jpg') }}" alt="Commercial Masonry Before/After">
-                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Commercial Masonry Before/After</span><span
-                            class="small text-white-50">Blackhawk</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Blackhawk.jpeg') }}" alt="Blackhawk">
-                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Blackhawk </span><span
-                            class="small text-white-50">Masonry</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/IMG_0038.jpeg') }}" alt="Commercial Masonry Before/After">
-                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">DTC Masonry Project </span><span
-                            class="small text-white-50">Masonry</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Cherry-Creek-Country.jpeg') }}" alt="Cherry Creek Country">
-                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Cherry Creek Country </span><span
-                            class="small text-white-50">Masonry</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG') }}" alt="Cherry Creek Country Club">
-                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Cherry Creek Country Club</span><span
-                            class="small text-white-50">Masonry</span></figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/masonry/Masonry-Vasa.jpeg') }}" alt="Masonry Vasa">
-                    <figcaption class="ov"><span class="cat">masonry</span><span class="nm">Masonry Vasa</span><span
-                            class="small text-white-50">Masonry</span></figcaption>
-                </figure>
-            </div>
+            @include('partials.gallery-project', [
+                'category' => 'hoa',
+                'title' => 'Shadow Canyon HOA',
+                'subtitle' => 'Community renewal · Front Range',
+                'cover' => asset('assets/images/andraos-construction37.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'hoa',
+                'title' => 'Logan Reserve Drives',
+                'subtitle' => 'Aurora · 14 drive lanes',
+                'cover' => asset('assets/images/andraos-construction43.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'hoa',
+                'title' => 'HOA',
+                'subtitle' => 'HOA',
+                'cover' => asset('assets/images/hoa-andros.webp')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'hoa',
+                'title' => 'HOA',
+                'subtitle' => 'HOA',
+                'cover' => asset('assets/images/andraos-construction.webp')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'stucco',
+                'title' => 'Stucco',
+                'subtitle' => 'Stucco',
+                'cover' => asset('assets/images/stucco/IMG_0669.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'stucco',
+                'title' => 'Stucco',
+                'subtitle' => 'Stucco',
+                'cover' => asset('assets/images/stucco/IMG_3656.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Schomp Ford – Aurora',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/schomp-ford-aurora.png'),
+                'images' => [
+                    asset('assets/images/commercial/IMG_0015.jpeg'),
+                    asset('assets/images/commercial/IMG_0026.jpeg'),
+                    asset('assets/images/commercial/IMG_0051.jpeg'),
+                ]
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Cherry Creek',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/cherry-creek.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => '1075 Park Avenue West',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/1075-Park-Ave-Denver.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Advanced Energy – Fort Collins',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/advanced-energy-fort-collins.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Black Hawk',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/blackhawk.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Blake Street',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/blake-street.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Central Park Highlands',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/central-park-highlands.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Chick-fil-A',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/chick-fil-a.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Denver Pavilion + Denver Sidewalks',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/denver-sidewalks.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Tommy’s',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/tommys.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Whole Foods – Lakewood',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/whole-foods-lakewood.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Town Center',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/town-center.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'commercial-concrete',
+                'title' => 'Wildcat Reserve Highlands',
+                'subtitle' => 'Commercial Concrete',
+                'cover' => asset('assets/images/commercial/wildcat-reserve-highlands.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Residential Patio',
+                'subtitle' => 'Residential Concrete',
+                'cover' => asset('assets/images/residential/IMG_0041.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Highlands Ranch Residential',
+                'subtitle' => 'Residential Concrete',
+                'cover' => asset('assets/images/residential/IMG_0079.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Before Stair Project',
+                'subtitle' => 'Residential Concrete',
+                'cover' => asset('assets/images/residential/IMG_5912.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'After Stair Project',
+                'subtitle' => 'Residential Concrete',
+                'cover' => asset('assets/images/residential/IMG_7038.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Castle Pines Decorative Concrete',
+                'subtitle' => 'Residential Concrete',
+                'cover' => asset('assets/images/residential/IMG_0161.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Acid Stained Patio',
+                'subtitle' => 'Residential Patio',
+                'cover' => asset('assets/images/residential-patio/Acid_stained_patio.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Classical Gray Colored Patio with Steps',
+                'subtitle' => 'Residential Patio',
+                'cover' => asset('assets/images/residential-patio/Classical_gray_colored_patio_with_steps.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Colored Concrete Patio',
+                'subtitle' => 'Residential Patio',
+                'cover' => asset('assets/images/residential-patio/Colored_concrete_patio.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Colored Stamped Patio',
+                'subtitle' => 'Residential Patio',
+                'cover' => asset('assets/images/residential-patio/Colored_stamped_patio.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Concrete and Masonry Patio',
+                'subtitle' => 'Residential Patio',
+                'cover' => asset('assets/images/residential-patio/Concrete_and_masonry_patio.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Exposed Aggregate Patio',
+                'subtitle' => 'Residential Patio',
+                'cover' => asset('assets/images/residential-patio/Exposed_aggregate_patio.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Gray Patio with Steps',
+                'subtitle' => 'Residential Patio',
+                'cover' => asset('assets/images/residential-patio/Gray_patio_with_steps.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'Before Jones Residence',
+                'subtitle' => 'Jones Residence',
+                'cover' => asset('assets/images/jones-residence/before-Jones-residence.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'residential-concrete',
+                'title' => 'After Jones Residence',
+                'subtitle' => 'Jones Residence',
+                'cover' => asset('assets/images/jones-residence/after-Jones-residence.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'asphalt',
+                'title' => 'Meadow Wood',
+                'subtitle' => 'Asphalt',
+                'cover' => asset('assets/images/asphalt/168-25-Meadow.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'asphalt',
+                'title' => 'Meadow Wood 2',
+                'subtitle' => 'Asphalt',
+                'cover' => asset('assets/images/asphalt/168-25.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'asphalt',
+                'title' => 'Songbird HOA Littleton',
+                'subtitle' => 'Asphalt',
+                'cover' => asset('assets/images/asphalt/HOA_Littleton_IMG_3636.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'asphalt',
+                'title' => 'Songbird HOA Littleton',
+                'subtitle' => 'Asphalt',
+                'cover' => asset('assets/images/asphalt/IMG_3635.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'asphalt',
+                'title' => 'Songbird HOA Littleton',
+                'subtitle' => 'Asphalt',
+                'cover' => asset('assets/images/asphalt/Songbird_HOA_IMG_3637.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'asphalt',
+                'title' => 'Songbird HOA Littleton',
+                'subtitle' => 'Asphalt',
+                'cover' => asset('assets/images/asphalt/Songbird_HOA_Littleton_IMG_3638.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'snow-melt-system',
+                'title' => 'Snow Melt Systems',
+                'subtitle' => 'Snow Melt Systems',
+                'cover' => asset('assets/images/snowmelt/064-25f.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'snow-melt-system',
+                'title' => 'Snow Melt Systems',
+                'subtitle' => 'Snow Melt Systems',
+                'cover' => asset('assets/images/snowmelt/064-25s.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'snow-melt-system',
+                'title' => 'Snow Melt Systems',
+                'subtitle' => 'Snow Melt Systems',
+                'cover' => asset('assets/images/snowmelt/064-25si.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'snow-melt-system',
+                'title' => 'Snow Melt Systems',
+                'subtitle' => 'Snow Melt Systems',
+                'cover' => asset('assets/images/snowmelt/064-25t.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'snow-melt-system',
+                'title' => 'Snow Melt Systems',
+                'subtitle' => 'Snow Melt Systems',
+                'cover' => asset('assets/images/snowmelt/064-25th.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'snow-melt-system',
+                'title' => 'Snow Melt Systems',
+                'subtitle' => 'Snow Melt Systems',
+                'cover' => asset('assets/images/snowmelt/064-25fi.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'concrete-finishes',
+                'title' => 'Colored Concrete',
+                'subtitle' => 'Concrete Finishes',
+                'cover' => asset('assets/images/concrete-finishes/Colored-concrete.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'concrete-finishes',
+                'title' => 'Exposed Aggregate',
+                'subtitle' => 'Concrete Finishes',
+                'cover' => asset('assets/images/concrete-finishes/Exposed-aggregate.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'concrete-finishes',
+                'title' => 'Stamped Concrete',
+                'subtitle' => 'Concrete Finishes',
+                'cover' => asset('assets/images/concrete-finishes/Stamped-concrete.JPG')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'masonry',
+                'title' => 'Commercial Masonry Before/After',
+                'subtitle' => 'Blackhawk',
+                'cover' => asset('assets/images/masonry/IMG_1450.jpg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'masonry',
+                'title' => 'Blackhawk',
+                'subtitle' => 'Masonry',
+                'cover' => asset('assets/images/masonry/Blackhawk.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'masonry',
+                'title' => 'DTC Masonry Project',
+                'subtitle' => 'Masonry',
+                'cover' => asset('assets/images/masonry/IMG_0038.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'masonry',
+                'title' => 'Cherry Creek Country',
+                'subtitle' => 'Masonry',
+                'cover' => asset('assets/images/masonry/Cherry-Creek-Country.jpeg')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'masonry',
+                'title' => 'Cherry Creek Country Club',
+                'subtitle' => 'Masonry',
+                'cover' => asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG')
+            ])
+            @include('partials.gallery-project', [
+                'category' => 'masonry',
+                'title' => 'Masonry Vasa',
+                'subtitle' => 'Masonry',
+                'cover' => asset('assets/images/masonry/Masonry-Vasa.jpeg')
+            ])
         </div>
     </div>
 </section>
