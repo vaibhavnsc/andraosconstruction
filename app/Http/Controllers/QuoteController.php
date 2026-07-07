@@ -31,6 +31,11 @@ class QuoteController extends Controller
             Mail::to($quote->email)
                 ->send(new UserQuoteMail($quote));
         } catch (\Throwable $e) {
+            \Log::error('Quote mail delivery failed: '.$e->getMessage(), [
+                'quote_id' => $quote->id,
+                'trace' => $e->getTraceAsString(),
+            ]);
+
             return response()->json([
                 'status' => false,
                 'message' => 'Quote request saved, but email delivery failed. Please contact us directly.',
