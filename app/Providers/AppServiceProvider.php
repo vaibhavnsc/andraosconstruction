@@ -14,11 +14,10 @@ class AppServiceProvider extends ServiceProvider
         require_once app_path('Helpers/seo.php');
     }
 
-    /**
-     * Bootstrap any application services.
-     */
     public function boot(): void
     {
-        //
+        if (str_starts_with(config('app.url'), 'https://')) {
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
     }
 }
