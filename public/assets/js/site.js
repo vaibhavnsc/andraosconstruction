@@ -213,7 +213,7 @@
     function renderMobileCta() {
       var $cta = $("#mobile-cta");
       if (!$cta.length) { return; }
-      $cta.addClass("mobile-cta")(
+      $cta.addClass("mobile-cta").html(
         '<a href="' + PHONE_HREF + '">&#9743; Call</a>' +
         '<a href="sms:+3039153703">&#9993; Text</a>' +
         '<a href="' + buildLink("contact") + '" class="is-primary">&rarr; Quote</a>'

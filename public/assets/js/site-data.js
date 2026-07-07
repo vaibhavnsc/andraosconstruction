@@ -79,7 +79,9 @@ window.AndraosData = (function () {
     { number: "08", name: "Mountain Communities",  image: "andraos-construction-gallery-043-665h.jpg" }
   ];
 
- 
+  var PROJECTS = [];
+  var FILTERS = [];
+
   /* ---- "Why Andraos" points --------------------------------------------- */
   var WHY = [
     { number: "01", title: "Single point of accountability", body: "One Andraos PM owns each job from walkthrough through warranty. No handoffs, no scope drift." },
