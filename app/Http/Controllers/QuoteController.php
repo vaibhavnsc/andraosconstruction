@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Quote;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\AdminQuoteMail;
+use App\Mail\UserQuoteMail;
 
 class QuoteController extends Controller
 {
@@ -19,7 +22,20 @@ class QuoteController extends Controller
             'message'     => 'nullable|string',
         ]);
 
-        Quote::create($request->all());
+        $quote = Quote::create($request->all());
+
+        try {
+            Mail::to(config('mail.from.address'))
+                ->send(new AdminQuoteMail($quote));
+
+            Mail::to($quote->email)
+                ->send(new UserQuoteMail($quote));
+        } catch (\Throwable $e) {
+            return response()->json([
+                'status' => false,
+                'message' => 'Quote request saved, but email delivery failed. Please contact us directly.',
+            ], 500);
+        }
 
         return response()->json([
             'status' => true,
