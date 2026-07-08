@@ -73,20 +73,6 @@
       </div>
       <div class="col-lg-7">
         <div class="bg-white p-4 p-md-5" style="border-radius:4px">
-          <!-- <form id="quoteForm" class="text-dark">
-            <h3 class="ff-display" style="color:var(--navy-900);font-size:26px">Request a Commercial Estimate</h3>
-            <p class="text-slate mb-4" style="font-size:13px">Reply within 1 business day · Site walks within the week.</p>
-            <div class="row g-3">
-              <div class="col-md-6"><div class="field-label">Full name</div><input class="form-control" required placeholder="Jane Doe"></div>
-              <div class="col-md-6"><div class="field-label">Company / Property</div><input class="form-control" placeholder="Required for commercial"></div>
-              <div class="col-md-6"><div class="field-label">Email</div><input type="email" class="form-control" required placeholder="you@company.com"></div>
-              <div class="col-md-6"><div class="field-label">Phone</div><input type="tel" class="form-control" placeholder="(303) 000-0000"></div>
-              <div class="col-md-6"><div class="field-label">Scope</div><select class="form-select"><option>Commercial Concrete</option><option>Asphalt Paving</option><option>Masonry</option><option>Snow Melt</option><option>HOA / Property Mgmt</option><option>Other</option></select></div>
-              <div class="col-md-6"><div class="field-label">Approx. size</div><input class="form-control" placeholder="e.g. 12,000 SF"></div>
-              <div class="col-12"><div class="field-label">Project scope &amp; schedule</div><textarea class="form-control" rows="4" placeholder="Describe the property, scope of work, and schedule."></textarea></div>
-              <div class="col-12"><button type="submit" class="btn btn-navy btn-arrow w-100">Send Estimate Request</button></div>
-            </div>
-          </form> -->
           <form id="quoteForm" method="POST">
             @csrf
 
