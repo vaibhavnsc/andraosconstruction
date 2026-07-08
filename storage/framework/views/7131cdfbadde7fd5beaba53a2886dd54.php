@@ -131,11 +131,10 @@
                 <figure class="team-card h-100 m-0">
                     <div class="team-card__monogram" aria-hidden="true"><img src="<?php echo e(asset('assets/images/teams/2.jpg')); ?>" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Shawn</h3>
+                        <h3 class="team-card__name">Shawn Kissman</h3>
                         <!--<h3 class="team-card__name">Rob Andraos</h3>-->
                         <!--<p class="team-card__role">Vice President of Operations</p>-->
-                        <p class="team-card__bio">Oversees field operations and crew scheduling, keeping multi-phase
-                            commercial programs on time and on spec.</p>
+                        <p class="team-card__bio">Shawn brings years of versatile, hands-on construction expertise to the Andraos Construction team. With a diverse background spanning many project types and trades, he combines sharp analytical skills with practical field knowledge to handle everything from initial budgeting to final project delivery. As both a Project Estimator and Project Manager, Shawn leverages his comprehensive industry experience to provide accurate pricing, seamless scheduling, and high-quality execution. </p>
                     </figcaption>
                 </figure>
             </div>
