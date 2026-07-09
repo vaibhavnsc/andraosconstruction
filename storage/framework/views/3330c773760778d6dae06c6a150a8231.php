@@ -71,7 +71,7 @@
       </div>
       <div class="col-lg-7">
         <div class="bg-white p-4 p-md-5" style="border-radius:4px">
-          <form id="quoteForm" method="POST">
+          <form id="quoteForm" method="POST" novalidate>
             <?php echo csrf_field(); ?>
 
             <h3 class="ff-display" style="color:var(--navy-900);font-size:26px">
@@ -135,17 +135,9 @@
 
             </div>
 
-            <div id="successMessage" class="alert alert-success mt-3 d-none"></div>
             <div id="errorMessage" class="alert alert-danger mt-3 d-none"></div>
 
           </form>
-          <div id="formSuccess" class="text-center py-5 d-none">
-            <div class="ff-mono text-uppercase mb-3" style="font-size:11px;letter-spacing:.18em;color:var(--slate-500)">
-              Request Received</div>
-            <h3 class="ff-display" style="color:var(--navy-900)">Thank you.</h3>
-            <p class="text-slate mx-auto" style="max-width:36ch;font-size:14px">An Andraos project manager will contact
-              you within one business day to confirm scope and schedule a site walk.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -155,74 +147,34 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<script>
-$(document).ready(function(){
-
-    $("#quoteForm").submit(function(e){
-        e.preventDefault();
-
-        $("#successMessage").addClass('d-none');
-        $("#errorMessage").addClass('d-none');
-
-        $.ajax({
-            url: "<?php echo e(route('quote.submit')); ?>",
-            type: "POST",
-            data: $(this).serialize(),
-
-            success: function(response){
-
-                $("#successMessage")
-                    .removeClass('d-none')
-                    .html(response.message);
-
-                $("#quoteForm")[0].reset();
-            },
-
-            error: function(xhr){
-
-                if(xhr.status == 422){
-
-                    let errors = xhr.responseJSON.errors;
-                    let errorHtml = '';
-
-                    $.each(errors, function(key, value){
-                        errorHtml += value[0] + "<br>";
-                    });
-
-                    $("#errorMessage")
-                        .removeClass('d-none')
-                        .html(errorHtml);
-
-                }else{
-
-                    $("#errorMessage")
-                        .removeClass('d-none')
-                        .html("Something went wrong.");
-
-                }
-            }
-
-        });
-
-    });
-
-});
-</script>
-
 
 <script>
 $(document).ready(function () {
+
+    $.validator.addMethod("lettersOnly", function(value, element) {
+        return this.optional(element) || /^[A-Za-z]+(?:\s+[A-Za-z]+)*$/.test(value.trim());
+    }, "Please enter only letters and spaces.");
+
+    $.validator.addMethod("alphanumeric", function(value, element) {
+        return this.optional(element) || /^[A-Za-z0-9\s,-]+$/.test(value.trim());
+    }, "Please enter only letters, numbers, spaces, commas and dashes.");
+
+    $.validator.addMethod("phoneUS", function(value, element) {
+        return this.optional(element) || /^[\d\s\-\(\)]+$/.test(value.trim()) && value.replace(/\D/g, '').length >= 10;
+    }, "Please enter a valid phone number (at least 10 digits).");
 
     $("#quoteForm").validate({
 
         rules: {
             full_name: {
                 required: true,
+                lettersOnly: true,
                 minlength: 3,
-                digits: false                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                maxlength: 100
             },
             company: {
-                required: true
+                required: true,
+                maxlength: 255
             },
             email: {
                 required: true,
@@ -230,26 +182,31 @@ $(document).ready(function () {
             },
             phone: {
                 required: true,
-                digits: true,
+                phoneUS: true,
                 minlength: 10,
-                maxlength: 15
+                maxlength: 14
             },
             scope: {
                 required: true
             },
             approx_size: {
-                required: true
+                required: true,
+                alphanumeric: true,
+                minlength: 1,
+                maxlength: 7
             },
             message: {
                 required: true,
-                minlength: 20
+                minlength: 15,
+                maxlength: 250
             }
         },
 
         messages: {
             full_name: {
                 required: "Please enter your full name.",
-                minlength: "Name must be at least 3 characters."
+                minlength: "Name must be at least 3 characters.",
+                lettersOnly: "Name can only contain letters."
             },
             company: {
                 required: "Please enter company/property name."
@@ -260,9 +217,8 @@ $(document).ready(function () {
             },
             phone: {
                 required: "Please enter your phone number.",
-                digits: "Only numbers are allowed.",
                 minlength: "Phone number must be at least 10 digits.",
-                maxlength: "Phone number cannot exceed 15 digits."
+                maxlength: "Phone number is too long."
             },
             scope: {
                 required: "Please select project scope."
@@ -332,11 +288,11 @@ $(document).ready(function () {
                             Swal.fire({
                                 icon: "success",
                                 title: "Success",
-                                text: response.message,
+                                text: "Quote request submitted successfully.",
                                 confirmButtonColor: "#198754"
+                            }).then(() => {
+                                location.reload();
                             });
-
-                            $("#quoteForm")[0].reset();
 
                         },
 
@@ -351,19 +307,12 @@ $(document).ready(function () {
                                     errorHtml += value[0] + "<br>";
                                 });
 
-                                Swal.fire({
-                                    icon: "error",
-                                    title: "Validation Error",
-                                    html: errorHtml
-                                });
+                                $("#errorMessage").html(errorHtml).removeClass("d-none");
 
                             } else {
 
-                                Swal.fire({
-                                    icon: "error",
-                                    title: "Oops!",
-                                    text: "Something went wrong. Please try again."
-                                });
+                                let serverMsg = xhr.responseJSON?.message || "Something went wrong. Please try again.";
+                                $("#errorMessage").text(serverMsg).removeClass("d-none");
 
                             }
 
