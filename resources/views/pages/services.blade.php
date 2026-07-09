@@ -40,7 +40,7 @@
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Flatwork</span><span class="tag">Curb &amp;
                         gutter</span><span class="tag">ADA</span></div>
 
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/commercial-concrete"
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/commercial-concrete-services"
                         class="btn btn-navy btn-arrow">View Service Details</a><a href="./contact"
                         class="btn btn-outline-navy">Request a Quote</a></div>
             </div>
@@ -55,7 +55,7 @@
                     lots, and asphalt maintenance.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Capital renewal</span><span
                         class="tag">Sidewalks</span><span class="tag">Repair</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/hoa-property-management"
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/hoa-property-management-services"
                         class="btn btn-navy btn-arrow">View Service Details</a><a href="/contact"
                         class="btn btn-outline-navy">Request a Quote</a></div>
             </div>
@@ -69,7 +69,7 @@
                     sealcoating, and striping for parking lots.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Mill &amp; overlay</span><span
                         class="tag">Sealcoat</span><span class="tag">Striping</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/asphalt" class="btn btn-navy btn-arrow">View
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/asphalt-services" class="btn btn-navy btn-arrow">View
                         Service Details</a><a href="/contact" class="btn btn-outline-navy">Request a Quote</a></div>
             </div>
         </div>
@@ -82,8 +82,8 @@
                     structural CMU site work.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Sandstone</span><span
                         class="tag">Brick</span><span class="tag">Retaining walls</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/masonry" class="btn btn-navy btn-arrow">View
-                        Service Details</a><a href="./contact.html" class="btn btn-outline-navy">Request a Quote</a>
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/masonry-services" class="btn btn-navy btn-arrow">View
+                        Service Details</a><a href="./contact" class="btn btn-outline-navy">Request a Quote</a>
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
                     during the original pour.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Hydronic</span><span
                         class="tag">Entries</span><span class="tag">ADA ramps</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/snow-melt"
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/snow-melt-services"
                         class="btn btn-navy btn-arrow">View Service Details</a><a href="/contact"
                         class="btn btn-outline-navy">Request a Quote</a></div>
             </div>

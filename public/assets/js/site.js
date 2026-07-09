@@ -48,7 +48,7 @@
       // Build the Service-Areas dropdown items from the locations data.
       var areaItems = $.map(data.LOCATIONS, function (loc) {
         return '<li><a class="dropdown-item" href="' +
-          buildLink("locations/" + loc.slug + "") + '">' + loc.name + "</a></li>";
+          buildLink("service-areas/" + loc.slug) + '">' + loc.name + "</a></li>";
       }).join("");
 
       var html =
@@ -201,7 +201,7 @@
 
     function footerAreaLinks(list) {
       return $.map(list, function (loc) {
-        return '<a class="footer-link" href="' + buildLink("locations/" + loc.slug + ".html") +
+        return '<a class="footer-link" href="' + buildLink("service-areas/" + loc.slug) +
           '">' + loc.name + "</a>";
       }).join("");
     }
@@ -408,7 +408,7 @@
 
       $grid.html($.map(data.LOCATIONS.slice(0, limit), function (loc) {
         return '<div class="col-lg-4 col-md-6">' +
-          '<a href="' + buildLink("locations/" + loc.slug + ".html") + '" class="area-card">' +
+          '<a href="' + buildLink("service-areas/" + loc.slug) + '" class="area-card">' +
             '<span>' +
               '<span class="area-card__name d-block">' + loc.name + '</span>' +
               '<span class="area-card__meta">' + (useCounty ? loc.county : loc.note) + '</span>' +

@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('snow-melt');
+
+    $title = $seo->meta_title ?? 'Snow Melt Systems | Denver, CO';
+
+    $description = $seo->meta_description
+        ?? 'Keep your property snow-free with our hydronic systems. Learn more! Denver, CO.';
+@endphp 
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
 @section('content')
 
 <header class="page-hero">
@@ -96,15 +108,15 @@
                 <div class="sidebar-card">
                     <h2 class="sidebar-card__title">All Services</h2>
                     <nav id="js-service-nav"><a class="service-nav-link"
-                            href="/services/commercial-concrete">Commercial Concrete<span
+                            href="/commercial-concrete-services">Commercial Concrete<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/services/asphalt">Asphalt Paving &amp; Repair<span
+                            href="/asphalt-services">Asphalt Paving &amp; Repair<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/services/masonry">Commercial Masonry<span
+                            href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
-                            href="/services/snow-melt">Snow Melt Systems<span
+                            href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/services/hoa-property-management">HOA &amp; Property
+                            href="/hoa-property-management-services">HOA &amp; Property
                             Management<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">

@@ -61,7 +61,7 @@
 </section>
 
     
-<section class="section--tight border-bottom" aria-labelledby="brands-heading">
+<section class="section--tight" aria-labelledby="brands-heading">
     <div class="container">
         <div class="text-center mb-5 reveal is-visible">
             <p class="eyebrow">Trusted By</p>
@@ -117,13 +117,13 @@
  <!-- 
 Google Reviews -->
         
-    <div class="Google reviews">
+    <section id="Google-reviews">
         <div class="eyebrow on-dark text-center mt-5">Reviews</div>
         <h2 class="ff-display display-lg mt-3 mb-4 text-black text-center">In Their Words</h2>
         <!-- Elfsight Google Reviews | Untitled Google Reviews -->
         <script src="https://elfsightcdn.com/platform.js" async></script>
         <div class="elfsight-app-db0f5b6a-6e3e-47d4-a4f6-009ef91c06ea" data-elfsight-app-lazy></div>
-    </div>
+    </section>
 
     <!-- 
 <aside class="py-4 border-bottom" aria-label="Selected clients">
@@ -199,7 +199,7 @@ Google Reviews -->
         </div>
         <div class="row g-4" id="svcGrid">
             <div class="col-lg-4 col-md-6">
-                <a href="./services/commercial-concrete" class="svc-card d-block text-decoration-none">
+                <a href="./commercial-concrete-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="commercial-concrete"><img
                             src="{{ asset('assets/images/commercial.jpeg') }}" alt="Commercial Concrete">
                         <div class="num-eyebrow mt-3">01 / 05</div>
@@ -214,7 +214,7 @@ Google Reviews -->
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services/hoa-property-management" class="svc-card d-block text-decoration-none">
+                <a href="./hoa-property-management-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="hoa-property-management"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                             alt="HOA &amp; Property Management">
                         <div class="num-eyebrow mt-3">02 / 05</div>
@@ -228,7 +228,7 @@ Google Reviews -->
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services/asphalt" class="svc-card d-block text-decoration-none">
+                <a href="./asphalt-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="asphalt"><img src="{{ asset('assets/images/asphalt/168-25.jpg') }}"
                             alt="Asphalt Paving &amp; Repair">
                         <div class="num-eyebrow mt-3">03 / 05</div>
@@ -242,7 +242,7 @@ Google Reviews -->
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services/masonry" class="svc-card d-block text-decoration-none">
+                <a href="./masonry-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="masonry"><img src="{{ asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG') }}"
                             alt="Commercial Masonry">
                         <div class="num-eyebrow mt-3">04 / 05</div>
@@ -256,7 +256,7 @@ Google Reviews -->
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services/snow-melt" class="svc-card d-block text-decoration-none">
+                <a href="./snow-melt-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="snow-melt"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}"
                             alt="Snow Melt Systems">
                         <div class="num-eyebrow mt-3">05 / 05</div>

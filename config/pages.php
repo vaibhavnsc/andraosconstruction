@@ -17,7 +17,7 @@ return [
         ['path' => '/contact',    'view' => 'pages.contact',       'name' => 'contact',       'seo' => 'contact'],
         ['path' => '/gallery',    'view' => 'pages.gallery',       'name' => 'gallery',       'seo' => 'gallery'],
         ['path' => '/blog',       'view' => 'pages.blog',          'name' => 'blog',          'seo' => 'blog'],
-        ['path' => '/faq',        'view' => 'pages.faq',           'name' => 'faq',           'seo' => 'faq'],
+        ['path' => '/faqs',       'view' => 'pages.faq',          'name' => 'faq',           'seo' => 'faq'],
         ['path' => '/privacy',    'view' => 'pages.privacy',       'name' => 'privacy',       'seo' => 'privacy'],
         ['path' => '/terms',      'view' => 'pages.terms',         'name' => 'terms',         'seo' => 'terms'],
         ['path' => '/services',   'view' => 'pages.services',      'name' => 'services',      'seo' => 'services'],
@@ -36,11 +36,11 @@ return [
 
     // Individual service detail pages
     'services' => [
-        ['path' => '/services/commercial-concrete',    'view' => 'pages.services.commercial-concrete',    'name' => 'services.commercial-concrete',    'seo' => 'commercial-concrete'],
-        ['path' => '/services/asphalt',                'view' => 'pages.services.asphalt',                'name' => 'services.asphalt',                'seo' => 'asphalt'],
-        ['path' => '/services/masonry',                'view' => 'pages.services.masonry',                'name' => 'services.masonry',                'seo' => 'masonry'],
-        ['path' => '/services/snow-melt',               'view' => 'pages.services.snow-melt',               'name' => 'services.snow-melt',               'seo' => 'snow-melt'],
-        ['path' => '/services/hoa-property-management', 'view' => 'pages.services.hoa-property-management', 'name' => 'services.hoa-property-management', 'seo' => 'hoa-property-management'],
+        ['path' => '/commercial-concrete-services',    'view' => 'pages.services.commercial-concrete',    'name' => 'services.commercial-concrete',    'seo' => 'commercial-concrete'],
+        ['path' => '/asphalt-services',               'view' => 'pages.services.asphalt',                'name' => 'services.asphalt',                'seo' => 'asphalt'],
+        ['path' => '/masonry-services',                'view' => 'pages.services.masonry',                'name' => 'services.masonry',                'seo' => 'masonry'],
+        ['path' => '/snow-melt-services',               'view' => 'pages.services.snow-melt',               'name' => 'services.snow-melt',               'seo' => 'snow-melt'],
+        ['path' => '/hoa-property-management-services', 'view' => 'pages.services.hoa-property-management', 'name' => 'services.hoa-property-management', 'seo' => 'hoa-property-management'],
     ],
 
     // Service area location pages

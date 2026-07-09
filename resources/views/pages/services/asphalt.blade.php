@@ -109,7 +109,7 @@
 
                     <!-- CTA inline -->
                     <div class="d-flex gap-2 mt-5 flex-wrap">
-                        <a href="contact.html" class="btn btn-navy btn-arrow">Request a Quote</a>
+                        <a href="contact" class="btn btn-navy btn-arrow">Request a Quote</a>
                         <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
                     </div>
                 </article>
@@ -120,15 +120,15 @@
                 <div class="sidebar-card">
                     <h2 class="sidebar-card__title">All Services</h2>
                     <nav id="js-service-nav"><a class="service-nav-link"
-                            href="/services/commercial-concrete">Commercial Concrete<span
+                            href="/commercial-concrete-services">Commercial Concrete<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
-                            href="/services/asphalt">Asphalt Paving &amp; Repair<span
+                            href="/asphalt-services">Asphalt Paving &amp; Repair<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/services/masonry">Commercial Masonry<span
+                            href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/services/snow-melt">Snow Melt Systems<span
+                            href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/services/hoa-property-management">HOA &amp; Property
+                            href="/hoa-property-management-services">HOA &amp; Property
                             Management<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
@@ -136,7 +136,7 @@
                     <p class="text-white-50 small mt-2 mb-4">
                         Send us the details and we’ll return a line-item estimate in 3–5 business days.
                     </p>
-                    <a href="contact.html" class="btn btn-light-navy btn-arrow w-100">Request a Quote</a>
+                    <a href="contact" class="btn btn-light-navy btn-arrow w-100">Request a Quote</a>
                 </div>
             </aside>
 

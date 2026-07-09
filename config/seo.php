@@ -23,8 +23,8 @@ return [
             'meta_description' => 'Andraos Construction serves Denver, Aurora, Boulder, Littleton, Highlands Ranch, Castle Rock, Parker and more across the Colorado Front Range. Find your city.',
         ],
         'contact' => [
-            'meta_title' => 'Contact Andraos Construction — Request a Commercial Estimate | Denver, CO',
-            'meta_description' => 'Request a commercial concrete, asphalt or masonry estimate from Andraos Construction. Serving the Colorado Front Range since 1993. Call (303) 915-3703.',
+            'meta_title' => 'Contact | Andraos Construction | Denver, CO Area',
+            'meta_description' => 'Reach out for inquiries & prompt responses. Learn more! Serving the Denver, CO Metro Area.',
         ],
         'terms' => [
             'meta_title' => 'Terms & Conditions | Andraos Construction',
@@ -110,5 +110,10 @@ return [
             'meta_title' => 'Asphalt Services | Andraos Construction | Denver, CO Area',
             'meta_description' => 'Get expert asphalt services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.',
         ],
+                'snow-melt' => [
+                'meta_title' => 'Snow Melt Systems | Denver, CO',
+                'meta_description' => 'Keep your property snow-free with our hydronic systems. Learn more! Denver, CO.',
+            ],
+            
     ],
 ];  
