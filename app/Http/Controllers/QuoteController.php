@@ -35,11 +35,6 @@ class QuoteController extends Controller
                 'quote_id' => $quote->id,
                 'trace' => $e->getTraceAsString(),
             ]);
-
-            return response()->json([
-                'status' => false,
-                'message' => 'Quote request saved, but email delivery failed. Please contact us directly.',
-            ], 500);
         }
 
         return response()->json([

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -10,4 +10,4 @@
     <p><strong>Full Name:</strong> {{ $quote->full_name }}</p>
     <p><strong>Email:</strong> {{ $quote->email }}</p>
 </body>
-</html>
+</html> -->

@@ -169,7 +169,7 @@ window.addEventListener('scroll',()=>{
 
 /* Form */
 if(el('quoteForm')){
-  el('quoteForm').onsubmit=e=>{e.preventDefault();el('quoteForm').classList.add('d-none');if(el('formSuccess')) el('formSuccess').classList.remove('d-none');};
+  el('quoteForm').onsubmit=e=>{e.preventDefault();};
 }
 
 /* Reveal on scroll */
