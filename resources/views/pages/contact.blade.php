@@ -2,8 +2,8 @@
 
 @php
     $seo = getPageSeoByKey('contact');
-    $title = $seo->meta_title ?? 'Contact Andraos Construction — Request a Commercial Estimate | Denver, CO';
-    $description = $seo->meta_description ?? 'Request a commercial concrete, asphalt or masonry estimate from Andraos Construction. Serving the Colorado Front Range since 1993. Call (303) 915-3703.';
+    $title = $seo->meta_title ?? 'Contact | Andraos Construction | Denver, CO Area';
+    $description = $seo->meta_description ?? 'Reach out for inquiries & prompt responses. Learn more! Serving the Denver, CO Metro Area.';
 @endphp
 
 @section('meta_title', $title)
@@ -17,7 +17,7 @@
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
-          <a href="/">Home</a> &nbsp;/&nbsp; Co ntact
+          <a href="/">Home</a> &nbsp;/&nbsp; Contact
         </nav>
         <h1>Request a Commercial Project Estimate</h1>
         <p class="lede on-dark mt-3 maxw-56">
@@ -154,6 +154,8 @@
   </div>
 </section>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script>
 $(document).ready(function(){
@@ -209,6 +211,180 @@ $(document).ready(function(){
 });
 </script>
 
+
+<script>
+$(document).ready(function () {
+
+    $("#quoteForm").validate({
+
+        rules: {
+            full_name: {
+                required: true,
+                minlength: 3,
+                digits: false                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            },
+            company: {
+                required: true
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            phone: {
+                required: true,
+                digits: true,
+                minlength: 10,
+                maxlength: 15
+            },
+            scope: {
+                required: true
+            },
+            approx_size: {
+                required: true
+            },
+            message: {
+                required: true,
+                minlength: 20
+            }
+        },
+
+        messages: {
+            full_name: {
+                required: "Please enter your full name.",
+                minlength: "Name must be at least 3 characters."
+            },
+            company: {
+                required: "Please enter company/property name."
+            },
+            email: {
+                required: "Please enter your email.",
+                email: "Please enter a valid email address."
+            },
+            phone: {
+                required: "Please enter your phone number.",
+                digits: "Only numbers are allowed.",
+                minlength: "Phone number must be at least 10 digits.",
+                maxlength: "Phone number cannot exceed 15 digits."
+            },
+            scope: {
+                required: "Please select project scope."
+            },
+            approx_size: {
+                required: "Please enter approximate project size."
+            },
+            message: {
+                required: "Please describe your project.",
+                minlength: "Please enter at least 20 characters."
+            }
+        },
+
+        errorElement: "small",
+        errorClass: "text-danger",
+
+        errorPlacement: function (error, element) {
+            error.insertAfter(element);
+        },
+
+        highlight: function (element) {
+            $(element).addClass("is-invalid");
+        },
+
+        unhighlight: function (element) {
+            $(element).removeClass("is-invalid");
+        },
+
+        submitHandler: function (form) {
+
+            Swal.fire({
+                title: "Confirm Submission",
+                text: "Do you want to submit this estimate request?",
+                icon: "question",
+                showCancelButton: true,
+                confirmButtonText: "Yes, Submit",
+                cancelButtonText: "Cancel",
+                reverseButtons: true,
+                confirmButtonColor: "#0d6efd",
+                cancelButtonColor: "#d33"
+            }).then((result) => {
+
+                if (result.isConfirmed) {
+
+                    $.ajax({
+
+                        url: "{{ route('quote.submit') }}",
+                        type: "POST",
+                        data: $(form).serialize(),
+                        dataType: "json",
+
+                        beforeSend: function () {
+
+                            Swal.fire({
+                                title: "Submitting...",
+                                text: "Please wait.",
+                                allowOutsideClick: false,
+                                didOpen: () => {
+                                    Swal.showLoading();
+                                }
+                            });
+
+                        },
+
+                        success: function (response) {
+
+                            Swal.fire({
+                                icon: "success",
+                                title: "Success",
+                                text: response.message,
+                                confirmButtonColor: "#198754"
+                            });
+
+                            $("#quoteForm")[0].reset();
+
+                        },
+
+                        error: function (xhr) {
+
+                            if (xhr.status === 422) {
+
+                                let errors = xhr.responseJSON.errors;
+                                let errorHtml = "";
+
+                                $.each(errors, function (key, value) {
+                                    errorHtml += value[0] + "<br>";
+                                });
+
+                                Swal.fire({
+                                    icon: "error",
+                                    title: "Validation Error",
+                                    html: errorHtml
+                                });
+
+                            } else {
+
+                                Swal.fire({
+                                    icon: "error",
+                                    title: "Oops!",
+                                    text: "Something went wrong. Please try again."
+                                });
+
+                            }
+
+                        }
+
+                    });
+
+                }
+
+            });
+
+            return false;
+        }
+
+    });
+
+});
+</script>
+
 @endsection
 
 @push('scripts')
@@ -220,5 +396,21 @@ document.addEventListener('DOMContentLoaded', function () {
 @endpush
 
 
+@push('styles')
+<style>
+label.error,
+small.error,
+small.text-danger {
+    color: #dc3545;
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+}
 
+.is-invalid {
+    border-color: #dc3545 !important;
+    box-shadow: none;
+}
+</style>
+@endpush
 

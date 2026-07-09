@@ -141,7 +141,7 @@
         <h2 id="nearby-heading" class="ff-display display-md text-white mb-4">We Also Serve</h2>
         <div class="row g-3">
           <div class="col-md-4">
-            <a href="englewood.html" class="area-card">
+            <a href="englewood" class="area-card">
               <span>
                 <span class="area-card__name d-block">Englewood</span>
                 <span class="area-card__meta">Arapahoe County</span>
@@ -150,7 +150,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="broomfield.html" class="area-card">
+            <a href="broomfield" class="area-card">
               <span>
                 <span class="area-card__name d-block">Broomfield</span>
                 <span class="area-card__meta">Broomfield County</span>
@@ -159,7 +159,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="boulder.html" class="area-card">
+            <a href="boulder" class="area-card">
               <span>
                 <span class="area-card__name d-block">Boulder</span>
                 <span class="area-card__meta">Boulder County</span>
@@ -169,7 +169,7 @@
           </div>
         </div>
         <div class="mt-4">
-          <a href="../service-areas.html" class="btn btn-outline-light btn-arrow">All Service Areas</a>
+          <a href="../service-areas" class="btn btn-outline-light btn-arrow">All Service Areas</a>
         </div>
       </div>
     </section>

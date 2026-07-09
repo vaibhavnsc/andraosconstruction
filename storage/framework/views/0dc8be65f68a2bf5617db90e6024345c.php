@@ -68,8 +68,8 @@
                 </a>
 
                 <a href="/about" class="footer-link">About</a>
-                <a href="/faq" class="footer-link">FAQ</a>
-                <a href="/about/#reviews" class="footer-link">Reviews</a>
+                <a href="/faqs" class="footer-link">FAQ</a>
+                <a href="/#Google-reviews" class="footer-link">Reviews</a>
                 <a href="/contact" class="footer-link">Request a Quote</a>
 
             </div>
