@@ -1266,7 +1266,7 @@ ul.dropdown-menu.service-area-dropdown.show hr {
       font-size: clamp(40px, 3.2vw, 60px);
     }
     .display-lg {
-      font-size: clamp(28px, 2.9vw, 39px);
+      font-size: clamp(28px, 2.1vw, 39px);
     }
     .divider-top {
       padding-top: 0rem !important;
