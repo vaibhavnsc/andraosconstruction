@@ -1195,7 +1195,7 @@ ul.dropdown-menu.service-area-dropdown.show hr {
     object-fit: cover;
 }
 .and-abt img {
-    min-height: 400px !important;
+    min-height: 500px !important;
 }
 }
 @media screen and (max-width: 600px) {
@@ -1209,7 +1209,7 @@ ul.dropdown-menu.service-area-dropdown.show hr {
     }
     .and-abt img {
       min-height: 267px !important;
-      object-fit: contain !important;
+      object-fit: cover !important;
     }
     .team-card__monogram img {
       height: 460px !important;
@@ -1254,7 +1254,7 @@ ul.dropdown-menu.service-area-dropdown.show hr {
 }
 @media screen and (max-width:375px) {
   .and-abt {
-    height: 244px;
+    height: 271px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
