@@ -147,7 +147,7 @@ Google Reviews -->
         <div class="row g-5 align-items-center reveal abt-main" style="justify-content: flex-start;align-item:start;">
           <div class="col-lg-8 abt-img">
             <figure class="position-relative m-0 and-abt">
-              <img src="{{ asset('assets/images/home-about.jpg') }}" class="ratio-4-5 img-treat obj-pos-top" style="object-fit:unset;height=100%;min-height :637px;width=100%; "/>
+              <img src="{{ asset('assets/images/About.jpg') }}" class="ratio-4-5 img-treat obj-pos-top" style="object-fit:unset;height=100%;min-height :637px;width=100%; "/>
               <figcaption class="position-absolute bottom-0 start-0 end-0 p-4 text-white about-caption">
                 <span class="ff-display fw-medium fs-5 d-block">The Andraos Construction Team</span>
                 <span class="ff-mono text-uppercase text-white-50">Denver, Colorado &middot; Family-owned since 1993</span>
