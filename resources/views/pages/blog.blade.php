@@ -64,7 +64,7 @@
                                 class="blog-card__media"><img src="./assets/images/longlasting.jpg"
                                     alt="How HOAs Should Budget for Concrete Capital Renewal">
                                 <!-- <span
-                                    class="blog-card__cat">HOA &amp; Property Management</span>-->
+                                    class="blog-card__cat">Retail Commercial Concrete</span>-->
                             </a>
                             <div class="blog-card__body">
                                 <p class="blog-meta">October 15, 2025 · 7 min read</p>

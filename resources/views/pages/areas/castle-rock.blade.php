@@ -90,7 +90,7 @@
             <div class="col-md-6 col-lg-4">
               <a href="/services#hoa-property-management" class="svc-link-card">
                 <span class="num-eyebrow">05</span>
-                <h3>HOA &amp; Property Management</h3>
+                <h3>Retail Commercial Concrete</h3>
                 <p class="text-slate small mb-0">Community-wide capital renewal: sidewalks, drive lanes, curb &amp; gutter, parking lots, and asphalt maintenance.</p>
               </a>
             </div>

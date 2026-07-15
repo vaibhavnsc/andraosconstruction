@@ -102,8 +102,9 @@
                         <h3 class="team-card__name">Ray</h3>
                         <!--<h3 class="team-card__name">Concrete Foreman</h3>-->
                         <!--<p class="team-card__role">Concrete Superintendent</p>-->
-                        <p class="team-card__bio">Leads the self-performed concrete crews — flatwork, structural slabs,
-                            and ADA-compliant work.</p>
+                        <p class="team-card__bio">Being the founder of Andraos Construction in Colorado since 1993.
+Ray is second generation mason and concrete contractor has 40+ years in the construction industry specializing in the masonry and concrete industry. Working on both residential projects and commercial projects. 
+Ray serves in estimating and customer relationship. He loves his work and the people he works with.</p>
                     </figcaption>
                 </figure>
             </div>
@@ -133,7 +134,7 @@
                 <figure class="team-card h-100 m-0">
                     <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/teams/2.jpg') }}" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
-                        <h3 class="team-card__name">Shawn Kissman</h3>
+                        <h3 class="team-card__name">Shawn </h3>
                         <!--<h3 class="team-card__name">Rob Andraos</h3>-->
                         <!--<p class="team-card__role">Vice President of Operations</p>-->
                         <p class="team-card__bio">Shawn brings years of versatile, hands-on construction expertise to the Andraos Construction team. With a diverse background spanning many project types and trades, he combines sharp analytical skills with practical field knowledge to handle everything from initial budgeting to final project delivery. As both a Project Estimator and Project Manager, Shawn leverages his comprehensive industry experience to provide accurate pricing, seamless scheduling, and high-quality execution. </p>

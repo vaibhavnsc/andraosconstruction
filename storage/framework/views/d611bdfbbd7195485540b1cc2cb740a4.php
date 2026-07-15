@@ -1,7 +1,7 @@
 <div class="main-nav" id="mainNav">
     <div class="utility-bar">
       <div class="container d-flex justify-content-between align-items-center py-2">
-        <div class="d-none d-lg-block">◷ Mon–Fri · 6:00am – 6:00pm &nbsp;·&nbsp; Serving the Front Range &amp; Mountain Communities Since 1993</div>
+        <div class="d-none d-lg-block">◷ Mon–Fri · 8:00am – 5:00pm &nbsp;·&nbsp; Serving the Front Range &amp; Mountain Communities Since 1993</div>
         <div class="d-flex align-items-center gap-3">
           <a href="tel:+3039153703" class="d-flex align-items-center gap-2 fw-semibold"><span class="dot"></span>(303) 915-3703</a>
           <a href="/contact" class="utility-cta ps-3 border-start border-secondary">Request Call Back</a>
@@ -31,35 +31,35 @@
                     <ul class="dropdown-menu">
                         <li>
                             <a class="dropdown-item<?php echo e(request()->is('commercial-concrete*') ? ' active' : ''); ?>"
-                               href="<?php echo e(route('services')); ?>#commercial-concrete">
+                               href="/commercial-concrete-services">
                                  Commercial Concrete
                             </a>
                         </li>
 
                         <li>
                             <a class="dropdown-item<?php echo e(request()->is('hoa-property-management*') ? ' active' : ''); ?>"
-                               href="<?php echo e(route('services')); ?>#hoa-property-management">
-                                 HOA &amp; Residential Concrete
+                               href="/hoa-property-management-services">
+                                Retail Commercial Concrete
                             </a>
                         </li>
 
                         <li>
                             <a class="dropdown-item<?php echo e(request()->is('asphalt*') ? ' active' : ''); ?>"
-                               href="<?php echo e(route('services')); ?>#asphalt">
+                               href="/asphalt-services">
                                  Asphalt Paving &amp; Repair
                             </a>
                         </li>
 
                         <li>
                             <a class="dropdown-item<?php echo e(request()->is('masonry*') ? ' active' : ''); ?>"
-                               href="<?php echo e(route('services')); ?>#masonry">
+                               href="/masonry-services">
                                  Commercial Masonry
                             </a>
                         </li>
                         
                         <li>
                             <a class="dropdown-item<?php echo e(request()->is('snow-melt*') ? ' active' : ''); ?>"
-                               href="<?php echo e(route('services')); ?>#snow-melt">
+                               href="/snow-melt-services">
                                  Snow Melt Systems
                             </a>
                         </li>

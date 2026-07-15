@@ -10,9 +10,9 @@
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
             <a href="/services">Services</a> &nbsp;/&nbsp;
-            <span class="js-service-name">HOA &amp; Property Management</span>
+            <span class="js-service-name">Retail Commercial Concrete</span>
         </nav>
-        <h1 class="js-service-name">HOA &amp; Property Management</h1>
+        <h1 class="js-service-name">Retail Commercial Concrete</h1>
     </div>
 </header>
 
@@ -25,7 +25,7 @@
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img id="js-service-image" alt="HOA &amp; Property Management" class="ratio-16-9 mb-4"
+                    <img id="js-service-image" alt="Retail Commercial Concrete" class="ratio-16-9 mb-4"
                         src="/assets/images/residential/IMG_0079.jpeg">
 
                     <p class="eyebrow">Overview</p>

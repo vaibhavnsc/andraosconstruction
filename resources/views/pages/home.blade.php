@@ -74,40 +74,40 @@
         <!-- Brand tiles injected by site.js -->
         <div class="row g-3 reveal is-visible" id="js-brand-grid">
             <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Costco</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
                 <div class="brand-tile"><span class="brand-wordmark">Gart Properties</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">Marriott</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">Mc2 Enterprises</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">ASR Companies</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">CQL-2000 Constructors</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">Whole Foods Market</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">Chase</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">McGuckin Hardware</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">Sal's Carpentry</span></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">Rocky Mountain Kids</span></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="brand-tile"><span class="brand-wordmark">Shea Properties</span></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3">
-                <div class="brand-tile"><span class="brand-wordmark">Alterra</span></div>
+                <div class="brand-tile"><span class="brand-wordmark">Gaylord Hotel</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Starbucks</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Southlands Mall</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Ballys Black Hawk</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">VASA</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Denver Pavilions</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Tommy's Car Wash</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Schomp Car Dealerships</span></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="brand-tile"><span class="brand-wordmark">Whole Foods</span></div>
             </div>
         </div>
     </div>
@@ -193,8 +193,6 @@ Google Reviews -->
                 <h2 class="ff-display display-lg mt-3 text-white">Concrete. Asphalt. Masonry. Snow Melt.</h2>
             </div>
             <div class="col-lg-6 d-flex align-items-end">
-                <p class="lede" style="color:var(--slate-300)">Self-performed by Andraos crews from estimate to punch
-                    list.</p>
             </div>
         </div>
         <div class="row g-4" id="svcGrid">
@@ -202,28 +200,19 @@ Google Reviews -->
                 <a href="./commercial-concrete-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="commercial-concrete"><img
                             src="{{ asset('assets/images/commercial.jpeg') }}" alt="Commercial Concrete">
-                        <div class="num-eyebrow mt-3">01 / 05</div>
                         <h3 class="text-white">Commercial Concrete</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Flatwork, curb &amp; gutter,
                             drain pans, dock
                             ramps, ADA sidewalks, and structural slabs for commercial properties.</p>
-                        <div class="d-flex flex-wrap gap-1"><span class="tag">Flatwork</span><span class="tag">Curb
-                                &amp;
-                                gutter</span><span class="tag">ADA</span></div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./hoa-property-management-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="hoa-property-management"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
-                            alt="HOA &amp; Property Management">
-                        <div class="num-eyebrow mt-3">02 / 05</div>
-                        <h3 class="text-white">HOA &amp; Residential Concrete</h3>
-                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Community-wide capital renewal:
-                            sidewalks,
-                            drive lanes, curb &amp; gutter, parking lots, and asphalt maintenance.</p>
-                        <div class="d-flex flex-wrap gap-1"><span class="tag">Capital renewal</span><span
-                                class="tag">Sidewalks</span><span class="tag">Repair</span></div>
+                            alt="Retail Commercial Concrete">
+                        <h3 class="text-white">Retail Commercial Concrete</h3>
+                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">We provide interior and exterior concrete services for residential customers, delivering solutions for projects ranging from stairs, pool decks, patios, garage floors, and driveways to concrete leveling and repairs. Our team specializes in high-end finishes, including stamped and colored concrete, to create durable surfaces that enhance the beauty and value of your home. Above all, we are committed to delivering quality craftsmanship and exceeding our customers' expectations on every project.</p>
                     </div>
                 </a>
             </div>
@@ -231,13 +220,8 @@ Google Reviews -->
                 <a href="./asphalt-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="asphalt"><img src="{{ asset('assets/images/asphalt/168-25.jpg') }}"
                             alt="Asphalt Paving &amp; Repair">
-                        <div class="num-eyebrow mt-3">03 / 05</div>
                         <h3 class="text-white">Asphalt Paving &amp; Repair</h3>
-                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Mill &amp; overlay, full-depth
-                            removal &amp;
-                            replacement, crackfilling, sealcoating, and striping for parking lots.</p>
-                        <div class="d-flex flex-wrap gap-1"><span class="tag">Mill &amp; overlay</span><span
-                                class="tag">Sealcoat</span><span class="tag">Striping</span></div>
+                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Our asphalt division handles everything from routine maintenance to full-depth reconstruction. We help all of our clients extend pavement life with the right treatment at the right time — crackfilling and sealcoating early, infrared heat patching for localized repairs, mill and overlay at mid-life, and full-depth replacement when the base has failed.</p>
                     </div>
                 </a>
             </div>
@@ -245,13 +229,8 @@ Google Reviews -->
                 <a href="./masonry-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="masonry"><img src="{{ asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG') }}"
                             alt="Commercial Masonry">
-                        <div class="num-eyebrow mt-3">04 / 05</div>
                         <h3 class="text-white">Commercial Masonry</h3>
-                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Architectural stone walls,
-                            sandstone
-                            seat-walls, brick veneer, retaining walls, and structural CMU site work.</p>
-                        <div class="d-flex flex-wrap gap-1"><span class="tag">Sandstone</span><span
-                                class="tag">Brick</span><span class="tag">Retaining walls</span></div>
+                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Andraos provides commercial and architectural masonry that complements the flatwork it sits on. We build sandstone seat walls, brick veneer, structural CMU, and retaining walls for retail districts, hospitality properties, multifamily communities, municipal facilities, and HOA common areas throughout the Front Range.</p>
                     </div>
                 </a>
             </div>
@@ -259,31 +238,11 @@ Google Reviews -->
                 <a href="./snow-melt-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="snow-melt"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}"
                             alt="Snow Melt Systems">
-                        <div class="num-eyebrow mt-3">05 / 05</div>
                         <h3 class="text-white">Snow Melt Systems</h3>
-                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Hydronic snow-melt for entries,
-                            ADA ramps,
-                            drive courts, and walkways — embedded during the original pour.</p>
-                        <div class="d-flex flex-wrap gap-1"><span class="tag">Hydronic</span><span
-                                class="tag">Entries</span><span class="tag">ADA ramps</span></div>
+                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Hydronic snow-melt systems help reduce snow and ice accumulation at entries, ramps, and high-traffic walkways, improving safety and reducing the need for manual snow removal and deicing efforts. We coordinate the design and embed the tubing during the original concrete pour, creating a system that is protected within the slab and remains virtually invisible for the life of the installation.</p>
                     </div>
                 </a>
             </div>
-            
-            <!-- <div class="col-lg-4 col-md-6">
-                <a href="./services#concrete-finishes" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="concrete-finishes"><img src="{{ asset('assets/images/finish.jpg') }}"
-                            alt="Concrete Finishes">
-                        <div class="num-eyebrow mt-3">06 / 06</div>
-                        <h3 class="text-white">Concrete Finishes</h3>
-                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Broom, exposed aggregate,
-                            stamped, and
-                            integral color finishes for entrances, plazas, and feature flatwork.</p>
-                        <div class="d-flex flex-wrap gap-1"><span class="tag">Broom</span><span
-                                class="tag">Stamped</span><span class="tag">Exposed</span></div>
-                    </div>
-                </a>
-            </div> -->
         </div>
         <div class="text-center mt-5">
             <a href="{{ route('services') }}" class="btn btn-light-navy btn-arrow">View All Services</a>
@@ -306,38 +265,79 @@ Google Reviews -->
         </div>
         <!-- Limit to 4 items on the home page -->
         <div class="row g-3" id="projGrid" data-limit="4">
-            <div class="col-lg-4 col-md-6">
+            <!-- <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction37.jpg') }}"
                         alt="Shadow Canyon HOA — Community renewal · Front Range">
                     <figcaption class="ov"><span class="cat">hoa</span><span class="nm">Shadow
                             Canyon HOA</span><span class="small text-white-50">Community renewal · Front Range</span>
                     </figcaption>
                 </figure>
-            </div>
-            <div class="col-lg-4 col-md-6">
+            </div> -->
+            <!-- <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction1.jpg') }}"
                         alt="Marriott Boulder — Drive court · Boulder">
                     <figcaption class="ov"><span class="cat">hospitality</span><span
                             class="proj__name">Marriott Boulder</span><span class="small text-white-50">Drive court ·
                             Boulder</span></figcaption>
                 </figure>
+            </div> -->
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/Ford.jpg') }}"
+                        alt="Boulder Village Plaza — Streetscape masonry">
+                   <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
+                            class="proj__name">Ford</span> <!-- <span class="small text-white-50">Streetscape
+                            masonry</span>--></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/tommy.JPEG') }}"
+                        alt="Boulder Village Plaza — Streetscape masonry">
+                   <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
+                            class="proj__name">Tommy’s </span> <!-- <span class="small text-white-50">Streetscape
+                            masonry</span>--></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/stucco/IMG_0669.jpg') }}"
+                        alt="Boulder Village Plaza — Streetscape masonry">
+                   <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
+                            class="proj__name">Vasa </span> <!-- <span class="small text-white-50">Streetscape
+                            masonry</span>--></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/Hero-Denver.JPG') }}"
+                        alt="Boulder Village Plaza — Streetscape masonry">
+                   <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
+                            class="proj__name">Denver pavilions </span> <!-- <span class="small text-white-50">Streetscape
+                            masonry</span>--></figcaption>
+                </figure>
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction2.jpg') }}"
                         alt="Boulder Village Plaza — Streetscape masonry">
-                    <figcaption class="ov"><span class="cat">retail</span><span
-                            class="proj__name">Boulder Village Plaza</span><span class="small text-white-50">Streetscape
-                            masonry</span></figcaption>
+                   <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
+                            class="proj__name">Boulder Village Plaza</span> <!-- <span class="small text-white-50">Streetscape
+                            masonry</span>--></figcaption>
                 </figure>
             </div>
-            <div class="col-lg-4 col-md-6">
+             <div class="col-lg-4 col-md-6">
+                <figure class="proj m-0"><img src="{{ asset('assets/images/Central-Park.jpeg') }}"
+                        alt="Boulder Village Plaza — Streetscape masonry">
+                   <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
+                            class="proj__name">Central Park highlands</span> <!-- <span class="small text-white-50">Streetscape
+                            masonry</span>--></figcaption>
+                </figure>
+            </div>
+          
+            <!-- <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction8.jpg') }}"
                         alt="Rocky Mountain Kids — Boulder · Sandstone">
                     <figcaption class="ov"><span class="cat">retail</span><span
                             class="proj__name">Rocky Mountain Kids</span><span class="small text-white-50">Boulder ·
                             Sandstone</span></figcaption>
                 </figure>
-            </div>
+            </div> -->
         </div>
         <div class="text-center mt-5">
             <a href="gallery" class="btn btn-light-navy btn-arrow">View Full Gallery</a>
