@@ -137,16 +137,16 @@
                         <li><a class="dropdown-item<?php echo e(request()->is('service-areas/thornton*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.thornton')); ?>">Thornton</a></li>
                         <li><a class="dropdown-item<?php echo e(request()->is('service-areas/arvada*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.arvada')); ?>">Arvada</a></li>
                         <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Longmont</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Colorado Springs</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Centennial</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Lafayette</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Commerce City</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Lakewood</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Breckenridge</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Silverthorne</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Avon</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Keystone</a></li>
-                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="<?php echo e(route('areas.longmont')); ?>">Greenwood Village</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Colorado Springs</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Centennial</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Lafayette</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Commerce City</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Lakewood</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Breckenridge</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Silverthorne</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Avon</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Keystone</a></li>
+                        <li><a class="dropdown-item<?php echo e(request()->is('service-areas/longmont*') ? ' active' : ''); ?>" href="#">Greenwood Village</a></li>
                     </ul>
                 </li>
 

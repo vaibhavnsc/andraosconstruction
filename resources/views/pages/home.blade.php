@@ -283,7 +283,7 @@ Google Reviews -->
             </div> -->
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/Ford.jpg') }}"
-                        alt="Boulder Village Plaza — Streetscape masonry">
+                        alt="Commercial concrete work for Ford dealership, Denver CO">
                    <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
                             class="proj__name">Ford</span> <!-- <span class="small text-white-50">Streetscape
                             masonry</span>--></figcaption>
@@ -291,7 +291,7 @@ Google Reviews -->
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/tommy.JPEG') }}"
-                        alt="Boulder Village Plaza — Streetscape masonry">
+                        alt="Concrete flatwork at Tommy's Car Wash, Front Range CO">
                    <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
                             class="proj__name">Tommy’s </span> <!-- <span class="small text-white-50">Streetscape
                             masonry</span>--></figcaption>
@@ -299,7 +299,7 @@ Google Reviews -->
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/stucco/IMG_0669.jpg') }}"
-                        alt="Boulder Village Plaza — Streetscape masonry">
+                        alt="Stucco site work at VASA Fitness, Denver metro">
                    <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
                             class="proj__name">Vasa </span> <!-- <span class="small text-white-50">Streetscape
                             masonry</span>--></figcaption>
@@ -307,7 +307,7 @@ Google Reviews -->
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/Hero-Denver.JPG') }}"
-                        alt="Boulder Village Plaza — Streetscape masonry">
+                        alt="Concrete flatwork at Denver Pavilions, Denver CO">
                    <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
                             class="proj__name">Denver pavilions </span> <!-- <span class="small text-white-50">Streetscape
                             masonry</span>--></figcaption>
@@ -315,7 +315,7 @@ Google Reviews -->
             </div>
             <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction2.jpg') }}"
-                        alt="Boulder Village Plaza — Streetscape masonry">
+                        alt="Streetscape masonry at Boulder Village Plaza, Boulder CO">
                    <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
                             class="proj__name">Boulder Village Plaza</span> <!-- <span class="small text-white-50">Streetscape
                             masonry</span>--></figcaption>
@@ -323,7 +323,7 @@ Google Reviews -->
             </div>
              <div class="col-lg-4 col-md-6">
                 <figure class="proj m-0"><img src="{{ asset('assets/images/Central-Park.jpeg') }}"
-                        alt="Boulder Village Plaza — Streetscape masonry">
+                        alt="Concrete work in Central Park, Denver CO">
                    <figcaption class="ov"> <!-- <span class="cat">retail</span>--><span 
                             class="proj__name">Central Park highlands</span> <!-- <span class="small text-white-50">Streetscape
                             masonry</span>--></figcaption>

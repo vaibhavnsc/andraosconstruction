@@ -39,9 +39,7 @@
             <p class="lede mt-4">
               For more than 30 years, Andraos Construction has proudly served the Colorado Front Range as a family-owned commercial concrete, asphalt, and masonry contractor based in Denver. We’ve built lasting relationships with property management companies, homeowner associations, general contractors, developers, and asset managers by delivering quality work, responsive service, and projects our clients can count on. As a family business, we take pride in treating every project as if it were our own and every client as a long-term partner.
             </p>
-            <p class="lede">
-              We self-perform concrete flatwork, curb and gutter, and ADA sidewalks with our own crews and equipment. For asphalt paving, masonry site work, and hydronic snow-melt installation, we partner with a trusted network of specialty subcontractors who meet our standards for quality and reliability. By managing every aspect of the project in-house, from planning through completion, we maintain control of the schedule, quality, and warranty under one roof. Fully licensed, bonded, and insured, we stand behind every project with a one-year workmanship warranty.
-            </p>
+            <p class="lede">Our own crews handle concrete flatwork, curb and gutter, and ADA sidewalks, and we manage every asphalt, masonry, and snow-melt scope directly through our trusted trade partners. Either way, one Andraos team owns the schedule, quality, and warranty from start to finish.</p>
           </div>
         </div>
 
@@ -263,9 +261,8 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
                     <div class="row g-3 py-3 border-top divider-top">
                         <div class="col-2 num-eyebrow pt-1">02</div>
                         <div class="col-10">
-                            <h3 class="ff-display text-white mb-1 fs-5">All work self-performed</h3>
-                            <p class="mb-4 text-white-50 small">Concrete, asphalt, and masonry crews are full-time
-                                Andraos employees.</p>
+                            <h3 class="ff-display text-white mb-1 fs-5">"One accountable team"</h3>
+                            <p class="mb-4 text-white-50 small">Every concrete, asphalt, and masonry scope is managed in-house by Andraos — no finger-pointing, no dropped handoffs.</p>
                         </div>
                     </div>
                     <div class="row g-3 py-3 border-top divider-top">

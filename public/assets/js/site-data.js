@@ -85,7 +85,7 @@ window.AndraosData = (function () {
   /* ---- "Why Andraos" points --------------------------------------------- */
   var WHY = [
     { number: "01", title: "Single point of accountability", body: "One Andraos PM owns each job from walkthrough through warranty. No handoffs, no scope drift." },
-    { number: "02", title: "All work self-performed",        body: "Concrete, asphalt, and masonry crews are full-time Andraos employees." },
+    { number: "02", title: "One accountable team",            body: "Every concrete, asphalt, and masonry scope is managed in-house by Andraos — no finger-pointing, no dropped handoffs." },
     { number: "03", title: "Engineered for Colorado",        body: "Mix designs, cure schedules, and snow-melt calibrated for Front Range freeze-thaw." },
     { number: "04", title: "One-year workmanship warranty",  body: "Every job delivered under written warranty. Fully licensed, bonded, and insured." }
   ];
