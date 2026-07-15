@@ -126,7 +126,7 @@
           <li>Asphalt Paving & Repair in Arvada</li>
           <li>Commercial Masonry in Arvada</li>
           <li>Snow Melt Systems in Arvada</li>
-          <li>HOA & Property Management in Arvada</li>
+          <li>Retail Commercial Concrete in Arvada</li>
           <li>Concrete Finishes in Arvada</li>
             </ul>
           </div>

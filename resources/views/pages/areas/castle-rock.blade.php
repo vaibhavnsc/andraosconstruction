@@ -124,7 +124,7 @@
           <li>Asphalt Paving & Repair in Castle Rock</li>
           <li>Commercial Masonry in Castle Rock</li>
           <li>Snow Melt Systems in Castle Rock</li>
-          <li>HOA & Property Management in Castle Rock</li>
+          <li>Retail Commercial Concrete in Castle Rock</li>
           <li>Concrete Finishes in Castle Rock</li>
             </ul>
           </div>

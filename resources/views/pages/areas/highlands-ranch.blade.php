@@ -138,7 +138,7 @@
                         <li>Asphalt Paving & Repair in Highlands Ranch</li>
                         <li>Commercial Masonry in Highlands Ranch</li>
                         <li>Snow Melt Systems in Highlands Ranch</li>
-                        <li>HOA & Property Management in Highlands Ranch</li>
+                        <li>Retail Commercial Concrete in Highlands Ranch</li>
                         <li>Concrete Finishes in Highlands Ranch</li>
                     </ul>
                 </div>

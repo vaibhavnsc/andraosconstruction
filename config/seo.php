@@ -12,7 +12,7 @@ return [
         ],
         'services' => [
             'meta_title' => 'Commercial Services — Concrete, Asphalt, Masonry &amp; Snow Melt | Andraos Construction',
-            'meta_description' => 'Commercial concrete, asphalt paving, masonry, snow-melt systems, HOA & property management, and concrete finishes across the Colorado Front Range. Self-performed since 1993.',
+            'meta_description' => 'Commercial concrete, asphalt paving, masonry, snow-melt systems, Retail Commercial Concrete, and concrete finishes across the Colorado Front Range. Self-performed since 1993.',
         ],
          'blog' => [
             'meta_title' => 'Blog | Andraos Construction',
