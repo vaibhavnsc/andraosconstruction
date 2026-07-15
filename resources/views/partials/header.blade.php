@@ -137,7 +137,16 @@
                         <li><a class="dropdown-item{{ request()->is('service-areas/thornton*') ? ' active' : '' }}" href="{{ route('areas.thornton') }}">Thornton</a></li>
                         <li><a class="dropdown-item{{ request()->is('service-areas/arvada*') ? ' active' : '' }}" href="{{ route('areas.arvada') }}">Arvada</a></li>
                         <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Longmont</a></li>
-                     
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Colorado Springs</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Centennial</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Lafayette</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Commerce City</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Lakewood</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Breckenridge</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Silverthorne</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Avon</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Keystone</a></li>
+                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Greenwood Village</a></li>
                     </ul>
                 </li>
 
