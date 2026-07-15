@@ -126,7 +126,7 @@
           <li>Asphalt Paving & Repair in Parker</li>
           <li>Commercial Masonry in Parker</li>
           <li>Snow Melt Systems in Parker</li>
-          <li>HOA & Property Management in Parker</li>
+          <li>Retail Commercial Concrete in Parker</li>
           <li>Concrete Finishes in Parker</li>
             </ul>
           </div>

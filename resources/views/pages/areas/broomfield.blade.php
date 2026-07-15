@@ -134,7 +134,7 @@
                         <li>Asphalt Paving & Repair in Broomfield</li>
                         <li>Commercial Masonry in Broomfield</li>
                         <li>Snow Melt Systems in Broomfield</li>
-                        <li>HOA & Property Management in Broomfield</li>
+                        <li>Retail Commercial Concrete in Broomfield</li>
                         <li>Concrete Finishes in Broomfield</li>
                     </ul>
                 </div>

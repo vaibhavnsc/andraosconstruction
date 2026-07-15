@@ -125,7 +125,7 @@
           <li>Asphalt Paving & Repair in Boulder</li>
           <li>Commercial Masonry in Boulder</li>
           <li>Snow Melt Systems in Boulder</li>
-          <li>HOA & Property Management in Boulder</li>
+          <li>Retail Commercial Concrete in Boulder</li>
           <li>Concrete Finishes in Boulder</li>
             </ul>
           </div>

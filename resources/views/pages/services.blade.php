@@ -3,7 +3,7 @@
 @php
     $seo = getPageSeoByKey('services');
     $title = $seo->meta_title ?? 'Commercial Services — Concrete, Asphalt, Masonry & Snow Melt | Andraos Construction';
-    $description = $seo->meta_description ?? 'Commercial concrete, asphalt paving, masonry, snow-melt systems, HOA & property management, and concrete finishes across the Colorado Front Range. Self-performed since 1993.';
+    $description = $seo->meta_description ?? 'Commercial concrete, asphalt paving, masonry, snow-melt systems, Retail Commercial Concrete, and concrete finishes across the Colorado Front Range. Self-performed since 1993.';
 @endphp
 
 @section('meta_title', $title)
