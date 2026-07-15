@@ -137,16 +137,7 @@
                         <li><a class="dropdown-item{{ request()->is('service-areas/thornton*') ? ' active' : '' }}" href="{{ route('areas.thornton') }}">Thornton</a></li>
                         <li><a class="dropdown-item{{ request()->is('service-areas/arvada*') ? ' active' : '' }}" href="{{ route('areas.arvada') }}">Arvada</a></li>
                         <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Longmont</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Colorado Springs</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Centennial</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Lafayette</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Commerce City</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Lakewood</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Breckenridge</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Silverthorne</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Avon</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Keystone</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Greenwood Village</a></li>
+                     
                     </ul>
                 </li>
 
