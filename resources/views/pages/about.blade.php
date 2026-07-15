@@ -261,7 +261,7 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
                     <div class="row g-3 py-3 border-top divider-top">
                         <div class="col-2 num-eyebrow pt-1">02</div>
                         <div class="col-10">
-                            <h3 class="ff-display text-white mb-1 fs-5">"One accountable team"</h3>
+                            <h3 class="ff-display text-white mb-1 fs-5">One accountable team</h3>
                             <p class="mb-4 text-white-50 small">Every concrete, asphalt, and masonry scope is managed in-house by Andraos — no finger-pointing, no dropped handoffs.</p>
                         </div>
                     </div>
