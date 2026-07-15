@@ -40,11 +40,7 @@
                 Work</button><button type="button" class="filter-btn"
                 data-filter="commercial-concrete">Commercial Concrete</button>
                  <button type="button" class="filter-btn" data-filter="residential-concrete">Residential Concrete</button>
-                <button type="button" class="filter-btn" data-filter="hoa">Property &amp;
-               HOA</button> <!-- <button type="button" class="filter-btn"
-                data-filter="hospitality">Hospitality</button><button type="button" class="filter-btn"
-                data-filter="retail">Retail</button><button type="button" class="filter-btn"
-                data-filter="civic">Civic</button> -->
+                <button type="button" class="filter-btn" data-filter="hoa">Retail Commercial Concrete </button> 
             <button type="button" class="filter-btn" data-filter="masonry">Masonry</button>
             <button type="button" class="filter-btn"
                 data-filter="stucco">Stucco</button>
@@ -55,18 +51,6 @@
         </div>
         <!-- Project cards injected by site.js -->
         <div class="row g-3" id="projGrid">
-            @include('partials.gallery-project', [
-                'category' => 'hoa',
-                'title' => 'Shadow Canyon HOA',
-                'subtitle' => 'Community renewal · Front Range',
-                'cover' => asset('assets/images/andraos-construction37.jpg')
-            ])
-            @include('partials.gallery-project', [
-                'category' => 'hoa',
-                'title' => 'Logan Reserve Drives',
-                'subtitle' => 'Aurora · 14 drive lanes',
-                'cover' => asset('assets/images/andraos-construction43.jpeg')
-            ])
             @include('partials.gallery-project', [
                 'category' => 'hoa',
                 'title' => 'HOA',

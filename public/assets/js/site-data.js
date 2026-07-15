@@ -52,7 +52,7 @@ window.AndraosData = (function () {
     {
       slug: "hoa-property-management",
       number: "05",
-      title: "HOA &amp; Property Management",
+      title: "Retail Commercial Concrete",
       blurb: "Community-wide capital renewal: sidewalks, drive lanes, curb &amp; gutter, parking lots, and asphalt maintenance.",
       image: "andraos-construction-gallery-001-665h.jpg",
       tags: ["Capital renewal", "Sidewalks", "Repair"]
