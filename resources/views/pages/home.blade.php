@@ -162,7 +162,7 @@ Google Reviews -->
             <p class="lede mt-4">
               Established in 1993, Andraos Construction is a Denver-based commercial concrete, asphalt, and
               masonry contractor serving property managers, HOAs, general contractors, and developers across
-              the Front Range. We self-perform every scope. Fully licensed, bonded, and insured.
+              the Front Range. Fully licensed, bonded, and insured.
             </p>
             <div class="row g-4 mt-3 pt-4 border-top divider-top">
               <div class="col-4">
