@@ -88,7 +88,7 @@ $description = $seo->meta_description ?? 'Denver\'s trusted commercial concrete,
     <div class="container">
         <div class="text-center mb-5 reveal is-visible">
             <p class="eyebrow">Trusted By</p>
-            <h2 id="brands-heading" class="ff-display display-lg mt-3">Companies We’ve Worked With</h2>
+            <h2 id="brands-heading" class="ff-display display-lg mt-3">Projects We Have Worked On</h2>
             <p class="lede mx-auto maxw-58 mt-3">
                 For over 30 years, property managers, developers, and general contractors across the Front Range
                 have trusted Andraos Construction with their commercial concrete, asphalt, and masonry.

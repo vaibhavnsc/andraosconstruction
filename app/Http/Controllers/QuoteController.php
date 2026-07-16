@@ -25,7 +25,8 @@ class QuoteController extends Controller
         $quote = Quote::create($request->all());
 
         try {
-            Mail::to(config('mail.from.address'))
+            Mail::to('Estimating@andraosconstruction.com')
+                ->cc('developmentnonstop@gmail.com')
                 ->send(new AdminQuoteMail($quote));
 
             Mail::to($quote->email)
