@@ -226,9 +226,16 @@ Google Reviews -->
                     <div class="svc-card" id="commercial-concrete"><img
                             src="{{ asset('assets/images/commercialcon.JPG') }}" alt="Commercial Concrete">
                         <h3 class="text-white">Commercial Concrete</h3>
-                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Flatwork, curb &amp; gutter,
-                            drain pans, dock
-                            ramps, ADA sidewalks, and structural slabs for commercial properties.</p>
+                        <p style="color:var(--slate-300);font-size:14px;line-height:1.6">We self-perform concrete
+                            flatwork, curb and gutter, and ADA-compliant sidewalks. In partnership with our trusted
+                            subcontractors, we also manage every aspect of asphalt milling and overlay, full-depth
+                            pavement replacement, masonry site work, and hydronic snow-melt installation.
+                            By keeping our crews, equipment, and project management in-house, we maintain full control
+                            over scheduling, quality, and accountability—delivering a seamless experience from start to
+                            finish.
+                            <a href="/">Andraos Construction</a> is fully licensed, bonded, and insured, and every
+                            project is backed by a one-year workmanship warranty.
+                        </p>
                     </div>
                 </a>
             </div>
