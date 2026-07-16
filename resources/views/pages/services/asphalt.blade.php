@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('asphalt');
 
-    $title = $seo->meta_title ?? 'Asphalt Services | Andraos Construction | Denver, CO Area';
+    $title = $seo->meta_title ?? 'Commercial Asphalt Paving & Repair Denver, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Get expert asphalt services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.';
+        ?? 'Asphalt paving, sealcoating, crackfill, mill & overlay and full-depth repair across the Denver Front Range. Extend pavement life. (303) 915-3703.';
 @endphp 
 
 @section('meta_title', $title)
@@ -41,7 +41,7 @@
             <div class="col-lg-8">
                 <article class="reveal is-visible">
                     <img id="js-service-image" alt="Asphalt Paving &amp; Repair" class="ratio-16-9 mb-4"
-                        src="/assets/images/asphalt/168-25.jpg">
+                        src="/assets/images/asphalt/Hero-Song.JPG">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
@@ -60,9 +60,6 @@
                         </ul>
                     </p>
                     <p class="lede" id="js-service-overview"><a href="/contact">Call us today</a> to discuss your asphalt project and get started on a solution that fits your needs.</p>
-                    <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span class="tag">Mill &amp;
-                            overlay</span><span class="tag">Sealcoat</span><span class="tag">Striping</span></div>
-
                     <h2 class="ff-display display-md mt-5 mb-3">Professional Asphalt Surfaces Done Right</h2>
                     <p class="lede" id="js-service-overview">Asphalt services are essential for maintaining the integrity and appearance of your surfaces. Andraos Construction provides expert services that ensure your asphalt remains durable and functional. Here's why you might need our services:</p>
                     <p class="lede" id="js-service-overview">
@@ -128,8 +125,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/hoa-property-management-services">HOA &amp; Property
-                            Management<span aria-hidden="true">→</span></a></nav>
+                            href="/retail-commercial-concrete">Retail Commercial Concrete<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

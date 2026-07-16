@@ -331,3 +331,9 @@ div#locationPages {
 .dropdown-item.active, .dropdown-item:active {
     background-color: unset;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .company img {
+    object-fit: cover;
+  }
+}

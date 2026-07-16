@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('commercial-concrete');
 
-    $title = $seo->meta_title ?? 'Commercial Concrete Companies Denver | Andraos Construction';
+    $title = $seo->meta_title ?? 'Commercial Concrete Contractor Denver, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Are you looking for commercial concrete companies in Denver, CO? Call or text Andraos Construction today for expert services with detailed estimates.';
+        ?? 'Flatwork, curb & gutter, ADA sidewalks, dock ramps & structural slabs for Denver commercial properties. Estimates in 3–5 days. (303) 915-3703.';
 @endphp 
 
 @section('meta_title', $title)
@@ -14,7 +14,7 @@
 
 
 @section('content')
-
+ 
 <header class="page-hero">
     <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true"
         data-bg="/assets/images/project.jpg"
@@ -41,7 +41,7 @@
             <div class="col-lg-8">
                 <article class="reveal is-visible">
                     <img id="js-service-image" alt="Commercial Concrete" class="ratio-16-9 mb-4"
-                        src="{{ asset('assets/images/commercial.jpeg') }}">
+                        src="{{ asset('assets/images/commercialcon.JPG') }}">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
@@ -71,9 +71,6 @@
                         </ul>
                         <a href="/contact">Call us today</a> to discuss your commercial concrete needs.
                     </p>
-
-                    <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span class="tag">Flatwork</span><span
-                            class="tag">Curb &amp; gutter</span><span class="tag">ADA</span></div>
 
                     <h2 class="ff-display display-md mt-5 mb-3">
                         Constructing Strong Concrete Surfaces
@@ -165,8 +162,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/hoa-property-management-services">HOA &amp; Property
-                            Management<span aria-hidden="true">→</span></a></nav>
+                            href="/retail-commercial-concrete">Retail Commercial Concrete<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('about');
 
-    $title = $seo->meta_title ?? 'About | Andraos Construction | Denver, CO Area';
+    $title = $seo->meta_title ?? 'About Andraos Construction | Denver, CO Contractor';
 
     $description = $seo->meta_description
-        ?? 'Andraos Construction has been serving Denver since 1993. Learn more about our services! Serving the Denver, CO Metro Area.';
+        ?? 'Family-owned commercial concrete, asphalt & masonry contractor serving Denver & the Front Range since 1993. Meet the team. Call (303) 915-3703.';
 @endphp 
 
 @section('meta_title', $title)
@@ -15,7 +15,7 @@
 @section('content')
 
 <header class="page-hero">
-  <div class="page-hero__bg" data-bg="{{ asset('/assets/images/andraos-about-hero.jpg') }}" aria-hidden="true"></div>
+  <div class="page-hero__bg" data-bg="{{ asset('/assets/images/About.jpg') }}" aria-hidden="true"></div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
@@ -31,7 +31,7 @@
       <div class="container">
         <div class="row g-5 built-abt align-items-center reveal ">
           <div class="col-lg-6 abt-img company">
-            <img src="assets/images/andraos-about.jpg" alt="The Andraos Construction team on a Denver job site" class="ratio-4-5 img-treat obj-pos-top" style="height: 65vh;">
+            <img src="assets/images/andraos-about.jpg" alt="The Andraos Construction team on a Denver job site" class="ratio-4-5 img-treat obj-pos-top" style="height: 55vh;">
           </div>
           <div class="col-lg-6 abt-content ">
             <p class="eyebrow">Our Company</p>
@@ -163,7 +163,7 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
     </div>
 </section>
 
-<!-- 
+
 <!-- <section class="section bg-navy text-white" id="reviews">
     <div class="container">
         <div class="row g-5 reveal in">
@@ -227,14 +227,13 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
         </div>
     </div>
 </section> -->
- -->
 
 <section class="section bg-navy text-white" aria-labelledby="why-heading">
     <div class="container">
         <div class="row g-5 align-items-center reveal is-visible">
             <div class="col-lg-6">
                 <figure class="position-relative m-0">
-                    <img src="assets/images/andraos-construction-hero-home-1920w.jpg"
+                    <img src="assets/images/commercialcon.JPG"
                         alt="An Andraos Construction crew placing concrete on site" class="ratio-4-5 img-treat">
                     <figcaption class="position-absolute bottom-0 start-0 m-4 bg-white p-3 text-dark">
                         <span class="ff-display d-block lh-1 warranty-badge-num">1<span
@@ -261,8 +260,8 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
                     <div class="row g-3 py-3 border-top divider-top">
                         <div class="col-2 num-eyebrow pt-1">02</div>
                         <div class="col-10">
-                            <h3 class="ff-display text-white mb-1 fs-5">"One accountable team"</h3>
-                            <p class="mb-4 text-white-50 small">Every concrete, asphalt, and masonry scope is managed in-house by Andraos — no finger-pointing, no dropped handoffs.</p>
+                            <h3 class="ff-display text-white mb-1 fs-5">One accountable team</h3>
+                            <p class="mb-4 text-white-50 small">Every concrete, asphalt, and masonry scope is managed by subcontractors by Andraos — no finger-pointing, no dropped handoffs.</p>
                         </div>
                     </div>
                     <div class="row g-3 py-3 border-top divider-top">

@@ -38,7 +38,7 @@
 
                         <li>
                             <a class="dropdown-item{{ request()->is('hoa-property-management*') ? ' active' : '' }}"
-                               href="/hoa-property-management-services">
+                               href="/retail-commercial-concrete">
                                 Retail Commercial Concrete
                             </a>
                         </li>

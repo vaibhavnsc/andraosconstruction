@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('masonry');
 
-    $title = $seo->meta_title ?? 'Masonry Services | Andraos Construction | Denver, CO Area';
+    $title = $seo->meta_title ?? 'Commercial Masonry Contractor Denver, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Get expert masonry services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.';
+        ?? 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request a quote: (303) 915-3703.';
 @endphp 
 
 @section('meta_title', $title)
@@ -62,11 +62,6 @@
                         </ul>
                     </p>
                     <p class="lede" id="js-service-overview"><a href="/contact">Call us today</a> to discuss your masonry project and discover how we can help you achieve your vision.</p>
-
-
-                    <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span
-                            class="tag">Sandstone</span><span class="tag">Brick</span><span class="tag">Retaining
-                            walls</span></div>
 
                     <h2 class="ff-display display-md mt-5 mb-3">Why You Need Our Masonry Services</h2>
                     <p class="lede" id="js-service-overview">Investing in professional masonry services can significantly enhance the aesthetic and functional aspects of your property. At Andraos Construction, we understand the importance of using high-quality materials and skilled craftsmanship to deliver results that stand the test of time.</p>
@@ -129,8 +124,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/hoa-property-management-services">HOA &amp; Property
-                            Management<span aria-hidden="true">→</span></a></nav>
+                            href="/retail-commercial-concrete">Retail Commercial Concrete<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

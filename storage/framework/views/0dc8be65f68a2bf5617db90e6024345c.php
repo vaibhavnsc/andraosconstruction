@@ -24,7 +24,7 @@
                 <a href="<?php echo e(route('services.asphalt')); ?>" class="footer-link">Asphalt Paving</a>
                 <a href="<?php echo e(route('services.masonry')); ?>" class="footer-link">Masonry</a>
                 <a href="<?php echo e(route('services.snow-melt')); ?>" class="footer-link">Snow Melt Systems</a>
-                <a href="<?php echo e(route('services.hoa-property-management')); ?>" class="footer-link"> Retail Commercial Concrete</a>
+                <a href="<?php echo e(route('services.retail-commercial-concrete')); ?>" class="footer-link"> Retail Commercial Concrete</a>
 
             </div>
 
