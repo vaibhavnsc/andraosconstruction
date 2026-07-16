@@ -233,9 +233,8 @@ Google Reviews -->
                             By keeping our crews, equipment, and project management in-house, we maintain full control
                             over scheduling, quality, and accountability—delivering a seamless experience from start to
                             finish.
-                            <a href="/">Andraos Construction</a> is fully licensed, bonded, and insured, and every
-                            project is backed by a one-year workmanship warranty.
-                        </p>
+                            Andraos Construction is fully licensed, bonded, and insured, and every project is backed by
+                            a one-year workmanship warranty.</p>
                     </div>
                 </a>
             </div>
