@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('denver');
 
-    $title = $seo->meta_title ?? 'Commercial Concrete Contractors in Denver, CO | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete, Asphalt & Masonry Contractor Denver, CO';
 
     $description = $seo->meta_description
-        ?? 'Commercial concrete, asphalt & masonry contractor serving Denver, Colorado since 1993. Flatwork, ADA sidewalks, parking lots. Licensed & insured. Call (303) 915-3703.';
+        ?? 'Commercial concrete, asphalt, masonry & snow-melt in Denver & the metro core since 1993. One accountable contractor. Call (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -115,9 +115,9 @@
         <div class="row g-5">
           <div class="col-lg-4">
             <p class="eyebrow mb-2">Why Denver Chooses Andraos</p>
-            <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
+            <h2 id="why-city-heading" class="ff-display display-md">Local Experience.</h2>
             <p class="text-slate mt-3">
-              Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
+              Since 1993, Andraos Construction has commercial concrete, asphalt, and masonry
               across City &amp; County of Denver. One project manager owns your job from estimate to warranty &mdash; backed
               by a written one-year workmanship warranty.
             </p>

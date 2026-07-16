@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('littleton');
 
-    $title = $seo->meta_title ?? 'Commercial Concrete Contractor in Littleton, CO | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete & Asphalt Contractor Littleton, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Commercial concrete services in Littleton, Colorado. Capital renewal, ADA flatwork, parking lot resurfacing, snow-melt. Serving Jefferson & Arapahoe Counties.';
+        ?? 'Commercial concrete, asphalt, masonry & snow-melt in Littleton & the south metro since 1993. One accountable contractor. (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -112,9 +112,9 @@
         <div class="row g-5">
           <div class="col-lg-4">
             <p class="eyebrow mb-2">Why Littleton Chooses Andraos</p>
-            <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
+            <h2 id="why-city-heading" class="ff-display display-md">Local Experience.</h2>
             <p class="text-slate mt-3">
-              Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
+              Since 1993, Andraos Construction has commercial concrete, asphalt, and masonry
               across Jefferson &amp; Arapahoe Counties. One project manager owns your job from estimate to warranty &mdash; backed
               by a written one-year workmanship warranty.
             </p>

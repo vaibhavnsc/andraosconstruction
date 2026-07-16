@@ -1,5 +1,19 @@
 @extends('layouts.app')
 
+@php
+    $seo = getPageSeoByKey('retail-commercial-concrete');
+
+    $title = $seo->meta_title ?? 'Retail & Custom Concrete Finishes Denver, CO | Andraos';
+
+    $description = $seo->meta_description
+        ?? 'Stamped, colored & high-end concrete finishes plus repair and leveling across the Denver Front Range. Quality craftsmanship since 1993. (303) 915-3703.';
+@endphp 
+
+@section('meta_title', $title)
+@section('meta_description', $description)
+
+
+
 @section('content')
 
 <header class="page-hero">
@@ -45,9 +59,6 @@
 
                     <p class="lede" id="js-service-overview"><a href="/contact">Call us today </a>to discuss your residential concrete project.</p>
                     
-                    <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span class="tag">Capital
-                            renewal</span><span class="tag">Sidewalks</span><span class="tag">Repair</span></div>
-
                     <h2 class="ff-display display-md mt-5 mb-3">
                         Ensuring Durable Concrete Structures
                     </h2>
@@ -140,8 +151,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
-                            href="/hoa-property-management-services">HOA &amp; Property
-                            Management<span aria-hidden="true">→</span></nav>
+                            href="/retail-commercial-concrete">Retail Commercial Concrete<span aria-hidden="true">→</span></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

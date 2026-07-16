@@ -1260,13 +1260,13 @@ ul.dropdown-menu.service-area-dropdown.show hr {
 @media (min-width: 1200px) and (max-width: 1400px) {
     .company {
       margin: unset;
-      height: 660px;
+      height: 490px;
     }
     .company img {
       height: 100% !important;
     }
     .abt-content {
-      margin-top: 27px;
+      margin-top: 5px;
     }
     .stat-num {
       font-size: clamp(40px, 3.2vw, 60px);

@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('faq');
 
-    $title = $seo->meta_title ?? 'FAQs | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete & Masonry FAQs | Andraos Construction';
 
     $description = $seo->meta_description
-        ?? 'Visit our FAQ page to learn more about Andraos Construction.';
+        ?? 'Common questions about commercial concrete, asphalt, masonry & snow-melt work in Denver & the Colorado Front Range. Call (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)

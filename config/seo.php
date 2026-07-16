@@ -3,16 +3,16 @@
 return [ 
     'pages' => [ 
         'about' => [
-            'meta_title' => 'About | Andraos Construction | Denver, CO Area',
-            'meta_description' => 'Andraos Construction has been serving Denver since 1993. Learn more about our services! Serving the Denver, CO Metro Area.',
+            'meta_title' => 'About Andraos Construction | Denver, CO Contractor',
+            'meta_description' => 'Family-owned commercial concrete, asphalt & masonry contractor serving Denver & the Front Range since 1993. Meet the team. Call (303) 915-3703.',
         ],
         'home' => [
-            'meta_title' => "Concrete Flatwork Contractors Denver | Andraos Construction",
-            'meta_description' => "Looking for concrete flatwork contractors in Denver, CO? Andraos Construction offers expert concrete and asphalt services. Call or text us to learn more!",
+            'meta_title' => "Concrete, Asphalt & Masonry Contractor Denver, CO | Andraos",
+            'meta_description' => "Denver's trusted commercial concrete, asphalt & masonry contractor since 1993. Serving the Front Range. Call or text (303) 915-3703 for a quote.",
         ],
         'services' => [
-            'meta_title' => 'Commercial Services — Concrete, Asphalt, Masonry &amp; Snow Melt | Andraos Construction',
-            'meta_description' => 'Commercial concrete, asphalt paving, masonry, snow-melt systems, Retail Commercial Concrete, and concrete finishes across the Colorado Front Range. Self-performed since 1993.',
+            'meta_title' => 'Commercial Concrete, Asphalt & Masonry Services | Denver, CO',
+            'meta_description' => 'Concrete flatwork, asphalt paving, masonry & snow-melt across the Colorado Front Range since 1993. Request an estimate: (303) 915-3703.',
         ],
          'blog' => [
             'meta_title' => 'Blog | Andraos Construction',
@@ -23,8 +23,8 @@ return [
             'meta_description' => 'Andraos Construction serves Denver, Aurora, Boulder, Littleton, Highlands Ranch, Castle Rock, Parker and more across the Colorado Front Range. Find your city.',
         ],
         'contact' => [
-            'meta_title' => 'Contact | Andraos Construction | Denver, CO Area',
-            'meta_description' => 'Reach out for inquiries & prompt responses. Learn more! Serving the Denver, CO Metro Area.',
+            'meta_title' => 'Contact Andraos Construction | Denver, CO',
+            'meta_description' => 'Request a commercial concrete, asphalt or masonry quote in Denver & the Front Range. Estimates in 3–5 days. Call or text (303) 915-3703.',
         ],
         'terms' => [
             'meta_title' => 'Terms & Conditions | Andraos Construction',
@@ -35,56 +35,56 @@ return [
             'meta_description' => 'Andraos Construction privacy policy. Learn how we protect and handle your personal information.',
         ],
         'gallery' => [
-            'meta_title' => 'Gallery | Andraos Construction | Denver, CO Area',
-            'meta_description' => 'View our recent projects like driveways & patios. Learn more! Serving the Denver, CO Metro Area.',
+            'meta_title' => 'Project Gallery | Andraos Construction Denver, CO',
+            'meta_description' => 'See recent commercial concrete, asphalt & masonry projects across Denver & the Front Range. Built by Andraos Construction since 1993.',
         ],
          'arvada' => [
-            'meta_title' => 'Arvada Commercial Concrete & Asphalt Services | Andraos Construction',
-            'meta_description' => 'Self-performed concrete, asphalt & masonry in Arvada, CO. Olde Town retail district, HOA communities, commercial properties. Jefferson County since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Arvada, CO | Andraos',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Arvada & the northwest metro since 1993. Call or text (303) 915-3703.',
         ],
           'denver' => [
-            'meta_title' => 'Commercial Concrete Contractors in Denver, CO | Andraos Construction',
-            'meta_description' => 'Commercial concrete, asphalt & masonry contractor serving Denver, Colorado since 1993. Flatwork, ADA sidewalks, parking lots. Licensed & insured. Call (303) 915-3703.',
+            'meta_title' => 'Concrete, Asphalt & Masonry Contractor Denver, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Denver & the metro core since 1993. One accountable contractor. Call (303) 915-3703.',
         ],
           'aurora' => [
-            'meta_title' => 'Commercial Concrete & Asphalt in Aurora, CO | Andraos Construction',
-            'meta_description' => 'Commercial concrete & asphalt contractor in Aurora, Colorado. Multifamily drive lanes, retail parking lots, ADA sidewalks. Serving Arapahoe County since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Aurora, CO | Andraos',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Aurora & the east metro since 1993. One accountable contractor. Call (303) 915-3703.',
         ],
           'boulder' => [
-            'meta_title' => 'Commercial Concrete & Masonry Contractors in Boulder, CO | Andraos Construction',
-            'meta_description' => 'Commercial concrete & sandstone masonry in Boulder, Colorado. Hospitality, retail districts & historic properties. Marriott drive court, The Village. Since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Boulder, CO | Andraos',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Boulder & the surrounding area since 1993. Request a quote: (303) 915-3703.',
         ],
           'littleton' => [
-            'meta_title' => 'Commercial Concrete Contractor in Littleton, CO | Andraos Construction',
-            'meta_description' => 'Commercial concrete services in Littleton, Colorado. Capital renewal, ADA flatwork, parking lot resurfacing, snow-melt. Serving Jefferson & Arapahoe Counties.',
+            'meta_title' => 'Concrete & Asphalt Contractor Littleton, CO | Andraos',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Littleton & the south metro since 1993. One accountable contractor. (303) 915-3703.',
         ],
-          'broomfield' => [
-            'meta_title' => 'Broomfield Commercial Concrete Contractor | Andraos Construction',
-            'meta_description' => 'Commercial concrete, asphalt & masonry in Broomfield, CO. Mixed-use developments, office parks, HOA communities. Capital renewal & tenant improvement.',
+            'broomfield' => [
+             'meta_title' => 'Concrete & Asphalt Contractor Broomfield, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Broomfield & the north metro since 1993. Call or text (303) 915-3703.',
         ],
            'castle-rock' => [
-            'meta_title' => 'Castle Rock Commercial Concrete & Asphalt Contractor | Andraos Construction',
-            'meta_description' => 'Commercial concrete, asphalt & masonry contractor in Castle Rock, CO. Retail, hospitality & HOA capital renewal across Douglas County since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Castle Rock, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Castle Rock & Douglas County since 1993. Request a quote: (303) 915-3703.',
         ],
             'englewood' => [
-            'meta_title' => 'Englewood Commercial Concrete & Asphalt Services | Andraos Construction',
-            'meta_description' => 'Commercial concrete & asphalt in Englewood, CO. Healthcare campuses, retail, full-site capital renewal sequenced around active tenants. Since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Englewood, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Englewood & the Denver metro since 1993. Request an estimate: (303) 915-3703.',
         ],
             'highlands-ranch' => [
-            'meta_title' => 'Concrete & Asphalt Services in Highlands Ranch, CO | Andraos Construction',
-            'meta_description' => 'Concrete & asphalt for Highlands Ranch HOAs and commercial properties. Sidewalk replacement, drive-lane rebuilds, mill & overlay. Douglas County since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Highlands Ranch, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Highlands Ranch & Douglas County since 1993. Call (303) 915-3703.',
         ],
             'longmont' => [
-            'meta_title' => 'Commercial Concrete & Asphalt Contractor in Longmont, CO | Andraos Construction',
-            'meta_description' => 'Commercial concrete & asphalt in Longmont, Colorado. Manufacturing campuses, HOA communities, property management. Boulder & Weld Counties since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Longmont, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Longmont & the north Front Range since 1993. Request a quote: (303) 915-3703.',
         ],
             'thornton' => [
-            'meta_title' => 'Commercial Concrete Contractor in Thornton, CO | Andraos Construction',
-            'meta_description' => 'Commercial concrete & asphalt in Thornton, Colorado. Tenant-occupied programs, ADA sidewalks, parking lot maintenance. Capital renewal since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Thornton, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Thornton & the north metro since 1993. Request an estimate: (303) 915-3703.',
         ],
             'westminster' => [
-            'meta_title' => 'Westminster Commercial Concrete & Asphalt Services | Andraos Construction',
-            'meta_description' => 'Commercial concrete & asphalt in Westminster, CO. Retail centers, multifamily, full-site parking lot rehabilitation. Jefferson & Adams Counties since 1993.',
+            'meta_title' => 'Concrete & Asphalt Contractor Westminster, CO',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Westminster & the north metro since 1993. Call (303) 915-3703.',
         ],
            'why-proper-concrete-flatwork-matters-for-longevity-and-safety' => [
             'meta_title' => 'Why Proper Concrete Flatwork Matters for Longevity and Safety',
@@ -99,20 +99,20 @@ return [
             'meta_description' => 'Choosing the right concrete company involves examining their experience, adoption of modern practices, and communication style. Read on to learn more!',
         ],
               'commercial-concrete' => [
-            'meta_title' => 'Commercial Concrete Companies Denver | Andraos Construction',
-            'meta_description' => 'Are you looking for commercial concrete companies in Denver, CO? Call or text Andraos Construction today for expert services with detailed estimates.',
+            'meta_title' => 'Commercial Concrete Contractor Denver, CO | Andraos',
+            'meta_description' => 'Flatwork, curb & gutter, ADA sidewalks, dock ramps & structural slabs for Denver commercial properties. Estimates in 3–5 days. (303) 915-3703.',
         ],
               'masonry' => [
-            'meta_title' => 'Masonry Services | Andraos Construction | Denver, CO Area',
-            'meta_description' => 'Get expert masonry services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.',
+            'meta_title' => 'Commercial Masonry Contractor Denver, CO | Andraos',
+            'meta_description' => 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request a quote: (303) 915-3703.',
         ],
               'asphalt' => [
             'meta_title' => 'Asphalt Services | Andraos Construction | Denver, CO Area',
             'meta_description' => 'Get expert asphalt services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.',
         ],
                 'snow-melt' => [
-                'meta_title' => 'Snow Melt Systems | Denver, CO',
-                'meta_description' => 'Keep your property snow-free with our hydronic systems. Learn more! Denver, CO.',
+                'meta_title' => 'Hydronic Snow Melt Systems Denver, CO | Andraos',
+                'meta_description' => 'In-slab hydronic snow-melt systems for entries, ramps & walkways across the Colorado Front Range. Safer surfaces, less shoveling. (303) 915-3703.',
             ],
             
     ],

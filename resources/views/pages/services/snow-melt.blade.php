@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('snow-melt');
 
-    $title = $seo->meta_title ?? 'Snow Melt Systems | Denver, CO';
+    $title = $seo->meta_title ?? 'Hydronic Snow Melt Systems Denver, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Keep your property snow-free with our hydronic systems. Learn more! Denver, CO.';
+        ?? 'In-slab hydronic snow-melt systems for entries, ramps & walkways across the Colorado Front Range. Safer surfaces, less shoveling. (303) 915-3703.';
 @endphp 
 
 @section('meta_title', $title)
@@ -45,9 +45,6 @@
                         Eliminate the Hassle of Shoveling and Salting
                     </h2>
                     <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With over 30 years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
-
-                    <div class="d-flex flex-wrap gap-1 mt-3" id="js-service-tags"><span class="tag">Hydronic</span><span
-                            class="tag">Entries</span><span class="tag">ADA ramps</span></div>
 
                     <h2 class="ff-display display-md mt-5 mb-3">Why Choose Our Hydronic Snow Melting Systems?</h2>
                     <p class="lede" id="js-service-overview">
@@ -116,8 +113,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/hoa-property-management-services">HOA &amp; Property
-                            Management<span aria-hidden="true">→</span></a></nav>
+                            href="/retail-commercial-concrete">Retail Commercial Concrete<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>
@@ -161,7 +157,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="process-step h-100"><span class="num-eyebrow d-block mb-2">04</span>
-                    <h3 class="ff-display fs-5 mb-2">Self-Performed Execution</h3>
+                    <h3 class="ff-display fs-5 mb-2">Execution</h3>
                     <p class="text-slate small mb-0">Work in partnership with our trusted sub-contractor.</p>
                 </div>
             </div>

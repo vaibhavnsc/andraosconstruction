@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('parker');
 
-    $title = $seo->meta_title ?? 'Commercial Concrete Contractors in Parker, CO | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete & Asphalt Contractor Parker, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Self-performed commercial concrete, asphalt & masonry in Parker, Colorado. Multifamily renewal, retail rehab, municipal sidewalks. Douglas County since 1993.';
+        ?? 'Commercial concrete, asphalt, masonry & snow-melt in Parker & Douglas County since 1993. One accountable contractor. (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -45,7 +45,7 @@
             <h2 id="intro-heading" class="ff-display display-md mt-2">
               Commercial Concrete, Asphalt &amp; Masonry in Parker
             </h2>
-            <p class="lede mt-3">Andraos Construction serves Parker commercial property managers, HOA boards, and general contractors with self-performed concrete, asphalt, and masonry &mdash; multifamily renewal, retail center rehab, and municipal sidewalk work throughout Parker and Douglas County.</p>
+            <p class="lede mt-3">Andraos Construction serves Parker commercial property managers, HOA boards, and general contractors with  concrete, asphalt, and masonry &mdash; multifamily renewal, retail center rehab, and municipal sidewalk work throughout Parker and Douglas County.</p>
             <div class="d-flex gap-2 mt-4 flex-wrap">
               <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Parker</a>
               <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
@@ -113,9 +113,9 @@
         <div class="row g-5">
           <div class="col-lg-4">
             <p class="eyebrow mb-2">Why Parker Chooses Andraos</p>
-            <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
+            <h2 id="why-city-heading" class="ff-display display-md">Local Experience.</h2>
             <p class="text-slate mt-3">
-              Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
+              Since 1993, Andraos Construction has commercial concrete, asphalt, and masonry
               across Douglas County. One project manager owns your job from estimate to warranty &mdash; backed
               by a written one-year workmanship warranty.
             </p>

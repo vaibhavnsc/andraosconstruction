@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('gallery');
 
-    $title = $seo->meta_title ?? 'Gallery | Andraos Construction | Denver, CO Area';
+    $title = $seo->meta_title ?? 'Project Gallery | Andraos Construction Denver, CO';
 
     $description = $seo->meta_description
-        ?? 'View our recent projects like driveways & patios. Learn more! Serving the Denver, CO Metro Area.';
+        ?? 'See recent commercial concrete, asphalt & masonry projects across Denver & the Front Range. Built by Andraos Construction since 1993.';
 @endphp
 
 @section('meta_title', $title)

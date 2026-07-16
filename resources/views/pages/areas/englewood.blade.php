@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('englewood');
 
-    $title = $seo->meta_title ?? 'Englewood Commercial Concrete & Asphalt Services | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete & Asphalt Contractor Englewood, CO';
 
     $description = $seo->meta_description
-        ?? 'Commercial concrete & asphalt in Englewood, CO. Healthcare campuses, retail, full-site capital renewal sequenced around active tenants. Since 1993.';
+        ?? 'Commercial concrete, asphalt, masonry & snow-melt in Englewood & the Denver metro since 1993. Request an estimate: (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -112,9 +112,9 @@
         <div class="row g-5">
           <div class="col-lg-4">
             <p class="eyebrow mb-2">Why Englewood Chooses Andraos</p>
-            <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
+            <h2 id="why-city-heading" class="ff-display display-md">Local Experience.</h2>
             <p class="text-slate mt-3">
-              Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
+              Since 1993, Andraos Construction has commercial concrete, asphalt, and masonry
               across Arapahoe County. One project manager owns your job from estimate to warranty &mdash; backed
               by a written one-year workmanship warranty.
             </p>

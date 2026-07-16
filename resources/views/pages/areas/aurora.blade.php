@@ -4,10 +4,10 @@
 @php
     $seo = getPageSeoByKey('aurora');
 
-    $title = $seo->meta_title ?? 'Commercial Concrete & Asphalt in Aurora, CO | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete & Asphalt Contractor Aurora, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Commercial concrete & asphalt contractor in Aurora, Colorado. Multifamily drive lanes, retail parking lots, ADA sidewalks. Serving Arapahoe County since 1993.';
+        ?? 'Commercial concrete, asphalt, masonry & snow-melt in Aurora & the east metro since 1993. One accountable contractor. Call (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -29,13 +29,13 @@
         <h1>Commercial Concrete & Asphalt Services in Aurora, Colorado</h1>
       </div>
     </header>
-
+ 
     <!-- ====================== INTRO ====================== -->
     <section class="section" aria-labelledby="intro-heading">
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="{{ asset('assets/images/andraos-construction43.jpg') }}"
+            <img src="{{ asset('assets/images/andraos-construction43.jpeg') }}"
                  alt="Commercial concrete and asphalt work in Aurora, Colorado"
                  class="ratio-4-3 img-treat">
           </div>
@@ -112,9 +112,9 @@
         <div class="row g-5">
           <div class="col-lg-4">
             <p class="eyebrow mb-2">Why Aurora Chooses Andraos</p>
-            <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
+            <h2 id="why-city-heading" class="ff-display display-md">Local Experience.</h2>
             <p class="text-slate mt-3">
-              Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
+              Since 1993, Andraos Construction has commercial concrete, asphalt, and masonry
               across Arapahoe County. One project manager owns your job from estimate to warranty &mdash; backed
               by a written one-year workmanship warranty.
             </p>

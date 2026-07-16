@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('arvada');
 
-    $title = $seo->meta_title ?? 'Arvada Commercial Concrete & Asphalt Services | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete & Asphalt Contractor Arvada, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Self-performed concrete, asphalt & masonry in Arvada, CO. Olde Town retail district, HOA communities, commercial properties. Jefferson County since 1993.';
+        ?? 'Commercial concrete, asphalt, masonry & snow-melt in Arvada & the northwest metro since 1993. Call or text (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -45,7 +45,7 @@
             <h2 id="intro-heading" class="ff-display display-md mt-2">
               Commercial Concrete, Asphalt &amp; Masonry in Arvada
             </h2>
-            <p class="lede mt-3">Arvada commercial properties, the Olde Town retail district, and HOA communities engage Andraos Construction for self-performed concrete flatwork, asphalt repair, and masonry site work throughout Jefferson County.</p>
+            <p class="lede mt-3">Arvada commercial properties, the Olde Town retail district, and HOA communities engage Andraos Construction for concrete flatwork, asphalt repair, and masonry site work throughout Jefferson County.</p>
             <div class="d-flex gap-2 mt-4 flex-wrap">
               <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Arvada</a>
               <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
@@ -113,9 +113,9 @@
         <div class="row g-5">
           <div class="col-lg-4">
             <p class="eyebrow mb-2">Why Arvada Chooses Andraos</p>
-            <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
+            <h2 id="why-city-heading" class="ff-display display-md">Local Experience.</h2>
             <p class="text-slate mt-3">
-              Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
+              Since 1993, Andraos Construction has commercial concrete, asphalt, and masonry
               across Jefferson County. One project manager owns your job from estimate to warranty &mdash; backed
               by a written one-year workmanship warranty.
             </p>

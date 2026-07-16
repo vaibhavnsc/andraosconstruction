@@ -4,10 +4,10 @@
 @php
     $seo = getPageSeoByKey('highlands-ranch');
 
-    $title = $seo->meta_title ?? 'Concrete & Asphalt Services in Highlands Ranch, CO | Andraos Construction';
+    $title = $seo->meta_title ?? 'Concrete & Asphalt Contractor Highlands Ranch, CO';
 
     $description = $seo->meta_description
-        ?? 'Concrete & asphalt for Highlands Ranch HOAs and commercial properties. Sidewalk replacement, drive-lane rebuilds, mill & overlay. Douglas County since 1993.';
+        ?? 'Commercial concrete, asphalt, masonry & snow-melt in Highlands Ranch & Douglas County since 1993. Call (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -124,9 +124,9 @@
             <div class="row g-5">
                 <div class="col-lg-4">
                     <p class="eyebrow mb-2">Why Highlands Ranch Chooses Andraos</p>
-                    <h2 id="why-city-heading" class="ff-display display-md">Local Experience, Self-Performed.</h2>
+                    <h2 id="why-city-heading" class="ff-display display-md">Local Experience.</h2>
                     <p class="text-slate mt-3">
-                        Since 1993, Andraos Construction has self-performed commercial concrete, asphalt, and masonry
+                        Since 1993, Andraos Construction has commercial concrete, asphalt, and masonry
                         across Douglas County. One project manager owns your job from estimate to warranty &mdash;
                         backed
                         by a written one-year workmanship warranty.
