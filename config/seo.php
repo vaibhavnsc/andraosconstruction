@@ -24,8 +24,8 @@ return [
         ],
         'contact' => [
             'meta_title' => 'Contact Andraos Construction | Denver, CO',
-            'meta_description' => 'Request a commercial concrete, asphalt or masonry quote in Denver & the Front Range. Estimates in 3–5 days. Call or text (303) 915-3703.',
-        ],
+            'meta_description' => 'Request an Commercial concrete, asphalt or masonry quote in Denver & the Front Range. Estimates in 3–5 days. Call or text (303) 915-3703.',
+        ],  
         'terms' => [
             'meta_title' => 'Terms & Conditions | Andraos Construction',
             'meta_description' => 'Terms and conditions for Andraos Construction services. Please review our policies before using our services.',

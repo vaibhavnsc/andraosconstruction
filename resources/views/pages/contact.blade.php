@@ -3,7 +3,7 @@
 @php
     $seo = getPageSeoByKey('contact');
     $title = $seo->meta_title ?? 'Contact Andraos Construction | Denver, CO';
-    $description = $seo->meta_description ?? 'Request a commercial concrete, asphalt or masonry quote in Denver & the Front Range. Estimates in 3–5 days. Call or text (303) 915-3703.';
+    $description = $seo->meta_description ?? 'Request an Commercial concrete, asphalt or masonry quote in Denver & the Front Range. Estimates in 3–5 days. Call or text (303) 915-3703.';
 @endphp
 
 @section('meta_title', $title)
@@ -19,7 +19,7 @@
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
           <a href="/">Home</a> &nbsp;/&nbsp; Contact
         </nav>
-        <h1>Request a Commercial Project Estimate</h1>
+        <h1>Request an Commercial Project Estimate</h1>
         <p class="lede on-dark mt-3 maxw-56">
           Detailed estimates in 3&ndash;5 business days. Same-day response for emergency
           property-management repairs.
@@ -49,7 +49,7 @@
             <div class="field-label" style="color:rgba(255,255,255,.55)">Direct Line</div>
             <div class="ff-display fs-4 text-white"><a href="tel:(303) 915-3703" class="text-white">(303) 915-3703</a>
             </div>
-            <div class="text-slate" style="font-size:13px;color:rgba(255,255,255,.6)!important">Mon–Fri · 6am–6pm ·
+            <div class="text-slate" style="font-size:13px;color:rgba(255,255,255,.6)!important">Mon–Fri · 8am – 5pm ·
               Speak with estimating.</div>
           </div>
         </div>
@@ -58,8 +58,6 @@
           <div>
             <div class="field-label" style="color:rgba(255,255,255,.55)">Service Territory</div>
             <div class="ff-display fs-4 text-white">Denver Metro &amp; Front Range</div>
-            <div style="font-size:13px;color:rgba(255,255,255,.6)">Boulder, Douglas County &amp; mountain communities.
-            </div>
           </div>
         </div>
         <div class="d-flex gap-3">
@@ -77,7 +75,7 @@
             @csrf
 
             <h3 class="ff-display" style="color:var(--navy-900);font-size:26px">
-              Request a Commercial Estimate
+              Request an Commercial Estimate
             </h3>
 
             <p class="text-slate mb-4" style="font-size:13px">
