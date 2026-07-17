@@ -1,167 +1,187 @@
 <div class="main-nav" id="mainNav">
     <div class="utility-bar">
-      <div class="container d-flex justify-content-between align-items-center py-2">
-        <div class="d-none d-lg-block">◷ Mon–Fri · 8:00am – 5:00pm &nbsp;·&nbsp; Serving the Front Range &amp; Mountain Communities Since 1993</div>
-        <div class="d-flex align-items-center gap-3">
-          <a href="tel:+3039153703" class="d-flex align-items-center gap-2 fw-semibold"><span class="dot"></span>(303) 915-3703</a>
-          <a href="/contact" class="utility-cta ps-3 border-start border-secondary">Request Call Back</a>
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <div class="d-none d-lg-block">◷ Mon–Fri · 8:00am – 5:00pm &nbsp;·&nbsp; Serving the Front Range &amp;
+                Mountain Communities Since 1993</div>
+            <div class="d-flex align-items-center gap-3">
+                <a href="tel:+3039153703" class="d-flex align-items-center gap-2 fw-semibold"><span
+                        class="dot"></span>(303) 915-3703</a>
+                <a href="/contact" class="utility-cta ps-3 border-start border-secondary">Request Call Back</a>
+            </div>
         </div>
-      </div>
     </div>
     <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-            <img src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction"  class="brand-logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span></span><span></span><span></span></button>
-        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-            <ul class="navbar-nav align-items-lg-center">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction" class="brand-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu"><span></span><span></span><span></span></button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav align-items-lg-center">
 
-{{-- Concrete --}}
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle{{ request()->is('services*') || request()->is('commercial-concrete*') || request()->is('residential-concrete*') || request()->is('concrete-finishes*') || request()->is('masonry*') || request()->is('asphalt*') || request()->is('snow-melt*') ? ' active' : '' }}"
-                       href="{{ route('services') }}"
-                       data-bs-toggle="dropdown"
-                       data-navigate-on-click
-                       role="button"
-                       aria-expanded="false">
-                         Services
-                    </a>
-             
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item{{ request()->is('commercial-concrete*') ? ' active' : '' }}"
-                               href="/commercial-concrete-services">
-                                 Commercial Concrete
-                            </a>
-                        </li>
+                    {{-- Concrete --}}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle{{ request()->is('services*') || request()->is('commercial-concrete*') || request()->is('residential-concrete*') || request()->is('concrete-finishes*') || request()->is('masonry*') || request()->is('asphalt*') || request()->is('snow-melt*') ? ' active' : '' }}"
+                            href="{{ route('services') }}" data-bs-toggle="dropdown" data-navigate-on-click
+                            role="button" aria-expanded="false">
+                            Services
+                        </a>
 
-                        <li>
-                            <a class="dropdown-item{{ request()->is('hoa-property-management*') ? ' active' : '' }}"
-                               href="/retail-commercial-concrete">
-                                Retail Commercial Concrete
-                            </a>
-                        </li>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item{{ request()->is('commercial-concrete*') ? ' active' : '' }}"
+                                    href="/commercial-concrete-services">
+                                    Commercial Concrete
+                                </a>
+                            </li>
 
-                        <li>
-                            <a class="dropdown-item{{ request()->is('asphalt*') ? ' active' : '' }}"
-                               href="/asphalt-services">
-                                 Asphalt Paving &amp; Repair
-                            </a>
-                        </li>
+                            <li>
+                                <a class="dropdown-item{{ request()->is('hoa-property-management*') ? ' active' : '' }}"
+                                    href="/retail-commercial-concrete">
+                                    Residential and HOA
+                                </a>
+                            </li>
 
-                        <li>
-                            <a class="dropdown-item{{ request()->is('masonry*') ? ' active' : '' }}"
-                               href="/masonry-services">
-                                 Commercial Masonry
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a class="dropdown-item{{ request()->is('snow-melt*') ? ' active' : '' }}"
-                               href="/snow-melt-services">
-                                 Snow Melt Systems
-                            </a>
-                        </li>
-                        
-                        <!-- <li>
+                            <li>
+                                <a class="dropdown-item{{ request()->is('asphalt*') ? ' active' : '' }}"
+                                    href="/asphalt-services">
+                                    Asphalt Paving &amp; Repair
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item{{ request()->is('masonry*') ? ' active' : '' }}"
+                                    href="/masonry-services">
+                                    Commercial Masonry
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item{{ request()->is('snow-melt*') ? ' active' : '' }}"
+                                    href="/snow-melt-services">
+                                    Snow Melt Systems
+                                </a>
+                            </li>
+
+                            <!-- <li>
                             <a class="dropdown-item{{ request()->is('concrete-finishes*') ? ' active' : '' }}"
                                href="{{ route('services') }}#concrete-finishes">
                                  Concrete Finishes
                             </a>
                         </li> -->
-                    </ul>
-                </li>
-                       
-{{-- Gallery --}}
-                <li class="nav-item">
-                    <a class="nav-link{{ request()->is('gallery*') ? ' active' : '' }}"
-                       href="/gallery">
-                         Gallery
-                     </a>
-                 </li>
+                        </ul>
+                    </li>
 
-{{-- About --}}
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle{{ request()->is('about*') || request()->is('faq*') ? ' active' : '' }}"
-                       href="{{ route('about') }}"
-                       data-bs-toggle="dropdown"
-                       role="button"
-                       aria-expanded="false">
-                          About
-                     </a>
+                    {{-- Gallery --}}
+                    <li class="nav-item">
+                        <a class="nav-link{{ request()->is('gallery*') ? ' active' : '' }}" href="/gallery">
+                            Gallery
+                        </a>
+                    </li>
 
-                     <ul class="dropdown-menu">
-                         <li>
-                             <a class="dropdown-item{{ request()->is('about*') ? ' active' : '' }}"
-                                href="{{ route('about') }}">
-                                  About Us
-                             </a>
-                         </li>
-                         <li>
-                             <a class="dropdown-item{{ request()->is('blog*') ? ' active' : '' }}"
-                                href="{{ route('blog') }}">
-                                  Blog
-                             </a>
-                         </li>
-                         <li>
-                             <a class="dropdown-item{{ request()->is('faq*') ? ' active' : '' }}"
-                                href="{{ route('faq') }}">
-                                  FAQs
-                             </a>
-                         </li>
-                     </ul>
-                 </li>
+                    {{-- About --}}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle{{ request()->is('about*') || request()->is('faq*') ? ' active' : '' }}"
+                            href="{{ route('about') }}" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                            About
+                        </a>
 
-{{-- Service Areas --}}
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle{{ request()->is('service-areas*') ? ' active' : '' }}"
-                       href="{{ route('service-areas') }}"
-                       data-bs-toggle="dropdown">
-                         Service Areas
-                    </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item{{ request()->is('about*') ? ' active' : '' }}"
+                                    href="{{ route('about') }}">
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item{{ request()->is('blog*') ? ' active' : '' }}"
+                                    href="{{ route('blog') }}">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item{{ request()->is('faq*') ? ' active' : '' }}"
+                                    href="{{ route('faq') }}">
+                                    FAQs
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
-                    <ul class="dropdown-menu service-area-dropdown">
-                        <li><a class="dropdown-item{{ request()->is('service-areas') && !request()->segment(2) ? ' active' : '' }}" href="{{ route('service-areas') }}">All Service Areas</a></li>
-                        <hr>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/denver*') ? ' active' : '' }}" href="{{ route('areas.denver') }}">Denver</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/aurora*') ? ' active' : '' }}" href="{{ route('areas.aurora') }}">Aurora</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/littleton*') ? ' active' : '' }}" href="{{ route('areas.littleton') }}">Littleton</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/highlands-ranch*') ? ' active' : '' }}" href="{{ route('areas.highlands-ranch') }}">Highlands Ranch</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/castle-rock*') ? ' active' : '' }}" href="{{ route('areas.castle-rock') }}">Castle Rock</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/parker*') ? ' active' : '' }}" href="{{ route('areas.parker') }}">Parker</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/englewood*') ? ' active' : '' }}" href="{{ route('areas.englewood') }}">Englewood</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/broomfield*') ? ' active' : '' }}" href="{{ route('areas.broomfield') }}">Broomfield</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/boulder*') ? ' active' : '' }}" href="{{ route('areas.boulder') }}">Boulder</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/westminster*') ? ' active' : '' }}" href="{{ route('areas.westminster') }}">Westminster</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/thornton*') ? ' active' : '' }}" href="{{ route('areas.thornton') }}">Thornton</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/arvada*') ? ' active' : '' }}" href="{{ route('areas.arvada') }}">Arvada</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="{{ route('areas.longmont') }}">Longmont</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Colorado Springs</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Centennial</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Lafayette</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Commerce City</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Lakewood</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Breckenridge</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Silverthorne</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Avon</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Keystone</a></li>
-                        <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}" href="#">Greenwood Village</a></li>
-                    </ul>
-                </li>
+                    {{-- Service Areas --}}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle{{ request()->is('service-areas*') ? ' active' : '' }}"
+                            href="{{ route('service-areas') }}" data-bs-toggle="dropdown">
+                            Service Areas
+                        </a>
 
-                {{-- Contact --}}
-                <li class="nav-item">
-                    <a class="nav-link{{ request()->is('contact*') ? ' active' : '' }}"
-                       href="{{ route('contact') }}">
-                         Contact
-                     </a>
-                </li>
+                        <ul class="dropdown-menu service-area-dropdown">
+                            <li><a class="dropdown-item{{ request()->is('service-areas') && !request()->segment(2) ? ' active' : '' }}"
+                                    href="{{ route('service-areas') }}">All Service Areas</a></li>
+                            <hr>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/denver*') ? ' active' : '' }}"
+                                    href="{{ route('areas.denver') }}">Denver</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/aurora*') ? ' active' : '' }}"
+                                    href="{{ route('areas.aurora') }}">Aurora</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/littleton*') ? ' active' : '' }}"
+                                    href="{{ route('areas.littleton') }}">Littleton</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/highlands-ranch*') ? ' active' : '' }}"
+                                    href="{{ route('areas.highlands-ranch') }}">Highlands Ranch</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/castle-rock*') ? ' active' : '' }}"
+                                    href="{{ route('areas.castle-rock') }}">Castle Rock</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/parker*') ? ' active' : '' }}"
+                                    href="{{ route('areas.parker') }}">Parker</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/englewood*') ? ' active' : '' }}"
+                                    href="{{ route('areas.englewood') }}">Englewood</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/broomfield*') ? ' active' : '' }}"
+                                    href="{{ route('areas.broomfield') }}">Broomfield</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/boulder*') ? ' active' : '' }}"
+                                    href="{{ route('areas.boulder') }}">Boulder</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/westminster*') ? ' active' : '' }}"
+                                    href="{{ route('areas.westminster') }}">Westminster</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/thornton*') ? ' active' : '' }}"
+                                    href="{{ route('areas.thornton') }}">Thornton</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/arvada*') ? ' active' : '' }}"
+                                    href="{{ route('areas.arvada') }}">Arvada</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="{{ route('areas.longmont') }}">Longmont</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Colorado Springs</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Centennial</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Lafayette</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Commerce City</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Lakewood</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Breckenridge</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Silverthorne</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Avon</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Keystone</a></li>
+                            <li><a class="dropdown-item{{ request()->is('service-areas/longmont*') ? ' active' : '' }}"
+                                    href="#">Greenwood Village</a></li>
+                        </ul>
+                    </li>
 
-                <li class="nav-item ms-lg-2"><a class="btn btn-light-navy" href="../contact">Request a Estimate</a></li>
-            
-            </ul>
+                    {{-- Contact --}}
+                    <li class="nav-item">
+                        <a class="nav-link{{ request()->is('contact*') ? ' active' : '' }}"
+                            href="{{ route('contact') }}">
+                            Contact
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-lg-2"><a class="btn btn-light-navy" href="../contact">Request a
+                            Estimate</a></li>
+
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-  </div>
+</div>
