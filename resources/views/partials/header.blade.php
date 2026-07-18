@@ -4,7 +4,7 @@
             <div class="d-none d-lg-block">◷ Mon–Fri · 8:00am – 5:00pm &nbsp;·&nbsp; Serving the Front Range &amp;
                 Mountain Communities Since 1993</div>
             <div class="d-flex align-items-center gap-3">
-                <a href="tel:+3039153703" class="d-flex align-items-center gap-2 fw-semibold"><span
+                <a href="tel:+13039153703" class="d-flex align-items-center gap-2 fw-semibold"><span
                         class="dot"></span>(303) 915-3703</a>
                 <a href="/contact" class="utility-cta ps-3 border-start border-secondary">Request Call Back</a>
             </div>

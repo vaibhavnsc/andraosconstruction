@@ -186,7 +186,7 @@ craftsmanship since 1993. (303) 915-3703.';
                     <!-- CTA inline -->
                     <div class="d-flex gap-2 mt-5 flex-wrap">
                         <a href="contact" class="btn btn-navy btn-arrow">Request an Estimate</a>
-                        <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
+                        <a href="tel:+13039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
                     </div>
                 </article>
             </div>
@@ -340,7 +340,7 @@ craftsmanship since 1993. (303) 915-3703.';
         </h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
             <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
-            <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
+            <a href="tel:+13039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
         </div>
     </div>
 </section>
