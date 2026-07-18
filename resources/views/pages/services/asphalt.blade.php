@@ -185,7 +185,6 @@
 </section>
 
 
-
 <section class="section bg-navy-deep text-white text-center" aria-labelledby="svc-single-cta">
     <div class="container reveal is-visible">
         <h2 id="svc-single-cta" class="ff-display display-xl text-white mx-auto maxw-20">
@@ -197,4 +196,22 @@
         </div>
     </div>
 </section>
+
+    <section class="section bg-navy text-white" aria-label="Project gallery">
+        <div class="container">
+            <!-- Filter buttons injected by site.js -->
+            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
+                <button type="button" class="filter-btn" data-filter="asphalt">Asphalt</button>
+            </div>
+            <!-- Project cards injected by site.js -->
+            <div class="row g-3" id="projGrid">
+                @include('partials.gallery-project', [
+                    'category' => 'asphalt',
+                    'title' => 'Songbird HOA Littleton',
+                    'subtitle' => 'Asphalt',
+                    'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
+                ])
+            </div>
+        </div> 
+    </section>
 @endsection
