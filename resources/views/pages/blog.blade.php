@@ -147,7 +147,7 @@
                     <p class="text-white-50 small mt-2 mb-4">
                         Talk to an Andraos project manager about your commercial scope.
                     </p>
-                    <a href="/contact" class="btn btn-light-navy btn-arrow w-100">Request a Quote</a>
+                    <a href="/contact" class="btn btn-light-navy btn-arrow w-100">Request an Estimate</a>
                 </div>
             </aside>
         </div>

@@ -197,7 +197,7 @@
                         scope, schedule, and next steps.
                     </p>
                     <a href="tel:+3039153703" class="btn btn-light-navy btn-arrow w-100 mb-2">Call (303) 915-3703</a>
-                    <a href="contact" class="btn btn-outline-light btn-arrow w-100">Request a Quote</a>
+                    <a href="contact" class="btn btn-outline-light btn-arrow w-100">Request an Estimate</a>
                 </div>
             </aside>
 
@@ -214,7 +214,7 @@
             Quotes in 3&ndash;5 business days. Emergencies same-day. Call us or request a proposal online.
         </p>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-            <a href="contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+            <a href="contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
             <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
         </div>
     </div>

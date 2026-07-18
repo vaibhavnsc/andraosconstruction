@@ -155,7 +155,7 @@ window.AndraosData = (function () {
     {
       slug: "castle-rock", name: "Castle Rock", county: "Douglas County", note: "Douglas County",
       title: "Concrete & Asphalt Contractor Castle Rock, CO",
-      metaDesc: "Commercial concrete, asphalt, masonry & snow-melt in Castle Rock & Douglas County since 1993. Request a quote: (303) 915-3703.",
+      metaDesc: "Commercial concrete, asphalt, masonry & snow-melt in Castle Rock & Douglas County since 1993. Request an Estimate: (303) 915-3703.",
       h1: "Castle Rock Commercial Concrete and Asphalt Contractor",
       intro: "Serving Castle Rock retail developers, hospitality properties, and HOA communities since 1993, Andraos delivers commercial flatwork, asphalt repair, masonry site work, and full-site capital renewal across Douglas County.",
       image: "andraos-construction-gallery-022-665h.jpg"
@@ -188,7 +188,7 @@ window.AndraosData = (function () {
     {
       slug: "boulder", name: "Boulder", county: "Boulder County", note: "Boulder County",
       title: "Concrete & Asphalt Contractor Boulder, CO | Andraos",
-      metaDesc: "Commercial concrete, asphalt, masonry & snow-melt in Boulder & the surrounding area since 1993. Request a quote: (303) 915-3703.",
+      metaDesc: "Commercial concrete, asphalt, masonry & snow-melt in Boulder & the surrounding area since 1993. Request an Estimate: (303) 915-3703.",
       h1: "Commercial Concrete & Masonry Contractors in Boulder, Colorado",
       intro: "Boulder hospitality groups, retail districts, and historic property owners trust Andraos for commercial concrete and sandstone masonry work. The Boulder Marriott drive-court, The Village retail district masonry, and downtown sidewalk programs are among our recent local engagements.",
       image: "andraos-construction-gallery-017-665h.jpg"
@@ -220,7 +220,7 @@ window.AndraosData = (function () {
     {
       slug: "longmont", name: "Longmont", county: "Boulder &amp; Weld Counties", note: "Boulder County",
       title: "Concrete & Asphalt Contractor Longmont, CO",
-      metaDesc: "Commercial concrete, asphalt, masonry & snow-melt in Longmont & the north Front Range since 1993. Request a quote: (303) 915-3703.",
+      metaDesc: "Commercial concrete, asphalt, masonry & snow-melt in Longmont & the north Front Range since 1993. Request an Estimate: (303) 915-3703.",
       h1: "Commercial Concrete and Asphalt Contractor in Longmont, Colorado",
       intro: "Longmont commercial property managers, manufacturing campuses, and HOA communities retain Andraos for full-scope concrete and asphalt programs across Boulder and Weld Counties &mdash; capital renewal and tenant improvement support.",
       image: "andraos-construction-gallery-045-665h.jpg"

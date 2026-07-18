@@ -52,7 +52,7 @@ return [
         ],
           'boulder' => [
             'meta_title' => 'Concrete & Asphalt Contractor Boulder, CO | Andraos',
-            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Boulder & the surrounding area since 1993. Request a quote: (303) 915-3703.',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Boulder & the surrounding area since 1993. Request an Estimate: (303) 915-3703.',
         ],
           'littleton' => [
             'meta_title' => 'Concrete & Asphalt Contractor Littleton, CO | Andraos',
@@ -64,7 +64,7 @@ return [
         ],
            'castle-rock' => [
             'meta_title' => 'Concrete & Asphalt Contractor Castle Rock, CO',
-            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Castle Rock & Douglas County since 1993. Request a quote: (303) 915-3703.',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Castle Rock & Douglas County since 1993. Request an Estimate: (303) 915-3703.',
         ],
             'englewood' => [
             'meta_title' => 'Concrete & Asphalt Contractor Englewood, CO',
@@ -76,7 +76,7 @@ return [
         ],
             'longmont' => [
             'meta_title' => 'Concrete & Asphalt Contractor Longmont, CO',
-            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Longmont & the north Front Range since 1993. Request a quote: (303) 915-3703.',
+            'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Longmont & the north Front Range since 1993. Request an Estimate: (303) 915-3703.',
         ],
             'thornton' => [
             'meta_title' => 'Concrete & Asphalt Contractor Thornton, CO',
@@ -104,7 +104,7 @@ return [
         ],
               'masonry' => [
             'meta_title' => 'Commercial Masonry Contractor Denver, CO | Andraos',
-            'meta_description' => 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request a quote: (303) 915-3703.',
+            'meta_description' => 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request an Estimate: (303) 915-3703.',
         ],
               'asphalt' => [
             'meta_title' => 'Asphalt Services | Andraos Construction | Denver, CO Area',
