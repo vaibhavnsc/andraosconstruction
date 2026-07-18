@@ -132,7 +132,7 @@
                             don't just pour concrete and leave; we provide the maintenance services necessary to keep your
                             surfaces in top condition for years to come. This includes grinding tripping hazards to ensure
                             your family's safety, as well as crack chasing and sealing to prevent water from compromising
-                            your base layers. By hiring a dedicated residential concrete contractor in Denver, CO, you gain
+                            your base layers. By hiring a dedicated residRequest an Estimate contractor in Denver, CO, you gain
                             access to a team that offers a 1-year warranty on all services and brings 40 years of local
                             knowledge to your doorstep. We are committed to great communication and providing competitive
                             pricing, making it easier than ever to invest in the quality your home deserves.</p>
@@ -158,7 +158,7 @@
                             <li>Decades of experience</li>
                             <li>Locally owned and operated</li>
                             <li>Guaranteed customer satisfaction</li>
-                            <li>1-year warranty on all work</li>
+                            <li>1-year warranty on all work</li>Request an Estimate
                             <li>Competitive pricing</li>
                         </ul>
 
@@ -182,7 +182,7 @@
 
                         <!-- CTA inline -->
                         <div class="d-flex gap-2 mt-5 flex-wrap">
-                            <a href="contact" class="btn btn-navy btn-arrow">Request a Quote</a>
+                            <a href="contact" class="btn btn-navy btn-arrow">Request an Estimate</a>
                             <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
                         </div>
                     </article>
@@ -206,7 +206,7 @@
                         <p class="text-white-50 small mt-2 mb-4">
                             Send us the details and we’ll return a line-item estimate in 3–5 business days.
                         </p>
-                        <a href="contact" class="btn btn-light-navy btn-arrow w-100">Request a Quote</a>
+                        <a href="contact" class="btn btn-light-navy btn-arrow w-100">Request an Estimate</a>
                     </div>
                 </aside>
 
@@ -218,7 +218,7 @@
     <section class="section bg-warm section--tight" aria-labelledby="process-heading">
         <div class="container">
             <p class="eyebrow mb-2">How We Work</p>
-            <h2 id="process-heading" class="ff-display display-md mb-4">From Site Walk to Warranty</h2>
+            <h2 id="process-heading" class="ff-display display-md mbRequest an Estimatealk to Warranty</h2>
             <div class="row g-3" id="js-service-process">
                 <div class="col-md-6 col-lg-4">
                     <div class="process-step h-100"><span class="num-eyebrow d-block mb-2">01</span>
@@ -267,7 +267,7 @@
                 Let’s talk about your <span class="js-service-name">Commercial Masonry</span>.
             </h2>
             <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-                <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+                <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
                 <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
             </div>
         </div>

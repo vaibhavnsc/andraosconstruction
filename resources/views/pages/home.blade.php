@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </a>
-            <h1>Trusted Commercial &amp; Residential Concrete Contractor</h1>
+            <h1>Trusted Commercial &amp; Residential Concrete Contractor </h1>
             <div class="d-flex gap-2 mt-4 flex-wrap">
                 <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
                 <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303) 915-3703</a>
@@ -575,7 +575,7 @@
                                                                                                         <div class="pullquote quote">We have had a long-term relationship with both Ray and Rob for over seven years. Their cost is competitive, their work is great, and they are one of the few companies that say what they mean and mean what they say.</div>
                                                                                                         <div class="fw-semibold name" style="color:#fff">Don McGinnis</div>
                                                                                                         <div class="ff-mono text-uppercase mt-1 role" style="font-size:11px;letter-spacing:.1em;color:var(--slate-400)">President · Mc2 Enterprises Inc.</div>
-                                                                                                    </div>
+                                                                   Request an Estimate                  </div>
                                                                                                     <div class="review-item">
                                                                                                         <div class="ff-mono text-uppercase mb-3 title" style="font-size:11px;letter-spacing:.16em;color:var(--accent)">Reliable</div>
                                                                                                         <div class="pullquote quote">Andraos Construction has performed well as a trade partner. They are always responsive to our bidding requirements and can be relied upon to deliver a project in accordance with the agreed-upon schedule and scope.</div>

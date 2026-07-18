@@ -107,7 +107,7 @@
                 navItem("contact", "Contact", "contact.html") +
                 // Primary CTA
                 '<li class="nav-item ms-lg-2">' +
-                  '<a class="btn btn-light-navy" href="' + buildLink("contact.html") + '">Request a Quote</a>' +
+                  '<a class="btn btn-light-navy" href="' + buildLink("contact.html") + '">Request an Estimate</a>' +
                 '</li>' +
               '</ul>' +
             '</div>' +
@@ -181,7 +181,7 @@
               '<a class="footer-link" href="' + PHONE_HREF + '">' + PHONE_DISPLAY + '</a>' +
               '<a class="footer-link" href="' + buildLink("about.html") + '">About</a>' +
               '<a class="footer-link" href="' + buildLink("gallery.html") + '">Gallery</a>' +
-              '<a class="footer-link" href="' + buildLink("contact.html") + '">Request a Quote</a>' +
+              '<a class="footer-link" href="' + buildLink("contact.html") + '">Request an Estimate</a>' +
             '</div>' +
           '</div>' +
           // Legal bar
@@ -314,7 +314,7 @@
               '<p class="lede mt-3">' + svc.blurb + '</p>' +
               '<div class="d-flex flex-wrap gap-1 mt-3">' + tagList(svc.tags) + '</div>' +
               '<a href="' + buildLink("contact.html") + '" class="btn btn-outline-navy btn-arrow mt-4">' +
-                'Request a Quote</a>' +
+                'Request an Estimate</a>' +
             '</div>' +
           '</div>';
       }).join(""));

@@ -6,7 +6,7 @@
     $title = $seo->meta_title ?? 'Commercial Masonry Contractor Denver, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request a quote: (303) 915-3703.';
+        ?? 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request an Estimate: (303) 915-3703.';
 @endphp 
 
 @section('meta_title', $title)
@@ -105,7 +105,7 @@
 
                     <!-- CTA inline -->
                     <div class="d-flex gap-2 mt-5 flex-wrap">
-                        <a href="contact" class="btn btn-navy btn-arrow">Request a Quote</a>
+                        <a href="contact" class="btn btn-navy btn-arrow">Request an Estimate</a>
                         <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
                     </div>
                 </article>
@@ -131,7 +131,7 @@
                     <p class="text-white-50 small mt-2 mb-4">
                         Send us the details and we’ll return a line-item estimate in 3–5 business days.
                     </p>
-                    <a href="contact" class="btn btn-light-navy btn-arrow w-100">Request a Quote</a>
+                    <a href="contact" class="btn btn-light-navy btn-arrow w-100">Request an Estimate</a>
                 </div>
             </aside>
 
@@ -191,7 +191,7 @@
             Let’s talk about your <span class="js-service-name">Commercial Masonry</span>.
         </h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-            <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+            <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
             <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
         </div>
     </div>

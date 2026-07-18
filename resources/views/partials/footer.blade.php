@@ -60,7 +60,7 @@
             </div>
 
             <!-- Company -->
-            <div class="col-lg-2 col-12">
+            <div class="col-lg-2 col-12 fbo">
 
                 <h6>Company</h6>
 
@@ -70,7 +70,7 @@
 
                 <a href="/about" class="footer-link">About</a>
                 <a href="/faqs" class="footer-link">FAQ</a>
-                <a href="/#Google-reviews" class="footer-link">Reviews</a>
+                <a href="/#Google-reviews" class="footeRequest an Estimate</a>
                 <a href="/contact" class="footer-link">Request An Estimate</a>
 
             </div>

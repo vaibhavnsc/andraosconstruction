@@ -48,7 +48,7 @@
                         Andraos for resident- and tenant-occupied concrete and asphalt programs &mdash; capital renewal,
                         ADA sidewalk installation, and parking lot maintenance.</p>
                     <div class="d-flex gap-2 mt-4 flex-wrap">
-                        <a href="/contact" class="btn btn-navy btn-arrow">Request a Quote in Thornton</a>
+                        <a href="/contact" class="btn btn-navy btn-arrow">Request an Estimate in Thornton</a>
                         <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
             <h2 id="city-cta-heading" class="ff-display display-xl text-white mx-auto maxw-20">Get a quote for your
                 Thornton project.</h2>
             <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
-                <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
+                <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
                 <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
             </div>
         </div>
