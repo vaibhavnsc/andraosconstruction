@@ -154,12 +154,12 @@
                     'subtitle' => 'Masonry',
                     'cover' => asset('assets/images/masonry/Masonry01.JPEG'),
                     'images' => [
-                        asset('assets/images/masonry/Masonry02.JPG'),
+                        asset('assets/images/masonry/Masonry02.jpeg'),
                         asset('assets/images/masonry/Masonry03.JPG'),
-                        asset('assets/images/masonry/Masonry04.JPG'),
+                        asset('assets/images/masonry/Masonry04.jpeg'),
                         asset('assets/images/masonry/Masonry05.JPG'),
-                        asset('assets/images/masonry/Masonry06.JPG'),
-                        asset('assets/images/masonry/Masonry07.JPG'),
+                        asset('assets/images/masonry/Masonry06.jpeg'),
+                        asset('assets/images/masonry/Masonry07.jpeg'),
                         asset('assets/images/masonry/Masonry08.JPG'),
                         asset('assets/images/masonry/Masonry09.JPG'),
                         asset('assets/images/masonry/Masonry10.JPG'),
@@ -169,7 +169,7 @@
                         asset('assets/images/masonry/Masonry14.JPG'),
                         asset('assets/images/masonry/Masonry15.JPG'),
                         asset('assets/images/masonry/Masonry16.JPG'),
-                        asset('assets/images/masonry/Masonry17.JPG'),
+                        asset('assets/images/masonry/Masonry17.jpeg'),
                     ],
                 ])
             </div>

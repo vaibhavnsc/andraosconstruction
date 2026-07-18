@@ -140,12 +140,12 @@
                     'category' => 'snow-melt-system',
                     'title' => 'Snow Melt Systems',
                     'subtitle' => 'Snow Melt Systems',
-                    'cover' => asset('assets/images/SnowMeltSystems/Snow_melt_systems01.JPG'),
+                    'cover' => asset('assets/images/SnowMeltSystems/Snow_melt_systems01.jpeg'),
                     'images' => [
-                        asset('assets/images/SnowMeltSystems/Snow_melt_systems02.JPG'),
-                        asset('assets/images/SnowMeltSystems/Snow_melt_systems03.JPG'),
-                        asset('assets/images/SnowMeltSystems/Snow_melt_systems04.JPG'),
-                        asset('assets/images/SnowMeltSystems/Snow_melt_systems05.JPEG'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems02.jpeg'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems03.jpeg'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems04.jpeg'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems05.jpeg'),
                     ],
                 ])
             </div>

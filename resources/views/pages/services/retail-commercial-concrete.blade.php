@@ -230,22 +230,22 @@ craftsmanship since 1993. (303) 915-3703.';
             'title' => 'Central Park Highlands',
             'subtitle' => 'Central Park Highlands',
             'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands01.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands01.jpeg'),
             'images' => [
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands03.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands03.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands06.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands06.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.jpeg'),
             ],
             ])
             @include('partials.gallery-project', [
@@ -253,18 +253,18 @@ craftsmanship since 1993. (303) 915-3703.';
             'title' => 'Town Center',
             'subtitle' => 'Town Center',
             'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.jpeg'),
             'images' => [
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center02.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center03.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center04.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center05.JPG'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.JPEG'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.JPEG'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.JPEG'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.JPEG'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.JPEG'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.jpeg'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.jpeg'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.jpeg'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.jpeg'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.jpeg'),
             ],
             ])
             @include('partials.gallery-project', [
@@ -272,18 +272,18 @@ craftsmanship since 1993. (303) 915-3703.';
             'title' => 'Wildcat Reserve Highlands',
             'subtitle' => 'Wildcat Reserve Highlands',
             'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.jpeg'),
             'images' => [
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.JPEG'),
+            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
             ],
             ])
 </section>
