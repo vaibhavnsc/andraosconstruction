@@ -10,7 +10,7 @@
 
 return [
 
-  // ── Main pages ──────────────────────────────────────────────────────────
+    // ── Main pages ──────────────────────────────────────────────────────────
     'main' => [
         ['path' => '/',           'view' => 'pages.home',          'name' => 'home',          'seo' => 'home'],
         ['path' => '/about',      'view' => 'pages.about',         'name' => 'about',         'seo' => 'about'],
@@ -41,13 +41,24 @@ return [
         ['path' => '/masonry-services',                'view' => 'pages.services.masonry',                'name' => 'services.masonry',                'seo' => 'masonry'],
         ['path' => '/snow-melt-services',               'view' => 'pages.services.snow-melt',               'name' => 'services.snow-melt',               'seo' => 'snow-melt'],
         ['path' => '/retail-commercial-concrete', 'view' => 'pages.services.retail-commercial-concrete', 'name' => 'services.retail-commercial-concrete', 'seo' => 'retail-commercial-concrete'],
+        ['path' => '/hoa-property-management-services', 'view' => 'pages.services.hoa-property-management', 'name' => 'services.hoa-property-management', 'seo' => 'hoa-property-management'],
     ],
 
     // Service area location pages
     'areas' => [
-        'denver', 'aurora', 'littleton', 'highlands-ranch', 'castle-rock',
-        'parker', 'englewood', 'broomfield', 'boulder', 'westminster',
-        'thornton', 'arvada', 'longmont',
+        'denver',
+        'aurora',
+        'littleton',
+        'highlands-ranch',
+        'castle-rock',
+        'parker',
+        'englewood',
+        'broomfield',
+        'boulder',
+        'westminster',
+        'thornton',
+        'arvada',
+        'longmont',
     ],
 
     // Blog articles
