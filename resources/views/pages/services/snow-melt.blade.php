@@ -173,7 +173,6 @@
 </section>
 
 
-
 <section class="section bg-navy-deep text-white text-center" aria-labelledby="svc-single-cta">
     <div class="container reveal is-visible">
         <h2 id="svc-single-cta" class="ff-display display-xl text-white mx-auto maxw-20">
@@ -185,4 +184,28 @@
         </div>
     </div>
 </section>
+
+    <section class="section bg-navy text-white" aria-label="Project gallery">
+        <div class="container">
+            <!-- Filter buttons injected by site.js -->
+            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
+                <button type="button" class="filter-btn" data-filter="snow-melt-system">Snow Melt Systems</button>
+            </div>
+            <!-- Project cards injected by site.js -->
+            <div class="row g-3" id="projGrid">
+                @include('partials.gallery-project', [
+                    'category' => 'snow-melt-system',
+                    'title' => 'Snow Melt Systems',
+                    'subtitle' => 'Snow Melt Systems',
+                    'cover' => asset('assets/images/SnowMeltSystems/Snow_melt_systems01.JPG'),
+                    'images' => [
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems02.JPG'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems03.JPG'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems04.JPG'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems05.JPEG'),
+                    ],
+                ])
+            </div>
+        </div> 
+    </section>
 @endsection

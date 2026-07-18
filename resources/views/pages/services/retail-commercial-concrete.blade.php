@@ -259,8 +259,6 @@
         </div>
     </section>
 
-
-
     <section class="section bg-navy-deep text-white text-center" aria-labelledby="svc-single-cta">
         <div class="container reveal is-visible">
             <h2 id="svc-single-cta" class="ff-display display-xl text-white mx-auto maxw-20">
@@ -269,6 +267,79 @@
             <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
                 <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
                 <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
+            </div>
+        </div>
+    </section>
+
+       <section class="section bg-navy text-white" aria-label="Project gallery">
+        <div class="container">
+            <!-- Filter buttons injected by site.js -->
+            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
+                <button type="button" class="filter-btn" data-filter="hoa">Retail Commercial Concrete </button>
+            </div>
+            <!-- Project cards injected by site.js -->
+            <div class="row g-3" id="projGrid">
+                @include('partials.gallery-project', [
+                    'category' => 'hoa',
+                    'title' => 'Central Park Highlands',
+                    'subtitle' => 'Central Park Highlands',
+                    'cover' => asset(
+                        'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands01.JPEG'),
+                    'images' => [
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands03.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands06.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.JPEG'),
+                    ],
+                ])
+                @include('partials.gallery-project', [
+                    'category' => 'hoa',
+                    'title' => 'Town Center',
+                    'subtitle' => 'Town Center',
+                    'cover' => asset(
+                        'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.JPEG'),
+                    'images' => [
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center02.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center03.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center04.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center05.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.JPEG'),
+                    ],
+                ])
+                @include('partials.gallery-project', [
+                    'category' => 'hoa',
+                    'title' => 'Wildcat Reserve Highlands',
+                    'subtitle' => 'Wildcat Reserve Highlands',
+                    'cover' => asset(
+                        'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.JPEG'),
+                    'images' => [
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.JPEG'),
+                    ],
+                ])
             </div>
         </div>
     </section>
