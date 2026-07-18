@@ -140,6 +140,24 @@
     </div>
 </section>
 
+    <section class="section bg-navy text-white" aria-label="Project gallery">
+        <div class="container">
+            <!-- Filter buttons injected by site.js -->
+            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
+                <button type="button" class="filter-btn" data-filter="asphalt">Asphalt</button>
+            </div>
+            <!-- Project cards injected by site.js -->
+            <div class="row g-3" id="projGrid">
+                @include('partials.gallery-project', [
+                    'category' => 'asphalt',
+                    'title' => 'Songbird HOA Littleton',
+                    'subtitle' => 'Asphalt',
+                    'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
+                ])
+            </div>
+        </div> 
+    </section>
+
 
 <section class="section bg-warm section--tight" aria-labelledby="process-heading">
     <div class="container">
@@ -197,21 +215,5 @@
     </div>
 </section>
 
-    <section class="section bg-navy text-white" aria-label="Project gallery">
-        <div class="container">
-            <!-- Filter buttons injected by site.js -->
-            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
-                <button type="button" class="filter-btn" data-filter="asphalt">Asphalt</button>
-            </div>
-            <!-- Project cards injected by site.js -->
-            <div class="row g-3" id="projGrid">
-                @include('partials.gallery-project', [
-                    'category' => 'asphalt',
-                    'title' => 'Songbird HOA Littleton',
-                    'subtitle' => 'Asphalt',
-                    'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
-                ])
-            </div>
-        </div> 
-    </section>
+
 @endsection

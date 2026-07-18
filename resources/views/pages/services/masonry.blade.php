@@ -139,6 +139,43 @@
     </div>
 </section>
 
+    <section class="section bg-navy text-white" aria-label="Project gallery">
+        <div class="container">
+            <!-- Filter buttons injected by site.js -->
+            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
+                <button type="button" class="filter-btn" data-filter="masonry">Masonry</button>
+            </div>
+            <!-- Project cards injected by site.js -->
+            <div class="row g-3" id="projGrid">
+
+                @include('partials.gallery-project', [
+                    'category' => 'masonry',
+                    'title' => 'Masonry',
+                    'subtitle' => 'Masonry',
+                    'cover' => asset('assets/images/masonry/Masonry01.JPEG'),
+                    'images' => [
+                        asset('assets/images/masonry/Masonry02.JPG'),
+                        asset('assets/images/masonry/Masonry03.JPG'),
+                        asset('assets/images/masonry/Masonry04.JPG'),
+                        asset('assets/images/masonry/Masonry05.JPG'),
+                        asset('assets/images/masonry/Masonry06.JPG'),
+                        asset('assets/images/masonry/Masonry07.JPG'),
+                        asset('assets/images/masonry/Masonry08.JPG'),
+                        asset('assets/images/masonry/Masonry09.JPG'),
+                        asset('assets/images/masonry/Masonry10.JPG'),
+                        asset('assets/images/masonry/Masonry11.JPG'),
+                        asset('assets/images/masonry/Masonry12.JPG'),
+                        asset('assets/images/masonry/Masonry13.JPG'),
+                        asset('assets/images/masonry/Masonry14.JPG'),
+                        asset('assets/images/masonry/Masonry15.JPG'),
+                        asset('assets/images/masonry/Masonry16.JPG'),
+                        asset('assets/images/masonry/Masonry17.JPG'),
+                    ],
+                ])
+            </div>
+        </div> 
+    </section>
+
 <section class="section bg-warm section--tight" aria-labelledby="process-heading">
     <div class="container">
         <p class="eyebrow mb-2">How We Work</p>
@@ -194,40 +231,5 @@
     </div>
 </section>
 
-    <section class="section bg-navy text-white" aria-label="Project gallery">
-        <div class="container">
-            <!-- Filter buttons injected by site.js -->
-            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
-                <button type="button" class="filter-btn" data-filter="masonry">Masonry</button>
-            </div>
-            <!-- Project cards injected by site.js -->
-            <div class="row g-3" id="projGrid">
 
-                @include('partials.gallery-project', [
-                    'category' => 'masonry',
-                    'title' => 'Masonry',
-                    'subtitle' => 'Masonry',
-                    'cover' => asset('assets/images/masonry/Masonry01.JPEG'),
-                    'images' => [
-                        asset('assets/images/masonry/Masonry02.JPG'),
-                        asset('assets/images/masonry/Masonry03.JPG'),
-                        asset('assets/images/masonry/Masonry04.JPG'),
-                        asset('assets/images/masonry/Masonry05.JPG'),
-                        asset('assets/images/masonry/Masonry06.JPG'),
-                        asset('assets/images/masonry/Masonry07.JPG'),
-                        asset('assets/images/masonry/Masonry08.JPG'),
-                        asset('assets/images/masonry/Masonry09.JPG'),
-                        asset('assets/images/masonry/Masonry10.JPG'),
-                        asset('assets/images/masonry/Masonry11.JPG'),
-                        asset('assets/images/masonry/Masonry12.JPG'),
-                        asset('assets/images/masonry/Masonry13.JPG'),
-                        asset('assets/images/masonry/Masonry14.JPG'),
-                        asset('assets/images/masonry/Masonry15.JPG'),
-                        asset('assets/images/masonry/Masonry16.JPG'),
-                        asset('assets/images/masonry/Masonry17.JPG'),
-                    ],
-                ])
-            </div>
-        </div> 
-    </section>
 @endsection
