@@ -64,7 +64,7 @@
 
                 <h6>Company</h6>
 
-                <a href="tel:+3039153703" class="footer-link">
+                <a href="tel:+13039153703" class="footer-link">
                     (303) 915-3703
                 </a>
 
@@ -95,7 +95,7 @@
 </footer>
 
 <nav id="mobile-cta" aria-label="Quick contact" class="mobile-cta">
-    <a href="tel:+3039153703">☏ Call</a>
-    <a href="sms:+3039153703">✉ Text</a>
+    <a href="tel:+13039153703">☏ Call</a>
+    <a href="sms:+13039153703">✉ Text</a>
     <a href="/contact" class="is-primary">→ Quote</a>
 </nav>

@@ -18,7 +18,7 @@
     <section class="hero" id="home">
         <div id="heroSlides2" style="position:absolute; inset:0; overflow:hidden; z-index:0;">
             <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
-                <source src="{{ asset('/assets/images/banner.mp4') }}" type="video/mp4">
+                <source src="{{ asset('/assets/images/video.mp4') }}" type="video/mp4">
             </video>
         </div>
         <div class="hero-scrim"></div>
@@ -37,7 +37,7 @@
             <h1>Trusted Commercial &amp; Residential Concrete Contractor </h1>
             <div class="d-flex gap-2 mt-4 flex-wrap">
                 <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
-                <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303) 915-3703</a>
+                <a href="tel:+13039153703" class="btn btn-outline-light btn-arrow">(303) 915-3703</a>
             </div>
         </div>
         <div class="hero-foot">
@@ -629,7 +629,7 @@
             </p>
             <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
                 <a href="contact" class="btn btn-light-navy btn-arrow">Request An Estimate</a>
-                <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
+                <a href="tel:+13039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
             </div>
         </div>
     </section>
