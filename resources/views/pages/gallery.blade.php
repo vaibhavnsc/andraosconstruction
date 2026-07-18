@@ -116,8 +116,8 @@
                     'category' => 'stucco',
                     'title' => 'Stucco',
                     'subtitle' => 'Stucco',
-                    'cover' => asset('assets/images/stucco/Stucco01.JPG'),
-                    'images' => [asset('assets/images/stucco/Stucco02.JPEG')],
+                    'cover' => asset('assets/images/stucco/Stucco01.jpg'),
+                    'images' => [asset('assets/images/stucco/Stucco02.jpeg')],
                 ])
                 {{-- @include('partials.gallery-project', [
                     'category' => 'stucco',
@@ -190,7 +190,7 @@
                     'category' => 'commercial-concrete',
                     'title' => 'Detroit Street',
                     'subtitle' => 'Commercial Concrete',
-                    'cover' => asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver01.jpg'),
+                    'cover' => asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver01.JPG'),
                     'images' => [
                         asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver02.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver03.JPG'),
@@ -230,8 +230,8 @@
                     'category' => 'residential-concrete',
                     'title' => 'Jones',
                     'subtitle' => 'Jones',
-                    'cover' => asset('assets/images/ResidentialConcrete/Jones/Jonesresidence01.JPG'),
-                    'images' => [asset('assets/images/ResidentialConcrete/Jones/Jonesresidence02.JPEG')],
+                    'cover' => asset('assets/images/ResidentialConcrete/Jones/Jonesresidence01.jpg'),
+                    'images' => [asset('assets/images/ResidentialConcrete/Jones/Jonesresidence02.jpeg')],
                 ])
                 @include('partials.gallery-project', [
                     'category' => 'residential-concrete',
@@ -363,14 +363,14 @@
                     'cover' => asset('assets/images/ConcreteFinishes/Concrete_finishes01.JPG'),
                     'images' => [
                         asset('assets/images/ConcreteFinishes/Concrete_finishes02.jpeg'),
-                        asset('assets/images/ConcreteFinishes/Concrete_finishes03.JPEG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes03.jpeg'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes04.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes05.JPG'),
-                        asset('assets/images/ConcreteFinishes/Concrete_finishes06.JPG'),
-                        asset('assets/images/ConcreteFinishes/Concrete_finishes07.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes06.jpg'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes07.jpg'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes08.JPG'),
-                        asset('assets/images/ConcreteFinishes/Concrete_finishes09.JPEG'),
-                        asset('assets/images/ConcreteFinishes/Concrete_finishes10.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes09.jpeg'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes10.jpg'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes11.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes12.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes13.JPG'),
