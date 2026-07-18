@@ -53,23 +53,78 @@
             <div class="row g-3" id="projGrid">
                 @include('partials.gallery-project', [
                     'category' => 'hoa',
-                    'title' => 'HOA',
-                    'subtitle' => 'HOA',
-                    'cover' => asset('assets/images/hoa-andros.webp'),
-                    'images' => [asset('assets/images/andraos-construction.webp')],
+                    'title' => 'Central Park Highlands',
+                    'subtitle' => 'Central Park Highlands',
+                    'cover' => asset(
+                        'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands01.JPEG'),
+                    'images' => [
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands03.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands06.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.JPEG'),
+                    ],
+                ])
+                @include('partials.gallery-project', [
+                    'category' => 'hoa',
+                    'title' => 'Town Center',
+                    'subtitle' => 'Town Center',
+                    'cover' => asset(
+                        'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.JPEG'),
+                    'images' => [
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center02.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center03.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center04.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center05.JPG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.JPEG'),
+                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.JPEG'),
+                    ],
+                ])
+                @include('partials.gallery-project', [
+                    'category' => 'hoa',
+                    'title' => 'Wildcat Reserve Highlands',
+                    'subtitle' => 'Wildcat Reserve Highlands',
+                    'cover' => asset(
+                        'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.JPEG'),
+                    'images' => [
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.JPEG'),
+                        asset(
+                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.JPEG'),
+                    ],
                 ])
                 @include('partials.gallery-project', [
                     'category' => 'stucco',
                     'title' => 'Stucco',
                     'subtitle' => 'Stucco',
-                    'cover' => asset('assets/images/stucco/IMG_0669.jpg'),
+                    'cover' => asset('assets/images/stucco/Stucco01.JPG'),
+                    'images' => [asset('assets/images/stucco/Stucco02.JPEG')],
                 ])
-                @include('partials.gallery-project', [
+                {{-- @include('partials.gallery-project', [
                     'category' => 'stucco',
                     'title' => 'Stucco',
                     'subtitle' => 'Stucco',
                     'cover' => asset('assets/images/stucco/IMG_3656.jpeg'),
-                ])
+                ]) --}}
                 @include('partials.gallery-project', [
                     'category' => 'commercial-concrete',
                     'title' => 'Advanced Energy',
@@ -173,11 +228,30 @@
 
                 @include('partials.gallery-project', [
                     'category' => 'residential-concrete',
-                    'title' => 'Residential Patio',
-                    'subtitle' => 'Residential Concrete',
-                    'cover' => asset('assets/images/residential/IMG_0041.jpeg'),
+                    'title' => 'Jones',
+                    'subtitle' => 'Jones',
+                    'cover' => asset('assets/images/ResidentialConcrete/Jones/Jonesresidence01.JPG'),
+                    'images' => [asset('assets/images/ResidentialConcrete/Jones/Jonesresidence02.JPEG')],
                 ])
                 @include('partials.gallery-project', [
+                    'category' => 'residential-concrete',
+                    'title' => 'Rays Driveway',
+                    'subtitle' => 'Rays Driveway',
+                    'cover' => asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway01.JPG'),
+                    'images' => [
+                        asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway02.JPG'),
+                        asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway03.JPG'),
+                        asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway04.JPG'),
+                    ],
+                ])
+                @include('partials.gallery-project', [
+                    'category' => 'residential-concrete',
+                    'title' => 'Stairs',
+                    'subtitle' => 'Stairs',
+                    'cover' => asset('assets/images/ResidentialConcrete/Stairs/Stairs01.JPG'),
+                    'images' => [asset('assets/images/ResidentialConcrete/Stairs/Stairs02.JPG')],
+                ])
+                {{-- @include('partials.gallery-project', [
                     'category' => 'residential-concrete',
                     'title' => 'Highlands Ranch Residential',
                     'subtitle' => 'Residential Concrete',
@@ -262,29 +336,23 @@
                     'subtitle' => 'Asphalt',
                     'cover' => asset('assets/images/asphalt/168-25-Meadow.jpg'),
                     'images' => [asset('assets/images/asphalt/168-25.jpg')],
-                ])
+                ]) --}}
                 @include('partials.gallery-project', [
                     'category' => 'asphalt',
                     'title' => 'Songbird HOA Littleton',
                     'subtitle' => 'Asphalt',
-                    'cover' => asset('assets/images/asphalt/HOA_Littleton_IMG_3636.jpeg'),
-                    'images' => [
-                        asset('assets/images/asphalt/IMG_3635.jpeg'),
-                        asset('assets/images/asphalt/Songbird_HOA_IMG_3637.jpeg'),
-                        asset('assets/images/asphalt/Songbird_HOA_Littleton_IMG_3638.jpeg'),
-                    ],
+                    'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
                 ])
                 @include('partials.gallery-project', [
                     'category' => 'snow-melt-system',
                     'title' => 'Snow Melt Systems',
                     'subtitle' => 'Snow Melt Systems',
-                    'cover' => asset('assets/images/snowmelt/064-25f.jpeg'),
+                    'cover' => asset('assets/images/SnowMeltSystems/Snow_melt_systems01.JPG'),
                     'images' => [
-                        asset('assets/images/snowmelt/064-25s.jpeg'),
-                        asset('assets/images/snowmelt/064-25si.jpeg'),
-                        asset('assets/images/snowmelt/064-25t.jpeg'),
-                        asset('assets/images/snowmelt/064-25th.jpeg'),
-                        asset('assets/images/snowmelt/064-25fi.jpg'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems02.JPG'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems03.JPG'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems04.JPG'),
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems05.JPEG'),
                     ],
                 ])
 
@@ -292,27 +360,59 @@
                     'category' => 'concrete-finishes',
                     'title' => 'Colored Concrete',
                     'subtitle' => 'Concrete Finishes',
-                    'cover' => asset('assets/images/concrete-finishes/Colored-concrete.jpeg'),
+                    'cover' => asset('assets/images/ConcreteFinishes/Concrete_finishes01.JPG'),
+                    'images' => [
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes02.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes03.JPEG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes04.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes05.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes06.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes07.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes08.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes09.JPEG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes10.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes11.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes12.JPG'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes13.JPG'),
+                    ],
                 ])
-                @include('partials.gallery-project', [
+                {{-- @include('partials.gallery-project', [
                     'category' => 'concrete-finishes',
                     'title' => 'Exposed Aggregate',
                     'subtitle' => 'Concrete Finishes',
                     'cover' => asset('assets/images/concrete-finishes/Exposed-aggregate.jpg'),
-                ])
-                @include('partials.gallery-project', [
+                ]) --}}
+                {{-- @include('partials.gallery-project', [
                     'category' => 'concrete-finishes',
                     'title' => 'Stamped Concrete',
                     'subtitle' => 'Concrete Finishes',
                     'cover' => asset('assets/images/concrete-finishes/Stamped-concrete.JPG'),
-                ])
+                ]) --}}
                 @include('partials.gallery-project', [
                     'category' => 'masonry',
-                    'title' => 'Commercial Masonry Before/After',
-                    'subtitle' => 'Blackhawk',
-                    'cover' => asset('assets/images/masonry/IMG_1450.jpg'),
+                    'title' => 'Masonry',
+                    'subtitle' => 'Masonry',
+                    'cover' => asset('assets/images/masonry/Masonry01.JPEG'),
+                    'images' => [
+                        asset('assets/images/masonry/Masonry02.JPG'),
+                        asset('assets/images/masonry/Masonry03.JPG'),
+                        asset('assets/images/masonry/Masonry04.JPG'),
+                        asset('assets/images/masonry/Masonry05.JPG'),
+                        asset('assets/images/masonry/Masonry06.JPG'),
+                        asset('assets/images/masonry/Masonry07.JPG'),
+                        asset('assets/images/masonry/Masonry08.JPG'),
+                        asset('assets/images/masonry/Masonry09.JPG'),
+                        asset('assets/images/masonry/Masonry10.JPG'),
+                        asset('assets/images/masonry/Masonry11.JPG'),
+                        asset('assets/images/masonry/Masonry12.JPG'),
+                        asset('assets/images/masonry/Masonry13.JPG'),
+                        asset('assets/images/masonry/Masonry14.JPG'),
+                        asset('assets/images/masonry/Masonry15.JPG'),
+                        asset('assets/images/masonry/Masonry16.JPG'),
+                        asset('assets/images/masonry/Masonry17.JPG'),
+                    ],
                 ])
-                @include('partials.gallery-project', [
+                {{-- @include('partials.gallery-project', [
                     'category' => 'masonry',
                     'title' => 'Blackhawk',
                     'subtitle' => 'Masonry',
@@ -336,7 +436,7 @@
                     'title' => 'Masonry Vasa',
                     'subtitle' => 'Masonry',
                     'cover' => asset('assets/images/masonry/Masonry-Vasa.jpeg'),
-                ])
+                ]) --}}
             </div>
         </div>
     </section>
