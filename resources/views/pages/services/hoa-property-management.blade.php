@@ -41,7 +41,7 @@
                 <div class="col-lg-8">
                     <article class="reveal is-visible">
                         <img id="js-service-image" alt="HOA & Property Management" class="ratio-16-9 mb-4"
-                            src="/assets/images/residential/Retail-commercial-concrete-hero.png">
+                            src="/assets/images/residential/IMG_0079.jpeg">
 
                         <p class="eyebrow">Overview</p>
                         <h2 class="ff-display display-md mt-2 mb-3">
@@ -218,7 +218,7 @@
         <div class="container">
             <!-- Filter buttons injected by site.js -->
             <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
-                <button type="button" class="filter-btn" data-filter="hoa">Retail Commercial Concrete 111</button>
+                <button type="button" class="filter-btn" data-filter="hoa">Retail Commercial Concrete</button>
             </div>
             <!-- Project cards injected by site.js -->
             <div class="row g-3" id="projGrid">

@@ -282,7 +282,7 @@ $seo->meta_description ??
                     <div class="svc-card" id="hoa-property-management"><img
                             src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                             alt="Retail Commercial Concrete">
-                        <h3 class="text-white">Retail Commercial Concrete</h3>
+                        <h3 class="text-white">HOA & Property Management</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">We provide interior and
                             exterior concrete services for residential customers, delivering solutions for projects
                             ranging from stairs, pool decks, patios, garage floors, and driveways to concrete leveling
