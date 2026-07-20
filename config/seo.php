@@ -107,8 +107,8 @@ return [
             'meta_description' => 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request an Estimate: (303) 915-3703.',
         ],
               'asphalt' => [
-            'meta_title' => 'Asphalt Services | Andraos Construction | Denver, CO Area',
-            'meta_description' => 'Get expert asphalt services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.',
+            'meta_title' => 'Commercial Asphalt Paving & Repair Denver, CO | Andraos',
+            'meta_description' => 'Asphalt paving, sealcoating, crackfill, mill & overlay and full-depth repair across the Denver Front Range. Extend pavement life. (303) 915-3703.',
         ],
                 'snow-melt' => [
                 'meta_title' => 'Hydronic Snow Melt Systems Denver, CO | Andraos',

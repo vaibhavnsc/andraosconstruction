@@ -3,11 +3,11 @@
 @php
     $seo = getPageSeoByKey('retail-commercial-concrete');
 
-    $title = $seo->meta_title ?? 'Retail & Custom Concrete Finishes Denver, CO | Andraos';
+    $title = $seo->meta_title ?? 'HOA Property Management Services | Andraos Construction';
 
     $description =
         $seo->meta_description ??
-        'Stamped, colored & high-end concrete finishes plus repair and leveling across the Denver Front Range. Quality craftsmanship since 1993. (303) 915-3703.';
+        'Expert HOA property management services, including concrete, asphalt, masonry, & maintenance for communities, retail centers & commercial properties.';
 @endphp
 
 @section('meta_title', $title)

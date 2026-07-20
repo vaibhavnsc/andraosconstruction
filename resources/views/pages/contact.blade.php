@@ -50,7 +50,7 @@
                         <div class="contact-icon">☏</div>
                         <div>
                             <div class="field-label" style="color:rgba(255,255,255,.55)">Direct Line</div>
-                            <div class="ff-display fs-4 text-white"><a href="tel:(303) 915-3703" class="text-white">(303)
+                            <div class="ff-display fs-4 text-white"><a href="tel:+13039153703" class="text-white">(303)
                                     915-3703</a>
                             </div>
                             <div class="text-slate" style="font-size:13px;color:rgba(255,255,255,.6)!important">Mon–Fri ·
