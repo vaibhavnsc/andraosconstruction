@@ -3,10 +3,10 @@
 @php
     $seo = getPageSeoByKey('asphalt');
 
-    $title = $seo->meta_title ?? 'Asphalt Services | Andraos Construction | Denver, CO Area';
+    $title = $seo->meta_title ?? 'Commercial Asphalt Paving & Repair Denver, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Get expert asphalt services with detailed estimates. Learn more! Serving the Denver, CO Metro Area.';
+        ?? 'Asphalt paving, sealcoating, crackfill, mill & overlay and full-depth repair across the Denver Front Range. Extend pavement life. (303) 915-3703.';
 @endphp 
 
 @section('meta_title', $title)
@@ -69,7 +69,7 @@
                     <!-- CTA inline -->
                     <div class="d-flex gap-2 mt-5 flex-wrap">
                         <a href="contact.html" class="btn btn-navy btn-arrow">Request a Quote</a>
-                        <a href="tel:+3039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
+                        <a href="tel:+13039153703" class="btn btn-outline-navy">Call (303) 915-3703</a>
                     </div>
                 </article>
             </div>
@@ -113,7 +113,7 @@
         </h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
             <a href="/contact" class="btn btn-light-navy btn-arrow">Request a Quote</a>
-            <a href="tel:+3039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
+            <a href="tel:+13039153703" class="btn btn-outline-light btn-arrow">(303)&nbsp;915-3703</a>
         </div>
     </div>
 </section>
