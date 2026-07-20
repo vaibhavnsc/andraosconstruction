@@ -24,8 +24,7 @@
                 <a href="{{ route('services.asphalt') }}" class="footer-link">Asphalt Paving</a>
                 <a href="{{ route('services.masonry') }}" class="footer-link">Masonry</a>
                 <a href="{{ route('services.snow-melt') }}" class="footer-link">Snow Melt Systems</a>
-                <a href="{{ route('services.retail-commercial-concrete') }}" class="footer-link"> Residential and
-                    HOA</a>
+                <a href="{{ route('services.hoa-property-management') }}" class="footer-link"> HOA & Property Management</a>
 
             </div>
 

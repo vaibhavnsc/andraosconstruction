@@ -201,8 +201,7 @@ craftsmanship since 1993. (303) 915-3703.';
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link active" href="/retail-commercial-concrete">Retail Commercial
-                            Concrete<span aria-hidden="true">→</span></nav>
+                            class="service-nav-link active" href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>
@@ -292,8 +291,8 @@ craftsmanship since 1993. (303) 915-3703.';
 <section class="section bg-warm section--tight" aria-labelledby="process-heading">
     <div class="container">
         <p class="eyebrow mb-2">How We Work</p>
-        <h2 id="process-heading" class="ff-display display-md mbRequest an Estimatealk to Warranty</h2>
-            <div class=" row g-3" id="js-service-process">
+        <h2 id="process-heading" class="ff-display display-md mb">Request an Estimatealk to Warranty</h2>
+            <div class="row g-3" id="js-service-process">
             <div class="col-md-6 col-lg-4">
                 <div class="process-step h-100"><span class="num-eyebrow d-block mb-2">01</span>
                     <h3 class="ff-display fs-5 mb-2">Site Walk &amp; Assessment</h3>

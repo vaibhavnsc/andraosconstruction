@@ -17,7 +17,7 @@
 @section('content')
 
 <header class="page-hero">
-    <div class="page-hero__bg" data-bg="{{ asset('assets/images/commercial.jpg') }}" aria-hidden="true">
+    <div class="page-hero__bg" data-bg="{{ asset('assets/images/commercialcon.JPG') }}" aria-hidden="true">
     </div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
     <div class="container">
@@ -36,7 +36,7 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="{{ asset('assets/images/commercial.jpg') }}" 
+            <img src="{{ asset('assets/images/commercialcon.JPG') }}" 
                  alt="Commercial concrete and asphalt work in Denver, Colorado"
                  class="ratio-4-3 img-treat">
           </div>

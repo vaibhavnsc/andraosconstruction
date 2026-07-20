@@ -1711,7 +1711,9 @@ ul.dropdown-menu.service-area-dropdown.show hr {
 .fbo a {
     color: rgba(255,255,255,.75);
 }
-
+.company {
+    padding: 0;
+}
 
 /* ==========================================================================
    18. RESPONSIVE OVERRIDES
