@@ -25,9 +25,9 @@
             <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
                 <a href="/">Home</a> &nbsp;/&nbsp;
                 <a href="/services">Services</a> &nbsp;/&nbsp;
-                <span class="js-service-name">Retail Commercial Concrete</span>
+                <span class="js-service-name">HOA & Property Management</span>
             </nav>
-            <h1 class="js-service-name">Retail Commercial Concrete</h1>
+            <h1 class="js-service-name">HOA & Property Management</h1>
         </div>
     </header>
 
@@ -40,7 +40,7 @@
                 <!-- Main column -->
                 <div class="col-lg-8">
                     <article class="reveal is-visible">
-                        <img id="js-service-image" alt="Retail Commercial Concrete" class="ratio-16-9 mb-4"
+                        <img id="js-service-image" alt="HOA & Property Management" class="ratio-16-9 mb-4"
                             src="/assets/images/residential/Retail-commercial-concrete-hero.png">
 
                         <p class="eyebrow">Overview</p>
@@ -198,8 +198,7 @@
                                 class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                     aria-hidden="true">→</span></a><a class="service-nav-link"
                                 href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                                class="service-nav-link active" href="/retail-commercial-concrete">Retail Commercial
-                                Concrete<span aria-hidden="true">→</span></nav>
+                                class="service-nav-link active" href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></nav>
                     </div>
                     <div class="sidebar-cta">
                         <h2>Have a scope in mind?</h2>
@@ -215,10 +214,81 @@
     </section>
 
 
+    <section class="section bg-navy text-white" aria-label="Project gallery">
+        <div class="container">
+            <!-- Filter buttons injected by site.js -->
+            <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
+                <button type="button" class="filter-btn" data-filter="hoa">Retail Commercial Concrete 111</button>
+            </div>
+            <!-- Project cards injected by site.js -->
+            <div class="row g-3" id="projGrid">
+                @include('partials.gallery-project', [
+                'category' => 'hoa',
+                'title' => 'Central Park Highlands',
+                'subtitle' => 'Central Park Highlands',
+                'cover' => asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands01.jpeg'),
+                'images' => [
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands03.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands06.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.jpeg'),
+                ],
+                ])
+                @include('partials.gallery-project', [
+                'category' => 'hoa',
+                'title' => 'Town Center',
+                'subtitle' => 'Town Center',
+                'cover' => asset(
+                'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.jpeg'),
+                'images' => [
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center02.JPG'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center03.JPG'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center04.JPG'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center05.JPG'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.jpeg'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.jpeg'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.jpeg'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.jpeg'),
+                asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.jpeg'),
+                ],
+                ])
+                @include('partials.gallery-project', [
+                'category' => 'hoa',
+                'title' => 'Wildcat Reserve Highlands',
+                'subtitle' => 'Wildcat Reserve Highlands',
+                'cover' => asset(
+                'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.jpeg'),
+                'images' => [
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.jpeg'),
+                asset(
+                'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
+                ],
+                ])
+    </section>
+
     <section class="section bg-warm section--tight" aria-labelledby="process-heading">
         <div class="container">
             <p class="eyebrow mb-2">How We Work</p>
-            <h2 id="process-heading" class="ff-display display-md mb-4">From Site Walk to Warranty</h2>
+            <h2 id="process-heading" class="ff-display display-md mb-4 test">From Site Walk to Warranty</h2>
             <div class="row g-3" id="js-service-process">
                 <div class="col-md-6 col-lg-4">
                     <div class="process-step h-100"><span class="num-eyebrow d-block mb-2">01</span>

@@ -113,7 +113,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/retail-commercial-concrete">Retail Commercial Concrete<span aria-hidden="true">→</span></a></nav>
+                            href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>
