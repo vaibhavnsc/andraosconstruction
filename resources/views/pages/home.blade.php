@@ -278,7 +278,7 @@ $seo->meta_description ??
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./retail-commercial-concrete" class="svc-card d-block text-decoration-none">
+                <a href="./hoa-property-management-services" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="hoa-property-management"><img
                             src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                             alt="Retail Commercial Concrete">
