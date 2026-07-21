@@ -87,15 +87,15 @@ return [
             'meta_description' => 'Commercial concrete, asphalt, masonry & snow-melt in Westminster & the north metro since 1993. Call (303) 915-3703.',
         ],
            'why-proper-concrete-flatwork-matters-for-longevity-and-safety' => [
-            'meta_title' => 'Why Proper Concrete Flatwork Matters for Longevity and Safety',
+            'meta_title' => 'Benefits of Proper Concrete Flatwork for Safety & Durability',
             'meta_description' => 'Are you wondering how concrete flatwork contractors ensure the longevity and safety of your project? Here are some of the top things you should know.',
         ],
             'how-concrete-companies-ensure-long-lasting-structures' => [
-            'meta_title' => 'How Concrete Companies Ensure Long-Lasting Structures',
+            'meta_title' => 'How Concrete Companies Build Long-Lasting Structure',
             'meta_description' => 'Concrete companies employ a combination of high-quality materials, precise manufacturing, and cutting-edge design techniques to build structures meant to last.',
         ],
              'what-to-look-for-when-hiring-a-concrete-company' => [
-            'meta_title' => 'What to Look for When Hiring a Concrete Company',
+            'meta_title' => 'Guide for How to Choose the Right Concrete Company',
             'meta_description' => 'Choosing the right concrete company involves examining their experience, adoption of modern practices, and communication style. Read on to learn more!',
         ],
               'commercial-concrete' => [

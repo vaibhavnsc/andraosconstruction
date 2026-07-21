@@ -22,7 +22,7 @@
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
-          <a href="/index">Home</a> &nbsp;/&nbsp;
+          <a href="/">Home</a> &nbsp;/&nbsp;
           <a href="/service-areas">Service Areas</a> &nbsp;/&nbsp; Castle Rock
         </nav>
         <h1>Castle Rock Commercial Concrete and Asphalt Contractor</h1>
@@ -139,7 +139,7 @@
         <h2 id="nearby-heading" class="ff-display display-md text-white mb-4">We Also Serve</h2>
         <div class="row g-3">
           <div class="col-md-4">
-            <a href="/parker" class="area-card">
+            <a href="/service-areas/parker" class="area-card">
               <span>
                 <span class="area-card__name d-block">Parker</span>
                 <span class="area-card__meta">Douglas County</span>
@@ -148,7 +148,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="/englewood" class="area-card">
+            <a href="/service-areas/englewood" class="area-card">
               <span>
                 <span class="area-card__name d-block">Englewood</span>
                 <span class="area-card__meta">Arapahoe County</span>
@@ -157,7 +157,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="/broomfield" class="area-card">
+            <a href="/service-areas/broomfield" class="area-card">
               <span>
                 <span class="area-card__name d-block">Broomfield</span>
                 <span class="area-card__meta">Broomfield County</span>

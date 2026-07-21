@@ -3,7 +3,7 @@
 @php
     $seo = getPageSeoByKey('how-concrete-companies-ensure-long-lasting-structures');
 
-    $title = $seo->meta_title ?? 'How Concrete Companies Ensure Long-Lasting Structures';
+    $title = $seo->meta_title ?? 'How Concrete Companies Build Long-Lasting Structure';
 
     $description = $seo->meta_description
         ?? 'Concrete companies employ a combination of high-quality materials, precise manufacturing, and cutting-edge design techniques to build structures meant to last.';
