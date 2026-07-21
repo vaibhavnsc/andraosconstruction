@@ -233,7 +233,7 @@
                     <div class="blog-card__body">
                         <p class="blog-meta">May 16, 2025</p>
                         <h3 class="blog-card__title fs-5"><a
-                                href="blog-detail.html?post=ada-sidewalk-compliance-commercial">What to Look
+                                href="/what-to-look-for-when-hiring-a-concrete-company">What to Look
                                 for When Hiring a Concrete Company</a></h3>
                     </div>
                 </article>

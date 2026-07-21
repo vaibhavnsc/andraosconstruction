@@ -19,7 +19,7 @@ return [
             'meta_description' => 'Visit our blog to see the latest news and updates from Andraos Construction.',
         ],
         'service-areas' => [
-            'meta_title' => 'Service Areas — Commercial Concrete &amp; Asphalt on the Colorado Front Range | Andraos Construction',
+            'meta_title' => 'Concrete Contractor Service Areas | Andraos Construction',
             'meta_description' => 'Andraos Construction serves Denver, Aurora, Boulder, Littleton, Highlands Ranch, Castle Rock, Parker and more across the Colorado Front Range. Find your city.',
         ],
         'contact' => [
