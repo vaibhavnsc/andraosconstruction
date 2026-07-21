@@ -22,7 +22,7 @@
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
             <a href="/blog">Blog</a> &nbsp;/&nbsp;
-            <span class="js-post-breadcrumb-title">What to Look for When Hiring a Concrete Company
+            <span class="js-post-breadcrumb-title">Guide for How to Choose the Right Concrete Company
             </span>
         </nav>
         <!-- <span class="post-category-badge mb-3" id="js-post-category">Snow Melt</span> -->

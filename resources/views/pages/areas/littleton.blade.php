@@ -23,7 +23,7 @@
       <div class="page-hero__scrim" aria-hidden="true"></div>
       <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
-          <a href="/index">Home</a> &nbsp;/&nbsp;
+          <a href="/">Home</a> &nbsp;/&nbsp;
           <a href="/service-areas">Service Areas</a> &nbsp;/&nbsp; Littleton
         </nav>
         <h1>Commercial Concrete Contractor Serving Littleton, Colorado</h1>
