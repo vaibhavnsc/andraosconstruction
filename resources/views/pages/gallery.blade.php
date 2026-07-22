@@ -144,7 +144,7 @@
                     'category' => 'commercial-concrete',
                     'title' => 'Ballys',
                     'subtitle' => 'Commercial Concrete',
-                    'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.JPG'),
+                    'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.png'),
                     'images' => [
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys03.jpg'),
