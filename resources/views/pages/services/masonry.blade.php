@@ -71,7 +71,7 @@
                             <li>Increase property value through durable and attractive masonry features</li>
                             <li>Create functional outdoor spaces with retaining walls and planters</li>
                             <li>Ensure structural integrity with expertly constructed columns and enclosures</li>
-                            <li>Personalize your property with custom signs and Frenchings</li>
+                            <li>Personalize your property with custom signs and frenchings</li>
                         </ul>
                     </p>
                     <p class="lede" id="js-service-overview"><a href="/contact">Reach out to us</a> to learn more about how our masonry services can benefit your property.</p>
@@ -154,21 +154,14 @@
                     'subtitle' => 'Masonry',
                     'cover' => asset('assets/images/masonry/Masonry01.JPEG'),
                     'images' => [
-                        asset('assets/images/masonry/Masonry02.jpeg'),
                         asset('assets/images/masonry/Masonry03.JPG'),
-                        asset('assets/images/masonry/Masonry04.jpeg'),
                         asset('assets/images/masonry/Masonry05.JPG'),
                         asset('assets/images/masonry/Masonry06.jpeg'),
                         asset('assets/images/masonry/Masonry07.jpeg'),
-                        asset('assets/images/masonry/Masonry08.JPG'),
                         asset('assets/images/masonry/Masonry09.JPG'),
-                        asset('assets/images/masonry/Masonry10.JPG'),
                         asset('assets/images/masonry/Masonry11.JPG'),
                         asset('assets/images/masonry/Masonry12.JPG'),
-                        asset('assets/images/masonry/Masonry13.JPG'),
                         asset('assets/images/masonry/Masonry14.JPG'),
-                        asset('assets/images/masonry/Masonry15.JPG'),
-                        asset('assets/images/masonry/Masonry16.JPG'),
                         asset('assets/images/masonry/Masonry17.jpeg'),
                     ],
                 ])
