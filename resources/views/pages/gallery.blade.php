@@ -61,8 +61,6 @@
                         asset(
                             'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.jpeg'),
                         asset(
-                            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands03.jpeg'),
-                        asset(
                             'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.jpeg'),
                         asset(
                             'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.jpeg'),
@@ -78,18 +76,14 @@
                     'category' => 'hoa',
                     'title' => 'Town Center',
                     'subtitle' => 'Town Center',
-                    'cover' => asset(
-                        'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.jpeg'),
+                    'cover' =>  asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
                     'images' => [
-                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
                         asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center02.JPG'),
                         asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center03.JPG'),
                         asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center04.JPG'),
                         asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center05.JPG'),
                         asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.jpeg'),
-                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.jpeg'),
                         asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.jpeg'),
-                        asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.jpeg'),
                         asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.jpeg'),
                     ],
                 ])
@@ -97,19 +91,14 @@
                     'category' => 'hoa',
                     'title' => 'Wildcat Reserve Highlands',
                     'subtitle' => 'Wildcat Reserve Highlands',
-                    'cover' => asset(
-                        'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.jpeg'),
+                    'cover' => asset('assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
                     'images' => [
                         asset(
                             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.jpeg'),
                         asset(
-                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.jpeg'),
-                        asset(
                             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.jpeg'),
                         asset(
                             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.jpeg'),
-                        asset(
-                            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
                     ],
                 ])
                 @include('partials.gallery-project', [
@@ -117,7 +106,6 @@
                     'title' => 'Stucco',
                     'subtitle' => 'Stucco',
                     'cover' => asset('assets/images/stucco/Stucco01.jpg'),
-                    'images' => [asset('assets/images/stucco/Stucco02.jpeg')],
                 ])
                 {{-- @include('partials.gallery-project', [
                     'category' => 'stucco',
@@ -149,7 +137,6 @@
                         asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk02.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk03.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk04.JPG'),
-                        asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk05.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk06.JPG'),
                     ],
                 ])
@@ -157,22 +144,20 @@
                     'category' => 'commercial-concrete',
                     'title' => 'Ballys',
                     'subtitle' => 'Commercial Concrete',
-                    'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
+                    'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.JPG'),
                     'images' => [
-                        asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys02.jpg'),
+                        asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys03.jpg'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys04.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys05.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys06.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys07.JPG'),
-                        asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys09.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys10.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys11.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys12.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys13.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys14.JPG'),
-                        asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys15.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys16.JPG'),
                     ],
                 ])
@@ -194,9 +179,6 @@
                     'images' => [
                         asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver02.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver03.JPG'),
-                        asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver04.JPG'),
-                        asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver05.JPG'),
-                        asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver06.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver07.JPG'),
                         asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver08.JPG'),
                     ],
@@ -225,18 +207,26 @@
                         asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods04.JPG'),
                     ],
                 ])
+                @include('partials.gallery-project', [
+                    'category' => 'commercial-concrete',
+                    'title' => 'Schomp',
+                    'subtitle' => 'commercial-concrete',
+                    'cover' => asset('assets/images/Ford.jpg'),
+                    'images' => [
+                    ],
+                ])
 
                 @include('partials.gallery-project', [
                     'category' => 'residential-concrete',
-                    'title' => 'Jones',
-                    'subtitle' => 'Jones',
+                    'title' => 'Residential Stairs before and after',
+                    'subtitle' => 'Residential Stairs before and after',
                     'cover' => asset('assets/images/ResidentialConcrete/Jones/Jonesresidence01.jpg'),
                     'images' => [asset('assets/images/ResidentialConcrete/Jones/Jonesresidence02.jpeg')],
                 ])
                 @include('partials.gallery-project', [
                     'category' => 'residential-concrete',
-                    'title' => 'Rays Driveway',
-                    'subtitle' => 'Rays Driveway',
+                    'title' => 'Custom finish residential driveway',
+                    'subtitle' => 'Custom finish residential driveway',
                     'cover' => asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway01.JPG'),
                     'images' => [
                         asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway02.JPG'),
@@ -246,8 +236,8 @@
                 ])
                 @include('partials.gallery-project', [
                     'category' => 'residential-concrete',
-                    'title' => 'Stairs',
-                    'subtitle' => 'Stairs',
+                    'title' => 'Residental Stairs during construction and after',
+                    'subtitle' => 'Residental Stairs during construction and after',
                     'cover' => asset('assets/images/ResidentialConcrete/Stairs/Stairs01.JPG'),
                     'images' => [asset('assets/images/ResidentialConcrete/Stairs/Stairs02.JPG')],
                 ])
@@ -344,15 +334,24 @@
                     'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
                 ])
                 @include('partials.gallery-project', [
+                    'category' => 'asphalt',
+                    'title' => 'Meadow Wood',
+                    'subtitle' => 'Asphalt',
+                    'cover' => asset('assets/images/asphalt/168-25.jpg'),
+                    'images' => [
+                        asset('assets/images/asphalt/168-25-Meadow.jpg'),
+                ],
+                ])
+                @include('partials.gallery-project', [
                     'category' => 'snow-melt-system',
                     'title' => 'Snow Melt Systems',
                     'subtitle' => 'Snow Melt Systems',
-                    'cover' => asset('assets/images/SnowMeltSystems/Snow_melt_systems01.jpeg'),
+                    'cover' =>asset('assets/images/SnowMeltSystems/Snow_melt_systems05.jpeg'),
                     'images' => [
+                        asset('assets/images/SnowMeltSystems/Snow_melt_systems01.jpeg'),
                         asset('assets/images/SnowMeltSystems/Snow_melt_systems02.jpeg'),
                         asset('assets/images/SnowMeltSystems/Snow_melt_systems03.jpeg'),
                         asset('assets/images/SnowMeltSystems/Snow_melt_systems04.jpeg'),
-                        asset('assets/images/SnowMeltSystems/Snow_melt_systems05.jpeg'),
                     ],
                 ])
 
@@ -363,14 +362,13 @@
                     'cover' => asset('assets/images/ConcreteFinishes/Concrete_finishes01.JPG'),
                     'images' => [
                         asset('assets/images/ConcreteFinishes/Concrete_finishes02.jpeg'),
-                        asset('assets/images/ConcreteFinishes/Concrete_finishes03.jpeg'),
+                        asset('assets/images/ConcreteFinishes/Concrete_finishes10.jpg'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes04.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes05.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes06.jpg'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes07.jpg'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes08.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes09.jpeg'),
-                        asset('assets/images/ConcreteFinishes/Concrete_finishes10.jpg'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes11.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes12.JPG'),
                         asset('assets/images/ConcreteFinishes/Concrete_finishes13.JPG'),
@@ -394,21 +392,14 @@
                     'subtitle' => 'Masonry',
                     'cover' => asset('assets/images/masonry/Masonry01.JPEG'),
                     'images' => [
-                        asset('assets/images/masonry/Masonry02.jpeg'),
                         asset('assets/images/masonry/Masonry03.JPG'),
-                        asset('assets/images/masonry/Masonry04.jpeg'),
                         asset('assets/images/masonry/Masonry05.JPG'),
                         asset('assets/images/masonry/Masonry06.jpeg'),
                         asset('assets/images/masonry/Masonry07.jpeg'),
-                        asset('assets/images/masonry/Masonry08.JPG'),
                         asset('assets/images/masonry/Masonry09.JPG'),
-                        asset('assets/images/masonry/Masonry10.JPG'),
                         asset('assets/images/masonry/Masonry11.JPG'),
                         asset('assets/images/masonry/Masonry12.JPG'),
-                        asset('assets/images/masonry/Masonry13.JPG'),
                         asset('assets/images/masonry/Masonry14.JPG'),
-                        asset('assets/images/masonry/Masonry15.JPG'),
-                        asset('assets/images/masonry/Masonry16.JPG'),
                         asset('assets/images/masonry/Masonry17.jpeg'),
                     ],
                 ])

@@ -154,6 +154,15 @@
                     'subtitle' => 'Asphalt',
                     'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
                 ])
+                @include('partials.gallery-project', [
+                    'category' => 'asphalt',
+                    'title' => 'Meadow Wood',
+                    'subtitle' => 'Asphalt',
+                    'cover' => asset('assets/images/asphalt/168-25.jpg'),
+                    'images' => [
+                        asset('assets/images/asphalt/168-25-Meadow.jpg'),
+                ],
+                ])
             </div>
         </div> 
     </section>

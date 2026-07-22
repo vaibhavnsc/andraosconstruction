@@ -259,7 +259,6 @@ $description = $seo->meta_description
             asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk02.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk03.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk04.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk05.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk06.JPG'),
             ],
             ])
@@ -267,22 +266,20 @@ $description = $seo->meta_description
             'category' => 'commercial-concrete',
             'title' => 'Ballys',
             'subtitle' => 'Commercial Concrete',
-            'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
+            'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.JPG'),
             'images' => [
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys02.jpg'),
+            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys03.jpg'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys04.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys05.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys06.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys07.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys09.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys10.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys11.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys12.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys13.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys14.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys15.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys16.JPG'),
             ],
             ])
@@ -304,9 +301,6 @@ $description = $seo->meta_description
             'images' => [
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver02.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver03.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver04.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver05.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver06.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver07.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver08.JPG'),
             ],
@@ -334,6 +328,14 @@ $description = $seo->meta_description
             asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods03.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods04.JPG'),
             ],
+            ])
+            @include('partials.gallery-project', [
+                    'category' => 'commercial-concrete',
+                    'title' => 'Schomp',
+                    'subtitle' => 'commercial-concrete',
+                    'cover' => asset('assets/images/Ford.jpg'),
+                    'images' => [
+                    ],
             ])
         </div>
     </div>
