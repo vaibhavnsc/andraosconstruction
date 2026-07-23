@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction" class="brand-logo">
+                <img height="auto" width="auto" src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction" class="brand-logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navMenu"><span></span><span></span><span></span></button>

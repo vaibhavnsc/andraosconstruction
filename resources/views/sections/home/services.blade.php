@@ -28,7 +28,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services/hoa-property-management" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="hoa-property-management"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
+                    <div class="svc-card" id="hoa-property-management"><img height="auto" width="auto" src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                             alt="HOA &amp; Property Management">
                         <div class="num-eyebrow mt-3">02 / 05</div>
                         <h3 class="text-white">HOA &amp; Residential Concrete</h3>
@@ -42,7 +42,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services/asphalt" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="asphalt"><img src="{{ asset('assets/images/paving.jpg') }}"
+                    <div class="svc-card" id="asphalt"><img height="auto" width="auto" src="{{ asset('assets/images/paving.jpg') }}"
                             alt="Asphalt Paving &amp; Repair">
                         <div class="num-eyebrow mt-3">03 / 05</div>
                         <h3 class="text-white">Asphalt Paving &amp; Repair</h3>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services/masonry" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="masonry"><img src="{{ asset('assets/images/masonry.jpg') }}"
+                    <div class="svc-card" id="masonry"><img height="auto" width="auto" src="{{ asset('assets/images/masonry.jpg') }}"
                             alt="Commercial Masonry">
                         <div class="num-eyebrow mt-3">04 / 05</div>
                         <h3 class="text-white">Commercial Masonry</h3>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./services/snow-melt" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="snow-melt"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}"
+                    <div class="svc-card" id="snow-melt"><img height="auto" width="auto" src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}"
                             alt="Snow Melt Systems">
                         <div class="num-eyebrow mt-3">05 / 05</div>
                         <h3 class="text-white">Snow Melt Systems</h3>
@@ -85,7 +85,7 @@
             
             <!-- <div class="col-lg-4 col-md-6">
                 <a href="./services#concrete-finishes" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="concrete-finishes"><img src="{{ asset('assets/images/finish.jpg') }}"
+                    <div class="svc-card" id="concrete-finishes"><img height="auto" width="auto" src="{{ asset('assets/images/finish.jpg') }}"
                             alt="Concrete Finishes">
                         <div class="num-eyebrow mt-3">06 / 06</div>
                         <h3 class="text-white">Concrete Finishes</h3>

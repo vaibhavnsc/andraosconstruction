@@ -40,7 +40,7 @@
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img id="js-service-image" alt="Asphalt Paving &amp; Repair" class="ratio-16-9 mb-4"
+                    <img height="auto" width="auto" id="js-service-image" alt="Asphalt Paving &amp; Repair" class="ratio-16-9 mb-4"
                         src="/assets/images/asphalt/Hero-Song.JPG">
 
                     <p class="eyebrow">Overview</p>

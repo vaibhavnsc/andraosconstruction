@@ -27,9 +27,9 @@
         </div>
         <div class="col-lg-8">
           <div class="row g-2">
-            <div class="col-md-4"><a href="/services#commercial-concrete" class="hero-quick"><img src="{{ asset('/assets/images/commercial.jpeg?sjsaajsa') }}" alt="Services"><div><div class="ql">Concrete</div><div class="qm">Flatwork · ADA · Curb &amp; gutter</div></div></a></div>
-            <div class="col-md-4"><a href="/services#asphalt" class="hero-quick"><img src="{{ asset('assets/images/asphalt.jpg') }}" alt="Services"><div><div class="ql">Asphalt</div><div class="qm">Mill &amp; overlay · Sealcoat</div></div></a></div>
-            <div class="col-md-4"><a href="/services#masonry" class="hero-quick"><img src="{{ asset('assets/images/masonary.jpg') }}" alt="Services"><div><div class="ql">Masonry</div><div class="qm">Stone · Brick · Walls</div></div></a></div>
+            <div class="col-md-4"><a href="/services#commercial-concrete" class="hero-quick"><img height="auto" width="auto" src="{{ asset('/assets/images/commercial.jpeg?sjsaajsa') }}" alt="Services"><div><div class="ql">Concrete</div><div class="qm">Flatwork · ADA · Curb &amp; gutter</div></div></a></div>
+            <div class="col-md-4"><a href="/services#asphalt" class="hero-quick"><img height="auto" width="auto" src="{{ asset('assets/images/asphalt.jpg') }}" alt="Services"><div><div class="ql">Asphalt</div><div class="qm">Mill &amp; overlay · Sealcoat</div></div></a></div>
+            <div class="col-md-4"><a href="/services#masonry" class="hero-quick"><img height="auto" width="auto" src="{{ asset('assets/images/masonary.jpg') }}" alt="Services"><div><div class="ql">Masonry</div><div class="qm">Stone · Brick · Walls</div></div></a></div>
           </div>
         </div>
       </div>

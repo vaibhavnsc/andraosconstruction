@@ -35,7 +35,7 @@
       <div class="container">
         <div class="row g-5 align-items-center reveal">
           <div class="col-lg-6">
-            <img src="/assets/images/andraos-construction8.jpg"
+            <img height="auto" width="auto" src="/assets/images/andraos-construction8.jpg"
                  alt="Commercial concrete and asphalt work in Boulder, Colorado"
                  class="ratio-4-3 img-treat">
           </div>

@@ -16,7 +16,7 @@
         <div class="row g-4 reveal is-visible" id="js-team-grid">
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/teams/1.jpg') }}" alt="Robert - Commercial and Residential Construction Professional at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/1.jpg') }}" alt="Robert - Commercial and Residential Construction Professional at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Ray Andraos</h3>-->
@@ -28,7 +28,7 @@
             </div>
              <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/teams/5.jpg') }}" alt="Ray - Founder and Concrete Contractor at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/5.jpg') }}" alt="Ray - Founder and Concrete Contractor at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Concrete Foreman</h3>-->
@@ -40,7 +40,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/teams/6.jpg') }}" alt="Beth - Office Manager at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/6.jpg') }}" alt="Beth - Office Manager at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Asphalt Foreman</h3>-->
@@ -52,7 +52,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/teams/2.jpg') }}"  alt="Shawn, experienced construction professional at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/2.jpg') }}"  alt="Shawn, experienced construction professional at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Rob Andraos</h3>-->
@@ -64,7 +64,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/teams/3.jpg') }}" alt="Scott, Construction Superintendent overseeing commercial and residential projects" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/3.jpg') }}" alt="Scott, Construction Superintendent overseeing commercial and residential projects" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<p class="team-card__role">Senior Project Manager</p>-->
@@ -75,7 +75,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img src="{{ asset('assets/images/teams/4.jpg') }}" alt="Lucas - Lead Estimator and Project Manager at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/4.jpg') }}" alt="Lucas - Lead Estimator and Project Manager at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Project Manager</h3>
                         <!--<h3 class="team-card__name">Estimating Lead</h3>-->

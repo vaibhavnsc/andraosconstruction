@@ -12,7 +12,7 @@
         <!-- Limit to 4 items on the home page -->
         <div class="row g-3" id="projGrid" data-limit="4">
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction37.jpg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction37.jpg') }}"
                         alt="Shadow Canyon HOA — Community renewal · Front Range">
                     <figcaption class="ov"><span class="cat">hoa</span><span class="nm">Shadow
                             Canyon HOA</span><span class="small text-white-50">Community renewal · Front Range</span>
@@ -20,7 +20,7 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction1.jpg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction1.jpg') }}"
                         alt="Marriott Boulder — Drive court · Boulder">
                     <figcaption class="ov"><span class="cat">hospitality</span><span
                             class="proj__name">Marriott Boulder</span><span class="small text-white-50">Drive court ·
@@ -28,7 +28,7 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction2.jpg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction2.jpg') }}"
                         alt="Boulder Village Plaza — Streetscape masonry">
                     <figcaption class="ov"><span class="cat">retail</span><span
                             class="proj__name">Boulder Village Plaza</span><span class="small text-white-50">Streetscape
@@ -36,7 +36,7 @@
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction8.jpg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction8.jpg') }}"
                         alt="Rocky Mountain Kids — Boulder · Sandstone">
                     <figcaption class="ov"><span class="cat">retail</span><span
                             class="proj__name">Rocky Mountain Kids</span><span class="small text-white-50">Boulder ·

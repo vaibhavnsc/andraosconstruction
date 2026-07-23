@@ -3,7 +3,7 @@
             data-fancybox="gallery-{{ \Illuminate\Support\Str::slug($title) }}" 
             data-src="{{ $cover }}" 
             data-caption="{{ $title }} — {{ $subtitle }}">
-        <img src="{{ $cover }}" alt="{{ $title }} — {{ $subtitle }}">
+        <img height="auto" width="auto" src="{{ $cover }}" alt="{{ $title }} — {{ $subtitle }}">
         <figcaption class="ov">
             <span class="cat">{{ $category }}</span>
             <span class="nm">{{ $title }}</span>

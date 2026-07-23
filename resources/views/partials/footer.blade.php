@@ -6,7 +6,7 @@
             <!-- Logo -->
             <div class="col-lg-4 col-md-12 footer-brand">
 
-                <a href="/"><img src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction"
+                <a href="/"><img height="auto" width="auto" src="{{ asset('assets/images/logo.png') }}" alt="Andraos Construction"
                         class="footer-logo"></a>
                 <p class="footer-tagline">
                     Commercial concrete, asphalt & masonry

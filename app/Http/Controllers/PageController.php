@@ -11,6 +11,6 @@ class PageController extends Controller
 
     public function servicesAnchor()
     {
-        return view('pages.services');
+        return view('pages.services')->with('canonical_url', url('/services'));
     }
 }

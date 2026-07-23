@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row g-5 align-items-center reveal in">
             <div class="col-lg-6 position-relative">
-                <img src="{{ asset('assets/images/project.jpg') }}"  alt="Shadow Canyon HOA" class="w-100"
+                <img height="auto" width="auto" src="{{ asset('assets/images/project.jpg') }}"  alt="Shadow Canyon HOA" class="w-100"
                     style="aspect-ratio:4/5;object-fit:cover;filter:contrast(1.04) saturate(.92)">
                 <div class="position-absolute top-0 start-0 m-3 px-3 py-2 ff-mono text-uppercase"
                     style="background:var(--accent);color:var(--navy-900);font-size:10px;letter-spacing:.16em">Featured

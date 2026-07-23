@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row g-5 align-items-center reveal in">
             <div class="col-lg-6 position-relative">
-                <img src="{{ asset('assets/images/why-andraos.jpg') }}" alt="Andraos crew" class="w-100"
+                <img height="auto" width="auto" src="{{ asset('assets/images/why-andraos.jpg') }}" alt="Andraos crew" class="w-100"
                     style="aspect-ratio:4/5;object-fit:cover;filter:contrast(1.04) saturate(.92)">
                 <div class="position-absolute bottom-0 start-0 m-4 bg-white p-3" style="color:var(--navy-900)">
                     <div class="ff-display" style="font-size:40px;line-height:1">1<span class="text-accent"

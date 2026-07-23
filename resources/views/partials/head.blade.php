@@ -4,6 +4,7 @@
     <title>@yield('meta_title', 'Andraos Construction')</title>
     <meta name="description" content="@yield('meta_description', '')">
 
+    <link rel="canonical" href="@yield('canonical_url', request()->fullUrl())">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/logon.ico') }}">
     <link rel="shortcut icon" href="{{ asset('assets/images/logon.ico') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">

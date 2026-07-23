@@ -36,7 +36,7 @@
         <div class="container">
             <div class="row g-5 align-items-center reveal">
                 <div class="col-lg-6">
-                    <img src="/assets/images/thorn.jpg"
+                    <img height="auto" width="auto" src="/assets/images/thorn.jpg"
                         alt="Commercial concrete and asphalt work in Thornton, Colorado" class="ratio-4-3 img-treat">
                 </div>
                 <div class="col-lg-6">

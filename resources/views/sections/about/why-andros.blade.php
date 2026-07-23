@@ -3,7 +3,7 @@
         <div class="row g-5 align-items-center reveal is-visible">
             <div class="col-lg-6">
                 <figure class="position-relative m-0">
-                    <img src="assets/images/andraos-construction-hero-home-1920w.jpg"
+                    <img height="auto" width="auto" src="assets/images/andraos-construction-hero-home-1920w.jpg"
                         alt="An Andraos Construction crew placing concrete on site" class="ratio-4-5 img-treat">
                     <figcaption class="position-absolute bottom-0 start-0 m-4 bg-white p-3 text-dark">
                         <span class="ff-display d-block lh-1 warranty-badge-num">1<span

@@ -40,7 +40,7 @@
         <div class="row g-5">
             <!-- Article body -->
             <article class="col-lg-8">
-                <img id="js-post-image" alt="Snow-Melt Systems: What Property Managers Need to Know" class="post-image"
+                <img height="auto" width="auto" id="js-post-image" alt="Snow-Melt Systems: What Property Managers Need to Know" class="post-image"
                     src="./assets/images/longlasting.jpg">
                 <div class="post-body" id="js-post-body">
                     <p>Concrete has been a staple in construction for centuries due to its durability and versatility. From ancient Roman aqueducts to modern skyscrapers, concrete plays a pivotal role in crafting strong, resilient, and enduring structures that stand the test of time. Today, concrete companies employ advanced techniques, innovative materials, and modern technology to ensure that the structures they build will remain secure and intact for decades. Let's explore the methods these companies use to guarantee longevity in concrete structures.</p>
@@ -119,7 +119,7 @@
         <div class="row g-4" id="js-related-posts">
             <div class="col-md-4">
                 <article class="blog-card h-100"><a href="/why-proper-concrete-flatwork-matters-for-longevity-and-safety"
-                        class="blog-card__media"><img src="./assets/images/Longevity.jpg"
+                        class="blog-card__media"><img height="auto" width="auto" src="./assets/images/Longevity.jpg"
                             alt="When to Repair vs. Replace Commercial Asphalt"></a>
                     <div class="blog-card__body">
                         <p class="blog-meta">June 5, 2026</p>
@@ -131,7 +131,7 @@
             </div>
             <div class="col-md-4">
                 <article class="blog-card h-100"><a href="/how-concrete-companies-ensure-long-lasting-structures"
-                        class="blog-card__media"><img src="./assets/images/longlasting.jpg"
+                        class="blog-card__media"><img height="auto" width="auto" src="./assets/images/longlasting.jpg"
                             alt="How HOAs Should Budget for Concrete Capital Renewal"></a>
                     <div class="blog-card__body">
                         <p class="blog-meta">October 15, 2025</p>
@@ -143,7 +143,7 @@
             </div>
             <div class="col-md-4">
                 <article class="blog-card h-100"><a href="/what-to-look-for-when-hiring-a-concrete-company"
-                        class="blog-card__media"><img src="./assets/images/company.jpg"
+                        class="blog-card__media"><img height="auto" width="auto" src="./assets/images/company.jpg"
                             alt="ADA Sidewalk Compliance for Commercial Properties"></a>
                     <div class="blog-card__body">
                         <p class="blog-meta">May 16, 2025</p>

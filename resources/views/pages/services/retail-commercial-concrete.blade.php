@@ -42,7 +42,7 @@ craftsmanship since 1993. (303) 915-3703.';
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img id="js-service-image" alt="Retail Commercial Concrete" class="ratio-16-9 mb-4"
+                    <img height="auto" width="auto" id="js-service-image" alt="Retail Commercial Concrete" class="ratio-16-9 mb-4"
                         src="/assets/images/residential/Retail-commercial-concrete-hero.png">
 
                     <p class="eyebrow">Overview</p>

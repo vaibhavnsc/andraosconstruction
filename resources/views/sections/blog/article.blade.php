@@ -9,7 +9,7 @@
                     <div class="col-md-6">
                         <article class="blog-card h-100"><a
                                 href="/why-proper-concrete-flatwork-matters-for-longevity-and-safety"
-                                class="blog-card__media"><img src="./assets/images/Longevity.jpg"
+                                class="blog-card__media"><img height="auto" width="auto" src="./assets/images/Longevity.jpg"
                                     alt="When to Repair vs. Replace Commercial Asphalt">
                                 <!-- <span
                                     class="blog-card__cat">Asphalt</span></a> -->
@@ -30,7 +30,7 @@
                     <div class="col-md-6">
                         <article class="blog-card h-100"><a
                                 href="/how-concrete-companies-ensure-long-lasting-structures"
-                                class="blog-card__media"><img src="./assets/images/longlasting.jpg"
+                                class="blog-card__media"><img height="auto" width="auto" src="./assets/images/longlasting.jpg"
                                     alt="How HOAs Should Budget for Concrete Capital Renewal">
                                 <!-- <span
                                     class="blog-card__cat">HOA &amp; Property Management</span>-->
@@ -51,7 +51,7 @@
                     <div class="col-md-6">
                         <article class="blog-card h-100"><a
                                 href="/what-to-look-for-when-hiring-a-concrete-company"
-                                class="blog-card__media"><img src="./assets/images/company.jpg"
+                                class="blog-card__media"><img height="auto" width="auto" src="./assets/images/company.jpg"
                                     alt="Snow-Melt Systems: What Property Managers Need to Know">
                                 <!-- <span
                                     class="blog-card__cat">Snow Melt</span>-->

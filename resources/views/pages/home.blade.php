@@ -100,74 +100,74 @@ $seo->meta_description ??
         <div class="row g-3 reveal is-visible" id="js-brand-grid">
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/Costco.png?hjfdjh') }}" alt="Costco" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/Costco.png?hjfdjh') }}" alt="Costco" />
                     <!--<span class="brand-wordmark">Costco</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/GartProperties.png') }}" alt="GartProperties" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/GartProperties.png') }}" alt="GartProperties" />
                     <!--<span class="brand-wordmark">Gart Properties</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/SheaProperties.png') }}" alt="Shea Properties" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/SheaProperties.png') }}" alt="Shea Properties" />
                     <!--<span class="brand-wordmark">Shea Properties</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/Gayloard.png') }}" alt="Marriott" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/Gayloard.png') }}" alt="Marriott" />
                     <!--<span class="brand-wordmark">Gaylord Hotel</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/Starbucks.png') }}" alt="Starbucks" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/Starbucks.png') }}" alt="Starbucks" />
                     <!--<span class="brand-wordmark">Starbucks</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/Southlands.png') }}" alt="Southlands Mall" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/Southlands.png') }}" alt="Southlands Mall" />
                     <!--<span class="brand-wordmark">Southlands Mall</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/BallysBlackHawk.png') }}" alt="Ballys Black Hawk" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/BallysBlackHawk.png') }}" alt="Ballys Black Hawk" />
                     <!--<span class="brand-wordmark">Ballys Black Hawk</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/VASA.png') }}" alt="VASA" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/VASA.png') }}" alt="VASA" />
                     <!--<span class="brand-wordmark">VASA</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/Pavilions.png') }}" alt="Denver Pavilions" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/Pavilions.png') }}" alt="Denver Pavilions" />
                     <!--<span class="brand-wordmark">Denver Pavilions</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/TommyCarWash.png') }}" alt="Tommy's Car Wash" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/TommyCarWash.png') }}" alt="Tommy's Car Wash" />
                     <!--<span class="brand-wordmark">Tommy's Car Wash</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/SchompCarDealerships.png') }}"
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/SchompCarDealerships.png') }}"
                         alt="Schomp Car Dealerships" />
                     <!--<span class="brand-wordmark">Schomp Car Dealerships</span>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="brand-tile">
-                    <img src="{{ asset('assets/images/WorkedWith/WholeFoods.png') }}" alt="Whole Foods" />
+                    <img height="auto" width="auto" src="{{ asset('assets/images/WorkedWith/WholeFoods.png') }}" alt="Whole Foods" />
                     <span class="brand-wordmark">Whole Foods</span>
                 </div>
             </div>
@@ -209,7 +209,7 @@ $seo->meta_description ??
         <div class="row g-5 align-items-center reveal abt-main" style="justify-content: flex-start;align-item:start;">
             <div class="col-lg-8 abt-img">
                 <figure class="position-relative m-0 and-abt">
-                    <img src="{{ asset('assets/images/About.jpg') }}" class="ratio-4-5 img-treat obj-pos-top"
+                    <img src="{{ asset('assets/images/About.jpg') }}" alt="Andraos Construction team at the Denver office conference room" class="ratio-4-5 img-treat obj-pos-top"
                         style="object-fit:unset;height=100%;min-height :637px;width=100%; " />
                     <figcaption class="position-absolute bottom-0 start-0 end-0 p-4 text-white about-caption">
                         <span class="ff-display fw-medium fs-5 d-block">The Andraos Construction Team</span>
@@ -295,7 +295,7 @@ $seo->meta_description ??
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./asphalt-services" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="asphalt"><img src="{{ asset('assets/images/asphalt/Hero-Song.JPG') }}"
+                    <div class="svc-card" id="asphalt"><img height="auto" width="auto" src="{{ asset('assets/images/asphalt/Hero-Song.JPG') }}"
                             alt="Asphalt Paving &amp; Repair">
                         <h3 class="text-white">Asphalt Paving &amp; Repair</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Our asphalt division handles
@@ -323,7 +323,7 @@ $seo->meta_description ??
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./snow-melt-services" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="snow-melt"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}"
+                    <div class="svc-card" id="snow-melt"><img height="auto" width="auto" src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}"
                             alt="Snow Melt Systems">
                         <h3 class="text-white">Snow Melt Systems</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Hydronic snow-melt systems
@@ -359,7 +359,7 @@ $seo->meta_description ??
         <!-- Limit to 4 items on the home page -->
         <div class="row g-3" id="projGrid" data-limit="4">
             <!-- <div class="col-lg-4 col-md-6">
-                                                                                                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction37.jpg') }}"
+                                                                                                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction37.jpg') }}"
                                                                                                         alt="Shadow Canyon HOA — Community renewal · Front Range">
                                                                                                     <figcaption class="ov"><span class="cat">hoa</span><span class="nm">Shadow
                                                                                                             Canyon HOA</span><span class="small text-white-50">Community renewal · Front Range</span>
@@ -367,7 +367,7 @@ $seo->meta_description ??
                                                                                                 </figure>
                                                                                             </div> -->
             <!-- <div class="col-lg-4 col-md-6">
-                                                                                                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction1.jpg') }}"
+                                                                                                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction1.jpg') }}"
                                                                                                         alt="Marriott Boulder — Drive court · Boulder">
                                                                                                     <figcaption class="ov"><span class="cat">hospitality</span><span
                                                                                                             class="proj__name">Marriott Boulder</span><span class="small text-white-50">Drive court ·
@@ -375,7 +375,7 @@ $seo->meta_description ??
                                                                                                 </figure>
                                                                                             </div> -->
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/Ford.jpg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/Ford.jpg') }}"
                         alt="Commercial concrete work for Ford dealership, Denver CO">
                     <figcaption class="ov">
                         <!-- <span class="cat">retail</span>--><span class="proj__name">Ford</span>
@@ -385,7 +385,7 @@ $seo->meta_description ??
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/tommy.JPEG') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/tommy.JPEG') }}"
                         alt="Concrete flatwork at Tommy's Car Wash, Front Range CO">
                     <figcaption class="ov">
                         <!-- <span class="cat">retail</span>--><span class="proj__name">Tommy’s </span>
@@ -395,7 +395,7 @@ $seo->meta_description ??
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/stucco/IMG_0669.jpg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/stucco/IMG_0669.jpg') }}"
                         alt="Stucco site work at VASA Fitness, Denver metro">
                     <figcaption class="ov">
                         <!-- <span class="cat">retail</span>--><span class="proj__name">Vasa </span>
@@ -405,7 +405,7 @@ $seo->meta_description ??
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/Hero-Denver.JPG') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/Hero-Denver.JPG') }}"
                         alt="Concrete flatwork at Denver Pavilions, Denver CO">
                     <figcaption class="ov">
                         <!-- <span class="cat">retail</span>--><span class="proj__name">Denver pavilions </span>
@@ -415,7 +415,7 @@ $seo->meta_description ??
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction2.jpg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction2.jpg') }}"
                         alt="Streetscape masonry at Boulder Village Plaza, Boulder CO">
                     <figcaption class="ov">
                         <!-- <span class="cat">retail</span>--><span class="proj__name">Boulder Village
@@ -426,7 +426,7 @@ $seo->meta_description ??
                 </figure>
             </div>
             <div class="col-lg-4 col-md-6">
-                <figure class="proj m-0"><img src="{{ asset('assets/images/Central-Park.jpeg') }}"
+                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/Central-Park.jpeg') }}"
                         alt="Concrete work in Central Park, Denver CO">
                     <figcaption class="ov">
                         <!-- <span class="cat">retail</span>--><span class="proj__name">Central Park
@@ -437,7 +437,7 @@ $seo->meta_description ??
                 </figure>
             </div>
             <!-- <div class="col-lg-4 col-md-6">
-                                                                                                <figure class="proj m-0"><img src="{{ asset('assets/images/andraos-construction8.jpg') }}"
+                                                                                                <figure class="proj m-0"><img height="auto" width="auto" src="{{ asset('assets/images/andraos-construction8.jpg') }}"
                                                                                                         alt="Rocky Mountain Kids — Boulder · Sandstone">
                                                                                                     <figcaption class="ov"><span class="cat">retail</span><span
                                                                                                             class="proj__name">Rocky Mountain Kids</span><span class="small text-white-50">Boulder ·

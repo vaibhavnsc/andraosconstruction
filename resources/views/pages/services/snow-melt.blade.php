@@ -37,7 +37,7 @@
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img id="js-service-image" alt="Snow Melt Systems" class="ratio-16-9 mb-4"
+                    <img height="auto" width="auto" id="js-service-image" alt="Snow Melt Systems" class="ratio-16-9 mb-4"
                         src="/assets/images/snowmelt/064-25f.jpeg">
 
                     <p class="eyebrow">Overview</p>

@@ -25,7 +25,7 @@
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img id="js-service-image" alt="HOA &amp; Property Management" class="ratio-16-9 mb-4"
+                    <img height="auto" width="auto" id="js-service-image" alt="HOA &amp; Property Management" class="ratio-16-9 mb-4"
                         src="/assets/images/residential/IMG_0079.jpeg">
 
                     <p class="eyebrow">Overview</p>

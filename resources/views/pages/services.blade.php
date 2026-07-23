@@ -11,6 +11,9 @@ Front Range since 1993. Request an estimate: (303) 915-3703.';
 
 @section('meta_title', $title)
 @section('meta_description', $description)
+@if(isset($canonical_url))
+@section('canonical_url', $canonical_url)
+@endif
 
 @section('content')
 
@@ -34,7 +37,7 @@ Front Range since 1993. Request an estimate: (303) 915-3703.';
     <section class="section" aria-label="Service details">
         <div class="container" id="js-service-detail">
             <div class="row g-5 align-items-center reveal anchor-offset is-visible" id="commercial-concrete">
-                <div class="col-lg-6"><img src="{{ asset('assets/images/commercialcon.JPG') }}" alt="Commercial Concrete"
+                <div class="col-lg-6"><img height="auto" width="auto" src="{{ asset('assets/images/commercialcon.JPG') }}" alt="Commercial Concrete"
                         class="ratio-4-3 img-treat"></div>
                 <div class="col-lg-6">
                     <h2 class="ff-display display-md mt-2">Commercial Concrete</h2>
@@ -54,7 +57,7 @@ Front Range since 1993. Request an estimate: (303) 915-3703.';
             </div>
             <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
                 id="hoa-property-management">
-                <div class="col-lg-6 order-lg-2"><img src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
+                <div class="col-lg-6 order-lg-2"><img height="auto" width="auto" src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                         alt="HOA & Property Management" class="ratio-4-3 img-treat"></div>
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="ff-display display-md mt-2">HOA & Property Management</h2>
@@ -70,7 +73,7 @@ Front Range since 1993. Request an estimate: (303) 915-3703.';
                 </div>
             </div>
             <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="asphalt">
-                <div class="col-lg-6 "><img src="{{ asset('assets/images/asphalt/Hero-Song.JPG') }}"
+                <div class="col-lg-6 "><img height="auto" width="auto" src="{{ asset('assets/images/asphalt/Hero-Song.JPG') }}"
                         alt="Asphalt Paving &amp; Repair" class="ratio-4-3 img-treat"></div>
                 <div class="col-lg-6 ">
                     <h2 class="ff-display display-md mt-2">Asphalt Paving &amp; Repair</h2>
@@ -98,7 +101,7 @@ Front Range since 1993. Request an estimate: (303) 915-3703.';
                 </div>
             </div>
             <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible" id="snow-melt">
-                <div class="col-lg-6"><img src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}" alt="Snow Melt Systems"
+                <div class="col-lg-6"><img height="auto" width="auto" src="{{ asset('assets/images/snowmelt/064-25f.jpeg') }}" alt="Snow Melt Systems"
                         class="ratio-4-3 img-treat"></div>
                 <div class="col-lg-6">
                     <h2 class="ff-display display-md mt-2">Snow Melt Systems</h2>
