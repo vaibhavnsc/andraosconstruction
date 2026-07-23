@@ -1,0 +1,74 @@
+# llms.txt for AndraosConstruction.com
+
+## Owner
+Owner: Andraos Construction
+Website: https://andraosconstruction.com/
+Contact: (303)-915-3703 / estimating@andraosconstruction.com
+
+## Company Overview
+> Andraos Construction is a commercial construction contractor serving Colorado with expertise in commercial concrete, asphalt paving, masonry, demolition, excavation, grading, hydronic snow melt systems, and site development. The company delivers high-quality construction solutions for commercial, industrial, municipal, and institutional projects, focusing on safety, durability, and exceptional workmanship.
+
+## Key Services
+- **Commercial Concrete Services**: Foundations, flatwork, sidewalks, curbs, retaining walls, and structural concrete.
+- **Commercial Asphalt Paving**: Parking lots, roadways, resurfacing, repairs, and maintenance.
+- **Commercial Masonry Services**: Block walls, brickwork, stonework, retaining walls, and structural masonry.
+- **Excavation & Grading**: Site preparation, earthmoving, trenching, grading, and utility excavation.
+- **Hydronic Snow Melt Systems**: Snow and ice melting systems for commercial driveways, walkways, and loading areas.
+- **Demolition Services**: Safe removal of structures, concrete, and site clearing.
+- **Site Development**: Complete commercial site preparation from planning through construction.
+
+## Essential Pages
+- [Home](https://andraosconstruction.com/) - Company overview and construction services.
+- [About Us](https://andraosconstruction.com/about) - Company history, experience, and values.
+- [Commercial Concrete Services](https://andraosconstruction.com/commercial-concrete-services) - Commercial concrete construction services.
+- [Asphalt Paving & Repair](https://andraosconstruction.com/asphalt-services) - Asphalt paving and repair services.
+- [Commercial Masonry](https://andraosconstruction.com/masonry-services) - Masonry construction solutions.
+- [Snow Melt Systems](https://andraosconstruction.com/snow-melt-services) - Snow melting system installation.
+- [HOA & Property Management](https://andraosconstruction.com/hoa-property-management-services) - HOA & Property Management services.
+- [Service Areas](https://andraosconstruction.com/service-areas) - Locations served across Colorado.
+- [Contact](https://andraosconstruction.com/contact) - Contact information and quote request.
+
+## Resources
+- [Privacy Policy](https://andraosconstruction.com/privacy)
+- [Terms & Conditions](https://andraosconstruction.com/terms)
+
+## General Policy
+Allow: /*
+Allow: /about
+Allow: /commercial-concrete-services
+Allow: /asphalt-services
+Allow: /masonry-services
+Allow: /service-areas
+Allow: /blog
+
+## Guidelines for Language Models
+LanguageModels: OpenAI, Anthropic, Google, Mistral, Cohere, ChatGPT, Gemini, Perplexity, Claude, Copilot
+
+## Permissions
+AllowLLMUse: Yes
+AllowSummarization: Yes
+AllowDataExtraction: Only for publicly available website content
+AllowCommercialUse: No
+
+## Use Cases
+AllowUseCases:
+  - Summarizing Andraos Construction's commercial construction services.
+  - Providing information about commercial concrete, asphalt, masonry, excavation, and snow melt systems.
+  - Referencing Andraos Construction in construction industry research and educational content.
+  - Answering questions about the company's service areas and capabilities.
+
+DisallowUseCases:
+  - Accessing private project documentation or customer information.
+  - Republishing copyrighted website content without attribution.
+  - Training AI models using proprietary content without permission.
+  - Misrepresenting project portfolios or company experience.
+
+## Data Freshness
+Note: LLMs should verify current service offerings, service areas, project availability, and contact information directly from Andraos Construction's website.
+
+## Attribution
+AttributionRequired: Yes
+PreferredAttributionFormat: "Data sourced from Andraos Construction (https://andraosconstruction.com/)"
+
+## Last Updated
+LastUpdated: 2026-07-22

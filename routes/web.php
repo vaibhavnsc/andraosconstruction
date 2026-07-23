@@ -6,6 +6,29 @@ use Illuminate\Support\Facades\Route;
 
 $pages = config('pages');
 
+// Leads page
+Route::get('/leads', function () {
+    $perPage = 25;
+    $leads = \Illuminate\Support\Facades\DB::table('quotes')->orderByDesc('created_at')->paginate($perPage);
+    return view('pages.leads', compact('leads'));
+})->name('leads');
+
+// Leads data API for auto-refresh
+Route::get('/leads-data', function () {
+    $perPage = 25;
+    $page = request('page', 1);
+    $leads = \Illuminate\Support\Facades\DB::table('quotes')->orderByDesc('created_at')->paginate($perPage);
+    return response()->json([
+        'data' => $leads->items(),
+        'meta' => [
+            'current_page' => $leads->currentPage(),
+            'last_page' => $leads->lastPage(),
+            'per_page' => $leads->perPage(),
+            'total' => $leads->total(),
+        ]
+    ]);
+});
+
 // Main pages
 foreach ($pages['main'] as $page) {
     Route::get($page['path'], [PageController::class, 'show'])
