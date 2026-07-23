@@ -3,7 +3,7 @@
 <head>
     @include('partials.head')
 </head>
-<body>
+<body class="@if(request()->is('leads*')) leads-page @endif">
 @include('partials.header')
 
 <main>
