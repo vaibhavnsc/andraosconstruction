@@ -178,8 +178,7 @@ window.AndraosData = (function () {
     },
     {
       slug: "broomfield", name: "Broomfield", county: "Broomfield County", note: "Northwest Metro",
-      title: "Concrete & Asphalt Contractor Broomfield, CO
-",
+      title: "Concrete & Asphalt Contractor Broomfield, CO",
       metaDesc: "Commercial concrete, asphalt, masonry & snow-melt in Broomfield & the north metro since 1993. Call or text (303) 915-3703.",
       h1: "Broomfield Commercial Concrete Contractor",
       intro: "Andraos Construction provides commercial concrete, asphalt, and masonry services across Broomfield's mixed-use developments, office parks, and HOA communities &mdash; full-scope capital renewal and tenant improvement support.",

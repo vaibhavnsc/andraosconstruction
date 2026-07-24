@@ -9,6 +9,8 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
+use Illuminate\Mail\Mailables\Address;
+
 class AdminQuoteMail extends Mailable
 {
     use Queueable, SerializesModels;
@@ -30,6 +32,9 @@ class AdminQuoteMail extends Mailable
     {
         return new Envelope(
             subject: 'New Quote Request',
+            replyTo: [
+                new Address($this->quote->email, $this->quote->full_name),
+            ],
         );
     }
 
