@@ -1,22 +1,20 @@
-@extends('layouts.app')
-
-@php
+<?php
 $seo = getPageSeoByKey('retail-commercial-concrete');
 
-$title = $seo->meta_title ?? 'Retail & Custom Concrete Finishes Denver, CO | Andraos';
+$title = $seo->meta_title ?? 'HOA Property Management Services | Andraos Construction';
 
 $description =
 $seo->meta_description ??
-'Stamped, colored & high-end concrete finishes plus repair and leveling across the Denver Front Range. Quality
-craftsmanship since 1993. (303) 915-3703.';
-@endphp
+'Expert HOA property management services, including concrete, asphalt, masonry, & maintenance for communities, retail
+centers & commercial properties.';
+?>
 
-@section('meta_title', $title)
-@section('meta_description', $description)
+<?php $__env->startSection('meta_title', $title); ?>
+<?php $__env->startSection('meta_description', $description); ?>
 
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <header class="page-hero">
     <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true"
@@ -27,9 +25,9 @@ craftsmanship since 1993. (303) 915-3703.';
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
             <a href="/services">Services</a> &nbsp;/&nbsp;
-            <span class="js-service-name">Retail Commercial Concrete</span>
+            <span class="js-service-name">HOA & Property Management</span>
         </nav>
-        <h1 class="js-service-name">Retail Commercial Concrete</h1>
+        <h1 class="js-service-name">HOA & Property Management</h1>
     </div>
 </header>
 
@@ -42,8 +40,8 @@ craftsmanship since 1993. (303) 915-3703.';
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img height="auto" width="auto" id="js-service-image" alt="Retail Commercial Concrete" class="ratio-16-9 mb-4"
-                        src="/assets/images/residential/Retail-commercial-concrete-hero.png">
+                    <img height="auto" width="auto" id="js-service-image" alt="HOA & Property Management" class="ratio-16-9 mb-4"
+                        src="/assets/images/residential/IMG_0079.jpeg">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
@@ -59,7 +57,7 @@ craftsmanship since 1993. (303) 915-3703.';
                         <li>Patios</li>
                         <li>Private and city sidewalks</li>
                         <li>Custom design porches</li>
-                        <li>Garage floors</li>
+                        <li>Garage floors</li> 
                     </ul>
                     </p>
 
@@ -134,8 +132,7 @@ craftsmanship since 1993. (303) 915-3703.';
                         don't just pour concrete and leave; we provide the maintenance services necessary to keep your
                         surfaces in top condition for years to come. This includes grinding tripping hazards to ensure
                         your family's safety, as well as crack chasing and sealing to prevent water from compromising
-                        your base layers. By hiring a dedicated residRequest an Estimate contractor in Denver, CO, you
-                        gain
+                        your base layers. By hiring a dedicated residential concrete contractor in Denver, CO, you gain
                         access to a team that offers a 1-year warranty on all services and brings 40 years of local
                         knowledge to your doorstep. We are committed to great communication and providing competitive
                         pricing, making it easier than ever to invest in the quality your home deserves.</p>
@@ -161,7 +158,7 @@ craftsmanship since 1993. (303) 915-3703.';
                         <li>Decades of experience</li>
                         <li>Locally owned and operated</li>
                         <li>Guaranteed customer satisfaction</li>
-                        <li>1-year warranty on all work</li>Request an Estimate
+                        <li>1-year warranty on all work</li>
                         <li>Competitive pricing</li>
                     </ul>
 
@@ -201,7 +198,9 @@ craftsmanship since 1993. (303) 915-3703.';
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link active" href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></nav>
+                            class="service-nav-link active" href="/hoa-property-management-services">HOA & Property
+                            Management<span aria-hidden="true">→</span></a>
+                    </nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>
@@ -211,20 +210,20 @@ craftsmanship since 1993. (303) 915-3703.';
                     <a href="contact" class="btn btn-light-navy btn-arrow w-100">Request an Estimate</a>
                 </div>
             </aside>
-
         </div>
     </div>
 </section>
+
 
 <section class="section bg-navy text-white" aria-label="Project gallery">
     <div class="container">
         <!-- Filter buttons injected by site.js -->
         <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
-            <button type="button" class="filter-btn" data-filter="hoa">Retail Commercial Concrete </button>
+            <button type="button" class="filter-btn" data-filter="hoa">Retail Commercial Concrete</button>
         </div>
         <!-- Project cards injected by site.js -->
         <div class="row g-3" id="projGrid">
-            @include('partials.gallery-project', [
+           <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Central Park Highlands',
             'subtitle' => 'Central Park Highlands',
@@ -237,53 +236,44 @@ craftsmanship since 1993. (303) 915-3703.';
             asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.jpeg'),
            // asset( 'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.jpeg'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+           <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Town Center',
             'subtitle' => 'Town Center',
-            'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.jpeg'),
+            'cover' => asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
             'images' => [
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center02.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center03.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center04.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center05.JPG'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.jpeg'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.jpeg'),
+           // asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.jpeg'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.jpeg'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.jpeg'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.jpeg'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+           <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Wildcat Reserve Highlands',
             'subtitle' => 'Wildcat Reserve Highlands',
-            'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.jpeg'),
+            'cover' =>
+            asset('assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
             'images' => [
             asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.jpeg'),
-            asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.jpeg'),
             asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
             ],
-            ])
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 </section>
-
 
 <section class="section bg-warm section--tight" aria-labelledby="process-heading">
     <div class="container">
         <p class="eyebrow mb-2">How We Work</p>
-        <h2 id="process-heading" class="ff-display display-md mb">Request an Estimatealk to Warranty</h2>
-            <div class="row g-3" id="js-service-process">
+        <h2 id="process-heading" class="ff-display display-md mb-4 test">From Site Walk to Warranty</h2>
+        <div class="row g-3" id="js-service-process">
             <div class="col-md-6 col-lg-4">
                 <div class="process-step h-100"><span class="num-eyebrow d-block mb-2">01</span>
                     <h3 class="ff-display fs-5 mb-2">Site Walk &amp; Assessment</h3>
@@ -319,9 +309,11 @@ craftsmanship since 1993. (303) 915-3703.';
                         written one-year workmanship warranty.</p>
                 </div>
             </div>
-    </div>
+        </div>
     </div>
 </section>
+
+
 
 <section class="section bg-navy-deep text-white text-center" aria-labelledby="svc-single-cta">
     <div class="container reveal is-visible">
@@ -334,10 +326,5 @@ craftsmanship since 1993. (303) 915-3703.';
         </div>
     </div>
 </section>
-
-
-
-        </div>
-    </div>
-
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH I:\CRN\andraosconstruction\resources\views/pages/services/hoa-property-management.blade.php ENDPATH**/ ?>

@@ -30,7 +30,7 @@
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
-                        Expert Residential Concrete Services in Denver
+                        Expert Residential Concrete Services in D
                     </h2>
                     <p class="lede" id="js-service-overview">Andraos Construction has been serving homeowners and HOA communities throughout the Denver Metro area and beyond since 1993. Our expertise lies in classic gray concrete, custom and decorative finishes, colored concrete, stamped concrete, acid-stained finish, and exposed aggregate finish. We specialize in:</p>
                     <p class="lede" id="js-service-overview">

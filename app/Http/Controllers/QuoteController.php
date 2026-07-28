@@ -26,11 +26,16 @@ class QuoteController extends Controller
         $quote = Quote::create($request->all());
 
         $adminEmail = config('mail.to.address', env('MAIL_TO_ADDRESS', 'Estimating@andraosconstruction.com'));
+        $ccEmail = env('MAIL_CC_ADDRESS', 'beth@androsconstruction.com');
 
         $mailSent = true;
         try {
-            Mail::to($adminEmail)
-                ->send(new AdminQuoteMail($quote));
+            $adminMail = Mail::to($adminEmail);
+            if ($ccEmail) {
+                $ccList = array_map('trim', explode(',', $ccEmail));
+                $adminMail->cc($ccList);
+            }
+            $adminMail->send(new AdminQuoteMail($quote));
 
             Mail::to($quote->email)
                 ->send(new UserQuoteMail($quote));

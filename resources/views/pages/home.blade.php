@@ -337,9 +337,9 @@ $seo->meta_description ??
                 </a>
             </div>
         </div>
-        <div class="text-center mt-5">
+        <!-- <div class="text-center mt-5">
             <a href="{{ route('services') }}" class="btn btn-light-navy btn-arrow">View All Services</a>
-        </div>
+        </div> -->
     </div>
 </section>
 

@@ -59,7 +59,7 @@ centers & commercial properties.';
                         <li>Patios</li>
                         <li>Private and city sidewalks</li>
                         <li>Custom design porches</li>
-                        <li>Garage floors</li>
+                        <li>Garage floors</li> 
                     </ul>
                     </p>
 
@@ -225,65 +225,48 @@ centers & commercial properties.';
         </div>
         <!-- Project cards injected by site.js -->
         <div class="row g-3" id="projGrid">
-            @include('partials.gallery-project', [
+           @include('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Central Park Highlands',
             'subtitle' => 'Central Park Highlands',
-            'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands01.jpeg'),
+            'cover' => asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands01.jpeg'),
             'images' => [
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands03.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands06.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.jpeg'),
+            asset( 'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands02.jpeg'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands04.jpeg'),
+            //asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands05.jpeg'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands06.jpeg'),
+            asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.jpeg'),
+           // asset( 'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.jpeg'),
             ],
             ])
-            @include('partials.gallery-project', [
+           @include('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Town Center',
             'subtitle' => 'Town Center',
-            'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center_Hero.jpeg'),
+            'cover' => asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
             'images' => [
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center01.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center02.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center03.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center04.JPG'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center05.JPG'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.jpeg'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center07.jpeg'),
+           // asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center06.jpeg'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.jpeg'),
-            asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center09.jpeg'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.jpeg'),
             ],
             ])
-            @include('partials.gallery-project', [
+           @include('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Wildcat Reserve Highlands',
             'subtitle' => 'Wildcat Reserve Highlands',
-            'cover' => asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands01.jpeg'),
+            'cover' =>
+            asset('assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
             'images' => [
             asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands02.jpeg'),
             asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands03.jpeg'),
-            asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands04.jpeg'),
             asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.jpeg'),
-            asset(
-            'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands06.jpeg'),
             ],
             ])
 </section>
