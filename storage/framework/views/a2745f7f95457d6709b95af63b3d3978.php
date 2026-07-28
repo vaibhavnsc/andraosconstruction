@@ -266,7 +266,7 @@
 
                 <?php echo $__env->make('partials.gallery-project', [
                     'category' => 'concrete-finishes',
-                    'title' => 'Colored Concrete',
+                    'title' => 'Concrete Finishes',
                     'subtitle' => 'Concrete Finishes',
                     'cover' => asset('assets/images/ConcreteFinishes/Concrete_finishes01.JPG'),
                     'images' => [

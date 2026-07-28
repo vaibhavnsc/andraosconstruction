@@ -1,33 +1,33 @@
-@extends('layouts.app')
+<?php
+    $seo = getPageSeoByKey('asphalt');
 
-@php
-    $seo = getPageSeoByKey('masonry');
-
-    $title = $seo->meta_title ?? 'Commercial Masonry Contractor Denver, CO | Andraos';
+    $title = $seo->meta_title ?? 'Commercial Asphalt Paving & Repair Denver, CO | Andraos';
 
     $description = $seo->meta_description
-        ?? 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request an Estimate: (303) 915-3703.';
-@endphp 
+        ?? 'Asphalt paving, sealcoating, crackfill, mill & overlay and full-depth repair across the Denver Front Range. Extend pavement life. (303) 915-3703.';
+?> 
 
-@section('meta_title', $title)
-@section('meta_description', $description)
+<?php $__env->startSection('meta_title', $title); ?>
+<?php $__env->startSection('meta_description', $description); ?>
 
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 
 <header class="page-hero">
-    <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true" data-bg="/assets/images/masonry.jpg"
-        style="background-image: url(/assets/images/masonry.jpg;);"></div>
+    <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true" data-bg="/assets/images/sloan.jpg"
+        style="background-image: url(/assets/images/sloan.jpg;);"></div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
             <a href="/services">Services</a> &nbsp;/&nbsp;
-            <span class="js-service-name">Commercial Masonry</span>
+            <span class="js-service-name">Asphalt Paving &amp; Repair</span>
         </nav>
-        <h1 class="js-service-name">Commercial Masonry</h1>
+        <h1 class="js-service-name">Asphalt Paving &amp; Repair</h1>
     </div>
 </header>
+
 
 <!-- ====================== CONTENT + SIDEBAR ====================== -->
 
@@ -38,69 +38,68 @@
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img height="auto" width="auto" id="js-service-image" alt="Commercial Masonry" class="ratio-16-9 mb-4"
-                        src="/assets/images/masonry/Cherry-Creek-Country-Club.JPEG">
+                    <img height="auto" width="auto" id="js-service-image" alt="Asphalt Paving &amp; Repair" class="ratio-16-9 mb-4"
+                        src="/assets/images/asphalt/Hero-Song.JPG">
 
                     <p class="eyebrow">Overview</p>
                     <h2 class="ff-display display-md mt-2 mb-3">
-                       Comprehensive Masonry Services by Andraos Construction
+                        Exceptional Asphalt Services by Andraos Construction
                     </h2>
-                    <p class="lede" id="js-service-overview">Andraos Construction offers expert masonry services that cater to a wide range of needs in the Denver Metro area. Our team brings extensive experience and a commitment to quality, ensuring that your project is completed to the highest standards. Whether you're looking to enhance your home's exterior or add functional elements to your landscape, we provide a variety of masonry solutions to meet your specific requirements.</p>
-                    <p class="lede" id="js-service-overview">Our masonry services include:
-                        <ul>
-                            <li>Stone</li>
-                            <li>Brick</li>
-                            <li>Blocks</li>
-                            <li>Pavers</li>
-                            <li>Sign</li>
-                            <!-- <li>Frenchings</li> -->
-                            <li>Planters</li>
-                            <li>Retaining walls</li>
-                            <li>Trash enclosures</li>
-                            <li>Stucco</li>
-                            <li>Columns</li>
-                        </ul>
-                    </p>
-                    <p class="lede" id="js-service-overview"><a href="/contact">Call us today</a> to discuss your masonry project and discover how we can help you achieve your vision.</p>
-
-                    <h2 class="ff-display display-md mt-5 mb-3">Why You Need Our Masonry Services</h2>
-                    <p class="lede" id="js-service-overview">Investing in professional masonry services can significantly enhance the aesthetic and functional aspects of your property. At Andraos Construction, we understand the importance of using high-quality materials and skilled craftsmanship to deliver results that stand the test of time.</p>
+                    <p class="lede" id="js-service-overview">Looking for reliable asphalt services in the Denver Metro area? Andraos Construction, your trusted asphalt contractor, offers a comprehensive range of asphalt solutions tailored to meet your specific needs. Our expertise spans over four decades, ensuring your project is handled with precision and care. We pride ourselves on delivering high-quality results that stand the test of time.</p>
+                    <p class="lede" id="js-service-overview">Whether it's a residential driveway or a commercial parking lot, our team is equipped to handle it all. Our asphalt services include:</p>
                     <p class="lede" id="js-service-overview">
                         <ul>
-                            <li>Enhance curb appeal with elegant stone and brick work</li>
-                            <li>Increase property value through durable and attractive masonry features</li>
-                            <li>Create functional outdoor spaces with retaining walls and planters</li>
-                            <li>Ensure structural integrity with expertly constructed columns and enclosures</li>
-                            <li>Personalize your property with custom signs.</li>
+                            <li>Removal and replacement</li>
+                            <li>Mill and overlay</li>
+                            <li>Sealcoating</li>
+                            <li>Crack sealing</li>
+                            <li>Infrared solutions</li>
+                            <li>Striping and signage</li>
                         </ul>
                     </p>
-                    <p class="lede" id="js-service-overview"><a href="/contact">Reach out to us</a> to learn more about how our masonry services can benefit your property.</p>
-                    <h2 class="ff-display display-md mt-5 mb-3">Benefits of Choosing Andraos Construction</h2>
-                    <p class="lede" id="js-service-overview">Our commitment to excellence and customer satisfaction sets us apart in the industry. When you choose Andraos Construction, you can expect a seamless experience from start to finish.</p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Call us today</a> to discuss your asphalt project and get started on a solution that fits your needs.</p>
+                    <h2 class="ff-display display-md mt-5 mb-3">Professional Asphalt Surfaces Done Right</h2>
+                    <p class="lede" id="js-service-overview">Asphalt services are essential for maintaining the integrity and appearance of your surfaces. Andraos Construction provides expert services that ensure your asphalt remains durable and functional. Here's why you might need our services:</p>
                     <p class="lede" id="js-service-overview">
                         <ul>
-                            <li>Clear and consistent communication throughout your project</li>
-                            <li>Timely estimates to help you plan your budget effectively</li>
+                            <li>Improve safety with crack sealing</li>
+                            <li>Enhance appearance with seal coating</li>
+                            <li>Extend the life of your asphalt with mill and overlay</li>
+                            <li>Ensure proper drainage with removal and replacement</li>
+                            <li>Maintain clear markings with striping and signage</li>
+                            <li>Quick repairs with infrared technology</li>
+                        </ul>
+                    </p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Reach out to us </a>to find the right asphalt service for your needs.</p>
+                    <h2 class="ff-display display-md mt-5 mb-3">Our Commitment to You</h2>
+                    <p class="lede" id="js-service-overview">Choosing Andraos Construction means choosing excellence. We are dedicated to providing services that not only meet but exceed your expectations. Here’s what sets us apart:</p>
+                    <p class="lede" id="js-service-overview">
+                        <ul>
+                            <li>Great communication throughout the project</li>
+                            <li>Timely estimates to keep your project on track</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>Over 40 years of industry experience ensuring top-tier craftsmanship</li>
-                            <li>Locally owned and operated, providing personalized service</li>
-                            <li>100% customer satisfaction guarantee for all projects</li>
-                            <li>1-year warranty on all masonry work</li>
-                            <li>Competitive pricing without compromising quality</li>
+                            <li>Over 40 years of industry experience</li>
+                            <li>Locally owned, serving the Denver Metro area</li>
+                            <li>100% customer satisfaction guarantee</li>
+                            <li>1-year warranty on all services</li>
+                            <li>Competitive pricing to fit your budget</li>
                         </ul>
                     </p>
-                    <p class="lede" id="js-service-overview"><a href="/contact">Contact us today</a> to experience the benefits of working with a trusted masonry contractor.</p>
+                    <p class="lede" id="js-service-overview"><a href="/contact">Contact us now</a>  to experience the difference our expertise can make for your asphalt needs.</p>
+
+
+
 
 
                     <!-- What's included -->
                     <h2 class="ff-display display-md mt-5 mb-4">What’s Included</h2>
                     <ul class="included-list row row-cols-1 row-cols-md-2 g-0" id="js-service-included">
-                        <li>Architectural stone &amp; sandstone</li>
-                        <li>Brick veneer &amp; restoration</li>
-                        <li>Structural CMU site work</li>
-                        <li>Retaining &amp; screen walls</li>
-                        <li>Seat-walls &amp; planters</li>
-                        <li>Tuckpointing &amp; repair</li>
+                        <li>Asphalt mill &amp; overlay</li>
+                        <li>Full-depth removal &amp; replacement</li>
+                        <li>Crackfilling &amp; sealcoating</li>
+                        <li>Pothole &amp; patch repair</li>
+                        <li>Striping &amp; pavement marking</li>
+                        <li>Parking lot maintenance programs</li>
                     </ul>
 
                     <!-- CTA inline -->
@@ -117,9 +116,9 @@
                     <h2 class="sidebar-card__title">All Services</h2>
                     <nav id="js-service-nav"><a class="service-nav-link"
                             href="/commercial-concrete-services">Commercial Concrete<span
-                                aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/asphalt-services">Asphalt Paving &amp; Repair<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
+                            href="/asphalt-services">Asphalt Paving &amp; Repair<span
+                                aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span
@@ -143,31 +142,29 @@
         <div class="container">
             <!-- Filter buttons injected by site.js -->
             <div class="d-flex flex-wrap gap-1 mb-4" id="filters" role="group" aria-label="Filter projects by sector">
-                <button type="button" class="filter-btn" data-filter="masonry">Masonry</button>
+                <button type="button" class="filter-btn" data-filter="asphalt">Asphalt</button>
             </div>
             <!-- Project cards injected by site.js -->
             <div class="row g-3" id="projGrid">
-
-                @include('partials.gallery-project', [
-                    'category' => 'masonry',
-                    'title' => 'Masonry',
-                    'subtitle' => 'Masonry',
-                    'cover' => asset('assets/images/masonry/Masonry01.JPEG'),
+                <?php echo $__env->make('partials.gallery-project', [
+                    'category' => 'asphalt',
+                    'title' => 'Songbird HOA Littleton',
+                    'subtitle' => 'Asphalt',
+                    'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
+                ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+                <?php echo $__env->make('partials.gallery-project', [
+                    'category' => 'asphalt',
+                    'title' => 'Meadow Wood',
+                    'subtitle' => 'Asphalt',
+                    'cover' => asset('assets/images/asphalt/168-25.jpg'),
                     'images' => [
-                        asset('assets/images/masonry/Masonry03.JPG'),
-                        asset('assets/images/masonry/Masonry05.JPG'),
-                        asset('assets/images/masonry/Masonry06.jpeg'),
-                        asset('assets/images/masonry/Masonry07.jpeg'),
-                        asset('assets/images/masonry/Masonry09.JPG'),
-                        asset('assets/images/masonry/Masonry11.JPG'),
-                        asset('assets/images/masonry/Masonry12.JPG'),
-                        asset('assets/images/masonry/Masonry14.JPG'),
-                        asset('assets/images/masonry/Masonry17.jpeg'),
-                    ],
-                ])
+                        asset('assets/images/asphalt/168-25-Meadow.jpg'),
+                ],
+                ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
             </div>
         </div> 
     </section>
+
 
 <section class="section bg-warm section--tight" aria-labelledby="process-heading">
     <div class="container">
@@ -212,10 +209,11 @@
     </div>
 </section>
 
+
 <section class="section bg-navy-deep text-white text-center" aria-labelledby="svc-single-cta">
     <div class="container reveal is-visible">
         <h2 id="svc-single-cta" class="ff-display display-xl text-white mx-auto maxw-20">
-            Let’s talk about your <span class="js-service-name">Commercial Masonry</span>.
+            Let’s talk about your <span class="js-service-name">Asphalt Paving & Repair.</span>.
         </h2>
         <div class="d-flex gap-2 justify-content-center mt-4 flex-wrap">
             <a href="/contact" class="btn btn-light-navy btn-arrow">Request an Estimate</a>
@@ -225,4 +223,5 @@
 </section>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH I:\CRN\andraosconstruction\resources\views/pages/services/asphalt.blade.php ENDPATH**/ ?>

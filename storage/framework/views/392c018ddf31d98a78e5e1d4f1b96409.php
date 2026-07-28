@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@php
+<?php
 $seo = getPageSeoByKey('gallery');
 
 $title = $seo->meta_title ?? 'Project Gallery | Andraos Construction Denver, CO';
@@ -9,17 +7,17 @@ $description =
 $seo->meta_description ??
 'See recent commercial concrete, asphalt & masonry projects across Denver & the Front Range. Built by Andraos
 Construction since 1993.';
-@endphp
+?>
 
-@section('meta_title', $title)
-@section('meta_description', $description)
+<?php $__env->startSection('meta_title', $title); ?>
+<?php $__env->startSection('meta_description', $description); ?>
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <!-- ====================== PAGE HERO ====================== -->
 <header class="page-hero">
-    <div class="page-hero__bg" data-bg="{{ asset('assets/images/andraos-construction-gallery.jpg') }}"
+    <div class="page-hero__bg" data-bg="<?php echo e(asset('assets/images/andraos-construction-gallery.jpg')); ?>"
         aria-hidden="true">
     </div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
@@ -53,7 +51,7 @@ Construction since 1993.';
         </div>
         <!-- Project cards injected by site.js -->
         <div class="row g-3" id="projGrid">
-            @include('partials.gallery-project', [
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Central Park Highlands',
             'subtitle' => 'Central Park Highlands',
@@ -66,8 +64,8 @@ Construction since 1993.';
             asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.jpeg'),
            // asset( 'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.jpeg'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Town Center',
             'subtitle' => 'Town Center',
@@ -81,8 +79,8 @@ Construction since 1993.';
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.jpeg'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.jpeg'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Wildcat Reserve Highlands',
             'subtitle' => 'Wildcat Reserve Highlands',
@@ -96,20 +94,15 @@ Construction since 1993.';
             asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.jpeg'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'stucco',
             'title' => 'Stucco',
             'subtitle' => 'Stucco',
             'cover' => asset('assets/images/stucco/Stucco01.jpg'),
-            ])
-            {{-- @include('partials.gallery-project', [
-                    'category' => 'stucco',
-                    'title' => 'Stucco',
-                    'subtitle' => 'Stucco',
-                    'cover' => asset('assets/images/stucco/IMG_3656.jpeg'),
-                ]) --}}
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'Advanced Energy',
             'subtitle' => 'Commercial Concrete',
@@ -122,8 +115,8 @@ Construction since 1993.';
             asset('assets/images/WebsiteCommercialConcrete/Advanced/AdvancedEnergy06.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Advanced/AdvancedEnergy07.JPG'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'Asterisk',
             'subtitle' => 'Commercial Concrete',
@@ -135,8 +128,8 @@ Construction since 1993.';
             asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk04.JPG'),
             //asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk06.JPG'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'Ballys',
             'subtitle' => 'Commercial Concrete',
@@ -156,8 +149,8 @@ Construction since 1993.';
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys14.JPG'),
             //asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys16.JPG'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'Denver Pavilions',
             'subtitle' => 'Commercial Concrete',
@@ -166,8 +159,8 @@ Construction since 1993.';
             'images' => [
             asset('assets/images/WebsiteCommercialConcrete/DenverPavilions/DenverPavilions02.jpeg'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'Detroit Street',
             'subtitle' => 'Commercial Concrete',
@@ -178,8 +171,8 @@ Construction since 1993.';
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver02.JPG'),           
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver08.JPG'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => "Tommy's Car Wash",
             'subtitle' => 'Commercial Concrete',
@@ -191,8 +184,8 @@ Construction since 1993.';
             asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash05.JPG'),
             //asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash06.JPG'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'whole foods',
             'subtitle' => 'Commercial Concrete',
@@ -202,24 +195,24 @@ Construction since 1993.';
             asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods04.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods01.JPG'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'Schomp',
             'subtitle' => 'commercial-concrete',
             'cover' => asset('assets/images/Ford.jpg'),
             'images' => [
             ],
-            ])
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 
-            @include('partials.gallery-project', [
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'residential-concrete',
             'title' => 'Residential Stairs before and after',
             'subtitle' => 'Residential Stairs before and after',
             'cover' => asset('assets/images/ResidentialConcrete/Jones/Jonesresidence01.jpg'),
             'images' => [asset('assets/images/ResidentialConcrete/Jones/Jonesresidence02.jpeg')],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'residential-concrete',
             'title' => 'Custom finish residential driveway',
             'subtitle' => 'Custom finish residential driveway',
@@ -229,107 +222,22 @@ Construction since 1993.';
             asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway03.JPG'),
             asset('assets/images/ResidentialConcrete/RaysDriveway/Rays_driveway04.JPG'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'residential-concrete',
             'title' => 'Residental Stairs during construction and after',
             'subtitle' => 'Residental Stairs during construction and after',
             'cover' => asset('assets/images/ResidentialConcrete/Stairs/Stairs01.JPG'),
             'images' => [asset('assets/images/ResidentialConcrete/Stairs/Stairs02.JPG')],
-            ])
-            {{-- @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Highlands Ranch Residential',
-                    'subtitle' => 'Residential Concrete',
-                    'cover' => asset('assets/images/residential/IMG_0079.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Before Stair Project',
-                    'subtitle' => 'Residential Concrete',
-                    'cover' => asset('assets/images/residential/IMG_5912.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'After Stair Project',
-                    'subtitle' => 'Residential Concrete',
-                    'cover' => asset('assets/images/residential/IMG_7038.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Castle Pines Decorative Concrete',
-                    'subtitle' => 'Residential Concrete',
-                    'cover' => asset('assets/images/residential/IMG_0161.jpg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Acid Stained Patio',
-                    'subtitle' => 'Residential Patio',
-                    'cover' => asset('assets/images/residential-patio/Acid_stained_patio.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Classical Gray Colored Patio with Steps',
-                    'subtitle' => 'Residential Patio',
-                    'cover' => asset(
-                        'assets/images/residential-patio/Classical_gray_colored_patio_with_steps.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Colored Concrete Patio',
-                    'subtitle' => 'Residential Patio',
-                    'cover' => asset('assets/images/residential-patio/Colored_concrete_patio.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Colored Stamped Patio',
-                    'subtitle' => 'Residential Patio',
-                    'cover' => asset('assets/images/residential-patio/Colored_stamped_patio.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Concrete and Masonry Patio',
-                    'subtitle' => 'Residential Patio',
-                    'cover' => asset('assets/images/residential-patio/Concrete_and_masonry_patio.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Exposed Aggregate Patio',
-                    'subtitle' => 'Residential Patio',
-                    'cover' => asset('assets/images/residential-patio/Exposed_aggregate_patio.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Gray Patio with Steps',
-                    'subtitle' => 'Residential Patio',
-                    'cover' => asset('assets/images/residential-patio/Gray_patio_with_steps.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'Before Jones Residence',
-                    'subtitle' => 'Jones Residence',
-                    'cover' => asset('assets/images/jones-residence/before-Jones-residence.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'residential-concrete',
-                    'title' => 'After Jones Residence',
-                    'subtitle' => 'Jones Residence',
-                    'cover' => asset('assets/images/jones-residence/after-Jones-residence.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'asphalt',
-                    'title' => 'Meadow Wood',
-                    'subtitle' => 'Asphalt',
-                    'cover' => asset('assets/images/asphalt/168-25-Meadow.jpg'),
-                    'images' => [asset('assets/images/asphalt/168-25.jpg')],
-                ]) --}}
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'asphalt',
             'title' => 'Songbird HOA Littleton',
             'subtitle' => 'Asphalt',
             'cover' => asset('assets/images/asphalt/Asphalt01.JPG'),
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'asphalt',
             'title' => 'Meadow Wood',
             'subtitle' => 'Asphalt',
@@ -337,8 +245,8 @@ Construction since 1993.';
             'images' => [
             asset('assets/images/asphalt/168-25-Meadow.jpg'),
             ],
-            ])
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'snow-melt-system',
             'title' => 'Snow Melt Systems',
             'subtitle' => 'Snow Melt Systems',
@@ -349,9 +257,9 @@ Construction since 1993.';
             asset('assets/images/SnowMeltSystems/Snow_melt_systems03.jpeg'),
             //asset('assets/images/SnowMeltSystems/Snow_melt_systems04.jpeg'),
             ],
-            ])
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 
-            @include('partials.gallery-project', [
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'concrete-finishes',
             'title' => 'Concrete Finishes',
             'subtitle' => 'Concrete Finishes',
@@ -369,20 +277,10 @@ Construction since 1993.';
             asset('assets/images/ConcreteFinishes/Concrete_finishes12.JPG'),
             asset('assets/images/ConcreteFinishes/Concrete_finishes13.JPG'),
             ],
-            ])
-            {{-- @include('partials.gallery-project', [
-                    'category' => 'concrete-finishes',
-                    'title' => 'Exposed Aggregate',
-                    'subtitle' => 'Concrete Finishes',
-                    'cover' => asset('assets/images/concrete-finishes/Exposed-aggregate.jpg'),
-                ]) --}}
-            {{-- @include('partials.gallery-project', [
-                    'category' => 'concrete-finishes',
-                    'title' => 'Stamped Concrete',
-                    'subtitle' => 'Concrete Finishes',
-                    'cover' => asset('assets/images/concrete-finishes/Stamped-concrete.JPG'),
-                ]) --}}
-            @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            
+            
+            <?php echo $__env->make('partials.gallery-project', [
             'category' => 'masonry',
             'title' => 'Masonry',
             'subtitle' => 'Masonry',
@@ -398,32 +296,8 @@ Construction since 1993.';
             asset('assets/images/masonry/Masonry14.JPG'),
             asset('assets/images/masonry/Masonry17.jpeg'),
             ],
-            ])
-            {{-- @include('partials.gallery-project', [
-                    'category' => 'masonry',
-                    'title' => 'Blackhawk',
-                    'subtitle' => 'Masonry',
-                    'cover' => asset('assets/images/masonry/Blackhawk.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'masonry',
-                    'title' => 'DTC Masonry Project',
-                    'subtitle' => 'Masonry',
-                    'cover' => asset('assets/images/masonry/IMG_0038.jpeg'),
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'masonry',
-                    'title' => 'Cherry Creek Country',
-                    'subtitle' => 'Masonry',
-                    'cover' => asset('assets/images/masonry/Cherry-Creek-Country-Club.JPEG'),
-                    'images' => [asset('assets/images/masonry/Cherry-Creek-Country.jpeg')],
-                ])
-                @include('partials.gallery-project', [
-                    'category' => 'masonry',
-                    'title' => 'Masonry Vasa',
-                    'subtitle' => 'Masonry',
-                    'cover' => asset('assets/images/masonry/Masonry-Vasa.jpeg'),
-                ]) --}}
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+            
         </div>
     </div>
 </section>
@@ -441,13 +315,14 @@ Construction since 1993.';
     </div>
 </section>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
 
-@push('scripts')
+<?php $__env->startPush('scripts'); ?>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.add('page-gallery');
 });
 </script>
-@endpush
+<?php $__env->stopPush(); ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH I:\CRN\andraosconstruction\resources\views/pages/gallery.blade.php ENDPATH**/ ?>

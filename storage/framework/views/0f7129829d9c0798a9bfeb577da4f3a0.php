@@ -23,7 +23,7 @@
                     
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle<?php echo e(request()->is('services*') || request()->is('commercial-concrete*') || request()->is('residential-concrete*') || request()->is('concrete-finishes*') || request()->is('masonry*') || request()->is('asphalt*') || request()->is('snow-melt*') ? ' active' : ''); ?>"
-                            href="<?php echo e(route('services')); ?>" data-bs-toggle="dropdown" data-navigate-on-click
+                            href="#" data-bs-toggle="dropdown" data-navigate-on-click
                             role="button" aria-expanded="false">
                             Services
                         </a>

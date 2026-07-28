@@ -1,19 +1,17 @@
-@extends('layouts.app')
-
-@php
+<?php
     $seo = getPageSeoByKey('masonry');
 
     $title = $seo->meta_title ?? 'Commercial Masonry Contractor Denver, CO | Andraos';
 
     $description = $seo->meta_description
         ?? 'Sandstone seat walls, brick veneer, structural CMU & retaining walls for Front Range commercial properties. Request an Estimate: (303) 915-3703.';
-@endphp 
+?> 
 
-@section('meta_title', $title)
-@section('meta_description', $description)
+<?php $__env->startSection('meta_title', $title); ?>
+<?php $__env->startSection('meta_description', $description); ?>
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <header class="page-hero">
     <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true" data-bg="/assets/images/masonry.jpg"
@@ -148,7 +146,7 @@
             <!-- Project cards injected by site.js -->
             <div class="row g-3" id="projGrid">
 
-                @include('partials.gallery-project', [
+                <?php echo $__env->make('partials.gallery-project', [
                     'category' => 'masonry',
                     'title' => 'Masonry',
                     'subtitle' => 'Masonry',
@@ -164,7 +162,7 @@
                         asset('assets/images/masonry/Masonry14.JPG'),
                         asset('assets/images/masonry/Masonry17.jpeg'),
                     ],
-                ])
+                ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
             </div>
         </div> 
     </section>
@@ -225,4 +223,5 @@
 </section>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH I:\CRN\andraosconstruction\resources\views/pages/services/masonry.blade.php ENDPATH**/ ?>

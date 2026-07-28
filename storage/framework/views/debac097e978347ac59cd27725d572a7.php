@@ -254,31 +254,31 @@ $description = $seo->meta_description
             'cover' => asset(
             'assets/images/WebsiteCommercialConcrete/Asterisk/AsteriskDenverCitySidewalk01.JPG'),
             'images' => [
-            asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk02.JPG'),
+            //asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk02.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk03.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk04.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk06.JPG'),
+            //asset('assets/images/WebsiteCommercialConcrete/Asterisk/Asterisk06.JPG'),
             ],
             ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
-            <?php echo $__env->make('partials.gallery-project', [
+             <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => 'Ballys',
             'subtitle' => 'Commercial Concrete',
-            'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.png'),
+            'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys04.JPG'),
             'images' => [
+            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.png'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys03.jpg'),
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys04.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys05.JPG'),
+            // asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys05.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys06.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys07.JPG'),
+            // asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys07.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys09.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys10.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys11.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys12.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys13.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys14.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys16.JPG'),
+            //asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys16.JPG'),
             ],
             ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
             <?php echo $__env->make('partials.gallery-project', [
@@ -295,45 +295,45 @@ $description = $seo->meta_description
             'category' => 'commercial-concrete',
             'title' => 'Detroit Street',
             'subtitle' => 'Commercial Concrete',
-            'cover' => asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver01.JPG'),
+            'cover' =>  asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver03.JPG'),
             'images' => [
-            asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver02.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver03.JPG'),
+            //asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver01.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver07.JPG'),
+            asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver02.JPG'),           
             asset('assets/images/WebsiteCommercialConcrete/DetroitSt/DetroitDenver08.JPG'),
             ],
             ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
-            <?php echo $__env->make('partials.gallery-project', [
+             <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
             'title' => "Tommy's Car Wash",
             'subtitle' => 'Commercial Concrete',
-            'cover' => asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash01.jpg'),
+            'cover' => asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash02.JPEG'),
             'images' => [
-            asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash02.JPEG'),
-            asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash03.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash04.JPG'),
+            //asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash01.jpg'),
+           // asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash03.JPG'),
+            //asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash04.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash05.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash06.JPG'),
+            //asset('assets/images/WebsiteCommercialConcrete/TommyCarWash/Tommycarwash06.JPG'),
+            ],
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+           <?php echo $__env->make('partials.gallery-project', [
+            'category' => 'commercial-concrete',
+            'title' => 'whole foods',
+            'subtitle' => 'Commercial Concrete',
+            'cover' => asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods03.JPG'),
+            'images' => [
+            asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods02.JPG'),           
+            asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods04.JPG'),
+            asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods01.JPG'),
             ],
             ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
             <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
-            'title' => 'whole foods',
-            'subtitle' => 'Commercial Concrete',
-            'cover' => asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods01.JPG'),
+            'title' => 'Schomp',
+            'subtitle' => 'commercial-concrete',
+            'cover' => asset('assets/images/Ford.jpg'),
             'images' => [
-            asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods02.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods03.JPG'),
-            asset('assets/images/WebsiteCommercialConcrete/WholeFoods/WholeFoods04.JPG'),
             ],
-            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
-            <?php echo $__env->make('partials.gallery-project', [
-                    'category' => 'commercial-concrete',
-                    'title' => 'Schomp',
-                    'subtitle' => 'commercial-concrete',
-                    'cover' => asset('assets/images/Ford.jpg'),
-                    'images' => [
-                    ],
             ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
         </div>
     </div>
