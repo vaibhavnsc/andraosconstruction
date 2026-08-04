@@ -276,11 +276,11 @@ $seo->meta_description ??
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./hoa-property-management-services" class="svc-card d-block text-decoration-none">
+                <a href="./hoa-and-residential" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="hoa-property-management"><img
                             src="<?php echo e(asset('assets/images/residential/IMG_0079.jpeg')); ?>"
                             alt="Retail Commercial Concrete">
-                        <h3 class="text-white">HOA & Property Management</h3>
+                        <h3 class="text-white">HOA & Residential</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">We provide interior and
                             exterior concrete services for residential customers, delivering solutions for projects
                             ranging from stairs, pool decks, patios, garage floors, and driveways to concrete leveling

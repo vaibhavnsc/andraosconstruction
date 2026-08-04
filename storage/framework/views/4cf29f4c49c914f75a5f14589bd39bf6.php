@@ -1,21 +1,19 @@
-@extends('layouts.app')
-
-@php
+<?php
     $seo = getPageSeoByKey('about');
 
     $title = $seo->meta_title ?? 'About Andraos Construction | Denver, CO Contractor';
 
     $description = $seo->meta_description
         ?? 'Family-owned commercial concrete, asphalt & masonry contractor serving Denver & the Front Range since 1993. Meet the team. Call (303) 915-3703.';
-@endphp 
+?> 
 
-@section('meta_title', $title)
-@section('meta_description', $description)
+<?php $__env->startSection('meta_title', $title); ?>
+<?php $__env->startSection('meta_description', $description); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <header class="page-hero">
-  <div class="page-hero__bg" data-bg="{{ asset('/assets/images/About.jpg') }}" alt="The Andraos Construction team" aria-hidden="true"></div>
+  <div class="page-hero__bg" data-bg="<?php echo e(asset('/assets/images/About.jpg')); ?>" alt="The Andraos Construction team" aria-hidden="true"></div>
     <div class="page-hero__scrim" aria-hidden="true"></div>
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
@@ -37,7 +35,7 @@
             <p class="eyebrow">Our Company</p>
             <h2 id="story-heading" class="ff-display display-lg mt-3">A Denver Commercial Contractor Since 1993</h2>
             <p class="lede mt-4">
-              For 32 years, Andraos Construction has proudly served the Colorado Front Range as a family-owned commercial concrete, asphalt, and masonry contractor based in Denver. We’ve built lasting relationships with property management companies, homeowner associations, general contractors, developers, and asset managers by delivering quality work, responsive service, and projects our clients can count on. As a family business, we take pride in treating every project as if it were our own and every client as a long-term partner.
+              For more than 30 years, Andraos Construction has proudly served the Colorado Front Range as a family-owned commercial concrete, asphalt, and masonry contractor based in Denver. We’ve built lasting relationships with property management companies, homeowner associations, general contractors, developers, and asset managers by delivering quality work, responsive service, and projects our clients can count on. As a family business, we take pride in treating every project as if it were our own and every client as a long-term partner.
             </p>
             <p class="lede">Our own crews handle concrete flatwork, curb and gutter, and ADA sidewalks, and we manage every asphalt, masonry, and snow-melt scope directly through our trusted trade partners. Either way, one Andraos team owns the schedule, quality, and warranty from start to finish.</p>
           </div>
@@ -84,7 +82,7 @@
         <div class="row g-4 reveal is-visible" id="js-team-grid">
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/1.jpg') }}" alt="Robert - Commercial and Residential Construction Professional at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/teams/1.jpg')); ?>" alt="Robert - Commercial and Residential Construction Professional at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Robert</h3>
                         <!--<h3 class="team-card__name">Ray Andraos</h3>-->
@@ -95,7 +93,7 @@
             </div>
              <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/5.jpg') }}" alt="Ray - Founder and Concrete Contractor at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/teams/5.jpg')); ?>" alt="Ray - Founder and Concrete Contractor at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Ray</h3>
                         <!--<h3 class="team-card__name">Concrete Foreman</h3>-->
@@ -108,7 +106,7 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/6.jpg') }}" alt="Beth - Office Manager at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/teams/6.jpg')); ?>" alt="Beth - Office Manager at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Beth</h3>
                         <!--<h3 class="team-card__name">Asphalt Foreman</h3>-->
@@ -119,7 +117,7 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/4.jpg') }}" alt="Lucas - Lead Estimator and Project Manager at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/teams/4.jpg')); ?>" alt="Lucas - Lead Estimator and Project Manager at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Lucas</h3>
                         <!--<h3 class="team-card__name">Estimating Lead</h3>-->
@@ -130,7 +128,7 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/2.jpg') }}" alt="Shawn, experienced construction professional at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/teams/2.jpg')); ?>" alt="Shawn, experienced construction professional at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Shawn </h3>
                         <!--<h3 class="team-card__name">Rob Andraos</h3>-->
@@ -141,7 +139,7 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/teams/3.jpg') }}" alt="Scott, Construction Superintendent overseeing commercial and residential projects" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/teams/3.jpg')); ?>" alt="Scott, Construction Superintendent overseeing commercial and residential projects" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Scott</h3>
                         <!--<p class="team-card__role">Senior Project Manager</p>-->
@@ -151,7 +149,7 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
             </div>
             <div class="col-md-6 col-lg-4">
                 <figure class="team-card h-100 m-0">
-                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="{{ asset('assets/images/masonry/Max.jpeg') }}" alt="Max - Office Support Team Member at Andraos Construction" style="width: inherit;"></div>
+                    <div class="team-card__monogram" aria-hidden="true"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/masonry/Max.jpeg')); ?>" alt="Max - Office Support Team Member at Andraos Construction" style="width: inherit;"></div>
                     <figcaption class="team-card__body">
                         <h3 class="team-card__name">Max</h3>
                         <!--<p class="team-card__role">Senior Project Manager</p>-->
@@ -300,16 +298,18 @@ Ray serves in estimating and customer relationship. He loves his work and the pe
     </section>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@push('scripts')
+<?php $__env->startPush('scripts'); ?>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     document.body.classList.add('page-about');
 });
 </script>
-@endpush
+<?php $__env->stopPush(); ?>
 
 
 
  
+
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/pages/about.blade.php ENDPATH**/ ?>

@@ -98,4 +98,4 @@
     <a href="sms:+13039153703">✉ Text</a>
     <a href="/contact" class="is-primary">→ Quote</a>
 </nav>
-<?php /**PATH E:\Andros\andraosconstruction\resources\views/partials/footer.blade.php ENDPATH**/ ?>
+<?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/partials/footer.blade.php ENDPATH**/ ?>

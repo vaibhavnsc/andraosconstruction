@@ -49,7 +49,7 @@ $seo->meta_description ??
                         <div>
                             <div class="ff-mono text-uppercase mb-2"
                                 style="font-size:16px;letter-spacing:.18em;color:rgba(255,255,255,.75)">Serving the
-                                Front Range for Over 30 Years</div>
+                                Front Range For over 32 years</div>
                             <div class="ff-display text-white" style="font-size:24px;letter-spacing:-0.01em">Concrete
                                 &nbsp;·&nbsp; Asphalt &nbsp;·&nbsp; Masonry</div>
                         </div>
@@ -92,7 +92,7 @@ $seo->meta_description ??
             <p class="eyebrow">Trusted By</p>
             <h2 id="brands-heading" class="ff-display display-lg mt-3">Projects We Have Worked On</h2>
             <p class="lede mx-auto maxw-58 mt-3">
-                For over 30 years, property managers, developers, and general contractors across the Front Range
+                For over 32 years, property managers, developers, and general contractors across the Front Range
                 have trusted Andraos Construction with their commercial concrete, asphalt, and masonry.
             </p>
         </div>
@@ -278,11 +278,11 @@ $seo->meta_description ??
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./hoa-property-management-services" class="svc-card d-block text-decoration-none">
+                <a href="./hoa-and-residential" class="svc-card d-block text-decoration-none">
                     <div class="svc-card" id="hoa-property-management"><img
                             src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                             alt="Retail Commercial Concrete">
-                        <h3 class="text-white">HOA & Property Management</h3>
+                        <h3 class="text-white">HOA & Residential</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">We provide interior and
                             exterior concrete services for residential customers, delivering solutions for projects
                             ranging from stairs, pool decks, patios, garage floors, and driveways to concrete leveling

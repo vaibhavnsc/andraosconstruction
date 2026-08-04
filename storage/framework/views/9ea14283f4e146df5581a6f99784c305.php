@@ -42,7 +42,7 @@
                     <h2 class="ff-display display-md mt-2 mb-3">
                         Eliminate the Hassle of Shoveling and Salting
                     </h2>
-                    <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With over 30 years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
+                    <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With 32 years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
 
                     <h2 class="ff-display display-md mt-5 mb-3">Why Choose Our Hydronic Snow Melting Systems?</h2>
                     <p class="lede" id="js-service-overview">
@@ -68,7 +68,7 @@
                             <li>Great communication throughout the project</li>
                             <li>Timely estimates to keep your project on track</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>Over 40 years of industry experience</li>
+                            <li>For 32 years of industry experience</li>
                             <li>Locally owned, serving the Denver Metro area</li>
                             <li>100% customer satisfaction guarantee</li>
                             <li>1-year warranty on all services</li>
@@ -209,4 +209,4 @@
 
   
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH I:\CRN\andraosconstruction\resources\views/pages/services/snow-melt.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/pages/services/snow-melt.blade.php ENDPATH**/ ?>

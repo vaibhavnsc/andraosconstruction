@@ -25,9 +25,9 @@ centers & commercial properties.';
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
             <a href="/services">Services</a> &nbsp;/&nbsp;
-            <span class="js-service-name">HOA & Property Management</span>
+            <span class="js-service-name">HOA & Residential</span>
         </nav>
-        <h1 class="js-service-name">HOA & Property Management</h1>
+        <h1 class="js-service-name">HOA & Residential</h1>
     </div>
 </header>
 
@@ -40,7 +40,7 @@ centers & commercial properties.';
             <!-- Main column -->
             <div class="col-lg-8">
                 <article class="reveal is-visible">
-                    <img height="auto" width="auto" id="js-service-image" alt="HOA & Property Management" class="ratio-16-9 mb-4"
+                    <img height="auto" width="auto" id="js-service-image" alt="HOA & Residential" class="ratio-16-9 mb-4"
                         src="/assets/images/residential/IMG_0079.jpeg">
 
                     <p class="eyebrow">Overview</p>
@@ -198,7 +198,7 @@ centers & commercial properties.';
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link active" href="/hoa-property-management-services">HOA & Property
+                            class="service-nav-link active" href="/hoa-and-residential">HOA & Property
                             Management<span aria-hidden="true">→</span></a>
                     </nav>
                 </div>

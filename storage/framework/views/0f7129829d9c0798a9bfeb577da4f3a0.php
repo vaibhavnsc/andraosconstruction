@@ -38,8 +38,8 @@
 
                             <li>
                                 <a class="dropdown-item<?php echo e(request()->is('hoa-property-management*') ? ' active' : ''); ?>"
-                                    href="/hoa-property-management-services">
-                                    HOA & Property Management
+                                    href="/hoa-and-residential">
+                                    HOA & Residential
                                 </a>
                             </li>
 

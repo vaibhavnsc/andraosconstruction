@@ -125,7 +125,7 @@
           <li>Asphalt Paving & Repair in Englewood</li>
           <li>Commercial Masonry in Englewood</li>
           <li>Snow Melt Systems in Englewood</li>
-          <li>HOA & Property Management in Englewood</li>
+          <li>HOA & Residential in Englewood</li>
           <li>Concrete Finishes in Englewood</li>
             </ul>
           </div>

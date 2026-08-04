@@ -136,7 +136,7 @@
                         <li>Asphalt Paving & Repair in Westminster</li>
                         <li>Commercial Masonry in Westminster</li>
                         <li>Snow Melt Systems in Westminster</li>
-                        <li>HOA & Property Management in Westminster</li>
+                        <li>HOA & Residential in Westminster</li>
                         <li>Concrete Finishes in Westminster</li>
                     </ul>
                 </div>

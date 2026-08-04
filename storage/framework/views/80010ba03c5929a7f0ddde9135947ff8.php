@@ -1,19 +1,17 @@
-@extends('layouts.app')
-
-@php
+<?php
     $seo = getPageSeoByKey('faq');
 
     $title = $seo->meta_title ?? 'Concrete & Masonry FAQs | Andraos Construction';
 
     $description = $seo->meta_description
         ?? 'Common questions about commercial concrete, asphalt, masonry & snow-melt work in Denver & the Colorado Front Range. Call (303) 915-3703.';
-@endphp
+?>
 
-@section('meta_title', $title)
-@section('meta_description', $description)
+<?php $__env->startSection('meta_title', $title); ?>
+<?php $__env->startSection('meta_description', $description); ?>
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <!-- Banner -->
 
@@ -220,5 +218,7 @@
     </div>
 </section>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/pages/faq.blade.php ENDPATH**/ ?>

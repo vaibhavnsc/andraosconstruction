@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@php
+<?php
 $seo = getPageSeoByKey('retail-commercial-concrete');
 
 $title = $seo->meta_title ?? 'HOA Property Management Services | Andraos Construction';
@@ -9,14 +7,14 @@ $description =
 $seo->meta_description ??
 'Expert HOA property management services, including concrete, asphalt, masonry, & maintenance for communities, retail
 centers & commercial properties.';
-@endphp
+?>
 
-@section('meta_title', $title)
-@section('meta_description', $description)
+<?php $__env->startSection('meta_title', $title); ?>
+<?php $__env->startSection('meta_description', $description); ?>
 
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <header class="page-hero">
     <div class="page-hero__bg" id="js-service-hero-bg" aria-hidden="true"
@@ -224,7 +222,7 @@ centers & commercial properties.';
         </div>
         <!-- Project cards injected by site.js -->
         <div class="row g-3" id="projGrid">
-           @include('partials.gallery-project', [
+           <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Central Park Highlands',
             'subtitle' => 'Central Park Highlands',
@@ -237,8 +235,8 @@ centers & commercial properties.';
             asset('assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands07.jpeg'),
            // asset( 'assets/images/WebsiteRetailCommercialConcrete/CentralParkHighlands/Central_park_highlands08.jpeg'),
             ],
-            ])
-           @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+           <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Town Center',
             'subtitle' => 'Town Center',
@@ -252,8 +250,8 @@ centers & commercial properties.';
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center08.jpeg'),
             asset('assets/images/WebsiteRetailCommercialConcrete/TownCenter/Town_center10.jpeg'),
             ],
-            ])
-           @include('partials.gallery-project', [
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+           <?php echo $__env->make('partials.gallery-project', [
             'category' => 'hoa',
             'title' => 'Wildcat Reserve Highlands',
             'subtitle' => 'Wildcat Reserve Highlands',
@@ -267,7 +265,7 @@ centers & commercial properties.';
             asset(
             'assets/images/WebsiteRetailCommercialConcrete/WildcatReserveHighlands/Wildcat_reserve_highlands05.jpeg'),
             ],
-            ])
+            ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 </section>
 
 <section class="section bg-warm section--tight" aria-labelledby="process-heading">
@@ -327,4 +325,5 @@ centers & commercial properties.';
         </div>
     </div>
 </section>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/pages/services/hoa-property-management.blade.php ENDPATH**/ ?>

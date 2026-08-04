@@ -125,7 +125,7 @@
           <li>Asphalt Paving & Repair in Aurora</li>
           <li>Commercial Masonry in Aurora</li>
           <li>Snow Melt Systems in Aurora</li>
-          <li>HOA & Property Management in Aurora</li>
+          <li>HOA & Residential in Aurora</li>
           <li>Concrete Finishes in Aurora</li>
             </ul>
           </div>

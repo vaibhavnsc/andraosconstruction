@@ -133,7 +133,7 @@
                         <li>Asphalt Paving & Repair in Thornton</li>
                         <li>Commercial Masonry in Thornton</li>
                         <li>Snow Melt Systems in Thornton</li>
-                        <li>HOA & Property Management in Thornton</li>
+                        <li>HOA & Residential in Thornton</li>
                         <li>Concrete Finishes in Thornton</li>
                     </ul>
                 </div>

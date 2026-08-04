@@ -44,7 +44,7 @@
                     <h2 class="ff-display display-md mt-2 mb-3">
                         Eliminate the Hassle of Shoveling and Salting
                     </h2>
-                    <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With over 30 years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
+                    <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With 32 years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
 
                     <h2 class="ff-display display-md mt-5 mb-3">Why Choose Our Hydronic Snow Melting Systems?</h2>
                     <p class="lede" id="js-service-overview">
@@ -70,7 +70,7 @@
                             <li>Great communication throughout the project</li>
                             <li>Timely estimates to keep your project on track</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>Over 40 years of industry experience</li>
+                            <li>For 32 years of industry experience</li>
                             <li>Locally owned, serving the Denver Metro area</li>
                             <li>100% customer satisfaction guarantee</li>
                             <li>1-year warranty on all services</li>
@@ -113,7 +113,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link active"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></a></nav>
+                            href="/hoa-and-residential">HOA & Residential<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

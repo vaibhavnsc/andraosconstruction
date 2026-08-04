@@ -80,7 +80,7 @@
                             <li>Great communication throughout the project</li>
                             <li>Timely estimates to keep your project on track</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>Over 40 years of industry experience</li>
+                            <li>For 32 years of industry experience</li>
                             <li>Locally owned, serving the Denver Metro area</li>
                             <li>100% customer satisfaction guarantee</li>
                             <li>1-year warranty on all services</li>
@@ -125,7 +125,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></a></nav>
+                            href="/hoa-and-residential">HOA & Residential<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>
