@@ -49,7 +49,7 @@ $seo->meta_description ??
                         <div>
                             <div class="ff-mono text-uppercase mb-2"
                                 style="font-size:16px;letter-spacing:.18em;color:rgba(255,255,255,.75)">Serving the
-                                Front Range For over 32 years</div>
+                                Front Range For 32 years</div>
                             <div class="ff-display text-white" style="font-size:24px;letter-spacing:-0.01em">Concrete
                                 &nbsp;·&nbsp; Asphalt &nbsp;·&nbsp; Masonry</div>
                         </div>
