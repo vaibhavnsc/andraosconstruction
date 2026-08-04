@@ -209,7 +209,7 @@ $description = $seo->meta_description
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link" href="/hoa-property-management-services">HOA & Property Management<span
+                            class="service-nav-link" href="/hoa-and-residential">HOA & Residential<span
                                 aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">

@@ -134,7 +134,7 @@
                         <li>Asphalt Paving & Repair in Longmont</li>
                         <li>Commercial Masonry in Longmont</li>
                         <li>Snow Melt Systems in Longmont</li>
-                        <li>HOA & Property Management in Longmont</li>
+                        <li>HOA & Residential in Longmont</li>
                         <li>Concrete Finishes in Longmont</li>
                     </ul>
                 </div>

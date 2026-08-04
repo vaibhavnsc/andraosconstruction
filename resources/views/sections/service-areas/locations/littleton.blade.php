@@ -125,7 +125,7 @@
           <li>Asphalt Paving & Repair in Littleton</li>
           <li>Commercial Masonry in Littleton</li>
           <li>Snow Melt Systems in Littleton</li>
-          <li>HOA & Property Management in Littleton</li>
+          <li>HOA & Residential in Littleton</li>
           <li>Concrete Finishes in Littleton</li>
             </ul>
           </div>

@@ -136,8 +136,7 @@ craftsmanship since 1993. (303) 915-3703.';
                         your family's safety, as well as crack chasing and sealing to prevent water from compromising
                         your base layers. By hiring a dedicated residRequest an Estimate contractor in Denver, CO, you
                         gain
-                        access to a team that offers a 1-year warranty on all services and brings 40 years of local
-                        knowledge to your doorstep. We are committed to great communication and providing competitive
+                        access to a team that offers a 1-year warranty on all services and brings 32 years of local knowledge to your doorstep. We are committed to great communication and providing competitive
                         pricing, making it easier than ever to invest in the quality your home deserves.</p>
                     <h2 class="ff-display display-md mt-5 mb-3">
                         Locally Owned Excellence Since 1993
@@ -201,7 +200,7 @@ craftsmanship since 1993. (303) 915-3703.';
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link active" href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></nav>
+                            class="service-nav-link active" href="/hoa-and-residential">HOA & Residential<span aria-hidden="true">→</span></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

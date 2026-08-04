@@ -155,8 +155,7 @@ $description = $seo->meta_description
                         Reliable Partnership for Property Managers
                     </h2>
                     <p class="lede" id="js-service-overview">We understand that property management companies and
-                        general contractors need reliable partners who communicate clearly and deliver on time. Our 40+
-                        years of experience have taught us how to work seamlessly alongside other trades to keep your
+                        general contractors need reliable partners who communicate clearly and deliver on time. Our 32 years of experience have taught us how to work seamlessly alongside other trades to keep your
                         project moving forward without unnecessary delays. We provide the competitive pricing and
                         detailed estimates required for accurate budgeting, ensuring that there are no surprises during
                         the construction process. </p>
@@ -170,7 +169,7 @@ $description = $seo->meta_description
                         <li>Great communication throughout your project</li>
                         <li>Timely estimates to help you plan effectively</li>
                         <li>Fully licensed and insured for peace of mind</li>
-                        <li>Over 40 years of experience in the industry</li>
+                        <li>For 32 years of experience in the industry</li>
                         <li>Locally owned business with a personal touch</li>
                         <li>100% customer satisfaction guarantee</li>
                         <li>1-year warranty on all services</li>
@@ -211,7 +210,7 @@ $description = $seo->meta_description
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link" href="/hoa-property-management-services">HOA & Property Management<span
+                            class="service-nav-link" href="/hoa-and-residential">HOA & Residential<span
                                 aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">

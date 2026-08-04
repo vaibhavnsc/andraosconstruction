@@ -56,9 +56,9 @@ Front Range since 1993. Request an estimate: (303) 915-3703.';
             <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
                 id="hoa-property-management">
                 <div class="col-lg-6 order-lg-2"><img height="auto" width="auto" src="<?php echo e(asset('assets/images/residential/IMG_0079.jpeg')); ?>"
-                        alt="HOA & Property Management" class="ratio-4-3 img-treat"></div>
+                        alt="HOA & Residential" class="ratio-4-3 img-treat"></div>
                 <div class="col-lg-6 order-lg-1">
-                    <h2 class="ff-display display-md mt-2">HOA & Property Management</h2>
+                    <h2 class="ff-display display-md mt-2">HOA & Residential</h2>
                     <p class="lede mt-3">We provide interior and exterior concrete services for residential customers,
                         delivering solutions for projects ranging from stairs, pool decks, patios, garage floors, and
                         driveways to concrete leveling and repairs. Our team specializes in high-end finishes, including

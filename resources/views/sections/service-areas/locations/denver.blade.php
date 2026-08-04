@@ -128,7 +128,7 @@
           <li>Asphalt Paving & Repair in Denver</li>
           <li>Commercial Masonry in Denver</li>
           <li>Snow Melt Systems in Denver</li>
-          <li>HOA & Property Management in Denver</li>
+          <li>HOA & Residential in Denver</li>
           <li>Concrete Finishes in Denver</li>
             </ul>
           </div>

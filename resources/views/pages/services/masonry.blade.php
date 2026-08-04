@@ -82,7 +82,7 @@
                             <li>Clear and consistent communication throughout your project</li>
                             <li>Timely estimates to help you plan your budget effectively</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>Over 40 years of industry experience ensuring top-tier craftsmanship</li>
+                            <li>For 32 years of industry experience ensuring top-tier craftsmanship</li>
                             <li>Locally owned and operated, providing personalized service</li>
                             <li>100% customer satisfaction guarantee for all projects</li>
                             <li>1-year warranty on all masonry work</li>
@@ -124,7 +124,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/hoa-property-management-services">HOA & Property Management<span aria-hidden="true">→</span></a></nav>
+                            href="/hoa-and-residential">HOA & Residential<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>
