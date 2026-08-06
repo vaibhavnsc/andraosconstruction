@@ -131,7 +131,7 @@ Construction since 1993.';
             ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
             <?php echo $__env->make('partials.gallery-project', [
             'category' => 'commercial-concrete',
-            'title' => 'Ballys',
+            'title' => 'Ballys Blackhawk',
             'subtitle' => 'Commercial Concrete',
             'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys04.JPG'),
             'images' => [

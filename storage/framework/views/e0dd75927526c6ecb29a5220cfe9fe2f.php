@@ -21,7 +21,7 @@
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
-            <a href="/services">Services</a> &nbsp;/&nbsp;
+            <a href="/#services">Services</a> &nbsp;/&nbsp;
             <span class="js-service-name">Asphalt Paving &amp; Repair</span>
         </nav>
         <h1 class="js-service-name">Asphalt Paving &amp; Repair</h1>
@@ -78,7 +78,7 @@
                             <li>Great communication throughout the project</li>
                             <li>Timely estimates to keep your project on track</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>For 32 years of industry experience</li>
+                            <li>For 30+ years of industry experience</li>
                             <li>Locally owned, serving the Denver Metro area</li>
                             <li>100% customer satisfaction guarantee</li>
                             <li>1-year warranty on all services</li>

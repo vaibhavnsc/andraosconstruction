@@ -21,7 +21,7 @@
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
-            <a href="/services">Services</a> &nbsp;/&nbsp;
+            <a href="/#services">Services</a> &nbsp;/&nbsp;
             <span class="js-service-name">Snow Melt Systems</span>
         </nav>
         <h1 class="js-service-name">Snow Melt Systems</h1>
@@ -44,7 +44,7 @@
                     <h2 class="ff-display display-md mt-2 mb-3">
                         Eliminate the Hassle of Shoveling and Salting
                     </h2>
-                    <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With 32 years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
+                    <p class="lede" id="js-service-overview">Discover the convenience and efficiency of hydronic snowmelt systems, the ideal solution for keeping driveways, walkways, stairs, and commercial spaces free of snow and ice. With 30+ years of specialized experience, Andraos Construction designs and installs custom-engineered snowmelt systems that are built to perform in the harshest winter conditions. Call us today to discuss your snow melting system options.</p>
 
                     <h2 class="ff-display display-md mt-5 mb-3">Why Choose Our Hydronic Snow Melting Systems?</h2>
                     <p class="lede" id="js-service-overview">
@@ -70,7 +70,7 @@
                             <li>Great communication throughout the project</li>
                             <li>Timely estimates to keep your project on track</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>For 32 years of industry experience</li>
+                            <li>For 30+ years of industry experience</li>
                             <li>Locally owned, serving the Denver Metro area</li>
                             <li>100% customer satisfaction guarantee</li>
                             <li>1-year warranty on all services</li>

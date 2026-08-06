@@ -22,7 +22,7 @@
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
-            <a href="/services">Services</a> &nbsp;/&nbsp;
+            <a href="/#services">Services</a> &nbsp;/&nbsp;
             <span class="js-service-name">Commercial Masonry</span>
         </nav>
         <h1 class="js-service-name">Commercial Masonry</h1>
@@ -82,7 +82,7 @@
                             <li>Clear and consistent communication throughout your project</li>
                             <li>Timely estimates to help you plan your budget effectively</li>
                             <li>Fully licensed and insured for your peace of mind</li>
-                            <li>For 32 years of industry experience ensuring top-tier craftsmanship</li>
+                            <li>For 30+ years of industry experience ensuring top-tier craftsmanship</li>
                             <li>Locally owned and operated, providing personalized service</li>
                             <li>100% customer satisfaction guarantee for all projects</li>
                             <li>1-year warranty on all masonry work</li>

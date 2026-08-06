@@ -23,7 +23,7 @@ $description = $seo->meta_description
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
-            <a href="/services">Services</a> &nbsp;/&nbsp;
+            <a href="/#services">Services</a> &nbsp;/&nbsp;
             <span class="js-service-name">Commercial Concrete</span>
         </nav>
         <h1 class="js-service-name">Commercial Concrete</h1>
@@ -155,7 +155,7 @@ $description = $seo->meta_description
                         Reliable Partnership for Property Managers
                     </h2>
                     <p class="lede" id="js-service-overview">We understand that property management companies and
-                        general contractors need reliable partners who communicate clearly and deliver on time. Our 32 years of experience have taught us how to work seamlessly alongside other trades to keep your
+                        general contractors need reliable partners who communicate clearly and deliver on time. Our 30+ years of experience have taught us how to work seamlessly alongside other trades to keep your
                         project moving forward without unnecessary delays. We provide the competitive pricing and
                         detailed estimates required for accurate budgeting, ensuring that there are no surprises during
                         the construction process. </p>
@@ -169,7 +169,7 @@ $description = $seo->meta_description
                         <li>Great communication throughout your project</li>
                         <li>Timely estimates to help you plan effectively</li>
                         <li>Fully licensed and insured for peace of mind</li>
-                        <li>For 32 years of experience in the industry</li>
+                        <li>For 30+ years of experience in the industry</li>
                         <li>Locally owned business with a personal touch</li>
                         <li>100% customer satisfaction guarantee</li>
                         <li>1-year warranty on all services</li>
@@ -263,7 +263,7 @@ $description = $seo->meta_description
             ])
              @include('partials.gallery-project', [
             'category' => 'commercial-concrete',
-            'title' => 'Ballys',
+            'title' => 'Ballys Blackhawk',
             'subtitle' => 'Commercial Concrete',
             'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys04.JPG'),
             'images' => [

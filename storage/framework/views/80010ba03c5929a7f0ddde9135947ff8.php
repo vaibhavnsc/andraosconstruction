@@ -61,7 +61,7 @@
                                     business?</button></h3>
                             <div id="faqGroup0-item1" class="accordion-collapse collapse" data-bs-parent="#faqGroup0">
                                 <div class="accordion-body">Andraos Construction has been a family-owned commercial
-                                    contractor in the Denver metro since 1993 — For 32 years of concrete, asphalt,
+                                    contractor in the Denver metro since 1993 — For 30+ years of concrete, asphalt,
                                     and masonry work across the Front Range.</div>
                             </div>
                         </div>
@@ -220,5 +220,95 @@
 
 <?php $__env->stopSection(); ?>
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What areas does Andraos Construction serve?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We serve the entire Colorado Front Range from our Denver headquarters — including Denver, Aurora, Boulder, Littleton, Highlands Ranch, Castle Rock, Parker, Englewood, Broomfield, Westminster, Thornton, Arvada, and Longmont — plus surrounding mountain communities. If you are not sure whether we cover your location, call us."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long has Andraos Construction been in business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Andraos Construction has been a family-owned commercial contractor in the Denver metro since 1993 — more than 30 years of concrete, asphalt, and masonry work across the Front Range."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are you licensed, bonded, and insured?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Andraos Construction is fully licensed, bonded, and insured for commercial work. Certificates of insurance are available on request for property managers and general contractors who need them for prequalification."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer a warranty?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every Andraos engagement carries a written one-year workmanship warranty. We self-perform the work, so we stand behind it directly."
+    }
+  },{
+    "@type": "Question",
+    "name": "What services do you provide?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We self-perform commercial concrete, asphalt paving and repair, masonry, snow-melt systems, HOA & property-management capital renewal, and decorative concrete finishes. Because we hold our own crews and equipment, one company is accountable for the entire scope."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you handle both commercial and residential work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our focus is commercial work — property management, HOAs, general contractors, developers, and asset managers. We do take select residential projects, particularly where they connect to HOA or community work."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you sequence work around our tenants and residents?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Resident- and tenant-occupied phasing is a core part of how we work, especially on HOA and property-management programs. We sequence around traffic, trash pickup, school buses, and business hours to keep sites accessible."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you install snow-melt systems?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We design and install hydronic snow-melt systems, embedding the tubing during the original concrete pour so the system is protected and invisible. It is most cost-effective to plan for snow-melt before the flatwork goes in."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I request an estimate?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Call us at (303) 915-3703 or submit the form on our Contact page. For standard commercial scopes we return a detailed, line-item estimate within 3–5 business days. Emergency property-management repairs get a same-day response."
+    }
+  },{
+    "@type": "Question",
+    "name": "How quickly can you start?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Timing depends on scope and season, but we will give you a realistic schedule with the estimate — not after you have signed. We mobilize our own crews, so we control the start date rather than waiting on subcontractors."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide estimates HOAs can use in a reserve study?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We provide assessment-grade estimates based on a current site walk that boards and reserve specialists can use directly in capital planning."
+    }
+  },{
+    "@type": "Question",
+    "name": "Who manages my project?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "One Andraos project manager owns your engagement from the first site walk through final punch and warranty — no handoffs and no finger-pointing between trades."
+    }
+  }]
+}
+</script>
 <?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/pages/faq.blade.php ENDPATH**/ ?>
