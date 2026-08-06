@@ -106,7 +106,7 @@
                     },
                     {
                         "@type": "Service",
-                        "name": "HOA & Property Management",
+                        "name": "HOA &amp; Residential",
                         "@id": "https://andraosconstruction.com/hoa-and-residential-services",
                         "url": "https://andraosconstruction.com/hoa-and-residential-services",
                         "description": "Andraos Construction provides professional HOA and property management construction services in Denver, CO, and throughout the Colorado Front Range, specializing in concrete repairs, asphalt maintenance, sidewalks, curbs, parking lots, drainage improvements, and community infrastructure projects that enhance safety, functionality, and long-term property value."

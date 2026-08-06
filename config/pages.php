@@ -41,7 +41,7 @@ return [
         ['path' => '/masonry-services',                'view' => 'pages.services.masonry',                'name' => 'services.masonry',                'seo' => 'masonry'],
         ['path' => '/snow-melt-services',               'view' => 'pages.services.snow-melt',               'name' => 'services.snow-melt',               'seo' => 'snow-melt'],
         ['path' => '/retail-commercial-concrete', 'view' => 'pages.services.retail-commercial-concrete', 'name' => 'services.retail-commercial-concrete', 'seo' => 'retail-commercial-concrete'],
-        ['path' => '/hoa-and-residential', 'view' => 'pages.services.hoa-and-residential', 'name' => 'services.hoa-and-residential', 'seo' => 'hoa-and-residential'],
+        ['path' => '/hoa-and-residential', 'view' => 'pages.services.hoa-property-management', 'name' => 'services.hoa-and-residential', 'seo' => 'hoa-and-residential'],
     ],
 
     // Service area location pages

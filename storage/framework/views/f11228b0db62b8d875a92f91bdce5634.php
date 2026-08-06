@@ -197,8 +197,7 @@ centers & commercial properties.';
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link active" href="/hoa-and-residential">HOA & Property
-                            Management<span aria-hidden="true">→</span></a>
+                            class="service-nav-link active" href="/hoa-and-residential">HOA &amp; Residential<span aria-hidden="true">→</span></a>
                     </nav>
                 </div>
                 <div class="sidebar-cta">
@@ -326,4 +325,4 @@ centers & commercial properties.';
     </div>
 </section>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/pages/services/hoa-and-residential.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH J:\andraosconstruction\andraosconstruction\resources\views/pages/services/hoa-property-management.blade.php ENDPATH**/ ?>
