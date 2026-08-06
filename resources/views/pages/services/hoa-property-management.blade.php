@@ -26,7 +26,7 @@ centers & commercial properties.';
     <div class="container">
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp;
-            <a href="/services">Services</a> &nbsp;/&nbsp;
+            <a href="/#services">Services</a> &nbsp;/&nbsp;
             <span class="js-service-name">HOA & Residential</span>
         </nav>
         <h1 class="js-service-name">HOA & Residential</h1>
@@ -135,7 +135,7 @@ centers & commercial properties.';
                         surfaces in top condition for years to come. This includes grinding tripping hazards to ensure
                         your family's safety, as well as crack chasing and sealing to prevent water from compromising
                         your base layers. By hiring a dedicated residential concrete contractor in Denver, CO, you gain
-                        access to a team that offers a 1-year warranty on all services and brings 32 years of local knowledge to your doorstep. We are committed to great communication and providing competitive
+                        access to a team that offers a 1-year warranty on all services and brings 30+ years of local knowledge to your doorstep. We are committed to great communication and providing competitive
                         pricing, making it easier than ever to invest in the quality your home deserves.</p>
                     <h2 class="ff-display display-md mt-5 mb-3">
                         Locally Owned Excellence Since 1993

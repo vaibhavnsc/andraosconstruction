@@ -21,7 +21,7 @@
         <nav class="breadcrumb-mono mb-3" aria-label="Breadcrumb">
             <a href="/">Home</a> &nbsp;/&nbsp; About
         </nav>
-        <h1>Built on Concrete, Trust, and 32 Years on the Front Range</h1>
+        <h1>Built on Concrete, Trust, and 30+ Years on the Front Range</h1>
     </div>
 </header>
 
@@ -37,7 +37,7 @@
             <p class="eyebrow">Our Company</p>
             <h2 id="story-heading" class="ff-display display-lg mt-3">A Denver Commercial Contractor Since 1993</h2>
             <p class="lede mt-4">
-              For 32 years, Andraos Construction has proudly served the Colorado Front Range as a family-owned commercial concrete, asphalt, and masonry contractor based in Denver. We’ve built lasting relationships with property management companies, homeowner associations, general contractors, developers, and asset managers by delivering quality work, responsive service, and projects our clients can count on. As a family business, we take pride in treating every project as if it were our own and every client as a long-term partner.
+              For 30+ years, Andraos Construction has proudly served the Colorado Front Range as a family-owned commercial concrete, asphalt, and masonry contractor based in Denver. We’ve built lasting relationships with property management companies, homeowner associations, general contractors, developers, and asset managers by delivering quality work, responsive service, and projects our clients can count on. As a family business, we take pride in treating every project as if it were our own and every client as a long-term partner.
             </p>
             <p class="lede">Our own crews handle concrete flatwork, curb and gutter, and ADA sidewalks, and we manage every asphalt, masonry, and snow-melt scope directly through our trusted trade partners. Either way, one Andraos team owns the schedule, quality, and warranty from start to finish.</p>
           </div>
