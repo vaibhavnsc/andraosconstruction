@@ -199,8 +199,7 @@ centers & commercial properties.';
                             class="service-nav-link" href="/masonry-services">Commercial Masonry<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/snow-melt-services">Snow Melt Systems<span aria-hidden="true">→</span></a><a
-                            class="service-nav-link active" href="/hoa-and-residential">HOA & Property
-                            Management<span aria-hidden="true">→</span></a>
+                            class="service-nav-link active" href="/hoa-and-residential">HOA &amp; Residential<span aria-hidden="true">→</span></a>
                     </nav>
                 </div>
                 <div class="sidebar-cta">
