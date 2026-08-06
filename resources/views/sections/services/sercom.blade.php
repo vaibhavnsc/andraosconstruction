@@ -16,16 +16,16 @@
             </div>
         </div>
         <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
-            id="hoa-property-management">
-            <div class="col-lg-6 order-lg-2"><img height="auto" width="auto" src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}" alt="HOA &amp; Property Management"
+            id="hoa-and-residential">
+            <div class="col-lg-6 order-lg-2"><img height="auto" width="auto" src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}" alt="HOA &amp; Residential"
                     class="ratio-4-3 img-treat"></div>
             <div class="col-lg-6 order-lg-1"><span class="num-eyebrow">02 / 05</span>
-                <h2 class="ff-display display-md mt-2">HOA &amp; Property Management</h2>
+                <h2 class="ff-display display-md mt-2">HOA &amp; Residential</h2>
                 <p class="lede mt-3">Community-wide capital renewal: sidewalks, drive lanes, curb &amp; gutter, parking
                     lots, and asphalt maintenance.</p>
                 <div class="d-flex flex-wrap gap-1 mt-3"><span class="tag">Capital renewal</span><span
                         class="tag">Sidewalks</span><span class="tag">Repair</span></div>
-                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/hoa-property-management"
+                <div class="d-flex gap-2 flex-wrap mt-4"><a href="/services/hoa-and-residential"
                         class="btn btn-navy btn-arrow">View Service Details</a><a href="/contact"
                         class="btn btn-outline-navy">Request a Quote</a></div>
             </div>

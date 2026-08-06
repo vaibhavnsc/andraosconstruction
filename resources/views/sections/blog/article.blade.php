@@ -33,7 +33,7 @@
                                 class="blog-card__media"><img height="auto" width="auto" src="./assets/images/longlasting.jpg"
                                     alt="How HOAs Should Budget for Concrete Capital Renewal">
                                 <!-- <span
-                                    class="blog-card__cat">HOA &amp; Property Management</span>-->
+                                    class="blog-card__cat">HOA &amp; Residential</span>-->
                             </a>
                             <div class="blog-card__body">
                                 <p class="blog-meta">October 15, 2025 · 7 min read</p>

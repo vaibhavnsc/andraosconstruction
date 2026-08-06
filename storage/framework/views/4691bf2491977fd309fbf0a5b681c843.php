@@ -37,7 +37,7 @@
                             </li>
 
                             <li>
-                                <a class="dropdown-item<?php echo e(request()->is('hoa-property-management*') ? ' active' : ''); ?>"
+                                <a class="dropdown-item<?php echo e(request()->is('hoa-and-residential*') ? ' active' : ''); ?>"
                                     href="/hoa-and-residential">
                                     HOA & Residential
                                 </a>

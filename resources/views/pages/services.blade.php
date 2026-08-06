@@ -56,7 +56,7 @@ Front Range since 1993. Request an estimate: (303) 915-3703.';
                 </div>
             </div>
             <div class="row g-5 align-items-center reveal anchor-offset pt-5 mt-5 border-top is-visible"
-                id="hoa-property-management">
+                id="hoa-and-residential">
                 <div class="col-lg-6 order-lg-2"><img height="auto" width="auto" src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
                         alt="HOA & Residential" class="ratio-4-3 img-treat"></div>
                 <div class="col-lg-6 order-lg-1">

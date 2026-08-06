@@ -86,8 +86,7 @@
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
                             href="/services/snow-melt">Snow Melt Systems<span
                                 aria-hidden="true">→</span></a><a class="service-nav-link"
-                            href="/services/hoa-property-management">HOA &amp; Property
-                            Management<span aria-hidden="true">→</span></a></nav>
+                            href="/services/hoa-and-residential">HOA &amp; Residential<span aria-hidden="true">→</span></a></nav>
                 </div>
                 <div class="sidebar-cta">
                     <h2>Have a scope in mind?</h2>

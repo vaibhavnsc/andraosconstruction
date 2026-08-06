@@ -277,7 +277,7 @@ $seo->meta_description ??
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="./hoa-and-residential" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="hoa-property-management"><img
+                    <div class="svc-card" id="hoa-and-residential"><img
                             src="<?php echo e(asset('assets/images/residential/IMG_0079.jpeg')); ?>"
                             alt="Retail Commercial Concrete">
                         <h3 class="text-white">HOA & Residential</h3>
