@@ -23,7 +23,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -55,7 +55,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -87,7 +87,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -119,7 +119,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -150,7 +150,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -181,7 +181,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -214,7 +214,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -245,7 +245,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -277,7 +277,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -309,7 +309,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -341,7 +341,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -373,7 +373,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a
@@ -405,7 +405,7 @@
                         <li>Asphalt Paving &amp; Repair</li>
                         <li>Commercial Masonry</li>
                         <li>Snow Melt Systems</li>
-                        <li>HOA &amp; Property Management</li>
+                        <li>HOA &amp; Residential</li>
                         <li>Concrete Finishes</li>
                     </ul>
                     <div class="d-flex gap-2 mt-3 flex-wrap"><a href="#contact" class="btn btn-navy btn-arrow">Request a

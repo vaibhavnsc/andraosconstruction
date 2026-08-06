@@ -50,7 +50,7 @@ window.AndraosData = (function () {
       tags: ["Hydronic", "Entries", "ADA ramps"]
     },
     {
-      slug: "hoa-property-management",
+      slug: "hoa-and-residential",
       number: "05",
       title: "Retail Commercial Concrete",
       blurb: "Community-wide capital renewal: sidewalks, drive lanes, curb &amp; gutter, parking lots, and asphalt maintenance.",

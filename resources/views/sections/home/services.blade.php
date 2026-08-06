@@ -27,9 +27,9 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="./services/hoa-property-management" class="svc-card d-block text-decoration-none">
-                    <div class="svc-card" id="hoa-property-management"><img height="auto" width="auto" src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
-                            alt="HOA &amp; Property Management">
+                <a href="./services/hoa-and-residential" class="svc-card d-block text-decoration-none">
+                    <div class="svc-card" id="hoa-and-residential"><img height="auto" width="auto" src="{{ asset('assets/images/residential/IMG_0079.jpeg') }}"
+                            alt="HOA &amp; Residential">
                         <div class="num-eyebrow mt-3">02 / 05</div>
                         <h3 class="text-white">HOA &amp; Residential Concrete</h3>
                         <p style="color:var(--slate-300);font-size:14px;line-height:1.6">Community-wide capital renewal:
