@@ -92,7 +92,7 @@ $seo->meta_description ??
             <p class="eyebrow">Trusted By</p>
             <h2 id="brands-heading" class="ff-display display-lg mt-3">Projects We Have Worked On</h2>
             <p class="lede mx-auto maxw-58 mt-3">
-                For over 32 years, property managers, developers, and general contractors across the Front Range
+                For over 30+ years, property managers, developers, and general contractors across the Front Range
                 have trusted Andraos Construction with their commercial concrete, asphalt, and masonry.
             </p>
         </div>
