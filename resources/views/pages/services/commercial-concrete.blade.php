@@ -268,7 +268,7 @@ $description = $seo->meta_description
             'cover' => asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys04.JPG'),
             'images' => [
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys08.png'),
-            asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
+            //asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys01.jpg'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys03.jpg'),
             // asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys05.JPG'),
             asset('assets/images/WebsiteCommercialConcrete/Ballys/Ballys06.JPG'),
